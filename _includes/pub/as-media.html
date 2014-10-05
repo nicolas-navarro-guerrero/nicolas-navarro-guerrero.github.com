@@ -1,5 +1,5 @@
 <li class="media">
-    <p class="pull-right"><img class="media-object" src="{% if include.param.thumbnail != null %}{{ include.param.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" height="125"></p>
+    <p class="pull-right"><img class="media-object" src="{% if include.param.thumbnail != null %}{{ include.param.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" alt="" height="125"></p>
     <div class="media-body">
         {% include pub/citation-style-citeulike.html param=include.param %}
     </div>
