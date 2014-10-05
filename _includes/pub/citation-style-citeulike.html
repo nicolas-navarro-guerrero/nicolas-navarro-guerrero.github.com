@@ -1,4 +1,4 @@
-<strong>{{ include.param.citation.title }}</strong></br>
+<strong>{{ include.param.citation.title }}</strong><br>
 {{ include.param.citation.container-title }}. 
 {% if include.param.citation.volume != null %}
   vol. {{ include.param.citation.volume }}
@@ -21,13 +21,11 @@
 {% if include.param.year != null %}
   {{ include.param.year }}.
 {% endif %}
-</br>
-
+<br>
 {% for authors in include.param.citation.author %}
   {{ authors.family }}, {{ authors.given }};
 {% endfor %}
-</br>
-
+<br>
 {% if include.param.citation.DOI != null %}
   <a href="http://dx.doi.org/{{ include.param.citation.DOI }}" target="_blank"> doi</a>, 
 {% endif %}
