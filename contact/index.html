@@ -18,13 +18,13 @@ author: Nicolás Navarro-Guerrero
     <p class="text-center"><strong>Find Me Elsewhere</strong></p>
     <p class="text-center">
       {% for item in site.data.account-repositories %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" style="height:45px;"></a>  &nbsp;
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
       {% endfor %}
       {% for item in site.data.account-videos %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" style="height:45px;"></a>  &nbsp;
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
       {% endfor %}
       {% for item in site.data.account-reference-management %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" style="height:45px;"></a>  &nbsp;
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
       {% endfor %}
     </p>
   </div>
