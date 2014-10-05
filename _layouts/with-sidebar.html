@@ -3,6 +3,7 @@
   <head>
     {% include head.html %}
     <link rel="stylesheet" href="/assets/css/dashboard.css">
+    <link rel="stylesheet" href="/assets/css/body-size.css">
   </head>
   <body>
 
@@ -11,7 +12,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-2 col-md-2 sidebar">
+        <div class="hidden-xs col-sm-2 col-md-2 sidebar">
           {% if page.slug contains "publications" %}
               {% include nav/publications-sidebar.html %}
           {% elsif page.slug contains "projects" %}
@@ -28,7 +29,7 @@
           </ul>
         </div>
 
-        <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 main" style="min-height:400px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 main" style="min-height:400px;">
           {{ content }}
         </div>
       </div><!-- row -->
