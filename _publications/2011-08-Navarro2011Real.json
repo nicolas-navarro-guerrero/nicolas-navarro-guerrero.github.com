@@ -13,7 +13,7 @@ code:
 year: "2011"
 month: "August"
 
-rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&orderBeanReset=true&orderSource=SpringerLink&author=Nicol%C3%A1s+Navarro&AuthorEmail=navarro%40informatik.uni-hamburg.de&contentID=10.1007%2F978-3-642-23232-9_21&openAccess=false&endPage=240&publicationDate=2011&startPage=231&title=Real-World+Reinforcement+Learning+for+Autonomous+Humanoid+Robot+Charging+in+a+Home+Environment&imprint=Springer-Verlag+Berlin+Heidelberg&publication=eBook&authorAddress=Hamburg%2C+Germany">&copy;2011, Springer-Verlag Berlin Heidelberg</a>
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&amp;orderBeanReset=true&amp;orderSource=SpringerLink&amp;author=Nicol%C3%A1s+Navarro&amp;AuthorEmail=navarro%40informatik.uni-hamburg.de&amp;contentID=10.1007%2F978-3-642-23232-9_21&amp;openAccess=false&amp;endPage=240&amp;publicationDate=2011&amp;startPage=231&amp;title=Real-World+Reinforcement+Learning+for+Autonomous+Humanoid+Robot+Charging+in+a+Home+Environment&amp;imprint=Springer-Verlag+Berlin+Heidelberg&amp;publication=eBook&amp;authorAddress=Hamburg%2C+Germany">&copy;2011, Springer-Verlag Berlin Heidelberg</a>
 license: 
 
 citation: {
