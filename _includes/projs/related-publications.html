@@ -1,0 +1,16 @@
+<div class="col-md-12">
+  {% if include.param.relatedpapers != null %}
+    <hr>
+    <h3>Related Publications:</h3>
+    <ol>
+      {% for papers in site.publications reversed %}
+        {% if papers.tags contains include.param.relatedpapers %}
+          <li>
+            {% include pub/citation-style-citeulike.html param=papers %}
+          </li>
+          </br>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  {% endif %}
+</div><!-- column -->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/hand-tuning.css">
+  </head>
+
+  <body role="document">
+
+    {% include nav/main.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+
+        {% include projs/show-metadata.html param=page %}
+
+        <div class="col-md-12">
+          {{ content }}
+        </div><!-- column -->
+
+        {% include projs/acknowledgments.html param=page %}
+
+        {% include projs/partners.html param=page %}
+
+        {% include projs/sponsors.html param=page %}
+
+        {% include projs/related-publications.html param=page %}
+
+      </div><!-- row -->
+    </div><!-- container -->
+
+    {% include footer.html %}
+
+  </body>
+</html>

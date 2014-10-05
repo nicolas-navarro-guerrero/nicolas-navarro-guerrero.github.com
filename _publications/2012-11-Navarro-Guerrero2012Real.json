@@ -1,0 +1,53 @@
+---
+tags: [robotdoc, journal, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Real.jpg
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Real_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Real.bib
+ppt: 
+supplementary:
+code: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Real_source.code.zip
+
+year: "2012"
+month: "November"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0921889012000814">&copy;2012 Elsevier B.V. All rights reserved.</a>
+license: 
+
+citation: {
+    "id": 108,
+    "type": "article-journal",
+    "title": "Real-World Reinforcement Learning for Autonomous Humanoid Robot Docking",
+    "container-title": "Robotics and Autonomous Systems",
+    "page": "1400-1407",
+    "volume": "60",
+    "issue": "11",
+    "source": "ScienceDirect",
+    "abstract": "Reinforcement learning (RL) is a biologically supported learning paradigm, which allows an agent to learn through experience acquired by interaction with its environment. Its potential to learn complex action sequences has been proven for a variety of problems, such as navigation tasks. However, the interactive randomized exploration of the state space, common in reinforcement learning, makes it difficult to be used in real-world scenarios. In this work we describe a novel real-world reinforcement learning method. It uses a supervised reinforcement learning approach combined with Gaussian distributed state activation. We successfully tested this method in two real scenarios of humanoid robot navigation: first, backward movements for docking at a charging station and second, forward movements to prepare grasping. Our approach reduces the required learning steps by more than an order of magnitude, and it is robust and easy to be integrated into conventional RL techniques.",
+    "URL": "http://www.sciencedirect.com/science/article/pii/S0921889012000814",
+    "DOI": "10.1016/j.robot.2012.05.019",
+    "ISSN": "0921-8890",
+    "bibtex": "Navarro-Guerrero2012Real",
+    "journalAbbreviation": "Robotics and Autonomous Systems",
+    "author": [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Weber",
+        "given": "Cornelius"
+      },
+      {
+        "family": "Schroeter",
+        "given": "Pascal"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+  }
+---

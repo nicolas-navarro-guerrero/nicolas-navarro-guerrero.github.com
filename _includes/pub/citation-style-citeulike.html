@@ -1,0 +1,57 @@
+<strong>{{ include.param.citation.title }}</strong></br>
+{{ include.param.citation.container-title }}. 
+{% if include.param.citation.volume != null %}
+  vol. {{ include.param.citation.volume }}
+  {% if include.param.citation.collection-title != null %}
+      of {{ include.param.citation.collection-title }},
+  {% endif %}
+{% endif %}
+{% if include.param.citation.issue != null %}
+  no. {{ include.param.citation.issue }},
+{% endif %}
+{% if include.param.citation.page != null %}
+  pp. {{ include.param.citation.page }},
+{% endif %}
+{% if include.param.citation.event-place != null %}
+  {{ include.param.citation.event-place }},
+{% endif %}
+{% if include.param.month != null %}
+  {{ include.param.month }},
+{% endif %}
+{% if include.param.year != null %}
+  {{ include.param.year }}.
+{% endif %}
+</br>
+
+{% for authors in include.param.citation.author %}
+  {{ authors.family }}, {{ authors.given }};
+{% endfor %}
+</br>
+
+{% if include.param.citation.DOI != null %}
+  <a href="http://dx.doi.org/{{ include.param.citation.DOI }}" target="_blank"> doi</a>, 
+{% endif %}
+{% if include.param.citation.URL != null %}
+  <a href="{{ include.param.citation.URL }}" target="_blank"> url</a>, 
+{% endif %}
+{% if include.param.rights != null %}
+  {{ include.param.rights }}, 
+{% endif %}
+{% if include.param.file != null %}
+  <a href="{{ include.param.file }}"> PDF</a>, 
+{% endif %}
+{% if include.param.bibtex != null %}
+  <a href="{{ include.param.bibtex }}"> bibtex</a>, 
+{% endif %}
+{% if include.param.citation.bibtex != null %}
+  key: {{ include.param.citation.bibtex }}, 
+{% endif %}
+{% if include.param.ppt != null %}
+  <a href="{{ include.param.ppt }}"> slides</a>, 
+{% endif %}
+{% if include.param.supplementary != null %}
+  <a href="{{ include.param.supplementary }}"> supplementary material</a>, 
+{% endif %}
+{% if include.param.code != null %}
+  <a href="{{ include.param.code }}"> source code</a>, 
+{% endif %}

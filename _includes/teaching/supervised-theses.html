@@ -1,0 +1,54 @@
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Degree</th>
+              <th>Institution</th>
+              <th>Name</th>
+              <th>Supervisors</th>
+              <th>Title</th>
+              <th>Material</th>
+            </tr>
+          </thead>
+          <tbody>
+{% for supThesis in site.supervised-theses reversed %}
+  {% if supThesis.categories != 'template' %}
+  <tr>
+    <td>{{ supThesis.year }}-{{ supThesis.month }}</td>
+    <td>{{ supThesis.citation.genre }}</td>
+    <td>{{ supThesis.citation.publisher }}</td>
+    <td>{% for authors in supThesis.citation.author %}
+          {{ authors.given }} {{ authors.family }}
+        {% endfor %}</td>
+    <td>{% for super in supThesis.supervisors %}
+          {{ super.given }} {{ super.family }};</br>
+        {% endfor %}</td>
+    <td>{{ supThesis.citation.title }}</td>
+    <td>
+        {% if supThesis.file != null %}
+          <a href="{{ supThesis.file }}">file</a> 
+        {% endif %}
+        {% if supThesis.bibtex != null %}
+          <br><a href="{{ supThesis.bibtex }}">bibtex</a> 
+        {% endif %}
+        {% if supThesis.supplementary != null %}
+          <br><a href="{{ supThesis.supplementary }}"> supplementary material</a> 
+        {% endif %}
+    </td>
+  </tr>
+  {% endif %}
+{% endfor %}
+          </tbody>
+        </table>
+      </div><!-- table-responsive -->
+    </div><!-- column -->
+
+    <div class="col-md-12">
+      </br>
+      {% include pub/copyright.notice.html %}
+    </div><!-- column -->
+  </div><!-- row -->

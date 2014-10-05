@@ -1,0 +1,54 @@
+---
+tags: [irma, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: 
+file: 
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Munoz2008Cooperative.bib
+ppt: 
+supplementary:
+code:
+
+year: "2008"
+month: "September"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&publication=proceedings&title=Cooperative+Adaptive+Behavior+Acquisition+in+Mobile+Robot+Swarms+Using+Neural+Networks+and+Genetic+Algorithms&isbn=978-0-7695-3320-9&publicationDate=Sept.+30+2008-Oct.+3+2008&author=Muoz%2C+C.%3B+Navarro%2C+N.%3B+Arredondo%2C+T.%3B+Freund%2C+W.&ContentID=10.1109/CERMA.2008.89&orderBeanReset=true&startPage=417&endPage=421&proceedingName=Electronics%2C+Robotics+and+Automotive+Mechanics+Conference%2C+2008.+CERMA+%2708">&copy;2008, IEEE</a>
+license: 
+
+citation: {
+    "id": 103,
+    "type": "paper-conference",
+    "title": "Cooperative Adaptive Behavior Acquisition in Mobile Robot Swarms Using Neural Networks and Genetic Algorithms",
+    "container-title": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "publisher": "IEEE",
+    "publisher-place": "Morelos, Mexico",
+    "page": "417-421",
+    "source": "IEEE Xplore",
+    "event": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "event-place": "Morelos, Mexico",
+    "abstract": "This paper describes the use of soft computing based techniques toward the acquisition of adaptive behaviors to be used in mobile exploration by cooperating robots. Navigation within unknown environments and the obtaining of dynamic behavior require some method of unsupervised learning given the impossibility of programming strategies to follow for each individual case and for every possible situation the robot may face. In this investigation in particular, it is intended to expose some of the benefits of cooperative learning robots using novel biologically inspired heuristic methods. Experiments were conducted using a Khepera mobile robot simulator which uses a neural network to generate behaviors based on robot sensor measurements. The training of this network was carried out with a genetic algorithm, where each individual is a neural network whose fitness function is the output of a function, proportional to the are a covered by the robot.",
+    "URL": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4641107",
+    "DOI": "10.1109/CERMA.2008.89",
+    "ISBN": "978-0-7695-3320-9",
+    "bibtex": "Munoz2008Cooperative",
+    "author": [
+      {
+        "family": "Muñoz",
+        "given": "César"
+      },
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Arredondo",
+        "given": "Tomás"
+      },
+      {
+        "family": "Freund",
+        "given": "Wolfgang"
+      }
+    ],
+  }
+---

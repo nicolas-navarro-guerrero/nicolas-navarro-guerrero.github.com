@@ -1,0 +1,52 @@
+---
+tags: [irma, journal, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.png
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.bib
+ppt: 
+supplementary:
+code:
+
+year: "2013"
+month: "August"
+
+rights: <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">&copy;2013 Arredondo et al.</a>
+license: 
+
+citation: {
+    "id": 110,
+    "type": "article-journal",
+    "title": "Fuzzy Motivations in a Multiple Agent Behaviour-Based Architecture",
+    "container-title": "International Journal of Advanced Robotic Systems",
+    "page": "1-13",
+    "volume": "10",
+    "issue": "313",
+    "source": "CrossRef",
+    "abstract": "In this article we introduce a blackboard- based multiple agent system framework that considers biologically-based motivations as a means to develop a user friendly interface. The framework includes a population-based heuristic as well as a fuzzy logic-based inference system used toward scoring system behaviours. The heuristic provides an optimization environment and the fuzzy scoring mechanism is used to give a fitness score to possible system outputs (i.e. solutions). This framework results in the generation of complex behaviours which respond to previously specified motivations. Our multiple agent blackboard and motivation-based framework is validated in a low cost mobile robot specifically built for this task. The robot was used in several navigation experiments and the motivation profile that was considered included \"curiosity\", \"homing\", \"energy\" and \"missions\". Our results show that this motivation-based approach permits a low cost multiple agent-based autonomous mobile robot to acquire a diverse set of fit behaviours that respond well to user and performance expectations. These results also validate our multiple agent framework as an incremental, flexible and practical method for the development of robust multiple agent systems.",
+    "URL": "http://www.intechopen.com/journals/international_journal_of_advanced_robotic_systems/fuzzy-motivations-in-a-multiple-agent-behaviour-based-architecture",
+    "DOI": "10.5772/56578",
+    "ISSN": "1729-8806",
+    "bibtex": "Arredondo2013Fuzzy",
+    "author": [
+      {
+        "family": "Arredondo",
+        "given": "Tomás"
+      },
+      {
+        "family": "Freund",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Castillo",
+        "given": "Patricio"
+      }
+    ],
+  }
+---

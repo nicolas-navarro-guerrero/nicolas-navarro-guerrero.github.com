@@ -1,0 +1,57 @@
+---
+tags: [irma, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: 
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2006Fuzzy_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2006Fuzzy.bib
+ppt: 
+supplementary:
+code: 
+
+year: "2006"
+month: "June"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&orderBeanReset=true&orderSource=SpringerLink&author=Tom%C3%A1s+V.+Arredondo&AuthorEmail=tarredondo%40elo.utfsm.cl&contentID=10.1007%2F11779568_50&openAccess=false&endPage=471&publicationDate=2006&startPage=462&title=Fuzzy+Motivations+for+Evolutionary+Behavior+Learning+by+a+Mobile+Robot&imprint=Springer-Verlag+Berlin+Heidelberg&publication=eBook&authorAddress=Casilla+110+V%2C+Valpara%C3%ADso%2C+Chile">&copy;2006, Springer-Verlag Berlin Heidelberg</a>
+license: 
+
+citation: {
+    "id": 7,
+    "type": "paper-conference",
+    "title": "Fuzzy Motivations for Evolutionary Behavior Learning by a Mobile Robot",
+    "container-title": "Proceedings of the International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)",
+    "collection-title": "LNCS",
+    "publisher": "Springer Berlin Heidelberg",
+    "publisher-place": "Annecy, France",
+    "page": "462-471",
+    "volume": "4031",
+    "event-place": "Annecy, France",
+    "abstract": "In this paper we describe a fuzzy logic based approach for providing biologically based motivations to be used in evolutionary mobile robot learning. Takagi-Sugeno-Kang (TSK) fuzzy logic is used to motivate a small mobile robot to acquire complex behaviors and to perform environment recognition. This method is implemented and tested in behavior based navigation and action sequence based environment recognition tasks in a Khepera mobile robot simulator. Our fuzzy logic based motivation technique is shown as a simple and powerful method for a robot to acquire a diverse set of fit behaviors as well as providing an intuitive user interface framework.",
+    "URL": "http://link.springer.com/chapter/10.1007%2F11779568_50",
+    "DOI": "10.1007/11779568_50",
+    "bibtex": "Arredondo2006Fuzzy",
+    "author": [
+      {
+        "family": "Arredondo",
+        "given": "Tomás"
+      },
+      {
+        "family": "Freund",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Muñoz",
+        "given": "César"
+      },
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Quirós",
+        "given": "Fernando"
+      }
+    ],
+  }
+---

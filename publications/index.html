@@ -1,0 +1,28 @@
+---
+layout: with-sidebar
+slug: publications
+tags: [publications, journals, proceedings, conferences, posters, abstracts, chapters, books, reports, talks, keynotes]
+
+title: Publications
+subtitle: List Grouped by Type
+author: Nicolás Navarro-Guerrero
+---
+<div class="row">
+  <div class="col-md-12">
+    {{ site.data.publications-front-note }}
+    </br>
+  </div><!-- column -->
+
+  {% include pub/list-type.html param='journal' %}
+<!-- param='chapter' -->
+  {% include pub/list-type.html param='conference' %}
+  {% include pub/list-type.html param='abstract' %}
+<!-- param='report' also thesis -->
+<!-- param='talk' -->
+
+  <div class="col-md-12">
+    </br>
+    {% include pub/copyright.notice.html %}
+  </div><!-- column -->
+
+</div><!-- row -->

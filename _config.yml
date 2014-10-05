@@ -1,0 +1,24 @@
+# Site settings
+title: Nicolás Navarro-Guerrero
+email: nicolas.navarro.guerrero@gmail.com
+description: "Personal website of Nicolas Navarro-Guerrero. Areas of interest and specialties robotics, embedded systems and automation."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://nicolas-navarro-guerrero.github.io" # the base hostname & protocol for your site
+github_username:  nicolas-navarro-guerrero
+
+# For Atom Feed
+domain: https://nicolas-navarro-guerrero.github.io
+author: Nicolás Navarro-Guerrero
+email: nicolas.navarro.guerrero@gmail.com
+title: Nicolás Navarro-Guerrero Website
+
+exclude:
+- README.md
+
+# Build settings
+markdown: kramdown
+
+collections:
+- publications
+- courses
+- supervised-theses

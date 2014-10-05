@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+  </head>
+  <body>
+
+    <!-- Main navigation bar -->
+    {% include nav/main.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 col-md-2 sidebar">
+          {% if page.slug contains "publications" %}
+              {% include nav/publications-sidebar.html %}
+          {% elsif page.slug contains "projects" %}
+              {% include nav/projects-sidebar.html %}
+          {% elsif page.slug contains "teaching" %}
+              {% include nav/teaching-sidebar.html %}
+          {% elsif page.slug contains "media" %}
+              {% include nav/media-sidebar.html %}
+          {% elsif page.slug contains "outreach" %}
+              {% include nav/outreach-sidebar.html %}
+          {% endif %}
+          <ul class="nav nav-sidebar">
+            <li><a href="#">Back to top</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 main" style="min-height:400px;">
+          {{ content }}
+        </div>
+      </div><!-- row -->
+    </div><!-- container -->
+
+    {% include footer.html %}
+
+  </body>
+</html>

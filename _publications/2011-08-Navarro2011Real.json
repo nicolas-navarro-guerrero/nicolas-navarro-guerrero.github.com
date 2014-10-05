@@ -1,0 +1,78 @@
+---
+tags: [robotdoc, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Real.jpg
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Real_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Real.bib
+ppt: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Real_slides.pdf
+supplementary:
+code:
+
+year: "2011"
+month: "August"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&orderBeanReset=true&orderSource=SpringerLink&author=Nicol%C3%A1s+Navarro&AuthorEmail=navarro%40informatik.uni-hamburg.de&contentID=10.1007%2F978-3-642-23232-9_21&openAccess=false&endPage=240&publicationDate=2011&startPage=231&title=Real-World+Reinforcement+Learning+for+Autonomous+Humanoid+Robot+Charging+in+a+Home+Environment&imprint=Springer-Verlag+Berlin+Heidelberg&publication=eBook&authorAddress=Hamburg%2C+Germany">&copy;2011, Springer-Verlag Berlin Heidelberg</a>
+license: 
+
+citation: {
+    "id": 28,
+    "type": "paper-conference",
+    "title": "Real-World Reinforcement Learning for Autonomous Humanoid Robot Charging in a Home Environment",
+    "container-title": "Proceedings of the Annual Conference Towards Autonomous Robotic Systems (TAROS)",
+    "collection-title": "LNCS",
+    "publisher": "Springer Berlin Heidelberg",
+    "publisher-place": "Sheffield, UK",
+    "page": "231-240",
+    "volume": "6856",
+    "source": "link.springer.com",
+    "event": "Towards Autonomous Robotic Systems",
+    "event-place": "Sheffield, UK",
+    "abstract": "In this paper we investigate and develop a real-world reinforcement learning approach to autonomously recharge a humanoid Nao robot [1]. Using a supervised reinforcement learning approach, combined with a Gaussian distributed states activation, we are able to teach the robot to navigate towards a docking station, and thus extend the duration of autonomy of the Nao by recharging. The control concept is based on visual information provided by naomarks and six basic actions. It was developed and tested using a real Nao robot within a home environment scenario. No simulation was involved. This approach promises to be a robust way of implementing real-world reinforcement learning, has only few model assumptions and offers faster learning than conventional Q-learning or SARSA.",
+    "URL": "http://link.springer.com/chapter/10.1007/978-3-642-23232-9_21",
+    "DOI": "10.1007/978-3-642-23232-9_21",
+    "ISBN": "978-3-642-23231-2, 978-3-642-23232-9",
+    "bibtex": "Navarro2011Real",
+    "author": [
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Weber",
+        "given": "Cornelius"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Groß",
+        "given": "Roderich"
+      },
+      {
+        "family": "Alboul",
+        "given": "Lyuba"
+      },
+      {
+        "family": "Melhuish",
+        "given": "Chris"
+      },
+      {
+        "family": "Witkowski",
+        "given": "Mark"
+      },
+      {
+        "family": "Prescott",
+        "given": "Tony J."
+      },
+      {
+        "family": "Penders",
+        "given": "Jacques"
+      }
+    ],
+  }
+---

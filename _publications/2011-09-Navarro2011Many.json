@@ -1,0 +1,52 @@
+---
+tags: [robotdoc, abstract, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: 
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Many.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2011Many.bib
+ppt: 
+supplementary:
+code:
+
+year: "2011"
+month: "September"
+
+rights: "&copy;2011 Nicolás Navarro-Guerrero"
+license: 
+
+citation: {
+    "id": 2794,
+    "type": "paper-conference",
+    "title": "Many-Routes Hypothesis of Fear Conditioning: A Dynamical Reservoir Based Approach",
+    "container-title": "Marie-Curie Researchers Symposium Poster",
+    "publisher-place": "Warsaw, Poland",
+    "source": "CiteULike",
+    "event-place": "Warsaw, Poland",
+    "abstract": "Classical fear conditioning has experienced a growing interest over the last decade. Fear learning mechanisms are a simple and robust learning paradigm that involves sensory and motor areas. We believe that a deeper study of these mechanisms will contribute not only to a better understanding of fear conditioning but also to the development of future robot generations.",
+    "URL": "http://www.mariecurie2011.pl/",
+    "bibtex": "Navarro2011Many",
+    "shortTitle": "Many-Routes Hypothesis of Fear Conditioning",
+    "author": [
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Lowe",
+        "given": "Robert"
+      },
+      {
+        "family": "Weber",
+        "given": "Cornelius"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "year": "2011",
+    "month": "September"
+}
+---

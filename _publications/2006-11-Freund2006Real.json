@@ -1,0 +1,70 @@
+---
+tags: [irma, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: 
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Freund2006Real_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Freund2006Real.bib
+ppt: 
+supplementary:
+code:
+
+year: "2006"
+month: "November"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&orderBeanReset=true&orderSource=SpringerLink&author=Wolfgang+Freund&AuthorEmail=Wolfgang.Freund%40usm.cl&contentID=10.1007%2F11925231_10&openAccess=false&endPage=111&publicationDate=2006&startPage=101&title=Real-Time+Adaptive+Fuzzy+Motivations+for+Evolutionary+Behavior+Learning+by+a+Mobile+Robot&imprint=Springer-Verlag+Berlin+Heidelberg&publication=eBook&authorAddress=Casilla+110+V%2C+Valpara%C3%ADso%2C+Chile">&copy;2006, Springer-Verlag Berlin Heidelberg</a>
+license: 
+
+citation: {
+    "id": 10,
+    "type": "paper-conference",
+    "title": "Real-Time Adaptive Fuzzy Motivations for Evolutionary Behavior Learning by a Mobile Robot",
+    "container-title": "Proceedings of the Mexican International Conference on Artificial Intelligence (MICAI) - Advances in Artificial Intelligence",
+    "collection-title": "LNCS",
+    "publisher": "Springer Berlin Heidelberg",
+    "publisher-place": "Apizaco, Mexico",
+    "page": "101-111",
+    "volume": "4293",
+    "source": "link.springer.com",
+    "event": "Mexican International Conference on Artificial Intelligence",
+    "event-place": "Apizaco, Mexico",
+    "abstract": "In this paper we investigate real-time adaptive extensions of our fuzzy logic based approach for providing biologically based motivations to be used in evolutionary mobile robot learning. The main idea is to introduce active battery level sensors and recharge zones to improve robot behavior for reaching survivability in environment exploration. In order to achieve this goal, we propose an improvement of our previously defined model, as well as a hybrid controller for a mobile robot, combining behavior-based and mission-oriented control mechanism. This method is implemented and tested in action sequence based environment exploration tasks in a Khepera mobile robot simulator. We investigate our technique with several sets of configuration parameters and scenarios. The experiments show a significant improvement in robot responsiveness regarding survivability and environment exploration.",
+    "URL": "http://link.springer.com/chapter/10.1007/11925231_10",
+    "DOI": "10.1007/11925231_10",
+    "ISBN": "978-3-540-49026-5, 978-3-540-49058-6",
+    "bibtex": "Freund2006Real",
+    "author": [
+      {
+        "family": "Freund",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Arredondo Vidal",
+        "given": "Tomás"
+      },
+      {
+        "family": "Muñoz",
+        "given": "César"
+      },
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Quirós",
+        "given": "Fernando"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Gelbukh",
+        "given": "Alexander"
+      },
+      {
+        "family": "Reyes-Garcia",
+        "given": "Carlos Alberto"
+      }
+    ],
+  }
+---

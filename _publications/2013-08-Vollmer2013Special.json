@@ -1,0 +1,58 @@
+---
+tags: [robotdoc, abstract, research]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+
+thumbnail: 
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Vollmer2013Special.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Vollmer2013Special.bib
+ppt: 
+supplementary:
+code:
+
+year: "2013"
+month: "August"
+
+rights: "&copy;2013 Vollmer et al."
+license: 
+
+citation: {
+    "id": 2796,
+    "type": "paper-conference",
+    "title": "Special Session: Training in Robotics for Development of Cognition (RobotDoC)",
+    "container-title": "Proceedings of the IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL)",
+    "publisher-place": "Osaka, Japan",
+    "source": "CiteULike",
+    "event-place": "Osaka, Japan",
+    "abstract": "This special session will present recent advances in robotic modelling of cognitive development as well as behavioural studies with implications for robotics. It summarises the main results of the European Marie Curie doctoral training network RobotDoC. The special session is part of the co-located RobotDoC Conference that will be held in Osaka on August 16-18. Research in the RobotDoC training network specifically focuses on interdisciplinary approaches to developmental cognitive robotics (Asada et al., 2001; Cangelosi & Schlesinger, to appear). In particular, we present here a syncretic overview of new models and experimental results in: (i) Dimensionality reduction for efficient motor control and new hardware implementations for sensorimotor systems, (ii) using sensorimotor representations for developing adaptive robots and for grounding abstract knowledge, (iii) social attention and visual action prediction for interactive robots, and (iv) developmental approaches to social interaction and robot feedback in human-robot interaction. Moreover, we will discuss insights and lessons learned on training methodology for researchers in developmental robotics.",
+    "URL": "http://www.icdl-epirob.org/",
+    "bibtex": "Vollmer2013Special",
+    "shortTitle": "Special Session",
+    "author": [
+      {
+        "family": "Vollmer",
+        "given": "Anna-Lisa"
+      },
+      {
+        "family": "Ruciński",
+        "given": "Marek"
+      },
+      {
+        "family": "Alessandro",
+        "given": "Cristiano"
+      },
+      {
+        "family": "Wilkinson",
+        "given": "Nicholas"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Handl",
+        "given": "Andrea"
+      }
+    ],
+  }
+---

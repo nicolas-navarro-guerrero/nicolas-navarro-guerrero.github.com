@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/hand-tuning.css">
+  </head>
+  <body>
+
+    <!-- Main navigation bar -->
+    {% include nav/main.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-8">
+            {{ content }}
+        </div>
+
+        <div class="hidden-xs col-sm-4 col-md-4">
+            {% include photo.html %}
+            {% include my-address.html %}
+        </div>
+      </div><!-- row -->
+    </div><!-- container -->
+
+    {% include footer.html %}
+
+  </body>
+</html>

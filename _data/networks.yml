@@ -1,0 +1,29 @@
+- name: github
+  username: nicolas-navarro-guerrero
+  baseurl: https://github.com
+  icon: /assets/networking/github_gravatar_flurry_ios.png
+  
+- name: bitbucket
+  username: nicolas-navarro-guerrero
+  baseurl: https://bitbucket.org
+  icon: /assets/networking/bitbucket.png
+
+- name: vimeo
+  username: nicolasnavarroguerrero
+  baseurl: https://vimeo.com
+  icon: /assets/networking/vimeo_64x64.png
+
+- name: youtube
+  username: niconavarroguerrero
+  baseurl: https://www.youtube.com/user
+  icon: /assets/networking/youtube-logo-stacked_100x100.png
+
+- name: zotero
+  username: nng
+  baseurl: https://www.zotero.org
+  icon: /assets/networking/zotero_48x48x32.png
+
+- name: citeulike
+  username: nnavarro
+  baseurl: https://www.citeulike.org/user
+  icon: /assets/networking/citeulike_32x32.png

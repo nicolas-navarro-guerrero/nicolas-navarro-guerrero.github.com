@@ -1,0 +1,40 @@
+---
+layout: home
+slug: home
+
+author: Nicolás Navarro-Guerrero
+
+title: Home
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        {% include photo.html param='275' %}
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        {% include my-address.html %}
+    </div>
+  </div><!-- row -->
+</div><!-- container -->
+
+<hr>
+<h2>Recent Projects</h2>
+{% include projs/latest-projects.html param='3' %}
+
+<div hidden class="home">
+
+  <h2 class="page-heading">News</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

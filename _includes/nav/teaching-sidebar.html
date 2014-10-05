@@ -1,0 +1,15 @@
+<ul class="nav nav-sidebar">
+  <li {% if page.slug == 'teaching' %} class="active"{% endif %}><a href="/teaching" title="Teaching">Overview</a></li>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug contains 'courses' %} class="active"{% endif %}><a href="/teaching/courses" title="Courses">Courses</a></li>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug contains 'theses' %} class="active"{% endif %}><a href="/teaching/theses" title="Theses">Theses</a></li>
+  <div class="list-group">
+    <a href="/teaching/theses#offers" class="list-group-item">Thesis Offers</a>
+    <a href="/teaching/theses#supervised" class="list-group-item">Supervised Theses</a>
+  </div>
+</ul>

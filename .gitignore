@@ -1,0 +1,19 @@
+# exclude
+_site
+.sass-cache
+.directory
+*~
+*_
+
+*template*
+
+multimedia/*
+teaching/theses/*.md
+
+projects/*/*.png
+projects/*/*.jpg
+projects/*/*.jpeg
+projects/*/*.gif
+projects/template*.html
+
+_posts/*welcome-to-jekyll*

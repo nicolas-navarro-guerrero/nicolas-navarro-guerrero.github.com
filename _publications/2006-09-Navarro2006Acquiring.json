@@ -1,0 +1,53 @@
+---
+tags: [irma, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring.jpg
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring.bib
+ppt: 
+supplementary:
+code:
+
+year: 2006
+month: September
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&publication=proceedings&title=Acquiring+Adaptive+Behaviors+of+Mobile+Robots+Using+Genetic+Algorithms+and+Artificial+Neural+Networks&isbn=0-7695-2569-5&publicationDate=Sept.+2006&author=Navarro%2C+N.%3B+Munoz%2C+C.%3B+Freund%2C+W.%3B+Arredondo%2C+V.T.&ContentID=10.1109/CERMA.2006.11&orderBeanReset=true&startPage=87&endPage=91&volumeNum=1&proceedingName=Electronics%2C+Robotics+and+Automotive+Mechanics+Conference%2C+2006">&copy;2006, IEEE</a>
+license: 
+
+citation: {
+    "id": 4,
+    "type": "paper-conference",
+    "title": "Acquiring Adaptive Behaviors of Mobile Robots Using Genetic Algorithms and Artificial Neural Networks",
+    "container-title": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "publisher": "IEEE",
+    "publisher-place": "Cuernavaca, Mexico",
+    "page": "87-91",
+    "volume": "1",
+    "event-place": "Cuernavaca, Mexico",
+    "abstract": "This paper describes the use of soft computing techniques for acquiring adaptive behaviors to be used in mobile robot exploration. Action-based environment modeling (AEM) based navigation is used within unknown environments and unsupervised adaptive learning is used for obtaining of the dynamic behaviors. In this investigation it is shown that this unsupervised adaptive method is capable of training a simple low cost robot towards developing highly fit behaviors within a diverse set of complex environments. The experiments that endorse these affirmations were made in Khepera robot simulator. The robot makes use of a neural network to interpret the measurements from the robot sensors in order to determine its next behavior. The training of this network was made using a genetic algorithm (GA), where each individual robot is constituted by a neural network. Fitness evaluation provides the quality of robot behavior with respect to his exploration capability within his environment",
+    "URL": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4019719",
+    "DOI": "10.1109/CERMA.2006.11",
+    "ISBN": "0-7695-2569-5",
+    "bibtex": "Navarro2006Acquiring",
+    "author": [
+      {
+        "family": "Navarro",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Muñoz",
+        "given": "César"
+      },
+      {
+        "family": "Freund",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Arredondo",
+        "given": "Tomás"
+      }
+    ],
+  }
+---

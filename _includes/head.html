@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{% if page.title %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %} » {% endif %}{{ site.title }}</title>
+
+<meta name="author" content="{{ page.author }}">
+<meta name="description" content="{{ site.description }} This page includes contain related to {% for tag in page.tags %}{{ tag }}, {% endfor %}.">
+
+<link rel="icon" href="/initials-nng.png" type="image/png">
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{{ "/dist/css/bootstrap.min.css" | prepend: site.baseurl }}">
+
+<!-- Bootstrap theme -->
+<link href="{{ "/dist/css/bootstrap-theme.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<style>
+  body {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+</style>

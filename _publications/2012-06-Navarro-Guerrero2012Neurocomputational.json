@@ -1,0 +1,51 @@
+---
+tags: [robotdoc, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational.png
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational_pre-print.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational.bib
+ppt: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational_slides.pdf
+supplementary:
+code:
+
+year: "2012"
+month: "June"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&publication=proceedings&title=A+neurocomputational+amygdala+model+of+auditory+fear+conditioning%3A+A+hybrid+system+approach&isbn=978-1-4673-1488-6&publicationDate=10-15+June+2012&author=Navarro-Guerrero%2C+N.%3B+Lowe%2C+R.%3B+Wermter%2C+S.&ContentID=10.1109/IJCNN.2012.6252392&orderBeanReset=true&startPage=1&endPage=8&proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on">&copy;2012, IEEE</a>
+license: 
+
+citation: {
+    "id": 87,
+    "type": "paper-conference",
+    "title": "A Neurocomputational Amygdala Model of Auditory Fear Conditioning: A Hybrid System Approach",
+    "container-title": "Proceedings of the International Joint Conference on Neural Networks (IJCNN)",
+    "publisher": "IEEE",
+    "publisher-place": "Brisbane, QLD, Australia",
+    "page": "214-221",
+    "source": "IEEE Xplore",
+    "event": "International Joint Conference on Neural Networks (IJCNN)",
+    "event-place": "Brisbane, QLD, Australia",
+    "abstract": "In this work, we present a neurocomputational model for auditory-cue fear acquisition. Computational fear conditioning has experienced a growing interest over the last few years, on the one hand, because it is a robust and quick learning paradigm that can contribute to the development of more versatile robots, and on the other hand, because it can help in the understanding of fear conditioning and dysfunctions in animals. Fear learning involves sensory and motor aspects [1] and it is essential for adaptive self-protective systems. We argue that a deeper study of the mechanisms underlying fear circuits in the brain will contribute not only to the development of safer robots but eventually also to a better conceptual understanding of neural fear processing in general. Towards the development of a robotic adaptive self-protective system, we have designed a neural model of fear conditioning based on LeDoux's dual-route hypothesis of fear [2] and also dopamine modulated Pavlovian conditioning [3]. Our hybrid approach is capable of learning the temporal relationship between auditory sensory cues and an aversive or appetitive stimulus. The model was tested as a neural network simulation but it was designed to be used with minor modifications on a robotic platform.",
+    "URL": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6252392",
+    "DOI": "10.1109/IJCNN.2012.6252392",
+    "ISBN": "978-1-4673-1489-3",
+    "bibtex": "Navarro-Guerrero2012Neurocomputational",
+    "shortTitle": "A Neurocomputational Amygdala Model of Auditory Fear Conditioning",
+    "author": [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Lowe",
+        "given": "Robert"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+  }
+---

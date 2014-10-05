@@ -1,0 +1,35 @@
+{% if include.param contains 'journal' %}
+  {% assign header-name = 'Journals' %}
+  {% assign pub-type = [include.param] %}
+
+{% elsif include.param contains 'chapter' %}
+  {% assign header-name = 'Book Chapters' %}
+  {% assign pub-type = [include.param] %}
+
+{% elsif include.param contains 'conference' %}
+  {% assign header-name = 'Conference Proceedings' %}
+  {% assign pub-type = [include.param] %}
+
+{% elsif include.param contains 'abstract' %}
+  {% assign header-name = 'Abstracts and Posters' %}
+  {% assign pub-type = [include.param] %}
+
+{% elsif include.param contains 'report' or include.param2 contains 'thesis' %}
+  {% assign header-name = 'Theses and Technical Reports' %}
+  {% assign pub-type = [include.param, include.param2] %}
+
+{% elsif include.param contains 'talk' %}
+  {% assign header-name = 'Invited Talks' %}
+  {% assign pub-type = [include.param] %}
+{% endif %}
+
+<div class="col-md-12" id="{{ include.param }}">
+  <h3 class="sub-header id-header">{{ header-name }}</h3>
+  <ul class="media-list">
+    {% for papers in site.publications reversed %}
+      {% if papers.categories != 'template' and papers.tags contains include.param %}
+        {% include pub/as-media.html param=papers %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div><!-- column -->

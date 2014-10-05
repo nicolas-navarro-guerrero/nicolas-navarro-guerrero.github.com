@@ -1,0 +1,37 @@
+---
+layout: fullwidth
+tags: [contact, address, disclaimer, social networks, faq]
+slug: /contact/
+
+title: Contact
+author: Nicolás Navarro-Guerrero
+---
+<div class="row">
+  <div class="col-md-12">
+    <!--{% include photo.html %}-->
+    {% include my-address.html %}
+  </div>
+
+  <div class="col-md-12"> &nbsp; </div>
+
+  <div class="col-md-12">
+    <p class="text-center"><strong>Find Me Elsewhere</strong></p>
+    <p class="text-center">
+      {% for item in site.data.account-repositories %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" height="45" border="0"></a>  &nbsp;
+      {% endfor %}
+      {% for item in site.data.account-videos %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" height="45" border="0"></a>  &nbsp;
+      {% endfor %}
+      {% for item in site.data.account-reference-management %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" height="45" border="0"></a>  &nbsp;
+      {% endfor %}
+    </p>
+  </div>
+
+  <div class="col-md-12"> &nbsp; </div>
+
+  <div class="col-md-12">
+      {{ site.data.disclaimer }}
+  </div>
+</div>
