@@ -25,7 +25,7 @@
           {{ authors.given }} {{ authors.family }}
         {% endfor %}</td>
     <td>{% for super in supThesis.supervisors %}
-          {{ super.given }} {{ super.family }};</br>
+          {{ super.given }} {{ super.family }};<br>
         {% endfor %}</td>
     <td>{{ supThesis.citation.title }}</td>
     <td>
@@ -47,8 +47,7 @@
       </div><!-- table-responsive -->
     </div><!-- column -->
 
-    <div class="col-md-12">
-      </br>
+    <div class="col-md-12" style="padding-top:25px;">
       {% include pub/copyright.notice.html %}
     </div><!-- column -->
   </div><!-- row -->
