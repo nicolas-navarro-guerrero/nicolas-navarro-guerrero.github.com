@@ -5,10 +5,9 @@
     <ol>
       {% for papers in site.publications reversed %}
         {% if papers.tags contains include.param.relatedpapers %}
-          <li>
+          <li style="padding-bottom:15px;">
             {% include pub/citation-style-citeulike.html param=papers %}
           </li>
-          <br>
         {% endif %}
       {% endfor %}
     </ol>
