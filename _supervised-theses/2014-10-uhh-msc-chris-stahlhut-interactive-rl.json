@@ -1,0 +1,57 @@
+---
+tags: [thesis, master, uhh, wtm, computer science, reinforcement learning, kinematics]
+categories: 
+
+thumbnail: 
+ile: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.bib
+lides: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning_slides.pdf
+supplementary: 
+code: 
+
+year: 2014
+month: 10
+
+supervisors: [
+      {
+        family: Wermter,
+        given: Stefan
+      },
+      {
+        family: Weber,
+        given: Cornelius
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": 2962,
+		"type": "thesis",
+		"title": "Learning to Reach with Interactive Reinforcement Learning",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "76",
+		"genre": "MSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "Giving interactive feedback, other than well/bad done alone, allows to learn faster in Reinforcement Learning. If we reduce the number of wrong actions the learner takes, e.g. by undoing bad actions, we can reduce the number of steps necessary to learn a task. However, the amount of help needed is not thoroughly researched. This thesis aims to answer this question with two tasks. In both tasks the learner learns to move one arm each to reach for an arbitrary position within its reach. The first task is with a shoulder as joint alone, the second with a shoulder and an elbow. We will discover that the advantage of undoing bad actions manifests itself only in the arm with elbow and shoulder and not in the arm with a shoulder as only joint. We will see that not only did the interactive learner learn faster, it learned to take less steps to reach its target, too. Furthermore, it needed less configuration effort to get good result, while the non-interactive learner did not learn very well in some configurations. If both learners learn well, we need a lot of feedback to show an increase in the behaviour, as well as the learning speed. If the difference between both learners is large, even a probability of 10% of interactive feedback shows an improvement of both properties. With a probability of 60% or more, both properties become more stable than the property of the original learner without interactive feedback.",
+		"bibtex": "Stahlhut2014Learning",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Stahlhut",
+				"given": "Chris"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					"10"
+				]
+			]
+		}
+	}
+---

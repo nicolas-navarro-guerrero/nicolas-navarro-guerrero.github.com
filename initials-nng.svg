@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="initial-nng.svg">
+   sodipodi:docname="initials-nng.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="17.0625"
-     inkscape:cx="15.882784"
-     inkscape:cy="16"
+     inkscape:zoom="24.130019"
+     inkscape:cx="8.0200499"
+     inkscape:cy="18.489056"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1321"
-     inkscape:window-height="744"
-     inkscape:window-x="45"
-     inkscape:window-y="456"
+     inkscape:window-width="1875"
+     inkscape:window-height="1176"
+     inkscape:window-x="1411"
+     inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -59,14 +59,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1020.3622)">
+     transform="translate(0,-1020.3622)"
+     style="opacity:1">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:10.00000095000000044;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3756"
+       width="22"
+       height="22"
+       x="4.9880171"
+       y="1025.3688"
+       inkscape:export-filename="/home/nng/projects/dissemination/nicolas-navarro-guerrero.github.io/initials-nng.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
        x="0.91210938"
        y="1040.7303"
        id="text2987"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/nng/projects/dissemination/nicolas-navarro-guerrero.github.io/initials-nng.png"><tspan
          sodipodi:role="line"
          id="tspan2991"
          x="0.91210938"
