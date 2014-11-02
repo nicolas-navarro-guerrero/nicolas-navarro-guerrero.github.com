@@ -23,13 +23,11 @@
   {% assign pub-type = [include.param] %}
 {% endif %}
 
-<div class="col-md-12" id="{{ include.param }}">
-  <h3 class="sub-header id-header">{{ header-name }}</h3>
-  <ul class="media-list">
-    {% for papers in site.publications reversed %}
-      {% if papers.categories != 'template' and papers.tags contains include.param %}
-        {% include pub/as-media.html param=papers %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div><!-- column -->
+<h3 class="sub-header id-header" id="{{ include.param }}">{{ header-name }}</h3>
+<ul class="media-list">
+  {% for papers in site.publications reversed %}
+    {% if papers.categories != 'template' and papers.tags contains include.param %}
+      {% include pub/as-media.html param=papers %}
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -8,23 +8,23 @@ subtitle: Chronological List
 author: Nicolás Navarro-Guerrero
 ---
 <div class="row">
-  <div class="col-md-12">
-    {% include pub/publications-front-note.html %}
-    <br>
-  </div><!-- column -->
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
 
-  <div class="col-md-12">
-    <ul class="media-list">
-      {% for papers in site.publications reversed %}
-        {% if papers.categories != 'template' %}
-          {% include pub/as-media.html param=papers %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div><!-- column -->
-  
-  <div class="col-md-12">
-    {% include pub/copyright.notice.html %}
-  </div><!-- column -->
-  
+{% include pub/publications-front-note.html %}
+<br>
+
+<ul class="media-list">
+  {% for papers in site.publications reversed %}
+    {% if papers.categories != 'template' %}
+      {% include pub/as-media.html param=papers %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% include pub/copyright.notice.html %}
+
+  </div>
+
+  <div class="hidden-xs col-sm-1 col-md-1">
+  </div>
 </div><!-- row -->

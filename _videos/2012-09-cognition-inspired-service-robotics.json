@@ -1,0 +1,15 @@
+---
+tags: [media, videos, wtm, uhh, docking, service robots]
+categories: videos
+
+year: 2012
+month: 09
+bibtex: [Navarro-Guerrero2012Real, Yan2012Neural]
+
+source: "//player.vimeo.com/video/66803041"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://vimeo.com/66803041">Cognition Inspired Service Robotics</a> from <a href="https://vimeo.com/nicolasnavarroguerrero">Nicolas Navarro-Guerrero</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+title: "Cognition Inspired Service Robotics"
+description: "We present a novel framework for robot mobile behaviour based on cognitive learning. Our approach builds up a cognitive map (Yan et al., 2012) that learns a sensorimotor representation and the salient visual features of an environment through exploratory navigation. The robot can find the position of a target object by comparing the features of the object with the appearance of the location in the map and navigate efficiently and robustly through a home-like environment. A vision-based docking model is trained with reinforcement learning that aligns the robot accurately to the object (Navarro-Guerrero et al., 2012). A SOM-based grasping model is executed after the docking phase to grasp the object so that it can be carried to the user. Overall, we demonstrate and test our system on a real-world object fetching scenario. (Recorded and edited: September 2012)"
+---

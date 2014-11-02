@@ -1,6 +1,6 @@
 <li class="media">
-    <p class="pull-right hidden-xs"><img class="media-object" src="{% if include.param.thumbnail != null %}{{ include.param.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" alt="" height="125"></p>
-    <div class="media-body">
-        {% include pub/citation-style-citeulike.html param=include.param %}
-    </div>
+  <div class="media-body">
+    {% include pub/citation-style-citeulike.html param=include.param %}
+  </div>
+  <p class="media-right hidden-xs"><img class="img-rounded" src="{% if include.param.thumbnail != null %}{{ include.param.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" alt="" height="125"></p>
 </li>

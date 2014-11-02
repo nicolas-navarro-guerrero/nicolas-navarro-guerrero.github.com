@@ -1,0 +1,50 @@
+---
+tags: [irma, conference, research]
+categories: publications
+author: Nicolás Navarro-Guerrero
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code: 
+
+year: "2006"
+month: "June"
+
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&amp;publication=proceedings&amp;title=A+neural+approach+for+robot+navigation+based+on+cognitive+map+learning&amp;isbn=978-1-4673-1488-6&amp;publicationDate=10-15+June+2012&amp;author=Wenjie+Yan%3B+Weber%2C+C.%3B+Wermter%2C+S.&amp;ContentID=10.1109/IJCNN.2012.6252522&amp;orderBeanReset=true&amp;startPage=1&amp;endPage=8&amp;proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on">&copy;2012, IEEE</a>
+license: 
+
+citation: {
+		"id": 143,
+		"type": "paper-conference",
+		"title": "A Neural Approach for Robot Navigation Based on Cognitive Map Learning",
+		"container-title": "International Joint Conference on Neural Networks (IJCNN)",
+		"publisher": "IEEE",
+		"publisher-place": "Brisbane, QLD, Australia",
+		"page": "1146-1153",
+		"source": "IEEE Xplore",
+		"event": "International Joint Conference on Neural Networks (IJCNN)",
+		"event-place": "Brisbane, QLD, Australia",
+		"abstract": "This paper presents a neural network architecture for a robot learning new navigation behavior by observing a human's movement in a room. While indoor robot navigation is challenging due to the high complexity of real environments and the possible dynamic changes in a room, a human can explore a room easily without any collisions. We therefore propose a neural network that builds up a memory for spatial representations and path planning using a person's movements as observed from a ceiling-mounted camera. Based on the human's motion, the robot learns a map that is used for path planning and motor-action codings. We evaluate our model with a detailed case study and show that the robot navigates effectively.",
+		"URL": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6252522",
+		"DOI": "10.1109/IJCNN.2012.6252522",
+		"ISBN": "978-1-4673-1488-6",
+    bibtex: "Yan2012Neural",
+		"author": [
+			{
+				"family": "Yan",
+				"given": "Wenjie"
+			},
+			{
+				"family": "Weber",
+				"given": "Cornelius"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+  }
+---

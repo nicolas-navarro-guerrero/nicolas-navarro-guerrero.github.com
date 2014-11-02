@@ -22,5 +22,7 @@ markdown: kramdown
 
 collections:
 - publications
+- pub-collaborations
 - courses
 - supervised-theses
+- videos

@@ -7,20 +7,14 @@ title: Publications
 subtitle: List Grouped by Type
 author: Nicolás Navarro-Guerrero
 ---
-<div class="row">
-  <div class="col-md-12">
-    {% include pub/publications-front-note.html %}
-  </div><!-- column -->
+{% include pub/publications-front-note.html %}
 
-  {% include pub/list-type.html param='journal' %}
+{% include pub/list-type.html param='journal' %}
 <!-- param='chapter' -->
-  {% include pub/list-type.html param='conference' %}
-  {% include pub/list-type.html param='abstract' %}
-<!-- param='report' also thesis -->
+{% include pub/list-type.html param='conference' %}
+{% include pub/list-type.html param='abstract' %}
+<!-- param='report'-->
 <!-- param='talk' -->
+<!-- param='thesis'-->
 
-  <div class="col-md-12">
-    {% include pub/copyright.notice.html %}
-  </div><!-- column -->
-
-</div><!-- row -->
+{% include pub/copyright.notice.html %}
