@@ -7,3 +7,11 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.publications-thumbs {
+    width: auto;
+    height: 125px;
+    overflow: hidden;
+    display:block;
+}
+

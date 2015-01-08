@@ -1,9 +1,9 @@
 - name: zotero
-  username: nng
+  username: groups/nng-publications/items
   baseurl: https://www.zotero.org
   icon: /assets/networking/zotero_48x48x32.png
 
 - name: citeulike
-  username: nnavarro
+  username: nnavarro/publications
   baseurl: https://www.citeulike.org/user
   icon: /assets/networking/citeulike_32x32.png

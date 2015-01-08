@@ -1,9 +1,9 @@
 - name: vimeo
-  username: nicolasnavarroguerrero
+  username: nicolasnavarroguerrero/videos
   baseurl: https://vimeo.com
   icon: /assets/networking/vimeo_64x64.png
 
 - name: youtube
-  username: niconavarroguerrero
+  username: niconavarroguerrero/videos
   baseurl: https://www.youtube.com/user
   icon: /assets/networking/youtube-logo-stacked_100x100.png

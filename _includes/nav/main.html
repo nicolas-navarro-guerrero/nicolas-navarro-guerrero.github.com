@@ -12,11 +12,11 @@
 
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li {% if page.slug == 'home' %} class="active"{% endif %}><a href="/"  title="Welcome Page!">Home</a></li>
+        <li {% if page.slug == 'home' %} class="active"{% endif %}><a href="/" title="Welcome Page!">Home</a></li>
         <li {% if page.slug contains 'publications' %} class="active"{% endif %}><a href="/publications">Publications</a></li>
         <li {% if page.slug contains 'projects' %} class="active"{% endif %}><a href="/projects">Projects<span class="caret"></span></a></li>
-        <li {% if page.slug contains 'teaching' %} class="active"{% endif %}><a href="/teaching">Teaching<span class="caret"></span></a></li>
-        <li {% if page.slug contains 'media' %} class="active"{% endif %}><a href="/media">Media<span class="caret"></span></a></li>
+        <li {% if page.slug contains 'teaching' %} class="active"{% endif %}><a href="/teaching" title="Courses; Thesis">Teaching<span class="caret"></span></a></li>
+        <li {% if page.slug contains 'media' %} class="active"{% endif %}><a href="/media" title="Videos">Media<span class="caret"></span></a></li>
    <!-- <li {% if page.slug contains 'resources' %} class="active"{% endif %}><a href="/resources">Resources<span class="caret"></span></a></li> -->
    <!-- <li {% if page.slug contains 'outreach' %} class="active"{% endif %}><a href="/about">Outreach</a></li> -->
         <li {% if page.slug contains 'about' %} class="active"{% endif %}><a href="/about">About</a></li>
