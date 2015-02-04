@@ -30,7 +30,7 @@
     <td>{{ supThesis.citation.title }}</td>
     <td>
         {% if supThesis.file != null %}
-          <a href="{{ supThesis.pdf }}">pdf</a> 
+          <a href="{{ supThesis.file }}">pdf</a> 
         {% endif %}
         {% if supThesis.bibtex != null %}
           <br><a href="{{ supThesis.bibtex }}">bibtex</a> 
@@ -40,6 +40,9 @@
         {% endif %}
         {% if supThesis.supplementary != null %}
           <br><a href="{{ supThesis.supplementary }}"> supplementary material</a> 
+        {% endif %}
+        {% if supThesis.library != null %}
+          <br><a href="{{ supThesis.library }}"> hard-copy</a> 
         {% endif %}
     </td>
   </tr>

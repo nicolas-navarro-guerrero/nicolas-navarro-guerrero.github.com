@@ -3,9 +3,10 @@ tags: [thesis, master, uhh, wtm, computer science, reinforcement learning, kinem
 categories: 
 
 thumbnail: 
-ile: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.bib
-lides: https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning_slides.pdf
+file: "https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning.bib"
+lides: "https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2014-10-Stahlhut2014Learning_slides.pdf"
+library: "https://kataloge.uni-hamburg.de/DB=1/FKT=1016/FRM=Chris%2BStahlhut/IMPLAND=Y/LNG=DU/LRSET=1/MAT=/SET=1/SID=f65ea257-1/SRT=YOP/TTL=1/SHW?FRST=1"
 supplementary: 
 code: 
 
