@@ -1,0 +1,50 @@
+---
+tags: [conference, research]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+
+thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Stahlhut2015Interaction.png
+file: https://dl.dropboxusercontent.com/u/118126704/publications/Stahlhut2015Interaction.pdf
+bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Stahlhut2015Interaction.bib
+slides: https://dl.dropboxusercontent.com/u/118126704/publications/Stahlhut2015Interaction_slides.pdf
+supplementary:
+code:
+
+year: "2015"
+month: "Mar"
+
+rights: "&copy;2015 Stahlhut et al."
+license: 
+
+citation: {
+		"id": 5612,
+		"type": "paper-conference",
+		"title": "Interaction is More Beneficial in Complex Reinforcement Learning Problems than in Simple Ones",
+		"container-title": "Proceedings of the Interdisziplinärer Workshop Kognitive Systeme",
+		"publisher-place": "Bielefeld, Germany",
+		"page": "142-150",
+		"event": "Interdisziplinärer Workshop Kognitive Systeme Mensch, Teams, Systeme und Automaten",
+		"event-place": "Bielefeld, Germany",
+		"abstract": "Giving interactive feedback, other than well done / badly done alone, can speed up reinforcement learning. However, the amount of feedback needed to improve the learning speed and performance has not been thoroughly investigated. To narrow this gap, we study the effects of one type of interaction: we allow the learner to ask a teacher whether the last performed action was good or not and if not, the learner can undo that action and choose another one; hence the learner avoids bad action sequences. This allows the interactive learner to reduce the overall number of steps necessary to reach its goal and learn faster than a non-interactive learner. Our results show that while interaction does not increase the learning speed in a simple task with 1 degree of freedom, it does speed up learning significantly in more complex tasks with 2 or 3 degrees of freedom.",
+		"URL": "https://www.techfak.uni-bielefeld.de/ags/soa/kogsys2015/",
+		"bibtex": "Stahlhut2015Interaction",
+		"author": [
+			{
+				"family": "Stahlhut",
+				"given": "Chris"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Weber",
+				"given": "Cornelius"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+	}
+---
