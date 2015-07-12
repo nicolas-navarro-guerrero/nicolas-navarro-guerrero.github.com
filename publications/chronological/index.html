@@ -1,18 +1,15 @@
 ---
-layout: fullwidth
-slug: publications/chronological
+layout: with-sidebar
+slug: publications
 tags: [publications, journals, proceedings, conferences, posters, abstracts, chapters, books, reports, talks, keynotes]
 
 title: Publications
 subtitle: Chronological List
 author: Nicolás Navarro-Guerrero
 ---
-<div class="row">
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-
 {% include pub/publications-front-note.html %}
-<br>
 
+<p style="margin-top:30px;"></p>
 <ul class="media-list">
   {% for papers in site.publications reversed %}
     {% if papers.categories != 'template' %}
@@ -22,9 +19,3 @@ author: Nicolás Navarro-Guerrero
 </ul>
 
 {% include pub/copyright.notice.html %}
-
-  </div>
-
-  <div class="hidden-xs col-sm-1 col-md-1">
-  </div>
-</div><!-- row -->
