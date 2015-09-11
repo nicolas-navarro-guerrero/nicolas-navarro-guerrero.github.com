@@ -1,15 +1,4 @@
-- name: EUCog
-  username: 
-  baseurl: https://www.eucognition.org/eucog-wiki/User:1917
-  icon: /assets/affiliations/eucog-logo-wh.png
-
 - name: ResearchGate
   username: Nicolas_Navarro-Guerrero
   baseurl: https://www.researchgate.net/profile
-  icon: /assets/networking/researchgate-logo.png
-
-- name: Frontiers
-  username: 
-  baseurl: http://community.frontiersin.org/people/NicolasNavarro-Guerrero/61834
-  url: https://www.frontiersin.org/people/NicolasNavarro-Guerrero/61834/profile
-  icon: /assets/networking/frontiers.ico
+  icon: /assets/networking/RG-Logo.png

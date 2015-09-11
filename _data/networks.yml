@@ -6,8 +6,8 @@
 - name: bitbucket
   username: nicolas-navarro-guerrero
   baseurl: https://bitbucket.org
-  icon: /assets/networking/bitbucket.png
-
+  icon: /assets/networking/bucket.svg
+  
 - name: vimeo
   username: nicolasnavarroguerrero
   baseurl: https://vimeo.com
@@ -27,3 +27,14 @@
   username: nnavarro/publications
   baseurl: https://www.citeulike.org/user
   icon: /assets/networking/citeulike_32x32.png
+  
+- name: EUCog
+  username: 
+  baseurl: https://www.eucognition.org/eucog-wiki/User:1917
+  icon: /assets/affiliations/eucog-logo-wh.png
+
+- name: Frontiers
+  username: 
+  baseurl: http://community.frontiersin.org/people/NicolasNavarro-Guerrero/61834
+  url: https://www.frontiersin.org/people/NicolasNavarro-Guerrero/61834/profile
+  icon: /assets/networking/frontiers.ico
