@@ -27,11 +27,11 @@
           {% include teaching/courses-list-format.html param=courses %}
         {% endif %}
 
-        {% if include.param == 'recent' and AYearAgo == YearOfCourse and currentMonth <= MonthOfCourse %}
+        {% if include.param == 'recent' and AYearAgo == YearOfCourse and currentMonth < MonthOfCourse %}
           {% include teaching/courses-list-format.html param=courses %}
         {% endif %}
 
-        {% if include.param == 'past' and AYearAgo == YearOfCourse and currentMonth > MonthOfCourse %}
+        {% if include.param == 'past' and AYearAgo == YearOfCourse and currentMonth => MonthOfCourse %}
           {% include teaching/courses-list-format.html param=courses %}
         {% endif %}
 
