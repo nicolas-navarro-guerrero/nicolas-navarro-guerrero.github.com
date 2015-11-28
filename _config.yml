@@ -1,7 +1,7 @@
 # Site settings
 title: Nicolás Navarro-Guerrero
 email: nicolas.navarro.guerrero@gmail.com
-description: "Personal website of Nicolas Navarro-Guerrero. Areas of interest and specialties robotics, embedded systems and automation."
+description: "Personal website of Nicolás Navarro-Guerrero. Areas of interest and specialties robotics, embedded systems and automation."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://nicolas-navarro-guerrero.github.io" # the base hostname & protocol for your site
 github_username:  nicolas-navarro-guerrero
