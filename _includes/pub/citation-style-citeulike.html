@@ -1,5 +1,9 @@
 <strong>{{ include.param.citation.title }}</strong><br>
-{{ include.param.citation.container-title }}. 
+{% if include.param.citation.container-title != null %}
+  {{ include.param.citation.container-title }}. 
+{% elsif include.param.citation.publisher != null %}
+  {{ include.param.citation.publisher }}.
+{% endif %}
 {% if include.param.citation.volume != null %}
   vol. {{ include.param.citation.volume }}
   {% if include.param.citation.collection-title != null %}
@@ -59,6 +63,9 @@
 {% endif %}
 {% if include.param.year != null %}
   {{ include.param.year }}.
+{% endif %}
+{% if include.param.citation.language != null %}
+  {{ include.param.citation.language }}.
 {% endif %}
 <br>
 {% for authors in include.param.citation.author %}

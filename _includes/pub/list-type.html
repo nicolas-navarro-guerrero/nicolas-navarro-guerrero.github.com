@@ -13,10 +13,10 @@
 {% elsif include.param contains 'abstract' %}
   {% assign header-name = 'Abstracts and Posters' %}
   {% assign pub-type = [include.param] %}
-
-{% elsif include.param contains 'report' or include.param2 contains 'thesis' %}
+  
+{% elsif include.param contains 'thesis' or include.param contains 'report' %}
   {% assign header-name = 'Theses and Technical Reports' %}
-  {% assign pub-type = [include.param, include.param2] %}
+  {% assign pub-type = [include.param, include.param] %}
 
 {% elsif include.param contains 'talk' %}
   {% assign header-name = 'Invited Talks' %}

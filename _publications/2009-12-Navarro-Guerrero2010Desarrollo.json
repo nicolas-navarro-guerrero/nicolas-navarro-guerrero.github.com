@@ -1,0 +1,38 @@
+---
+tags: [thesis, report, irma, research]
+categories: thesis, report
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2009 Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+year: 2009
+month: 12
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/ZNH775UV",
+		"type": "thesis",
+		"title": "Desarrollo e implementación de algoritmo evolutivo multi-objectivo para generar rutas online en un robot móvil autónomo",
+		"publisher": "Universidad Técnica Federico Santa María",
+		"publisher-place": "Valparaíso, Chile",
+		"number-of-pages": "62",
+		"genre": "Engineering",
+		"event-place": "Valparaíso, Chile",
+		"abstract": "El problema de planeación de rutas para robots móviles es típicamente formulado como: dado un robot y una descripción de un ambiente, se planea una ruta para el robot entre dos localizaciones, siendo la localización destino una posición aleatoria o una posición determinada por la tarea a cumplir. La ruta debe ser libre de colisiones y satisfacer los criterios de optimización especificados. Tradicionalmente existen dos modos de enfrentar el problema, planeación off-line, la cual asume un ambiente perfectamente conocido y que no puede cambiar, y planeación online, la cual se centra en hacer frente a un medio ambiente dinámico, o sea, que puede cambiar mientras el robot navega en él. El presente trabajo consiste en la generación de un programa que implementa un método evolutivo de planeación de rutas basado en motivaciones y que será determinado de manera on-line, esta solución será calculada a partir de un mapa del entorno que debe ser entregado al programa. La combinación de algoritmos genéticos y lógica difusa, resulta vital para el desarrollo de la solución de generación de trayectorias propuesta, logrando obtener rutas libres de colisiones y capaces de recorrer múltiples objetivos dentro de un escenario dado, según se determinó en las simulaciones del programa y los experimentos realizados con un robot móvil.",
+		"URL": "http://buscador.usm.cl/Record/100005",
+		"bibtex": "Navarro-Guerrero2010Desarrollo",
+		"language": "Spanish",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+}
+---
