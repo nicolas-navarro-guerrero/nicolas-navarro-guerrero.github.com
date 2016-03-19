@@ -1,33 +1,29 @@
 ---
-tags: [conference, research]
+tags: [journal, research]
 categories: publications
-author: "Nicolás Navarro-Guerrero"
+author: Nicolás Navarro-Guerrero
+rights: "Copyright (&copy;) 2013 Stahlhut et al."
+license: 
 
-thumbnail: 
-file: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction.bib"
-slides: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction_slides.pdf"
+thumbnail: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-03-Stahlhut2016Interaction.png"
+file: "https://duepublico.uni-duisburg-essen.de/servlets/DerivateServlet/Derivate-40985/ks_vol3-2015-2_Stahlhut_Navarro-Guerro_Weber_Wermter.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-03-Stahlhut2016Interaction.bib"
+slides: 
 supplementary:
 code:
 
-year: "2015"
-month: "Mar"
-
-rights: "Copyright (&copy;) 2015 Stahlhut et al."
-license: 
+year: 2016
+month: Mar
 
 citation: {
-		"id": 5612,
-		"type": "paper-conference",
-		"title": "Interaction is More Beneficial in Complex Reinforcement Learning Problems than in Simple Ones",
-		"container-title": "Interdisziplinärer Workshop Kognitive Systeme: Mensch, Teams, Systeme und Automaten",
-		"publisher-place": "Bielefeld, Germany",
-		"page": "142-150",
-		"event": "Interdisziplinärer Workshop Kognitive Systeme: Mensch, Teams, Systeme und Automaten",
-		"event-place": "Bielefeld, Germany",
+    "type": "article-journal",
+		"title": "Interaction in Reinforcement Learning Reduces the Need for Finely Tuned Hyperparameters in Complex Tasks",
+		"container-title": "Kognitive Systeme",
+		"volume": "3",
+		"source": "duepublico.uni-duisburg-essen.de",
 		"abstract": "Giving interactive feedback, other than well done / badly done alone, can speed up reinforcement learning. However, the amount of feedback needed to improve the learning speed and performance has not been thoroughly investigated. To narrow this gap, we study the effects of one type of interaction: we allow the learner to ask a teacher whether the last performed action was good or not and if not, the learner can undo that action and choose another one; hence the learner avoids bad action sequences. This allows the interactive learner to reduce the overall number of steps necessary to reach its goal and learn faster than a non-interactive learner. Our results show that while interaction does not increase the learning speed in a simple task with 1 degree of freedom, it does speed up learning significantly in more complex tasks with 2 or 3 degrees of freedom.",
-		"URL": "https://www.techfak.uni-bielefeld.de/ags/soa/kogsys2015/",
-		"bibtex": "Stahlhut2015Interaction",
+		"URL": "https://duepublico.uni-duisburg-essen.de/servlets/DocumentServlet?id=40718",
+		"bibtex": "Stahlhut2016Interaction",
 		"author": [
 			{
 				"family": "Stahlhut",
@@ -46,5 +42,5 @@ citation: {
 				"given": "Stefan"
 			}
 		],
-	}
+}
 ---

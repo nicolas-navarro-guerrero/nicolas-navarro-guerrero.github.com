@@ -26,8 +26,10 @@
 <h3 class="sub-header id-header" id="{{ include.param }}">{{ header-name }}</h3>
 <ul class="media-list">
   {% for papers in site.publications reversed %}
-    {% if papers.categories != 'template' and papers.tags contains include.param %}
-      {% include pub/as-media.html param=papers %}
-    {% endif %}
+    {% unless papers.categories contains 'template' %}
+      {% if papers.tags contains include.param %}
+        {% include pub/as-media.html param=papers %}
+      {% endif %}
+    {% endunless %}
   {% endfor %}
 </ul>

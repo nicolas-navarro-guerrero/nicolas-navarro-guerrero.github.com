@@ -4,8 +4,8 @@ categories: publications
 author: Nicolás Navarro-Guerrero
 
 thumbnail: 
-file: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2006Fuzzy_pre-print.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2006Fuzzy.bib
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-06-Arredondo2006Fuzzy_pre-print.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-06-Arredondo2006Fuzzy.bib"
 slides: 
 supplementary:
 code: 
@@ -20,7 +20,7 @@ citation: {
     "id": 7,
     "type": "paper-conference",
     "title": "Fuzzy Motivations for Evolutionary Behavior Learning by a Mobile Robot",
-    "container-title": "Proceedings of the International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)",
+    "container-title": "International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)",
     "collection-title": "LNCS",
     "publisher": "Springer Berlin Heidelberg",
     "publisher-place": "Annecy, France",

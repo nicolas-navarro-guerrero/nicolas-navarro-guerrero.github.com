@@ -3,9 +3,9 @@ tags: [irma, conference, research]
 categories: publications
 author: Nicolás Navarro-Guerrero
 
-thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring.jpg
-file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring_pre-print.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro2006Acquiring.bib
+thumbnail: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-09-Navarro2006Acquiring.jpg"
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-09-Navarro2006Acquiring_pre-print.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-09-Navarro2006Acquiring.bib"
 slides: 
 supplementary:
 code:
@@ -20,7 +20,7 @@ citation: {
     "id": 4,
     "type": "paper-conference",
     "title": "Acquiring Adaptive Behaviors of Mobile Robots Using Genetic Algorithms and Artificial Neural Networks",
-    "container-title": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "container-title": "Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
     "publisher": "IEEE",
     "publisher-place": "Cuernavaca, Mexico",
     "page": "87-91",

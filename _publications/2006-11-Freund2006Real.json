@@ -4,8 +4,8 @@ categories: publications
 author: Nicolás Navarro-Guerrero
 
 thumbnail: 
-file: https://dl.dropboxusercontent.com/u/118126704/publications/Freund2006Real_pre-print.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Freund2006Real.bib
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-11-Freund2006Real_pre-print.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2006-11-Freund2006Real.bib"
 slides: 
 supplementary:
 code:
@@ -20,7 +20,7 @@ citation: {
     "id": 10,
     "type": "paper-conference",
     "title": "Real-Time Adaptive Fuzzy Motivations for Evolutionary Behavior Learning by a Mobile Robot",
-    "container-title": "Proceedings of the Mexican International Conference on Artificial Intelligence (MICAI) - Advances in Artificial Intelligence",
+    "container-title": "Mexican International Conference on Artificial Intelligence (MICAI) - Advances in Artificial Intelligence",
     "collection-title": "LNCS",
     "publisher": "Springer Berlin Heidelberg",
     "publisher-place": "Apizaco, Mexico",

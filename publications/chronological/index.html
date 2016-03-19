@@ -12,9 +12,9 @@ author: Nicolás Navarro-Guerrero
 <p style="margin-top:30px;"></p>
 <ul class="media-list">
   {% for papers in site.publications reversed %}
-    {% if papers.categories != 'template' %}
+    {% unless papers.categories contains 'template' %}
       {% include pub/as-media.html param=papers %}
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 </ul>
 

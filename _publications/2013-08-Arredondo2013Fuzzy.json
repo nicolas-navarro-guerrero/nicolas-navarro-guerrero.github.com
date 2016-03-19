@@ -3,9 +3,9 @@ tags: [irma, journal, research]
 categories: publications
 author: Nicolás Navarro-Guerrero
 
-thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.png
-file: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Arredondo2013Fuzzy.bib
+thumbnail: "https://dl.dropboxusercontent.com/u/118126704/publications/2013-08-Arredondo2013Fuzzy.png"
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2013-08-Arredondo2013Fuzzy.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2013-08-Arredondo2013Fuzzy.bib"
 slides: 
 supplementary:
 code:
@@ -13,8 +13,8 @@ code:
 year: "2013"
 month: "Aug"
 
-rights: <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">&copy;2013 Arredondo et al.</a>
-license: 
+rights: "Copyright (&copy;) 2013 Arredondo et al."
+license: <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
 
 citation: {
     "id": 110,

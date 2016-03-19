@@ -3,10 +3,10 @@ tags: [robotdoc, conference, research]
 categories: publications
 author: Nicolás Navarro-Guerrero
 
-thumbnail: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational.png
-file: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational_pre-print.pdf
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational.bib
-slides: https://dl.dropboxusercontent.com/u/118126704/publications/Navarro-Guerrero2012Neurocomputational_slides.pdf
+thumbnail: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-06-Navarro-Guerrero2012Neurocomputational.png"
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-06-Navarro-Guerrero2012Neurocomputational_pre-print.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-06-Navarro-Guerrero2012Neurocomputational.bib"
+slides: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-06-Navarro-Guerrero2012Neurocomputational_slides.pdf"
 supplementary:
 code:
 
@@ -20,7 +20,7 @@ citation: {
     "id": 87,
     "type": "paper-conference",
     "title": "A Neurocomputational Amygdala Model of Auditory Fear Conditioning: A Hybrid System Approach",
-    "container-title": "Proceedings of the International Joint Conference on Neural Networks (IJCNN)",
+    "container-title": "International Joint Conference on Neural Networks (IJCNN)",
     "publisher": "IEEE",
     "publisher-place": "Brisbane, QLD, Australia",
     "page": "214-221",

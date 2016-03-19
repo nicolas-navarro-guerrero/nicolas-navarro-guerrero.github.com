@@ -5,7 +5,7 @@ author: Nicolás Navarro-Guerrero
 
 thumbnail: 
 file: 
-bibtex: https://dl.dropboxusercontent.com/u/118126704/publications/Munoz2008Cooperative.bib
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2008-09-Munoz2008Cooperative.bib"
 slides: 
 supplementary:
 code:
@@ -20,12 +20,12 @@ citation: {
     "id": 103,
     "type": "paper-conference",
     "title": "Cooperative Adaptive Behavior Acquisition in Mobile Robot Swarms Using Neural Networks and Genetic Algorithms",
-    "container-title": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "container-title": "Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
     "publisher": "IEEE",
     "publisher-place": "Morelos, Mexico",
     "page": "417-421",
     "source": "IEEE Xplore",
-    "event": "Proceedings of the Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
+    "event": "Electronics, Robotics and Automotive Mechanics Conference (CERMA)",
     "event-place": "Morelos, Mexico",
     "abstract": "This paper describes the use of soft computing based techniques toward the acquisition of adaptive behaviors to be used in mobile exploration by cooperating robots. Navigation within unknown environments and the obtaining of dynamic behavior require some method of unsupervised learning given the impossibility of programming strategies to follow for each individual case and for every possible situation the robot may face. In this investigation in particular, it is intended to expose some of the benefits of cooperative learning robots using novel biologically inspired heuristic methods. Experiments were conducted using a Khepera mobile robot simulator which uses a neural network to generate behaviors based on robot sensor measurements. The training of this network was carried out with a genetic algorithm, where each individual is a neural network whose fitness function is the output of a function, proportional to the are a covered by the robot.",
     "URL": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4641107",
