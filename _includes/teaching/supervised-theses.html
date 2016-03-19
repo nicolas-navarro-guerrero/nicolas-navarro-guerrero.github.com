@@ -16,7 +16,7 @@
           </thead>
           <tbody>
 {% for supThesis in site.supervised-theses reversed %}
-  {% if supThesis.categories != 'template' %}
+  {% unless supThesis.categories contains 'template' %}
   <tr>
     <td>{{ supThesis.year }}-{{ supThesis.month }}</td>
     <td>{{ supThesis.citation.genre }}</td>
@@ -46,7 +46,7 @@
         {% endif %}
     </td>
   </tr>
-  {% endif %}
+  {% endunless %}
 {% endfor %}
           </tbody>
         </table>
