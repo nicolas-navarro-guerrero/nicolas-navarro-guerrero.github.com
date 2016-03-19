@@ -1,3 +1,8 @@
+- name: gitlab
+  username: nicolas-navarro-guerrero
+  baseurl: https://gitlab.com/u
+  icon: /assets/networking/gitlab.svg
+
 - name: github
   username: nicolas-navarro-guerrero
   baseurl: https://github.com

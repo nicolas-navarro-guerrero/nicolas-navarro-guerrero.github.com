@@ -1,7 +1,7 @@
 {% assign counter = 0 %}
 
 {% for vids in site.videos reversed %}
-  {% if vids.categories != 'template' %}
+  {% unless vids.categories contains 'template' %}
     {% if counter == 0 %}
       <div class="row">
     {% endif %}
@@ -13,7 +13,7 @@
         {% include media/video-overview-style.html param=vids %}
       </div>
     {% endif %}
-  {% endif %}
+  {% endunless %}
 {% endfor %}
 
 {% if counter != 0 %}
