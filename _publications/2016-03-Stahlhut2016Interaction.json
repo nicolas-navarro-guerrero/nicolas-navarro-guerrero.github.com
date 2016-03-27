@@ -23,6 +23,7 @@ citation: {
 		"source": "duepublico.uni-duisburg-essen.de",
 		"abstract": "Giving interactive feedback, other than well done / badly done alone, can speed up reinforcement learning. However, the amount of feedback needed to improve the learning speed and performance has not been thoroughly investigated. To narrow this gap, we study the effects of one type of interaction: we allow the learner to ask a teacher whether the last performed action was good or not and if not, the learner can undo that action and choose another one; hence the learner avoids bad action sequences. This allows the interactive learner to reduce the overall number of steps necessary to reach its goal and learn faster than a non-interactive learner. Our results show that while interaction does not increase the learning speed in a simple task with 1 degree of freedom, it does speed up learning significantly in more complex tasks with 2 or 3 degrees of freedom.",
 		"URL": "https://duepublico.uni-duisburg-essen.de/servlets/DocumentServlet?id=40718",
+    "DOI": "10.17185/duepublico/40718",
 		"bibtex": "Stahlhut2016Interaction",
 		"author": [
 			{
