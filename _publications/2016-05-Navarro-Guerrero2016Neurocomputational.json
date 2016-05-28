@@ -1,0 +1,45 @@
+---
+tags: [thesis, report, research]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2016 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: "http://ediss.sub.uni-hamburg.de/volltexte/2016/7890/pdf/Dissertation.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-05-Navarro-Guerrero2016Neurocomputational.bib"
+slides: 
+supplementary:
+code:
+
+year: 2016
+month: may
+
+citation: {
+		"type": "thesis",
+		"title": "Neurocomputational Mechanisms for Adaptive Self-Preservative Robot Behaviour",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "173",
+		"genre": "PhD",
+		"source": "urn:nbn:de:gbv:18-78900",
+		"event-place": "Hamburg, Germany",
+		"abstract": "The field of neurocognitive robotics takes the processing mechanisms of the brain as inspiration and guidance: computer implementations of robot perception and action should be based on brain-like neural architectures and biologically plausible learning mechanisms. Unsupervised learning and reinforcement learning have led to good results on the emergence of internal sensory representations and intelligent reward-seeking behaviours, respectively. However, other aspects of animal behaviour are generally not considered, even though it has been argued that only a more comprehensive study of animal behaviour can lead to a deeper understanding of intelligent behaviour. This thesis does not attempt to provide a comprehensive model of animal behaviour, but rather tries to draw attention to the need for it by presenting the potential of neglected aspects of animal behaviour such as self-preservative behaviour.\n\nSelf-preservative behaviours are believed to impose the ground rules for more complex and motivated behaviour. Although many of these innate responses are hard-coded in the brain, they are not sufficient for the organisms' survival. They have to adapt, by learning, to new and unexpected situations within their lifetime and thereby be able to interact effectively with their environment. A key component on the lifetime adaptation is the formation of associations/memories between environmental predictors and relevant events, which mainly rely on punishment and reward learning.\n\nWe postulate that a deeper understanding of innate and learned defensive mechanisms could also be helpful in developing future robot generations, making them more adaptable and robust. Therefore, in this thesis, we study and develop three neurocomputational self-preservative mechanisms in the context of humanoid service robots to demonstrate the potential and feasibility of including bio-inspired adaptive self-preservative mechanisms as part of real-world robotic systems. Our aim is to present possible ways in which robots can be endowed with such adaptive self-preservative mechanisms at different neurocognitive levels, going from abstract biological models to neurocomputational models.\n\nThe first experiment addresses the problem of search for an appetitive stimulus. Here a reinforcement learning (SARSA) algorithm was optimized to learn in a real-world scenario and manoeuvre a humanoid robot towards a charging station.\n\nThe second experiment focuses on the role of punishment and nociceptive sensory input in motor learning. Both types of feedback play an important role in driving attention, and modulating decision making and action. However, they have not been thoroughly studied in computational models. Here, we compared the effect of both types of feedback on an Actor-Critic learning algorithm (CACLA).\n\nFinally, in our last experiment, we studied the role of noxious stimuli in the formation of anticipatory behaviour. This experiment is based on Pavlovian and instrumental conditioning and how environmental cues can be used to anticipate negative outcomes. A hybrid approach using an echo state network (ESN) and a dopamine modulated Pavlovian conditioning model was used to anticipate nociceptive sensory input based on auditory cues.\n\nIn all three experiments we showed how often neglected, self-preservative mechanisms could solve meaningful artificial intelligence problems while providing the basis for new neuro-inspired computational processes. In particular, we showed how bio-inspired sensorimotor signals associated with nociception and pain can be exploited for learning beyond triggering reactive behaviours. We also developed novel extensions to the learning algorithms used.",
+		"URL": "http://ediss.sub.uni-hamburg.de/volltexte/2016/7890/",
+		"bibtex": "Navarro-Guerrero2016Neurocomputational",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+		  		"5",
+				]
+			]
+		}
+	}
+---
