@@ -1,24 +1,10 @@
 # exclude
 _site
 .sass-cache
-.directory
+.jekyll-metadata
+
 *~
 *_
-
 *template*
-
-multimedia/*
-teaching/theses/*.md
-
-projects/*/*.png
-projects/*/*.jpg
-projects/*/*.jpeg
-projects/*/*.gif
-!projects/*/thumbnail*.png
-!projects/*/thumbnail*.jpg
-!projects/*/thumbnail*.jpeg
-!projects/*/thumbnail*.gif
-
-projects/template*.html
 
 _posts/*welcome-to-jekyll*
