@@ -1,0 +1,137 @@
+---
+tags: [conference, research, servicerob]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2016 Springer International Publishing AG"
+license: 
+
+thumbnail: 
+file: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-09-Wieser2016Robotic_pre-print.pdf"
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-09-Wieser2016Robotic.bib"
+slides: 
+supplementary: "https://figshare.com/s/d949d3410df8db468f77"
+code:
+
+year: 2016
+month: sep
+
+citation: {
+		"type": "paper-conference",
+		"title": "A Robotic Home Assistant with Memory Aid Functionality",
+		"container-title": "KI 2016: Advances in Artificial Intelligence",
+		"collection-title": "LNCS",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Klagenfurt, Austria",
+		"page": "102-115",
+		"volume": "9904",
+		"source": "link.springer.com",
+		"event": "Annual German Conference on AI (KI)",
+		"event-place": "Klagenfurt, Austria",
+		"abstract": "We present the robotic system IRMA (Interactive Robotic Memory Aid) that assists humans in their search for misplaced belongings within a natural home-like environment. Our stand-alone system integrates state-of-the-art approaches in a novel manner to achieve a seamless and intuitive human-robot interaction. IRMA directs its gaze toward the speaker and understands the person’s verbal instructions independent of specific grammatical constructions. It determines the positions of relevant objects and navigates collision-free within the environment. In addition, IRMA produces natural language descriptions for the objects’ positions by using furniture as reference points. To evaluate IRMA’s usefulness, a user study with 20 participants has been conducted. IRMA achieves an overall user satisfaction score of 4.05 and a perceived accuracy rating of 4.15 on a scale from 1–5 with 5 being the best.",
+		"URL": "http://link.springer.com/chapter/10.1007/978-3-319-46073-4_8",
+		"DOI": "10.1007/978-3-319-46073-4_8",
+		"ISBN": "978-3-319-46072-7",
+		"note": "DOI: 10.1007/978-3-319-46073-4_8",
+		"bibtex": "Wieser2016Robotic",
+		"author": [
+			{
+				"family": "Wieser",
+				"given": "Iris"
+			},
+			{
+				"family": "Toprak",
+				"given": "Sibel"
+			},
+			{
+				"family": "Grenzing",
+				"given": "Andreas"
+			},
+			{
+				"family": "Hinz",
+				"given": "Tobias"
+			},
+			{
+				"family": "Auddy",
+				"given": "Sayantan"
+			},
+			{
+				"family": "Karaoğuz",
+				"given": "Ethem Can"
+			},
+			{
+				"family": "Chandran",
+				"given": "Abhilash"
+			},
+			{
+				"family": "Remmels",
+				"given": "Melanie"
+			},
+			{
+				"family": "Shinawi",
+				"given": "Ahmed El"
+			},
+			{
+				"family": "Josifovski",
+				"given": "Josip"
+			},
+			{
+				"family": "Vankadara",
+				"given": "Leena Chennuru"
+			},
+			{
+				"family": "Wahab",
+				"given": "Faiz Ul"
+			},
+			{
+				"family": "Bahnemiri",
+				"given": "Alireza M."
+			},
+			{
+				"family": "Sahu",
+				"given": "Debasish"
+			},
+			{
+				"family": "Heinrich",
+				"given": "Stefan"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Strahl",
+				"given": "Erik"
+			},
+			{
+				"family": "Twiefel",
+				"given": "Johannes"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"editor": [
+			{
+				"family": "Friedrich",
+				"given": "Gerhard"
+			},
+			{
+				"family": "Helmert",
+				"given": "Malte"
+			},
+			{
+				"family": "Wotawa",
+				"given": "Franz"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+          "9"
+				]
+			]
+		},
+	}
+---

@@ -1,0 +1,15 @@
+---
+tags: [media, videos, wtm, uhh, service robots, student project]
+categories: videos
+
+year: 2016
+month: 05
+bibtex: [Wieser2016Robotic]
+
+source: "//player.vimeo.com/video/173348964"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://vimeo.com/173348964">A Robotic Home Assistant with Memory Aid Functionality</a> from <a href="https://vimeo.com/nicolasnavarroguerrero">Nicolas Navarro-Guerrero</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+title: "A Robotic Home Assistant with Memory Aid Functionality"
+description: "We present a robotic system that assists humans in their search for misplaced belongings within a natural home-like environment. Our stand-alone system integrates state-of-the-art approaches in a novel manner to achieve a seamless and intuitive human-robot interaction. The robot orients its gaze to the speaker and understands the person’s verbal instructions independent of specific grammatical constructions. It determines the positions of relevant objects and navigates collision-free within the environment. In addition, it produces natural language descriptions for the objects’ positions by using furniture as reference points."
+---
