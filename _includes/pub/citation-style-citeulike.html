@@ -1,6 +1,8 @@
 <strong>{{ include.param.citation.title }}</strong><br>
 {% if include.param.citation.container-title != null %}
   {{ include.param.citation.container-title }}. 
+{% elsif include.param.citation.event != null %}
+  Talk at {{ include.param.citation.event }}. 
 {% elsif include.param.citation.publisher != null %}
   {{ include.param.citation.publisher }}.
 {% endif %}
@@ -65,7 +67,7 @@
   {{ include.param.year }}.
 {% endif %}
 {% if include.param.citation.language != null %}
-  {{ include.param.citation.language }}.
+  Language: {{ include.param.citation.language }}.
 {% endif %}
 <br>
 {% for authors in include.param.citation.author %}
