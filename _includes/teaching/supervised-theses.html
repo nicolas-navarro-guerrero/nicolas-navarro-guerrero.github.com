@@ -18,7 +18,7 @@
 {% for supThesis in site.supervised-theses reversed %}
   {% unless supThesis.categories contains 'template' %}
   <tr>
-    <td>{{ supThesis.year }}-{{ supThesis.month }}</td>
+    <td>{{ supThesis.citation.issued.year }}-{{ supThesis.citation.issued.month }}</td>
     <td>{{ supThesis.citation.genre }}</td>
     <td>{{ supThesis.citation.publisher }}</td>
     <td>{% for authors in supThesis.citation.author %}

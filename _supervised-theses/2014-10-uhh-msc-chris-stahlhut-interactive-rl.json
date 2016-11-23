@@ -46,5 +46,9 @@ citation: {
 				"given": "Chris"
 			}
 		],
+		"issued": {
+			"year": "2014",
+			"month": "10",
+		}
 	}
 ---

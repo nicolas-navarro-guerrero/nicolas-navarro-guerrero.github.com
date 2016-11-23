@@ -1,0 +1,48 @@
+---
+tags: [thesis, bachelor, uhh, wtm, computer science, data mining, spectral data]
+categories:
+
+thumbnail:
+file: 
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2016-10-Klinger2016Analysis.bib"
+slides:
+library:
+supplementary:
+code:
+
+year: 2016
+month: 10
+
+supervisors: [
+      {
+        family: Weber,
+        given: Cornelius
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/WQA5T5NC",
+		"type": "thesis",
+		"title": "Analysis of Spectral Data using Similarity Search",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "43",
+		"genre": "BSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "Chromatography is a method from analytic chemistry to purify a mixture of chemical components. Mixtures are processed with a machine and their pure components are extracted. During the analysis, electric signals are captured and recorded. Analyzing data from chemical experiments using machine learning algorithms is becoming more and more popular for exploration and intelligent applications due the availability of software tools that can handle large datasets. A method of interest for many applications is to search through a collection of samples and find the most similar one given a new, possibly unknown sample. Chemical software is often based on a traditional way of visualizing the data which makes it difficult to compare two different datasets for similarity. Noise and sparsity make analysis more difficult. To overcome this issues, we explore a novel  method for preprocessing and viewing chemical datasets based on a two-step dimensionality reduction method and a representation which combines the classic approaches. Principal Component Analysis (PCA) is the standard method for preprocessing chemical datasets. An alternative is Linear Discriminant Analysis (LDA) which is evaluated performs superior on the underlying dataset compared to PCA. Finally, KNN is evaluated for finding the most similar sample using different preprocessed datasets.",
+		"author": [
+			{
+				"family": "Klinger",
+				"given": "Thomas"
+			}
+		],
+		"issued": {
+			"year": "2016",
+			"month": "10",
+		}
+	}
+---
