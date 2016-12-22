@@ -1,0 +1,44 @@
+---
+tags: [thesis, master, uhh, wtm, computer science, multimodal object recognition, haptics, self-organization]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "https://dl.dropboxusercontent.com/u/118126704/supervised-theses/2016-12-Toprak2016BrainInspired.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Wermter,
+        given: Stefan
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/7WCA7W22",
+		"type": "thesis",
+		"title": "Brain-Inspired Visuo-Haptic Object Recognition",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"genre": "MSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "In artificial visuo-haptic object recognition systems, vision and haptics are usually modeled as  separate processes. This, however, is far from what actually happens in the human brain, the object recognition capabilities of which we would like such systems to have: A lot of multimodal and crossmodal interactions take place between the two sensory modalities there. Generally, three main principles can be identified as underlying the processing of the visual and haptic object-related stimuli: 1. Hierarchical processing, the divergence of the processing onto substreams for object shape and material perception, and 2. the experience-driven self-organization of the integratory neural circuits. The question arises whether an object recognition system can benefit in terms of performance from following a more brain-inspired strategy to combining the visual and haptic input, which we set out to answer in this thesis. We compare the brain-inspired integration strategy with conventionally used integration strategies on data collected with a robot that was enhanced with inexpensive contact microphones as tactile sensors. The results of our experiments involving eleven every-day objects show that 1. the contact microphones constitute a good alternative to capturing tactile information and that 2. the brain-inspired strategy is more robust to unrealiable inputs.",
+		"author": [
+			{
+				"family": "Toprak",
+				"given": "Sibel"
+			}
+		],
+		"issued": {
+			"year": "2016",
+			"month": "12",
+		}
+	}
+---
