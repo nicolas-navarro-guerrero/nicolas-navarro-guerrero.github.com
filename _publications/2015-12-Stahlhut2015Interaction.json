@@ -1,5 +1,5 @@
 ---
-tags: [journal, research]
+tags: [journal, research, inverse kinematics learning, reinforcement learning, interactive reinforcement learning]
 categories: publications
 author: "Nicolás Navarro-Guerrero"
 rights: "Copyright (&copy;) 2015 Stahlhut et al."
@@ -44,5 +44,9 @@ citation: {
 				"given": "Stefan"
 			}
 		],
+		"issued": {
+			"year": "2015",
+			"month": "12",
+		}
 }
 ---
