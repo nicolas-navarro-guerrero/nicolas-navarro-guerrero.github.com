@@ -3,12 +3,12 @@ tags: [robotdoc, journal, research]
 categories: publications
 author: Nicolás Navarro-Guerrero
 
-thumbnail: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-11-Navarro-Guerrero2012Real.jpg"
-file: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-11-Navarro-Guerrero2012Real_pre-print.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-11-Navarro-Guerrero2012Real.bib"
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real.jpg"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real_pre-print.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real.bib"
 slides: 
 supplementary:
-code: "https://dl.dropboxusercontent.com/u/118126704/publications/2012-11-Navarro-Guerrero2012Real_source.code.zip"
+code: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real_source.code.zip"
 
 year: "2012"
 month: "Nov"
@@ -49,5 +49,9 @@ citation: {
         "given": "Stefan"
       }
     ],
+    "issued": {
+        "year": "2012",
+        "month": "11",
+    }
   }
 ---

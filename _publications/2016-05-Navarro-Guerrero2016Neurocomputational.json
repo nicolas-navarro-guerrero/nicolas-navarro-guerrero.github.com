@@ -7,7 +7,7 @@ license:
 
 thumbnail: 
 file: "http://ediss.sub.uni-hamburg.de/volltexte/2016/7890/pdf/Dissertation.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-05-Navarro-Guerrero2016Neurocomputational.bib"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2016-05-Navarro-Guerrero2016Neurocomputational.bib"
 slides: 
 supplementary:
 code:
@@ -33,13 +33,9 @@ citation: {
 				"given": "Nicolás"
 			}
 		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016",
-		  		"5",
-				]
-			]
-		}
+        "issued": {
+            "year": "2016",
+            "month": "05",
+        }
 	}
 ---

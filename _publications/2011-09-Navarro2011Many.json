@@ -4,8 +4,8 @@ categories: publications
 author: Nicolás Navarro-Guerrero
 
 thumbnail: 
-file: "https://dl.dropboxusercontent.com/u/118126704/publications/2011-09-Navarro2011Many.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2011-09-Navarro2011Many.bib"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2011-09-Navarro2011Many.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2011-09-Navarro2011Many.bib"
 slides: 
 supplementary:
 code:
@@ -46,7 +46,9 @@ citation: {
         "given": "Stefan"
       }
     ],
-    "year": "2011",
-    "month": "September"
+    "issued": {
+        "year": "2011",
+        "month": "09",
+    }
 }
 ---

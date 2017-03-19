@@ -4,9 +4,9 @@ categories: publications
 author: "Nicolás Navarro-Guerrero"
 
 thumbnail: 
-file: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction.bib"
-slides: "https://dl.dropboxusercontent.com/u/118126704/publications/2015-03-Stahlhut2015Interaction_slides.pdf"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2015-03-Stahlhut2015Interaction.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2015-03-Stahlhut2015Interaction.bib"
+slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2015-03-Stahlhut2015Interaction_slides.pdf"
 supplementary:
 code:
 
@@ -46,5 +46,9 @@ citation: {
 				"given": "Stefan"
 			}
 		],
+        "issued": {
+            "year": "2015",
+            "month": "03",
+        }
 	}
 ---

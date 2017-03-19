@@ -5,7 +5,7 @@ author: Nicolás Navarro-Guerrero
 
 thumbnail: 
 file: 
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2008-09-Munoz2008Cooperative.bib"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2008-09-Munoz2008Cooperative.bib"
 slides: 
 supplementary:
 code:
@@ -50,5 +50,9 @@ citation: {
         "given": "Wolfgang"
       }
     ],
+    "issued": {
+        "year": "2008",
+        "month": "09",
+    }
   }
 ---

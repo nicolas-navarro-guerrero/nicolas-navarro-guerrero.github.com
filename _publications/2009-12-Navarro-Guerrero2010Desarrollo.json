@@ -7,7 +7,7 @@ license:
 
 thumbnail: 
 file: 
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2009-12-Navarro-Guerrero2010Desarrollo.bib"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2009-12-Navarro-Guerrero2010Desarrollo.bib"
 slides: 
 supplementary:
 code:
@@ -33,5 +33,9 @@ citation: {
 				"given": "Nicolás"
 			}
 		],
+        "issued": {
+            "year": "2009",
+            "month": "12",
+        }
 }
 ---

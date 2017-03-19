@@ -6,8 +6,8 @@ rights: "Copyright (&copy;) 2016 Springer International Publishing AG"
 license: 
 
 thumbnail: 
-file: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-09-Wieser2016Robotic_pre-print.pdf"
-bibtex: "https://dl.dropboxusercontent.com/u/118126704/publications/2016-09-Wieser2016Robotic.bib"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2016-09-Wieser2016Robotic_pre-print.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2016-09-Wieser2016Robotic.bib"
 slides: 
 supplementary: "https://figshare.com/s/d949d3410df8db468f77"
 code:
@@ -125,13 +125,9 @@ citation: {
 				"given": "Franz"
 			}
 		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016",
-          "9"
-				]
-			]
-		},
+        "issued": {
+            "year": "2016",
+            "month": "09",
+        }
 	}
 ---
