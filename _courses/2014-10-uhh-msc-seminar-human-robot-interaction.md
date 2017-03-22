@@ -3,7 +3,7 @@ year: 2014
 month: 10
 institution: University of Hamburg
 
-semester: Winter Semester 2015/2014
+semester: Winter Semester 2014/2015
 code: LV 64-467
 type: Integrated Seminar
 name: <a href="https://www.informatik.uni-hamburg.de/WTM/teaching/WiSe14_HumanRobotInteraction_Pj.shtml" title="Details">Human-Robot Interaction</a>
