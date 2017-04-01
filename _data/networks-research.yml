@@ -2,3 +2,8 @@
   username: Nicolas_Navarro-Guerrero
   baseurl: https://www.researchgate.net/profile
   icon: /assets/networking/RG-Logo.png
+
+- name: orcid
+  username: 0000-0003-1164-5579
+  baseurl: https://orcid.org
+  icon: /assets/networking/orcid_64x64.png
