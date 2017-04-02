@@ -4,7 +4,7 @@
     {{ include.param.caption }}
   </div>
   <div class="caption">
-    <h4>{{ include.param.title }}<br><small>recorded and edited: {{ include.param.year }}-        {% if include.param.month != null %}
+    <h4>{{ include.param.title }}<br><small>recorded and edited: {{ include.param.year }} - {% if include.param.month != null %}
             {% if include.param.month == 1 or include.param.month == 'Jan' or include.param.month == 'January' or include.param.month == 'jan' or include.param.month == 'january' %}
                 Jan
             {% endif %}
