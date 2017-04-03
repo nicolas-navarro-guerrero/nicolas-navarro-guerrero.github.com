@@ -5,15 +5,15 @@ author: "Nicolás Navarro-Guerrero"
 rights: "Copyright (&copy;) 2017 Navarro-Guerrero et al."
 license: 
 
-thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-03-Navarro-Guerrero2017Improving.jpeg"
-file: 
-bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-03-Navarro-Guerrero2017Improving.bib"
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-04-Navarro-Guerrero2017Improving.jpeg"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-04-Navarro-Guerrero2017Improving.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-04-Navarro-Guerrero2017Improving.bib"
 slides: 
 supplementary: "https://figshare.com/s/becd4366e4ed38731353"
 code:
 
 year: 2017
-month: Mar
+month: April
 
 citation: {
 		"type": "article-journal",
@@ -42,7 +42,7 @@ citation: {
 		],
 		"issued": {
 			"year": "2017",
-			"month": "03",
+			"month": "04",
 		}
 	}
 ---
