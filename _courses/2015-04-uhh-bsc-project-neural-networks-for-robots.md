@@ -1,7 +1,7 @@
 ---
 year: 2015
 month: 04
-institution: University of Hamburg
+institution: Universität Hamburg
 
 semester: Summer Semester 2015
 code: LV 64-193

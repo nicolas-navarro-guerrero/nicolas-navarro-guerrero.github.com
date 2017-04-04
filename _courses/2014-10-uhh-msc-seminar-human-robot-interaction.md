@@ -1,7 +1,7 @@
 ---
 year: 2014
 month: 10
-institution: University of Hamburg
+institution: Universität Hamburg
 
 semester: Winter Semester 2014/2015
 code: LV 64-467
