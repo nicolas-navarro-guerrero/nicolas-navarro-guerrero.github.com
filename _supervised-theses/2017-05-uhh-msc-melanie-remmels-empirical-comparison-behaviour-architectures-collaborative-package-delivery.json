@@ -1,0 +1,45 @@
+---
+tags: [thesis, master, uhh, wtm, computer science, human-robot interaction, behaviour-based architectures]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2017-05-Remmels2017Comparison.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Wermter,
+        given: Stefan
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/HSUPR5IK",
+		"type": "thesis",
+		"title": "Comparison of Behaviour-Based Architectures for Human-Robot Collaboration in a Package Delivery Task",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "92",
+		"genre": "MSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "Various ways of robotic based package delivery are currently developed in different companies, in start-ups as well as in major enterprises. However, these systems do not collaborate with humans to perform their delivery. In collaborative human-robot tasks, it is of utmost importance that the robot performs the right action at the right time. This behaviour control is typically implemented using the Belief-Desire-Intention-concept (BDI) or state machines. Unfortunately, there is no well accepted common guideline when to use which one of these two approaches. From the literature it follows that state machines are often used for smaller, manageable applications and the BDI concept for hierarchically nested problems. In this thesis, we investigate a collaborative package delivery scenario and evaluate if state machines or the BDI-concept are better suited for this use case.\n\nThe behaviour, as central module of the use case, has been implemented with PROFETA, a BDI-framework, and SMACH, a state machine implementation for ROS. Both implementations have been analysed and compared in different categories. Our results show, that the BDI-framework was easier to implement, it needed less characters than the state machine implementation. In the dynamic comparison, where the CPU and memory usage have been analysed, both frameworks performed similarly. A big difference has been detected in the comparison of subjective parameters. SMACH is easier to use because tutorials are provided and it is supported by a community.\n\nOverall, SMACH should be preferred as framework for the implementation of small use cases like the one presented in this thesis. The BDI concept should be used for larger applications, with an implementation that provides better subjective values than PROFETA.",
+		"author": [
+			{
+				"family": "Remmels",
+				"given": "Melanie"
+			}
+		],
+		"issued": {
+			"year": "2017",
+			"month": "15",
+		}
+	}
+---
