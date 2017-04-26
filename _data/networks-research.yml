@@ -7,3 +7,8 @@
   username: 0000-0003-1164-5579
   baseurl: https://orcid.org
   icon: /assets/networking/orcid_64x64.png
+
+- name: figshare
+  username: Nicol_s_Navarro-Guerrero/2746636
+  baseurl: https://figshare.com/authors
+  icon: /assets/networking/figshare.png
