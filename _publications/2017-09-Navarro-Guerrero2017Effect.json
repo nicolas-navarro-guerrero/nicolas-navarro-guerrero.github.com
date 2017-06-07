@@ -1,0 +1,44 @@
+---
+tags: [proceedings, conferences, nociception, punishment, reinforcement learning, cacla, inverse kinematics]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: 
+
+thumbnail: 
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-09-Navarro-Guerrero2017Effect.bib"
+slides: 
+supplementary: 
+code:
+
+year: 2017
+month: September
+
+citation: {
+		"type": "paper-conference",
+		"title": "Effect of Different Negatively Valenced Types of Reinforcement Learning Signals for Robot Learning",
+		"container-title": "IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EPIROB)",
+		"publisher": "IEEE",
+		"publisher-place": "Lisbon, Portugal",
+		"event-place": "Lisbon, Portugal",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Lowe",
+				"given": "Robert"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+      "year": "2017",
+      "month": "09", 
+		}
+	}
+---
