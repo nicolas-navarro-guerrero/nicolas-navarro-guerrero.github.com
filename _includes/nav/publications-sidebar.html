@@ -1,6 +1,10 @@
 <ul class="nav nav-sidebar">
+  <li {% if page.slug == 'publications/chronological' %} class="active"{% endif %}><a href="/publications" title="Publications in Reverse Chronological Order">Chronological (i)</a></li>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug contains 'publications/by-type' %} class="active"{% endif %}><a href="/publications/by-type" title="Publications by Type">By type</a></li>
   <div class="list-group">
-    <a href="/publications" class="list-group-item">Chronological</a>
     <a href="/publications/by-type#journal" class="list-group-item">Journals</a>
 <!--     <a href="/publications/by-type#chapter" class="list-group-item">Chapters</a> -->
     <a href="/publications/by-type#conference" class="list-group-item">Conferences</a>
