@@ -6,45 +6,7 @@
   <div class="caption">
     <h4>{{ include.param.title }}<br><small>recorded and edited: {{ include.param.year }} -
         {% if include.param.month != null %}
-            {% if include.param.month == 1 or include.param.month == 'Jan' or include.param.month == 'January' or include.param.month == 'jan' or include.param.month == 'january' %}
-                Jan
-            {% endif %}
-            {% if include.param.month == 2 or include.param.month == 'Feb' or include.param.month == 'February' or include.param.month == 'feb' or include.param.month == 'february' %}
-                Feb
-            {% endif %}
-            {% if include.param.month == 3 or include.param.month == 'Mar' or include.param.month == 'March' or include.param.month == 'mar' or include.param.month == 'march' %}
-                Mar
-            {% endif %}
-
-            {% if include.param.month == 4 or include.param.month == 'Apr' or include.param.month == 'April' or include.param.month == 'apr' or include.param.month == 'april' %}
-                Apr
-            {% endif %}
-            {% if include.param.month == 5 or include.param.month == 'May' or include.param.month == 'may'%}
-                May
-            {% endif %}
-            {% if include.param.month == 6 or include.param.month == 'Jun' or include.param.month == 'June' or include.param.month == 'jun' or include.param.month == 'june' %}
-                Jun
-            {% endif %}
-
-            {% if include.param.month == 7 or include.param.month == 'Jul' or include.param.month == 'July' or include.param.month == 'jul' or include.param.month == 'july' %}
-                Jul
-            {% endif %}
-            {% if include.param.month == 8 or include.param.month == 'Aug' or include.param.month == 'August' or include.param.month == 'aug' or include.param.month == 'august' %}
-                Aug
-            {% endif %}
-            {% if include.param.month == 9 or include.param.month == 'Sep' or include.param.month == 'September' or include.param.month == 'sep' or include.param.month == 'september' %}
-                Sep
-            {% endif %}
-
-            {% if include.param.month == 10 or include.param.month == 'Oct' or include.param.month == 'October' or include.param.month == 'oct' or include.param.month == 'october' %}
-                Oct
-            {% endif %}
-            {% if include.param.month == 11 or include.param.month == 'Nov' or include.param.month == 'November' or include.param.month == 'nov' or include.param.month == 'november' %}
-                Nov
-            {% endif %}
-            {% if include.param.month == 12 or include.param.month == 'Dec' or include.param.month == 'December' or include.param.month == 'dec' or include.param.month == 'december' %}
-                Dec
-            {% endif %}
+          {% include 3-letters-month.html param=include.param.month %}
         {% endif %}
     </small></h4>
     <p>{{ include.param.description }}</p>

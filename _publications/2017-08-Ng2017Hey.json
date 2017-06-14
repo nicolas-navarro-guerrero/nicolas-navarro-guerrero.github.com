@@ -24,6 +24,7 @@ citation: {
 		"publisher-place": "Lisbon, Portugal",
 		"event": "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)",
 		"event-place": "Lisbon, Portugal",
+		"bibtex": "Ng2017Hey",
 		"author": [
 			{
 				"family": "Ng",

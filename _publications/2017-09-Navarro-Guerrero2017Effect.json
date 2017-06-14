@@ -22,6 +22,7 @@ citation: {
 		"publisher": "IEEE",
 		"publisher-place": "Lisbon, Portugal",
 		"event-place": "Lisbon, Portugal",
+		"bibtex": "Navarro-Guerrero2017Effect",
 		"author": [
 			{
 				"family": "Navarro-Guerrero",
