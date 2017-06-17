@@ -7,34 +7,36 @@ title: Contact
 author: Nicolás Navarro-Guerrero
 ---
 <div class="row">
-  <div class="col-md-12">
-    <!--{% include photo.html %}-->
-    {% include my-address.html %}
-  </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        {% include my-address.html %}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+        {% include map.html %}
+    </div>
+</div><!-- row -->
 
-  <div class="col-md-12"> &nbsp; </div>
+<p style="margin-top:75px;"></p>
 
-  <div class="col-md-12">
-    <p class="text-center"><strong>Find Me Elsewhere</strong></p>
-    <p class="text-center">
-      {% for item in site.data.account-repositories %}
+<p class="text-center"><strong>Find Me Elsewhere</strong></p>
+<p class="text-center">
+    {% for item in site.data.account-repositories %}
         <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-      {% endfor %}
-      {% for item in site.data.account-videos %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-      {% endfor %}
-      {% for item in site.data.account-reference-management %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-      {% endfor %}
-      {% for item in site.data.networks-research %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-      {% endfor %}
-    </p>
-  </div>
+    {% endfor %}
 
-  <div class="col-md-12"> &nbsp; </div>
+    {% for item in site.data.account-videos %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% endfor %}
 
-  <div class="col-md-12">
-      {{ site.data.disclaimer }}
-  </div>
-</div>
+    {% for item in site.data.account-reference-management %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% endfor %}
+
+    {% for item in site.data.networks-research %}
+    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% endfor %}
+</p>
+
+<p style="margin-top:75px;"></p>
+
+{{ site.data.disclaimer }}
+
