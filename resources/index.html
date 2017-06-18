@@ -1,17 +1,42 @@
 ---
 layout: with-sidebar
 slug: resources
-tags: [overview, resources, links, source code, software]
+tags: [overview, resources, links, source code, software, datasets, supplementary material, ethics, scientific writing, software development tools, LaTeX, open access, open source]
 
 title: Resources
 subtitle: Overview
 author: Nicolás Navarro-Guerrero
 ---
+Ever evolving list of links to software, datasets and tools where I have been involved as part of my research. Here you will also find a collection of links to tools and guidelines that I regularly use.
+<!-- -->
+<!-- -->
+<h3 class="sub-header id-header" id="software">Software</h3>
+<p class="text-center">In the meanwhile check my public repositories at:</p>
+<p class="text-center">
+    {% for item in site.data.account-repositories %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% endfor %}
+</p>
+<!-- -->
+<!-- -->
+<h3 class="sub-header id-header" id="datasets">Datasets and Supplementary Material</h3>
+<p class="text-center">Find my published Datasets and Supplementary Material in figshare: </p>
+<p class="text-center"><a href="https://figshare.com/authors/Nicol_s_Navarro-Guerrero/2746636" target="_blank"><img src="/assets/networking/figshare.png" alt="figshare" style="height:45px;"></a></p>
+<!-- -->
+<!-- -->
+<h3 class="sub-header id-header" id="ethics">Research and Publication Ethics</h3>
+{% include resources/research-ethics.html %}
+<h3 class="sub-header id-header" id="writing">Scientific Writing</h3>
+{% include teaching/thesis-resources.html %}
+<!-- -->
+<!-- -->
 <h3 class="sub-header id-header" id="programming">Software Development Tools</h3>
 {% include resources/links-software-tools.html %}
-
+<!-- -->
+<!-- -->
 <h3 class="sub-header id-header" id="latex">LaTeX</h3>
 {% include resources/links-latex-tools.html %}
-
+<!-- -->
+<!-- -->
 <h3 class="sub-header id-header" id="research">Research Tools</h3>
 {% include resources/links-research-tools.html %}

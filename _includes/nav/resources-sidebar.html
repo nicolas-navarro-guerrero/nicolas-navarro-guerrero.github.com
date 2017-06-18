@@ -1,5 +1,16 @@
 <ul class="nav nav-sidebar">
+  <li {% if page.slug == 'resources' %} class="active"{% endif %}><a href="/resources" title="Research Outputs">Research Outputs</a></li>
   <div class="list-group">
+    <a href="/resources#software" class="list-group-item">Software</a>
+    <a href="/resources#datasets" class="list-group-item">Datasets and Supplementary Material</a>
+  </div>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug == 'resources/links' %} class="active"{% endif %}><a href="/resources#ethics" title="Collection of External Links">External Links</a></li>
+  <div class="list-group">
+    <a href="/resources#ethics" class="list-group-item">Ethics</a>
+    <a href="/resources#writing" class="list-group-item">Scientific Writing</a>
     <a href="/resources#programming" class="list-group-item">Programming</a>
     <a href="/resources#latex" class="list-group-item">Latex</a>
     <a href="/resources#research" class="list-group-item">Research Tools</a>
