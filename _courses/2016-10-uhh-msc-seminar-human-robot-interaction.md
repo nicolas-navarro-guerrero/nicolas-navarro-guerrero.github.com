@@ -7,7 +7,7 @@ institution: Universität Hamburg
 semester: Fall 2016
 code: LV 64-467
 type: Integrated Seminar
-name: <a href="https://www.informatik.uni-hamburg.de/wtm/teaching/WiSe16_HumanRobotInteraction_Pj.shtml" title="Details">Human-Robot Interaction</a>
+name: <a href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm/teaching/teaching-2016-ws-human-robot-interaction-project.html" title="Details" target="_blank">Human-Robot Interaction</a>
 teachers: Heinrich, Navarro, Twiefel, Weber, Wermter
 
 tags: [master, seminar, uhh, wtm]
