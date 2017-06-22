@@ -9,7 +9,7 @@ thumbnail:
 file: "http://ediss.sub.uni-hamburg.de/volltexte/2016/7890/pdf/Dissertation.pdf"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2016-05-Navarro-Guerrero2016Neurocomputational.bib"
 slides: 
-supplementary:
+supplementary: "https://gitlab.com/nicolas-navarro-guerrero/thesis-nng-uhh-drawings"
 code:
 
 year: 2016
