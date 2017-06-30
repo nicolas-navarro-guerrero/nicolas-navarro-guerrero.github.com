@@ -15,16 +15,23 @@ month: 11
 
 supervisors: [
       {
-        family: Wermter,
-        given: Stefan
-      },
-      {
         family: Navarro-Guerrero,
         given: Nicolás
       },
       {
         family: Magg,
         given: Sven
+      },
+    ]
+
+examiners: [
+      {
+        family: Wermter,
+        given: Stefan
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
       },
     ]
 

@@ -12,6 +12,13 @@ code:
 
 supervisors: [
       {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
         family: Wermter,
         given: Stefan
       },

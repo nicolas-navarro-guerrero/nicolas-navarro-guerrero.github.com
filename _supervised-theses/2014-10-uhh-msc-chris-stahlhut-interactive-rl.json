@@ -13,7 +13,7 @@ code:
 year: 2014
 month: 10
 
-supervisors: [
+examiners: [
       {
         family: Wermter,
         given: Stefan
@@ -22,6 +22,9 @@ supervisors: [
         family: Weber,
         given: Cornelius
       },
+    ]
+
+supervisors: [
       {
         family: Navarro-Guerrero,
         given: Nicolás

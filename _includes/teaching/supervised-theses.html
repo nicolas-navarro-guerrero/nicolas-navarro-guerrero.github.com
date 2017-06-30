@@ -10,6 +10,7 @@
               <th>Institution</th>
               <th>Name</th>
               <th>Supervisors</th>
+              <th>Examiners</th>
               <th>Title</th>
               <th>Material</th>
             </tr>
@@ -25,6 +26,9 @@
           {{ authors.given }} {{ authors.family }}
         {% endfor %}</td>
     <td>{% for super in supThesis.supervisors %}
+          {{ super.given }} {{ super.family }};<br>
+        {% endfor %}</td>
+    <td>{% for super in supThesis.examiners %}
           {{ super.given }} {{ super.family }};<br>
         {% endfor %}</td>
     <td>{{ supThesis.citation.title }}</td>

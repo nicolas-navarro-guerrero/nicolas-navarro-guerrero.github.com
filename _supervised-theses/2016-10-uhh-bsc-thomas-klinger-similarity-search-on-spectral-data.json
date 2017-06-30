@@ -18,6 +18,13 @@ supervisors: [
         family: Weber,
         given: Cornelius
       },
+    ]
+
+examiners: [
+      {
+        family: Weber,
+        given: Cornelius
+      },
       {
         family: Navarro-Guerrero,
         given: Nicolás
