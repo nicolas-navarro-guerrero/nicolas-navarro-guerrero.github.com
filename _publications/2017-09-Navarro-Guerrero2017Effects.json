@@ -1,0 +1,46 @@
+---
+tags: [proceedings, conference, nociception, punishment, reinforcement learning, cacla, inverse kinematics]
+categories: publications
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: 
+
+thumbnail: 
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-09-Navarro-Guerrero2017Effects.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-09-Navarro-Guerrero2017Effects.bib"
+slides: 
+supplementary: "https://figshare.com/s/1eba690a643302c08e72"
+code:
+
+year: 2017
+month: September
+
+citation: {
+		"type": "paper-conference",
+		"title": "The Effects on Adaptive Behaviour of Negatively Valenced Signals in Reinforcement Learning",
+		"container-title": "IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EPIROB)",
+		"publisher": "IEEE",
+		"publisher-place": "Lisbon, Portugal",
+		"event-place": "Lisbon, Portugal",
+		"abstract": "Reinforcement learning algorithms and particularly those based on temporal-difference learning are widely adopted and have been successfully applied to a number of problems as well as used to model animal learning. However, they are based on neural pathways involved in reward-seeking behaviour since little is known about punishment-driven learning and less still about the combined effects of both types of reinforcement on learning. This may not only be a shortcoming for computational models of human and animal learning but we have recently shown that it may also carry detrimental effects for machine learning applications, with respect to task performance and convergence speed. Here, we further explore our original results and compare the effects of different functions, i.e. binary, linear, exponential with different variance, for punishment on learning. Our experiments confirm the original finding of punishment signals reducing learning speed. It appears this result generalizes across a number of different functions of punishment reinforcement.",
+		"bibtex": "Navarro-Guerrero2017Effects",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Lowe",
+				"given": "Robert"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+      "year": "2017",
+      "month": "09", 
+		}
+	}
+---
