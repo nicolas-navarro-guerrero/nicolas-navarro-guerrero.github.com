@@ -1,0 +1,109 @@
+---
+tags: [proceedings, conference, hri, human-robot interaction, personalization, nico robot, msc project]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: "&copy;2017 The Authors."
+license: "ACM"
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-10-Churamani2017Impact.jpeg"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-10-Churamani2017Impact.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2017-10-Churamani2017Impact.bib"
+slides: 
+supplementary: 
+code:
+
+year: 2017
+month: October
+
+citation: {
+		"type": "paper-conference",
+		"title": "The Impact of Personalization on Human-Robot Interaction in Learning Scenarios",
+		"container-title": "International Conference on Human-Agent Interaction (HAI)",
+		"publisher": "ACM",
+		"publisher-place": "Bielefeld, Germany",
+		"event": "International Conference on Human-Agent Interaction (HAI)",
+		"event-place": "Bielefeld, Germany",
+		"abstract": "Advancements in Human-Robot Interaction involve robots being more responsive and adaptive to the human user they are interacting with. For example, robots model a personalised dialogue with humans, adapting the conversation to accommodate the user's preferences in order to allow natural interactions. This study investigates the impact of such personalised interaction capabilities of a human companion robot on its social acceptance, perceived intelligence and likeability in a human-robot interaction scenario. In order to measure this impact, the study makes use of an object learning scenario where the user teaches different objects to the robot using natural language. An interaction module is built on top of the learning scenario which engages the user in a personalised conversation before teaching the robot to recognise different objects. The two systems, i.e.\\ with and without the interaction module, are compared with respect to how different users rate the robot on its intelligence and sociability. Although the system equipped with personalised interaction capabilities is rated lower on social acceptance, it is perceived as more intelligent and likeable by the users.",
+		"bibtex": "Churamani2017Impact",
+		"DOI": "10.1145/3125739.3125756",
+		"ISBN": "978-1-4503-5113-3",
+		"author": [
+			{
+				"family": "Churamani",
+				"given": "Nikhil"
+			},
+			{
+				"family": "Anton",
+				"given": "Paul"
+			},
+			{
+				"family": "Brügger",
+				"given": "Marc"
+			},
+			{
+				"family": "Fließwasser",
+				"given": "Erik"
+			},
+			{
+				"family": "Hummel",
+				"given": "Thomas"
+			},
+			{
+				"family": "Mayer",
+				"given": "Julius"
+			},
+			{
+				"family": "Mustafa",
+				"given": "Waleed"
+			},
+			{
+				"family": "Ng",
+				"given": "Hwei Geok"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Quan"
+			},
+			{
+				"family": "Soll",
+				"given": "Marcus"
+			},
+			{
+				"family": "Springenberg",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Griffiths",
+				"given": "Sascha"
+			},
+			{
+				"family": "Heinrich",
+				"given": "Stefan"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Strahl",
+				"given": "Erik"
+			},
+			{
+				"family": "Twiefel",
+				"given": "Johannes"
+			},
+			{
+				"family": "Weber",
+				"given": "Cornelius"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+      "year": "2017",
+      "month": "10", 
+		}
+	}
+---
