@@ -18,6 +18,7 @@ month: August
 citation: {
 		"type": "paper-conference",
 		"title": "Hey Robot, Why Don’t You Talk to Me?",
+		"page": "728-731",
 		"container-title": "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)",
 		"collection-title": "Video Submission",
 		"publisher": "IEEE",
@@ -25,6 +26,7 @@ citation: {
 		"event": "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)",
 		"event-place": "Lisbon, Portugal",
 		"bibtex": "Ng2017Hey",
+		"abstract": "This paper describes the techniques used in the submitted video presenting an interaction scenario, realised using the Neuro-Inspired Companion (NICO) robot. NICO engages the users in a personalised conversation where the robot always tracks the users' face, remembers them and interacts with them using natural language. NICO can also learn to perform tasks such as remembering and recalling objects and thus can assist users in their daily chores. The interaction system helps the users to interact as naturally as possible with the robot, enriching their experience with the robot, making it more interesting and engaging.",
 		"author": [
 			{
 				"family": "Ng",
