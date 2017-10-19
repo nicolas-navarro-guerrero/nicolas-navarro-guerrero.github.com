@@ -26,6 +26,8 @@ citation: {
 		"abstract": "A comparison between behavioural architectures, specifically a BDI architecture and a finite-state machine, for a collaborative package delivery system is presented. The system should assist a user in handling packages in cluttered environments. The entire system is built using open-source solutions for modules including speech recognition, person detection and tracking, and navigation. For the comparison, we use three criteria, namely, a static implementation-based comparison, a dynamic comparison and a qualitative comparison. Based on our results, we provide experimental evidence that supports the theoretical consensus about the domain of applicability for both, BDI architectures and finite-state machines. However, we cannot support or discourage any of the tested architectures for the particular case of the collaborative package delivery scenario, due to the non-overlapping strengths and weakness of both approaches. Finally, we outline future improvements to the system itself as well as the comparison of both behavioural architectures.",
 		"bibtex": "Remmels2017Comparison",
 		"DOI": "10.1145/3125739.3125764",
+		"url": "https://dl.acm.org/citation.cfm?doid=3125739.3125764",
+		"pages": "121--129",
 		"ISBN": "978-1-4503-5113-3",
 		"author": [
 			{

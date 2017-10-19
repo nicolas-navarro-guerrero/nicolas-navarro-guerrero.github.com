@@ -26,6 +26,8 @@ citation: {
 		"abstract": "Advancements in Human-Robot Interaction involve robots being more responsive and adaptive to the human user they are interacting with. For example, robots model a personalised dialogue with humans, adapting the conversation to accommodate the user's preferences in order to allow natural interactions. This study investigates the impact of such personalised interaction capabilities of a human companion robot on its social acceptance, perceived intelligence and likeability in a human-robot interaction scenario. In order to measure this impact, the study makes use of an object learning scenario where the user teaches different objects to the robot using natural language. An interaction module is built on top of the learning scenario which engages the user in a personalised conversation before teaching the robot to recognise different objects. The two systems, i.e.\\ with and without the interaction module, are compared with respect to how different users rate the robot on its intelligence and sociability. Although the system equipped with personalised interaction capabilities is rated lower on social acceptance, it is perceived as more intelligent and likeable by the users.",
 		"bibtex": "Churamani2017Impact",
 		"DOI": "10.1145/3125739.3125756",
+		"url": "https://dl.acm.org/citation.cfm?doid=3125739.3125756",
+		"pages": "171--180",
 		"ISBN": "978-1-4503-5113-3",
 		"author": [
 			{
