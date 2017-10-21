@@ -3,6 +3,11 @@
   baseurl: https://www.researchgate.net/profile
   icon: /assets/networking/RG-Logo.png
 
+- name: Google Scholar
+  username: citations?user=SeQvYQ0AAAAJ
+  baseurl: https://scholar.google.de
+  icon: /assets/networking/google-scholar-64x64.png
+
 - name: orcid
   username: 0000-0003-1164-5579
   baseurl: https://orcid.org

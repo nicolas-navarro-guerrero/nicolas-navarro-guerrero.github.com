@@ -11,7 +11,7 @@
 
       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
         <div class="thumbnail">
-          <a href="{{ projs.slug }}"><img src="{{ projs.thumbnail }}" class="img-rounded img-responsive" alt="thumbnail"></a>
+          <a href="{{ projs.slug }}"><img class="img-rounded img-responsive" src="{% if projs.thumbnail != null %}{{ projs.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" alt="project thumbnail"></a>
           <div class="caption">
             <a href="{{ projs.slug }}"><h4 class="text-center">{{ projs.title }}</h4></a>
             <p class="text-center">{{ projs.start }} &#187; {{ projs.end }}</p>
@@ -24,3 +24,4 @@
 {% if counter != 0 %}
     </div><!-- row -->
 {% endif %}
+

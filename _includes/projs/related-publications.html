@@ -1,5 +1,13 @@
+{% assign isrelatedpapers = null %}
 <div class="col-md-12">
   {% if include.param.relatedpapers != null %}
+    {% for papers in site.publications reversed %}
+        {% if papers.tags contains include.param.relatedpapers %}
+            {% assign isrelatedpapers = 1 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if isrelatedpapers %}
     <hr>
     <h3>Related Publications:</h3>
     <ol>
@@ -11,5 +19,7 @@
         {% endif %}
       {% endfor %}
     </ol>
+    {% endif %}
   {% endif %}
 </div><!-- column -->
+

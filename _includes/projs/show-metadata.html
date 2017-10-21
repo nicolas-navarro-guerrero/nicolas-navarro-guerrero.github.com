@@ -25,7 +25,9 @@
           <p>End Date: {{ include.param.end }}</p>
           {% if include.param.funded != null %}
             <p>Funded by {{ include.param.funded }}</p>
-            <p>Project Code or Grant Number: {{ include.param.grant }}</p>
+            {% if include.param.grant %}
+              <p>Project Code or Grant Number: {{ include.param.grant }}</p>
+            {% endif %}
           {% endif %}
         </div>
       </div>
