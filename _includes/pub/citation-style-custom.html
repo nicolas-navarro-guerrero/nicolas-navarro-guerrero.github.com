@@ -6,19 +6,26 @@
 <strong>{{ include.param.citation.title }}</strong></br>
 {{ include.param.citation.container-title }}.
 {{ include.param.citation.event }}.
-{% if include.param.citation.volume != null %}
-  vol. {{ include.param.citation.volume }}
-  {% if include.param.citation.collection-title != null %}
-      of {{ include.param.citation.collection-title }}
-  {% endif %}
-  ,
+
+{% if include.param.citation.volume and include.param.citation.collection-title %}
+  vol. {{ include.param.citation.volume }} of {{ include.param.citation.collection-title }},
+{% elsif include.param.citation.volume %}
+  vol. {{ include.param.citation.volume }},
 {% endif %}
+
 {% if include.param.citation.issue != null %}
   no. {{ include.param.citation.issue }},
 {% endif %}
-{% if include.param.citation.page != null %}
-  pp. {{ include.param.citation.page }},
+{% assign pagesnumbers = null %}
+{% if include.param.citation.page %}
+  {% assign pagesnumbers = include.param.citation.page %}
+{% elsif include.param.citation.pages %}
+  {% assign pagesnumbers = include.param.citation.pages %}
 {% endif %}
+{% if pagesnumbers %}
+  pp. {{ pagesnumbers }},
+{% endif %}
+
 {% if include.param.citation.event-place != null %}
   {{ include.param.citation.event-place }},
 {% endif %}
@@ -30,12 +37,26 @@
 {% endif %}
 </br>
 
-{% if include.param.citation.DOI != null %}
-  <a href="http://dx.doi.org/{{ include.param.citation.DOI }}" target="_blank"> doi</a>, 
+{% assign doicode = null %}
+{% if include.param.citation.DOI %}
+  {% assign doicode = include.param.citation.DOI %}
+{% elsif include.param.citation.doi %}
+  {% assign doicode = include.param.citation.doi %}
 {% endif %}
-{% if include.param.citation.URL != null %}
-  <a href="{{ include.param.citation.URL }}" target="_blank"> url</a>, 
+{% if doicode %}
+  <a href="http://dx.doi.org/{{ doicode }}" target="_blank"> doi</a>, 
 {% endif %}
+
+{% assign urlcode = null %}
+{% if include.param.citation.URL %}
+  {% assign urlcode = include.param.citation.URL %}
+{% elsif include.param.citation.url %}
+  {% assign urlcode = include.param.citation.url %}
+{% endif %}
+{% if urlcode %}
+  <a href="{{ urlcode }}" target="_blank"> url</a>, 
+{% endif %}
+
 {% if include.param.rights != null %}
   {{ include.param.rights }}, 
 {% endif %}
