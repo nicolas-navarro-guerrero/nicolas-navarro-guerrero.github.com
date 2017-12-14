@@ -1,4 +1,5 @@
 - name: tumblr
   username: 
-  baseurl: http://nicolas-navarro-guerrero.tumblr.com
-  icon: /assets/networking/tumblr-icon_64x64.png
+  baseurl: http://nng-fres.tumblr.com/
+  icon: /assets/networking/tumblr-logo-whiteonblue-512.png
+
