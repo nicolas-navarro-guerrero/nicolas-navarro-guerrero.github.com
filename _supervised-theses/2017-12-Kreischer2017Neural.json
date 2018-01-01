@@ -1,0 +1,51 @@
+---
+tags: [thesis, master, diplom, uhh, wtm, computer science, echo state networks, time-series prediction, image sharpness]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2017-12-Kreischer2017Neural.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Weber,
+        given: Cornelius
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/NKUA8DRK",
+		"type": "thesis",
+		"title": "Neural Forecasting of the Sharpness of Images Taken by Walking Humanoid Robots",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "112",
+		"genre": "Diplom",
+		"event-place": "Hamburg, Germany",
+		"author": [
+			{
+				"family": "Kreischer",
+				"given": "Daniel T."
+			}
+		],
+		"issued": {
+			"year": "2017",
+			"month": "12",
+		}
+	}
+---

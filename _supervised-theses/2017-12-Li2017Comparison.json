@@ -1,0 +1,56 @@
+---
+tags: [thesis, bachelor, bsc, uhh, wtm, computer science, echo state networks, comparison]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2017-12-Li2017Comparison.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Hinaut,
+        given: Xavier
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Hinaut,
+        given: Xavier
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/JGR8ANSV",
+		"type": "thesis",
+		"title": "Comparison of Design Methodologies of Echo State Networks",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "61",
+		"genre": "BSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "In this work, we compare the design methodologies of Echo State Networks proposed by Ozturk et al. (2007), Boedecker et al. (2009) and Yildiz et al. (2012). We test their capability to predict Mackey-Glass time chaotic series and learning Elman’s grammar, which are standard benchmarks.",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yang"
+			}
+		],
+		"issued": {
+			"year": "2017",
+			"month": "12",
+		}
+	}
+---

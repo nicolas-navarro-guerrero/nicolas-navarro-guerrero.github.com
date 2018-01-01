@@ -1,0 +1,53 @@
+---
+tags: [thesis, bachelor, bsc, uhh, wtm, computer science, signal processing, speech recognition]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2017-12-RodriguezParraFlores2017BioInspired.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Twiefel,
+        given: Johannes
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/PDQVLZSK",
+		"type": "thesis",
+		"title": "Bio-Inspired Auditory Signal Processing for Speech Recognition",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "54",
+		"genre": "BSc",
+		"event-place": "Hamburg, Germany",
+		"abstract": "With the advances in technology, speech is becoming a standard way to interplay with computers. For the human being, communication through speech has been around for thousands of years. Years of evolution have reproduced a fascinating speech recognition system that performs well in noisy environments, while Automatic Speech Recognition tools perform poorly. However, it is an inevitable problem for computers to endure noisy environment. Known models of the peripheral auditory system and speech enhancement neural approaches have the potential of improving verbal interaction with a computer. This thesis presents the possibility of improving the Word Error Rate of the Google Speech Recognition web API with the introduction of a bio-inspired filter.",
+		"author": [
+			{
+				"family": "Rodriguez Parra Flores",
+				"given": "Jose Alberto"
+			}
+		],
+		"issued": {
+			"year": "2017",
+			"month": "12",
+		}
+	}
+---
+
