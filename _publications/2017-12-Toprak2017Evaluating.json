@@ -1,0 +1,49 @@
+---
+tags: [journal, msc thesis, nao, tactile sensing, object recognition, multimodal integration, brain-inspired architectures]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: "&copy;2017 The Authors."
+license: "Springer US"
+
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-12-Toprak2017Evaluating.jpeg"
+file: "https://link.springer.com/content/pdf/10.1007%2Fs12559-017-9536-7.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-12-Toprak2017Evaluating.bib"
+slides: 
+supplementary: "https://figshare.com/s/9a98476827a372ba8708"
+code:
+
+year: 2017
+month: December
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/MLEAFVHG",
+		"type": "article-journal",
+		"title": "Evaluating Integration Strategies for Visuo-Haptic Object Recognition",
+		"container-title": "Cognitive Computation",
+		"page": "1-18",
+		"source": "link.springer.com",
+		"abstract": "In computational systems for visuo-haptic object recognition, vision and haptics are often modeled as separate processes. But this is far from what really happens in the human brain, where cross- as well as multimodal interactions take place between the two sensory modalities. Generally, three main principles can be identified as underlying the processing of the visual and haptic object-related stimuli in the brain: (1) hierarchical processing, (2) the divergence of the processing onto substreams for object shape and material perception, and (3) the experience-driven self-organization of the integratory neural circuits. The question arises whether an object recognition system can benefit in terms of performance from adopting these brain-inspired processing principles for the integration of the visual and haptic inputs. To address this, we compare the integration strategy that incorporates all three principles to the two commonly used integration strategies in the literature. We collected data with a NAO robot enhanced with inexpensive contact microphones as tactile sensors. The results of our experiments involving every-day objects indicate that (1) the contact microphones are a good alternative to capturing tactile information and that (2) organizing the processing of the visual and haptic inputs hierarchically and in two pre-processing streams is helpful performance-wise. Nevertheless, further research is needed to effectively quantify the role of each identified principle by itself as well as in combination with others.",
+		"URL": "https://link.springer.com/article/10.1007/s12559-017-9536-7",
+		"DOI": "10.1007/s12559-017-9536-7",
+		"ISSN": "1866-9956, 1866-9964",
+		"journalAbbreviation": "Cogn Comput",
+		"author": [
+			{
+				"family": "Toprak",
+				"given": "Sibel"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+          "year": "2017",
+          "month": "10", 
+		}
+	}
+---
