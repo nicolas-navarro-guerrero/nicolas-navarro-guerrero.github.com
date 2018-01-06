@@ -25,6 +25,9 @@ citation: {
 		"event": "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)",
 		"event-place": "Lisbon, Portugal",
 		"bibtex": "Kerzel2017NICO",
+		"ISBN": "978-1-5386-3518-6",
+		"DOI": "10.1109/ROMAN.2017.8172289",
+		"URL": "http://ieeexplore.ieee.org/document/8172289/",
 		"abstract": "Interdisciplinary research, drawing from robotics, artificial intelligence, neuroscience, psychology, and cognitive science, is a cornerstone to advance the state-of-the-art in multimodal human-robot interaction and neuro-cognitive modeling. Research on neuro-cognitive models benefits from the embodiment of these models into physical, humanoid agents that possess complex, human-like sensorimotor capabilities for multimodal interaction with the real world. For this purpose, we develop and introduce NICO (Neuro-Inspired COmpanion), a humanoid developmental robot that fills a gap between necessary sensing and interaction capabilities and flexible design. This combination makes it a novel neuro-cognitive research platform for embodied sensorimotor computational and cognitive models in the context of multimodal interaction as shown in our results.",
 		"author": [
 			{
