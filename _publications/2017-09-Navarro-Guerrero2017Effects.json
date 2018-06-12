@@ -24,6 +24,10 @@ citation: {
 		"event-place": "Lisbon, Portugal",
 		"abstract": "Reinforcement learning algorithms and particularly those based on temporal-difference learning are widely adopted and have been successfully applied to a number of problems as well as used to model animal learning. However, they are based on neural pathways involved in reward-seeking behaviour since little is known about punishment-driven learning and less still about the combined effects of both types of reinforcement on learning. This may not only be a shortcoming for computational models of human and animal learning but we have recently shown that it may also carry detrimental effects for machine learning applications, with respect to task performance and convergence speed. Here, we further explore our original results and compare the effects of different functions, i.e. binary, linear, exponential with different variance, for punishment on learning. Our experiments confirm the original finding of punishment signals reducing learning speed. It appears this result generalizes across a number of different functions of punishment reinforcement.",
 		"bibtex": "Navarro-Guerrero2017Effects",
+		"URL": "https://ieeexplore.ieee.org/document/8329800/",
+		"DOI": "10.1109/DEVLRN.2017.8329800",
+		"ISBN": "978-1-5386-3715-9",
+		"source": "IEEE Xplore",
 		"author": [
 			{
 				"family": "Navarro-Guerrero",
