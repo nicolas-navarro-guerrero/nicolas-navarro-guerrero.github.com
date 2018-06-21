@@ -1,0 +1,54 @@
+---
+tags: [journal, msc thesis, cnn, deep learning, hyperparameter optimization]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: "&copy;2018 The Authors."
+license: "World Scientific Publishing Europe Ltd."
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+code:
+
+year: 2018
+month: June
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/5E7ICVE9",
+		"type": "article-journal",
+		"title": "Speeding up the Hyperparameter Optimization of Deep Convolutional Neural Networks",
+		"container-title": "International Journal of Computational Intelligence and Applications",
+		"page": "1850008",
+		"volume": "17",
+		"issue": "2",
+		"abstract": "Most learning algorithms require the practitioner to manually set the values of many hyperparameters before the learning process can begin. However, with modern algorithms, the evaluation of a given hyperparameter setting can take a considerable amount of time and the search space is often very high-dimensional. We suggest using a lower-dimensional representation of the original data to quickly identify promising areas in the hyperparameter space. This information can then be used to initialize the optimization algorithm for the original, higher-dimensional data. We compare this approach with the standard procedure of optimizing the hyperparameters only on the original input.\n\nWe perform experiments with various state-of-the-art hyperparameter optimization algorithms such as random search, the tree of parzen estimators (TPEs), sequential model-based algorithm configuration (SMAC), and a genetic algorithm (GA). Our experiments indicate that it is possible to speed up the optimization process by using lower-dimensional data representations at the beginning, while increasing the dimensionality of the input later in the optimization process. This is independent of the underlying optimization procedure, making the approach promising for many existing hyperparameter optimization algorithms.",
+		"URL": "https://www.worldscientific.com/doi/abs/10.1142/S1469026818500086",
+		"DOI": "10.1142/S1469026818500086",
+		"ISSN": "1757-5885",
+		"note": "Open Access",
+		"author": [
+			{
+				"family": "Hinz",
+				"given": "Tobias"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Magg",
+				"given": "Sven"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+          "year": "2018",
+          "month": "06", 
+		}
+	}
+---
