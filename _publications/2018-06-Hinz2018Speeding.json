@@ -5,9 +5,9 @@ author: "Nicolás Navarro-Guerrero"
 rights: "&copy;2018 The Authors."
 license: "World Scientific Publishing Europe Ltd."
 
-thumbnail: 
-file: 
-bibtex: 
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2018-06-Hinz2018Speeding.png"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2018-06-Hinz2018Speeding_pre-print.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2018-06-Hinz2018Speeding.bib"
 slides: 
 supplementary: 
 code:
