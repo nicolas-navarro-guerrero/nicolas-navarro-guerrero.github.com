@@ -1,0 +1,51 @@
+---
+tags: [thesis, master, au, ausrl, computer science, social gaze, face recognition]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2018-06-Andersen2018Head.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Chrysostomou,
+        given: Dimitris
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/VN6IWH9D",
+		"type": "thesis",
+		"title": "Head and Gaze Detector for Human-Robot Interaction Applications",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"number-of-pages": "49",
+		"genre": "MSc",
+		"event-place": "Aarhus, Denmark",
+		"author": [
+			{
+				"family": "Andersen",
+				"given": "Casper Bonn Beenfeldt"
+			}
+		],
+		"issued": {
+			"year": "2018",
+			"month": "6",
+		}
+	}
+---
