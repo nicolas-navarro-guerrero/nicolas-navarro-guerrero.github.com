@@ -1,7 +1,7 @@
 ---
 layout: home
 slug: home
-tags: [robotics and automation research, R&D, R&D&i, ai, researcher, socially relevant challenges, embodied and developmental robotics, developmental cognition, publications, projects, research interests, multidisciplinary]
+tags: [robotics and automation research, R&D, R&D&i, ai, researcher, socially relevant challenges, embodied and developmental robotics, developmental cognition, publications, projects, research interests, multidisciplinary, news]
 
 title: Home
 subtitle: Robotics and AI Researcher
@@ -49,11 +49,21 @@ author: Nicolás Navarro-Guerrero
 </div><!-- row -->
 
 <div hidden class="home">
-  <h2 class="page-heading">News</h2>
+  <hr>
+  <h3><a href="/news/">Latest News <span class="caret"></span></a></h3>
+
+    {% include news/latest.html param='3' %}
+
+<div class="row">
+    <div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4" >
+        <a class="btn btn-primary btn-lg btn-block" href="/publications" role="button">See All News <span class="caret"></span></a>
+    </div>
+</div><!-- row -->
+<!-- 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date_to_string }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -61,4 +71,5 @@ author: Nicolás Navarro-Guerrero
       </li>
     {% endfor %}
   </ul>
+ -->
 </div>

@@ -1,0 +1,18 @@
+{% assign counter = 0 %}
+
+<ul class="media-list">
+  {% for post in site.posts %}
+    {% unless post.categories contains 'template' %}
+
+      {% capture counter %}{{ counter | plus: '1' }}{% endcapture %}
+
+      {% if counter <= include.param %}
+        {% include news/list.html param=post %}
+      {% else %}
+	{% break %}
+      {% endif %}
+
+    {% endunless %}
+  {% endfor %}
+</ul>
+
