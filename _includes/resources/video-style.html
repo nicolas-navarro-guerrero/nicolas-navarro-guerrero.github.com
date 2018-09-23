@@ -1,0 +1,36 @@
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="{{ include.param.source }}" {{ include.param.iframe }}></iframe>
+    {{ include.param.caption }}
+  </div>
+  <div class="caption">
+    <h4>{{ include.param.title }}<br><small>recorded and edited: {{ include.param.year }} -
+        {% if include.param.month != null %}
+          {% include 3-letters-month.html param=include.param.month %}
+        {% endif %}
+    </small></h4>
+    <p>{{ include.param.description }}</p>
+
+    <ul class="list-unstyled">
+    {% for papers in site.publications reversed %}
+      {% if papers.categories != 'template' %}
+        {% if include.param.bibtex contains papers.citation.bibtex %}
+          <br>
+          <li>
+          <small>{% include pub/citation-style-citeulike.html param=papers %}</small>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for papers in site.pub-collaborations reversed %}
+      {% if include.param.bibtex contains papers.citation.bibtex %}
+        <br>
+        <li>
+        <small>{% include pub/citation-style-citeulike.html param=papers %}</small>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>

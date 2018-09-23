@@ -1,18 +1,27 @@
 <ul class="nav nav-sidebar">
-  <li {% if page.slug == 'resources' %} class="active"{% endif %}><a href="/resources" title="Research Outputs">Research Outputs</a></li>
+  <li {% if page.slug == 'resources' %} class="active"{% endif %}><a href="/resources" title="Overview Alternative Research Outputs">Overview</a></li>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug contains 'materials' %} class="active"{% endif %}><a href="/resources/materials" title="Research Outputs">Research Outputs</a></li>
   <div class="list-group">
-    <a href="/resources#software" class="list-group-item">Software</a>
-    <a href="/resources#datasets" class="list-group-item">Datasets and Supplementary Material</a>
+    <a href="/resources/materials#software" class="list-group-item">Software</a>
+    <a href="/resources/materials#datasets" class="list-group-item">Datasets and Supplementary Material</a>
   </div>
 </ul>
 
 <ul class="nav nav-sidebar">
-  <li {% if page.slug == 'resources/links' %} class="active"{% endif %}><a href="/resources#ethics" title="Collection of External Links">External Links</a></li>
+  <li {% if page.slug contains 'videos' %} class="active"{% endif %}><a href="/resources/videos" title="Videos">Videos</a></li>
+</ul>
+
+<ul class="nav nav-sidebar">
+  <li {% if page.slug contains 'links' %} class="active"{% endif %}><a href="/resources/links" title="Collection of External Links">External Links</a></li>
   <div class="list-group">
-    <a href="/resources#ethics" class="list-group-item">Ethics</a>
-    <a href="/resources#writing" class="list-group-item">Scientific Writing</a>
-    <a href="/resources#programming" class="list-group-item">Programming</a>
-    <a href="/resources#latex" class="list-group-item">Latex</a>
-    <a href="/resources#research" class="list-group-item">Research Tools</a>
+    <a href="/resources/links#ethics" class="list-group-item">Ethics</a>
+    <a href="/resources/links#research" class="list-group-item">Research Tools</a>
+    <a href="/resources/links#writing" class="list-group-item">Scientific Writing</a>
+    <a href="/resources/links#latex" class="list-group-item">Latex</a>
+    <a href="/resources/links#programming" class="list-group-item">Programming</a>
   </div>
 </ul>
+
