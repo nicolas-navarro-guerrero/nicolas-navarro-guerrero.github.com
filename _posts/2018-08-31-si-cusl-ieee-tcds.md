@@ -1,6 +1,5 @@
 ---
 layout: post
-slug: news/si-tcds
 
 title:  "Call for Papers: Special Issue on Continual Unsupervised Sensorimotor Learning"
 subtitle: "IEEE Transactions on Cognitive and Developmental Systems"
