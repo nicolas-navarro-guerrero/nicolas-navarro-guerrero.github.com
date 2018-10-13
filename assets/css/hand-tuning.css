@@ -12,3 +12,12 @@
   padding-top: 55px;
 }
 
+.post h2 {
+  margin-top: 0;
+}
+
+.post-content {
+  margin-top: 0px;
+  padding-top: 55px;
+}
+

@@ -19,6 +19,8 @@ github_username:  nicolas-navarro-guerrero
 # Build settings
 markdown: kramdown
 
+excerpt_separator: <!--more-->
+
 collections:
 - publications
 - pub-collaborations
