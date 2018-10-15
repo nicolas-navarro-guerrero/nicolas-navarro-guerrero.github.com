@@ -1,6 +1,5 @@
 ---
 layout: post
-slug: news/cfp-icdl-w
 
 title:  "Call for Papers: Workshop on Continual Unsupervised Sensorimotor Learning"
 subtitle: "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)"
@@ -11,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-<p>In this workshop we will discuss the developmental processes involved in the emergence of representations of action and perception in humans and artificial agents in continual learning. These processes include action-perception cycle, active perception, continual sensory-motor learning, environmental-driven scaffolding, and intrinsic motivation. For more information on the Workshop, <a target="_blank" href="https://conferences.au.dk/icdl-epirob-2018-workshop/">click here.</a></p>
+In this workshop we will discuss the developmental processes involved in the emergence of representations of action and perception in humans and artificial agents in continual learning. These processes include action-perception cycle, active perception, continual sensory-motor learning, environmental-driven scaffolding, and intrinsic motivation. For more information on the Workshop, <a target="_blank" href="https://conferences.au.dk/icdl-epirob-2018-workshop/">click here.</a>
 
 <!--more-->
 

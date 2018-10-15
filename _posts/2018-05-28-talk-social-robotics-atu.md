@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Talk at Akademiet for Talentfuld Unge (ATU) Sommercamp 2018"
+title:  "Talk: Akademiet for Talentfuld Unge (ATU) Sommercamp 2018"
 subtitle: 
 thumbnail: 
 

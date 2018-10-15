@@ -10,13 +10,13 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-<p>This special issue aims to report state-of-the-art approaches and recent advances on Continual Unsupervised Sensorimotor Learning with a cross-disciplinary perspective. For more information on the Special Issue, <a target="_blank" href="https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/">click here.</a></p>
+This special issue aims to report state-of-the-art approaches and recent advances on Continual Unsupervised Sensorimotor Learning with a cross-disciplinary perspective. For more information on the Special Issue, <a target="_blank" href="https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/">click here.</a>
 
 <!--more-->
 
 <h3>Submission</h3>
-<p>Manuscripts should be prepared according to the "Information for Authors" of the journal found at <a target="_blank" href="https://cis.ieee.org/component/content/article/7/131-ieee-transactions-on-autonomous-mental-development-information-for-authors.html">https://cis.ieee.org/component/content/article/7/131-ieee-transactions-on-autonomous-mental-development-information-for-authors.html</a>. 
-Submissions must be done through the IEEE TCDS Manuscript center: <a target="_blank" href="https://mc.manuscriptcentral.com/tcds-ieee">https://mc.manuscriptcentral.com/tcds-ieee</a>. Please select the category `SI: Continual Unsupervised Sensorimotor Learning`.</p>
+Manuscripts should be prepared according to the "Information for Authors" of the journal found at <a target="_blank" href="https://cis.ieee.org/component/content/article/7/131-ieee-transactions-on-autonomous-mental-development-information-for-authors.html">https://cis.ieee.org/component/content/article/7/131-ieee-transactions-on-autonomous-mental-development-information-for-authors.html</a>. 
+Submissions must be done through the IEEE TCDS Manuscript center: <a target="_blank" href="https://mc.manuscriptcentral.com/tcds-ieee">https://mc.manuscriptcentral.com/tcds-ieee</a>. Please select the category `SI: Continual Unsupervised Sensorimotor Learning`.
 
 <h3>Important Dates</h3>
 <div class="table-responsive">
