@@ -15,7 +15,7 @@ This special issue aims to report state-of-the-art approaches and recent advance
 <!--more-->
 
 <h3>Submission</h3>
-Manuscripts should be prepared according to the "Information for Authors" of the journal found at <a target="_blank" href="https://cis.ieee.org/publications/t-cognitive-and-developmental-systems/tcds-information-for-authors">https://cis.ieee.org/component/content/article/7/131-ieee-transactions-on-autonomous-mental-development-information-for-authors.html</a>. 
+Manuscripts should be prepared according to the "Information for Authors" of the journal found at <a target="_blank" href="https://cis.ieee.org/publications/t-cognitive-and-developmental-systems/tcds-information-for-authors">https://cis.ieee.org/publications/t-cognitive-and-developmental-systems/tcds-information-for-authors</a>. 
 Submissions must be done through the IEEE TCDS Manuscript center: <a target="_blank" href="https://mc.manuscriptcentral.com/tcds-ieee">https://mc.manuscriptcentral.com/tcds-ieee</a>. Please select the category `SI: Continual Unsupervised Sensorimotor Learning`.
 
 <h3>Important Dates</h3>
