@@ -19,12 +19,18 @@ author: Nicolás Navarro-Guerrero
 </p>
 
 <p class="text-center">
+    {% for item in site.data.networks-research %}
+    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% endfor %}
+</p>
+
+<p class="text-center">
     {% for item in site.data.account-reference-management %}
         <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
     {% endfor %}
 
-    {% for item in site.data.networks-research %}
-    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
+    {% for item in site.data.research-extras %}
+        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
     {% endfor %}
 </p>
 

@@ -1,14 +1,14 @@
 - name: gitlab
   username: nicolas-navarro-guerrero
   baseurl: https://gitlab.com/u
-  icon: /assets/networking/gitlab.svg
+  icon: /assets/repositories/gitlab.svg
 
 - name: github
   username: nicolas-navarro-guerrero
   baseurl: https://github.com
-  icon: /assets/networking/GitHub-Mark-64px.png
+  icon: /assets/repositories/GitHub-Mark-64px.png
 
 - name: bitbucket
   username: nicolas-navarro-guerrero
   baseurl: https://bitbucket.org
-  icon: /assets/networking/bucket.svg
+  icon: /assets/repositories/bucket.svg

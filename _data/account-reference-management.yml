@@ -1,4 +1,4 @@
 - name: zotero
   username: groups/nng-publications/items
   baseurl: https://www.zotero.org
-  icon: /assets/networking/zotero_48x48x32.png
+  icon: /assets/literature-management/zotero_48x48x32.png
