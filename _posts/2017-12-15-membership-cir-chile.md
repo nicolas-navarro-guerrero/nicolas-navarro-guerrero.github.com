@@ -11,9 +11,7 @@ categories: [news]
 author: Nicolás Navarro-Guerrero
 ---
 
-Became Honorary Member of the ONG Centro de Innovación y Robótica, Chile.
-
-For more information about the mission and activities of the Centro de Innovación y Robótica <a href="https://www.innovacionyrobotica.com/" target="_blank">please visit this link.</a>
+Became Honorary Member of the ONG Centro de Innovación y Robótica, Chile. For more information about the mission and activities of the Centro de Innovación y Robótica <a href="https://www.innovacionyrobotica.com/" target="_blank">please visit this link.</a>
 
 <!--more-->
 
