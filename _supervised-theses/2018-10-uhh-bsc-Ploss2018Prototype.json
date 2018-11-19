@@ -1,0 +1,51 @@
+---
+tags: [thesis, bachelor, bsc, uhh, wtm, computer science, signal processing]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2018-10-Ploss2018Prototype.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Kerzel,
+        given: Matthias
+      },
+    ]
+
+examiners: [
+      {
+        family: Kerzel,
+        given: Matthias
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/HLFYX2JT",
+		"type": "thesis",
+		"title": "Prototype of a Virtual Contact Sensor Using Neuronal Networks to Analyse Body-Borne Sound",
+		"publisher": "Universität Hamburg",
+		"publisher-place": "Hamburg, Germany",
+		"number-of-pages": "40",
+		"genre": "BSc",
+		"event-place": "Hamburg, Germany",
+		"author": [
+			{
+				"family": "Ploss",
+				"given": "Thorsten"
+			}
+		],
+		"issued": {
+			"year": "2018",
+			"month": "10",
+		}
+	}
+---
