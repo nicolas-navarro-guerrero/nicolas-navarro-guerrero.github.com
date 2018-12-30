@@ -1,0 +1,51 @@
+---
+tags: [thesis, bachelor, bsc, au, ausrl, computer science, computer engineering, signal processing]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2019-01-Sangild2019Dynamic.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Chrysostomou,
+        given: Dimitris
+      },
+    ]
+
+citation: {
+		"id": "http://zotero.org/users/1197610/items/BTFFD5TB",
+		"type": "thesis",
+		"title": "A Dynamic Island-based Genetic Algorithm for Neural Networks",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"number-of-pages": "49",
+		"genre": "BSc",
+		"event-place": "Aarhus, Denmark",
+		"author": [
+			{
+				"family": "Sangild",
+				"given": "Lasse Østerberg"
+			}
+		],
+		"issued": {
+			"year": "2019",
+			"month": "01",
+		}
+	}
+---
