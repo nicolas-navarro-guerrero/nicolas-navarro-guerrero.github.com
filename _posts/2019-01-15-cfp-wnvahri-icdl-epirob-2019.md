@@ -40,7 +40,7 @@ In this full-day workshop we will discuss the sensorimotor mechanisms underlying
 
 <h3>Organizers</h3>
 <address>
-<strong>Nicolás Navarro-Gerrero</strong> <a target="_blank" href="https://nicolas-navarro-guerrero.github.io/"><i class="fas fa-link"></i></a><br>
+<strong>Nicolás Navarro-Guerrero</strong> <a target="_blank" href="https://nicolas-navarro-guerrero.github.io/"><i class="fas fa-link"></i></a><br>
 Aarhus University, Aarhus, Denmark<br>
 <a href="mailto:nng@eng.au.dk">nng@eng.au.dk</a><br>
 </address>

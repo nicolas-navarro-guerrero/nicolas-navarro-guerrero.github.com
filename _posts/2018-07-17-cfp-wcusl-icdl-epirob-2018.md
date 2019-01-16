@@ -40,25 +40,25 @@ In this workshop we will discuss the developmental processes involved in the eme
 
 <h3>Organizers</h3>
 <address>
-<strong>Nicolás Navarro-Gerrero</strong><br>
+<strong>Nicolás Navarro-Guerrero</strong> <a target="_blank" href="https://nicolas-navarro-guerrero.github.io/"><i class="fas fa-link"></i></a><br>
 Aarhus University, Aarhus, Denmark<br>
 <a href="mailto:nng@eng.au.dk">nng@eng.au.dk</a><br>
 </address>
 
 <address>
-<strong>Sao Mai Nguyen</strong><br>
+<strong>Sao Mai Nguyen</strong> <a target="_blank" href="http://nguyensmai.free.fr/"><i class="fas fa-link"></i></a><br>
 IMT Atlantique, France<br>
 <a href="mailto:nguyensmai@gmail.com">nguyensmai@gmail.com</a><br>
 </address>
 
 <address>
-<strong>Erhan Öztop</strong><br>
+<strong>Erhan Öztop</strong> <a target="_blank" href="http://robotics.ozyegin.edu.tr/members/erhan-oztop/"><i class="fas fa-link"></i></a><br>
 Özyeğin University, Turkey<br>
 <a href="mailto:erhan.oztop@ozyegin.edu.tr">erhan.oztop@ozyegin.edu.tr</a><br>
 </address>
 
 <address>
-<strong>Junpei Zhong</strong><br>
+<strong>Junpei Zhong</strong> <a target="_blank" href="http://junpei.eu/"><i class="fas fa-link"></i></a><br>
 National Institute of Advanced Industrial Science and Technology (AIST), Japan<br>
 <a href="mailto:joni.zhong@aist.go.jp">joni.zhong@aist.go.jp</a><br>
 </address>
