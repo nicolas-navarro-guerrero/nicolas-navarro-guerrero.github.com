@@ -28,7 +28,7 @@ In this workshop we will discuss the developmental processes involved in the eme
     </tr>
     <tr>
       <th>9th September 2018</th>
-      <td>Camera-ready versio</td>
+      <td>Camera-ready version</td>
     </tr>
     <tr>
       <th>17th September 2018</th>
