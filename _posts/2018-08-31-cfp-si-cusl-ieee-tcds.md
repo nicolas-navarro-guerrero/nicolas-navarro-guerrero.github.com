@@ -23,23 +23,23 @@ Submissions must be done through the IEEE TCDS Manuscript center: <a target="_bl
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">6th January 2019</th>
+      <th scope="row">28th February 2019 <small class="text-muted"><strike>6th January 2019</strike></small></th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
-      <th>15th March 2019</th>
+      <th>15th April 2019 <small class="text-muted"><strike>15th March 2019</strike></small></th>
       <td>Notification for authors</td>
     </tr>
     <tr>
-      <th>31st May 2019</th>
+      <th>16th June 2019 <small class="text-muted"><strike>31st May 2019</strike></small></th>
       <td>Deadline revised papers submission</td>
     </tr>
     <tr>
-      <th>30th June 2019</th>
+      <th>16th July 2019 <small class="text-muted"><strike>30th June 2019</strike></small></th>
       <td>Final notification for authors</td>
     </tr>
     <tr>
-      <th>31st July 2019</th>
+      <th>18th August 2019 <small class="text-muted"><strike>31st July 2019</strike></small></th>
       <td>Deadline for camera-ready versions</td>
     </tr>
     <tr>
@@ -52,25 +52,25 @@ Submissions must be done through the IEEE TCDS Manuscript center: <a target="_bl
 
 <h3>Guest Editors</h3>
 <address>
-<strong>Nicolás Navarro-Gerrero</strong><br>
+<strong>Nicolás Navarro-Guerrero</strong> <a target="_blank" href="https://nicolas-navarro-guerrero.github.io/"><i class="fas fa-link"></i></a><br>
 Aarhus University, Aarhus, Denmark<br>
 <a href="mailto:nng@eng.au.dk">nng@eng.au.dk</a><br>
 </address>
 
 <address>
-<strong>Sao Mai Nguyen</strong><br>
+<strong>Sao Mai Nguyen</strong> <a target="_blank" href="http://nguyensmai.free.fr/"><i class="fas fa-link"></i></a><br>
 IMT Atlantique, France<br>
 <a href="mailto:nguyensmai@gmail.com">nguyensmai@gmail.com</a><br>
 </address>
 
 <address>
-<strong>Erhan Öztop</strong><br>
+<strong>Erhan Öztop</strong> <a target="_blank" href="http://robotics.ozyegin.edu.tr/members/erhan-oztop/"><i class="fas fa-link"></i></a><br>
 Özyeğin University, Turkey<br>
 <a href="mailto:erhan.oztop@ozyegin.edu.tr">erhan.oztop@ozyegin.edu.tr</a><br>
 </address>
 
 <address>
-<strong>Junpei Zhong</strong><br>
+<strong>Junpei Zhong</strong> <a target="_blank" href="http://junpei.eu/"><i class="fas fa-link"></i></a><br>
 National Institute of Advanced Industrial Science and Technology (AIST), Japan<br>
 <a href="mailto:joni.zhong@aist.go.jp">joni.zhong@aist.go.jp</a><br>
 </address>
