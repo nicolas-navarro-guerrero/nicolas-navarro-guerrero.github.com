@@ -1,0 +1,42 @@
+---
+tags: [interview, media, outreach]
+categories: interview
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2018 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+year: 2018
+month: 3
+
+citation: {
+		"id": "Navarro-Guerrero2018Next",
+		"type": "interview",
+		"title": "Next Generation Social Robots",
+		"medium": "Profile 2018—Department of Engineering, Aarhus University",
+		"abstract": "Social robots are designed to engage humans in social interactions by presenting themselves—in appearance or behaviour—as intelligent social agents. However, the goal of building robots to participate in the space of human interaction raises new technological, empirical and normative questions.",
+		"URL": "http://www.eng.au.dk/profile2018",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"interviewer": [
+			{
+				"family": "Harel",
+				"given": "Kim"
+			}
+		],
+		"issued": {
+			"year": "2018",
+			"month": "3",
+		}
+	}
+---

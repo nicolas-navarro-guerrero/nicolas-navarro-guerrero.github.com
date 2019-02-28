@@ -17,7 +17,7 @@ month: August
 
 citation: {
 		"type": "paper-conference",
-		"title": "NICO -- Neuro-Inspired COmpanion: A Developmental Humanoid Robot Platform for Multimodal Interaction",
+		"title": "NICO &ndash; Neuro-Inspired COmpanion: A Developmental Humanoid Robot Platform for Multimodal Interaction",
 		"container-title": "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)",
 		"publisher": "IEEE",
 		"page": "113-120",

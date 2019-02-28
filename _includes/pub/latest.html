@@ -2,7 +2,7 @@
 
 <ul class="media-list">
   {% for papers in site.publications reversed %}
-    {% unless papers.categories contains 'template' %}
+    {% if papers.categories contains 'publications' %}
 
       {% capture counter %}{{ counter | plus: '1' }}{% endcapture %}
 
@@ -12,6 +12,6 @@
 	{% break %}
       {% endif %}
 
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </ul>

@@ -1,0 +1,39 @@
+---
+tags: [talk, invited talk, outreach]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2018 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+year: 2018
+month: 7
+
+citation: {
+		"id": "Navarro-Guerrero2018Nexta",
+		"type": "speech",
+		"title": "Next Generation Social Robots",
+		"publisher-place": "Herning, Denmark",
+		"genre": "Outreach",
+		"event": "Akademiet for Talentfuld Unge (ATU) Sommercamp",
+		"event-place": "Herning, Denmark",
+		"URL": "https://www.atumidt.dk/",
+		"language": "English",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2018",
+			"month": "5",
+		}
+	}
+---

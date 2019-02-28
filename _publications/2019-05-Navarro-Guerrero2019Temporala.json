@@ -1,0 +1,39 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2019 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+year: 2019
+month: 5
+
+citation: {
+		"id": "Navarro-Guerrero2019Temporala",
+		"type": "speech",
+		"title": "Towards Temporal Difference Learning with Multidimensional Value Representations",
+		"publisher-place": "Gothenburg, Sweden",
+		"genre": "Invited Talk",
+		"event": "Wallenberg Symposium on Affective and Developmental Processes in Cognitive and Autonomous Systems &ndash; Augmenting Deep Learning using Neural Dynamics and Predictive Coding",
+		"event-place": "Gothenburg, Sweden",
+		"abstract": "Temporal-difference learning is widely adopted and has been successfully applied to many problems as well as used to model animal learning. However, they are mainly based on neural pathways involved in reward-seeking behaviour since little is known about punishment-driven learning and less still about the combined effects of both types of reinforcement on learning. In this talk, I will discuss the implications for machine learning and robotics of this incomplete model of reward-based learning and possible strategies to deal with it.",
+		"language": "English",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2016",
+			"month": "5",
+		}
+	}
+---

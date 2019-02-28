@@ -2,7 +2,9 @@
 {% if include.param.citation.container-title != null %}
   {{ include.param.citation.container-title }}. 
 {% elsif include.param.citation.event != null %}
-  Talk at {{ include.param.citation.event }}. 
+  Talk at {{ include.param.citation.event }}.
+{% elsif include.param.citation.medium != null %}
+  {{ include.param.citation.medium }}.  
 {% elsif include.param.citation.publisher != null %}
   {{ include.param.citation.publisher }}.
 {% endif %}
