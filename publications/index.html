@@ -1,23 +1,21 @@
 ---
 layout: with-sidebar
-slug: publications/chronological
-tags: [journals, proceedings, conferences, symposium, posters, abstracts, chapters, books, reports, talks, keynotes, technical reports, chronological, pdf, bibtex, doi, conference, ijcnn, ieee, springer, copyright, reinforcement learning, humanoid robot, special session, development of cognition, pre-prints, slides, source code, adaptive behaviors, behavior, epigenetic robotics, icdl, autonomous, lncs, genetic algorithms, neural networks, Marie-Curie researchers, research ids]
+slug: publications
+tags: [journals, proceedings, conferences, symposium, posters, abstracts, chapters, books, reports, talks, keynotes, technical reports, chronological, pdf, bibtex, doi, conference, ijcnn, ieee, springer, copyright, reinforcement learning, humanoid robot, special session, development of cognition, pre-prints, slides, source code, adaptive behaviors, behavior, epigenetic robotics, icdl, autonomous, lncs, genetic algorithms, neural networks, Marie-Curie researchers]
 
 title: Publications
-subtitle: Chronological List
+subtitle: List Grouped by Type
 author: Nicolás Navarro-Guerrero
 ---
 {% include pub/publications-front-note.html %}
 
-<p style="margin-top:30px;"></p>
-<ul class="media-list">
-  {% for papers in site.publications reversed %}
-    {% unless papers.categories contains 'template' %}
-      {% include pub/as-media.html param=papers %}
-    {% endunless %}
-  {% endfor %}
-</ul>
+{% include pub/list-type.html param='journal' %}
+<!-- param='chapter' -->
+{% include pub/list-type.html param='conference' %}
+{% include pub/list-type.html param='report' %}
+{% include pub/list-type.html param='abstract' %}
+{% include pub/list-type.html param='talk' %}
+{% include pub/list-type.html param='media' %}
 
 {% include pub/research.ids.html %}
-
 {% include pub/copyright.notice.html %}
