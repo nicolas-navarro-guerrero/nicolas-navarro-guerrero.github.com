@@ -12,7 +12,7 @@ author: Nicolás Navarro-Guerrero
 ---
 Together with <a href="http://nguyensmai.free.fr/" target="_blank">Sao Mai Nguyen.</a>, I am charing the Task Force Action and Perception of the IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC).
 
-For more information on the Task Force activities, <a href="https://openlab-flowers.inria.fr/t/cds-tc-task-force-on-action-perception" target="_blank">please visit the discourse page hosted by the Flowers team at Inria and Ensta ParisTech.</a>
+For more information on the Task Force activities, <a href="https://cdstc.gitlab.io/task-force-on-action-and-perception" target="_blank">please visit this webpage.</a>
 
 <!--more-->
 
