@@ -23,7 +23,7 @@ Submissions must be done through the IEEE TCDS Manuscript center: <a target="_bl
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">15th March 2019 <small class="text-muted"><strike>28th February 2019</strike></small> <small class="text-muted"><strike>6th January 2019</strike></small></th>
+      <th scope="row">21st March 2019 <small class="text-muted"><strike>15th March 2019</strike> <strike>28th February 2019</strike> <strike>6th January 2019</strike></small></th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
