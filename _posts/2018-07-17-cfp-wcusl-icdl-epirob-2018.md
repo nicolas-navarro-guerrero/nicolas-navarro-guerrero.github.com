@@ -19,19 +19,19 @@ In this workshop we will discuss the developmental processes involved in the eme
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">5th August 2018</th>
+      <th scope="row">5<sup>th</sup> August 2018</th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
-      <th>27th August 2018</th>
+      <th>27<sup>th</sup> August 2018</th>
       <td>Notification of acceptance</td>
     </tr>
     <tr>
-      <th>9th September 2018</th>
+      <th>9<sup>th</sup> September 2018</th>
       <td>Camera-ready version</td>
     </tr>
     <tr>
-      <th>17th September 2018</th>
+      <th>17<sup>th</sup> September 2018</th>
       <td>Workshop</td>
     </tr>
     </tbody>

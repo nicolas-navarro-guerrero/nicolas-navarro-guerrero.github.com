@@ -23,23 +23,23 @@ Submissions must be done through the IEEE TCDS Manuscript center: <a target="_bl
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">21st March 2019 <small class="text-muted"><strike>15th March 2019</strike> <strike>28th February 2019</strike> <strike>6th January 2019</strike></small></th>
+      <th scope="row">21<sup>st</sup> March 2019 <small class="text-muted"><strike>15<sup>th</sup> March 2019</strike> <strike>28<sup>th</sup> February 2019</strike> <strike>6<sup>th</sup> January 2019</strike></small></th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
-      <th>1st May 2019 <small class="text-muted"><strike>15th April 2019</strike></small> <small class="text-muted"><strike>15th March 2019</strike></small></th>
+      <th>1<sup>st</sup> May 2019 <small class="text-muted"><strike>15<sup>th</sup> April 2019</strike></small> <small class="text-muted"><strike>15<sup>th</sup> March 2019</strike></small></th>
       <td>Notification for authors</td>
     </tr>
     <tr>
-      <th>16th June 2019 <small class="text-muted"><strike>31st May 2019</strike></small></th>
+      <th>16<sup>th</sup> June 2019 <small class="text-muted"><strike>31<sup>st</sup> May 2019</strike></small></th>
       <td>Deadline revised papers submission</td>
     </tr>
     <tr>
-      <th>16th July 2019 <small class="text-muted"><strike>30th June 2019</strike></small></th>
+      <th>16<sup>th</sup> July 2019 <small class="text-muted"><strike>30<sup>th</sup> June 2019</strike></small></th>
       <td>Final notification for authors</td>
     </tr>
     <tr>
-      <th>18th August 2019 <small class="text-muted"><strike>31st July 2019</strike></small></th>
+      <th>18<sup>th</sup> August 2019 <small class="text-muted"><strike>31<sup>st</sup> July 2019</strike></small></th>
       <td>Deadline for camera-ready versions</td>
     </tr>
     <tr>

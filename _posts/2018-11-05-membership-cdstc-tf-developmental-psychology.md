@@ -11,7 +11,7 @@ categories: [news]
 author: Nicolás Navarro-Guerrero
 ---
 
-For more information on the Task Force activities, <a href="https://openlab-flowers.inria.fr/t/cds-tc-task-force-on-developmental-psychology" target="_blank">please visit the discourse page hosted by the Flowers team at Inria and Ensta ParisTech.</a>
+Joined the Task Force on Developmental Psychology of the IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC) for the 2018 term. For more information on the Task Force activities, <a href="https://openlab-flowers.inria.fr/t/cds-tc-task-force-on-developmental-psychology" target="_blank">please visit the discourse page hosted by the Flowers team at Inria and Ensta ParisTech.</a>
 
 <!--more-->
 
