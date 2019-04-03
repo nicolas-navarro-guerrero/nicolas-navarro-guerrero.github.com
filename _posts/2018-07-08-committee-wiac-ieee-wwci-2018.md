@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Call for Papers: Workshop on Intelligent Assistive Computing"
+title:  "Program Committee: Workshop on Intelligent Assistive Computing"
 subtitle: "The Bi-Annual IEEE World Congress on Computational Intelligence (IEEE WCCI)"
 thumbnail: 
 
