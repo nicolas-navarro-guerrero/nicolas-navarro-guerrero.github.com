@@ -6,7 +6,7 @@
 
       {% capture counter %}{{ counter | plus: '1' }}{% endcapture %}
 
-      {% if counter <= include.param %}
+      {% if counter < include.param %}
         {% include news/list.html param=post %}
       {% else %}
 	{% break %}
