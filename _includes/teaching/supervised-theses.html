@@ -18,6 +18,7 @@
           <tbody>
 {% for supThesis in site.supervised-theses reversed %}
   {% unless supThesis.categories contains 'template' %}
+  {% if supThesis.citation.genre contains include.param or supThesis.citation.genre contains include.param2 %}
   <tr>
     <td>{{ supThesis.citation.issued.year }} {% include 3-letters-month.html param=supThesis.citation.issued.month %} </td>
     <td>{{ supThesis.citation.genre }}</td>
@@ -50,14 +51,11 @@
         {% endif %}
     </td>
   </tr>
+  {% endif %}
   {% endunless %}
 {% endfor %}
           </tbody>
         </table>
       </div><!-- table-responsive -->
-    </div><!-- column -->
-
-    <div class="col-md-12" style="padding-top:25px;">
-      {% include pub/copyright.notice.html %}
     </div><!-- column -->
   </div><!-- row -->

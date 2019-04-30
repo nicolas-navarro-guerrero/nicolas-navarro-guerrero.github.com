@@ -43,5 +43,15 @@ author: Nicolás Navarro-Guerrero
 </ul>
 -->
 
-<h3 class="id-header sub-header" id="supervised">Supervised Theses</h3>
-{% include teaching/supervised-theses.html %}
+<h3 class="id-header sub-header" id="supervised">Supervised and Examined Theses</h3>
+
+<h4 class="sub-header id-header" id="MSc">Master Theses</h4>
+{% include teaching/supervised-theses.html param='MSc' param2='Diplom' %}
+
+<h4 class="sub-header id-header" id="MSc">Bachelor Theses</h4>
+{% include teaching/supervised-theses.html param='BSc' %}
+
+<div class="col-md-12" style="padding-top:25px;">
+    {% include pub/copyright.notice.html %}
+</div><!-- column -->
+
