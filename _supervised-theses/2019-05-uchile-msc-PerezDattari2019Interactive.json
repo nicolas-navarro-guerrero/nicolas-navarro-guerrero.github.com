@@ -1,0 +1,55 @@
+---
+tags: [thesis, master, msc, uchile, electrical engineering]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "/supervised-theses/2019-05-PerezDattari2019Interactive.bib"
+slides: 
+library: 
+supplementary: 
+code: 
+
+supervisors: [
+      {
+        family: Ruiz-del-Solar,
+        given: Javier
+      },
+      {
+        family: Celemin,
+        given: Carlos
+      },
+    ]
+
+examiners: [
+      {
+        family: Tobar,
+        given: Felipe
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "PerezDattari2019Interactive",
+		"type": "thesis",
+		"title": "Interactive Learning with Corrective Feedback for Continuous-Action Policies Based on Deep Neural Networks",
+		"publisher": "Universidad de Chile",
+		"publisher-place": "Santiago, Chile",
+		"number-of-pages": "83",
+		"genre": "MSc",
+		"event-place": "Santiago, Chile",
+		"author": [
+			{
+				"family": "Pérez Dattari",
+				"given": "Rodrigo Javier"
+			}
+		],
+		"issued": {
+			"year": "2019",
+			"month": "5",
+		}
+	}
+---
