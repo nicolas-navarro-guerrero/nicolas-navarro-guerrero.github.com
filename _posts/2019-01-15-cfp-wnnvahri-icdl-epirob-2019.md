@@ -44,11 +44,11 @@ Submissions must be in PDF following the standard IEEE conference style. Send yo
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">12<sup>th</sup> May 2019</th>
+      <th scope="row">31<sup>th</sup> May 2019 <small class="text-muted"><strike>12<sup>th</sup> May 2019</strike></small></th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
-      <th>7<sup>th</sup> June 2019</th>
+      <th>14<sup>th</sup> June 2019 <small class="text-muted"><strike>7<sup>th</sup> June 2019</strike></small></th>
       <td>Notification of acceptance</td>
     </tr>
     <tr>
