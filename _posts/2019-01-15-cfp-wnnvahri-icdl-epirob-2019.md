@@ -76,3 +76,9 @@ University of Gothenburg, Gothenburg, Sweden<br>
 <a href="mailto:robert.lowe@ait.gu.se">robert.lowe@ait.gu.se</a><br>
 </address>
 
+<address>
+<strong>Chrystopher L. Nehaniv</strong> <a target="_blank" href="https://uwaterloo.ca/systems-design-engineering/profile/cnehaniv"><i class="fas fa-link"></i></a><br>
+University of Waterloo, Canada<br>
+<a href="mailto:chrystopher.nehaniv@uwaterloo.ca">chrystopher.nehaniv@uwaterloo.ca</a><br>
+</address>
+
