@@ -34,6 +34,7 @@ github_username:  nicolas-navarro-guerrero
 # Build settings
 markdown: kramdown
 
+future: true
 excerpt_separator: <!--more-->
 
 permalink: pretty

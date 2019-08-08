@@ -1,0 +1,64 @@
+{% assign group = include.grouped | downcase %}
+
+{% if group contains 'year' %}
+  {% assign byYear = site.posts | group_by_exp:"item", "item.date | date: '%Y'" %}
+  {% for year in byYear %}
+<h3 class="pt-5">{{ year.name }}</h3>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-12 col-md-11">
+      {% for post in year.items %}
+        {% if post.shorttitle %}
+          {% assign toctitle = post.shorttitle %}
+      {% else %}
+          {% assign toctitle = post.title %}
+      {% endif %}
+<h3 class="post"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4>{{ post.subtitle }}</h4>
+      <p>{{ post.date | date_to_string }} | {% for tag in post.tags %}{{ tag | upcase }}, {% endfor %} </p>
+      <p>{{ post.excerpt }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+  {% endfor %}
+{% else %}
+<div class="container-fluid pt-4">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-12 col-md-11">
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      {% if post.shorttitle %}
+          {% assign toctitle = post.shorttitle %}
+      {% else %}
+          {% assign toctitle = post.title %}
+      {% endif %}
+      <li>
+        <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ toctitle }}</a></h4>
+        <p class="text-muted">{{ post.date | date_to_string  }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!--
+<ul class="media-list">
+  {% for post in site.posts %}
+  <hr>
+  <li class="media">
+    <div class="media-body">
+      <h3 class="post"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4>{{ post.subtitle }}</h4>
+      <p>{{ post.date | date_to_string }} | {% for tag in post.tags %}{{ tag | upcase }}, {% endfor %} </p>
+      <p>{{ post.excerpt }}</p>
+    </div>
+    <div class="hidden-xs media-right">
+      <img class="media-object img-rounded post-thumbs" src="{% if post.thumbnail != null %}{{ post.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" alt="">
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+-->
