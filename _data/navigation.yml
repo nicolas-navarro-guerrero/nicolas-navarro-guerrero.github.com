@@ -1,0 +1,35 @@
+- name: Publications
+  slug: /publications
+  id: publications
+  icon: 
+
+- name: Research
+  slug: /research
+  id: research
+  icon: <span class="caret"></span>
+
+- name: Teaching
+  slug: /teaching
+  id: teaching
+  icon: <span class="caret"></span>
+
+- name: Resources
+  slug: /resources
+  id: resources
+  icon: <span class="caret"></span>
+
+- name: News
+  slug: /news
+  id: news
+  icon: 
+
+- name: About
+  slug: /about
+  id: about
+  icon: 
+
+- name: Contact
+  slug: /contact
+  id: contact
+  icon: 
+
