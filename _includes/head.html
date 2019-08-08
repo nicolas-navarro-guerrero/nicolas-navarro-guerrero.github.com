@@ -7,13 +7,10 @@
 <meta name="author" content="{{ page.author }}">
 <meta name="description" content="{{ site.description }} This page includes content related to {% for tag in page.tags %}{{ tag }}, {% endfor %} github, code, creative commons, license, robot, robotics, research, home, publications, projects, teaching, courses, thesis, media, videos, outreach, about, contact, Nicolas Navarro, Nicol&aacute;s Navarro, Nicolas Navarro-Guerrero, Nicolas Navarro Guerrero, nng.">
 
-<link rel="icon" href="/initials-nng.png" type="image/png">
+<link rel="shortcut icon" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}" type="image/png">
 
 <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="{{ "/dist/css/bootstrap.min.css" | prepend: site.baseurl }}">
-
-<!-- Bootstrap theme -->
-<link href="{{ "/dist/css/bootstrap-theme.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<link rel="stylesheet" href="{{ "/assets/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -24,5 +21,7 @@
 <style>
   body {
     padding-top: 100px;
+    max-width: 960px;
+    margin: auto;
   }
 </style>
