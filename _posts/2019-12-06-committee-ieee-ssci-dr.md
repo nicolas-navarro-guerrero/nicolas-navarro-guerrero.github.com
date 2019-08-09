@@ -5,7 +5,7 @@ title:  "Program Committee: IEEE Symposium on Domestic Robotics"
 subtitle: "IEEE Symposium Series on Computational Intelligence (IEEE SSCI)"
 thumbnail: 
 
-tags: [committee, symposium, workshop, conference]
+tags: [program committee, committee, symposium, workshop, conference]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

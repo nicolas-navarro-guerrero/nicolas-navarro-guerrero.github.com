@@ -5,7 +5,7 @@ title:  "Call for Papers: Postgraduate Conference on Robotics and Development of
 subtitle: "International Conference on Artificial Neural Networks (ICANN)"
 thumbnail: 
 
-tags: [call for papers, workshop, conference, organization]
+tags: [Local Chair, call for papers, workshop, conference, organization]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

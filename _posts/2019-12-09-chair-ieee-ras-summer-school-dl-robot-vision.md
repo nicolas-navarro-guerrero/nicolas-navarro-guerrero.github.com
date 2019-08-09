@@ -5,7 +5,7 @@ title:  "Publicity Chair: IEEE RAS International Summer School on Deep Learning 
 subtitle: ""
 thumbnail: 
 
-tags: [committee, symposium, workshop, conference]
+tags: [publicity chair, committee, symposium, workshop, conference]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

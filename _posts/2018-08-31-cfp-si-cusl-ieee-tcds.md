@@ -5,7 +5,7 @@ title:  "Call for Papers: Special Issue on Continual Unsupervised Sensorimotor L
 subtitle: "IEEE Transactions on Cognitive and Developmental Systems"
 thumbnail: 
 
-tags: [call for papers, special issue, journal]
+tags: [special issue, journal, call for papers]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

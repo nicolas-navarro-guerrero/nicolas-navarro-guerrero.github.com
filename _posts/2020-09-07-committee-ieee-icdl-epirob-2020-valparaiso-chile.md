@@ -5,7 +5,7 @@ title:  "Program and Finance Co-Chair: Joint IEEE International Conference on De
 subtitle: 
 thumbnail: 
 
-tags: [committee, conference, organization]
+tags: [Program and Finance Co-Chair, committee, conference, organization]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

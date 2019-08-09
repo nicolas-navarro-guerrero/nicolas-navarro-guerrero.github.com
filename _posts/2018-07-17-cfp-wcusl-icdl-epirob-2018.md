@@ -5,7 +5,7 @@ title:  "Call for Papers: Workshop on Continual Unsupervised Sensorimotor Learni
 subtitle: "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)"
 thumbnail: 
 
-tags: [call for papers, workshop, conference]
+tags: [organization, call for papers, workshop, conference]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

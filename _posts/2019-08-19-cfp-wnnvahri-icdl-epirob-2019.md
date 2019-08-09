@@ -5,7 +5,7 @@ title:  "Call for Papers: ICDL-EpiRob Workshop on Naturalistic Non-Verbal and Af
 subtitle: "Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob 2019)"
 thumbnail: 
 
-tags: [call for papers, workshop]
+tags: [organization, call for papers, workshop]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

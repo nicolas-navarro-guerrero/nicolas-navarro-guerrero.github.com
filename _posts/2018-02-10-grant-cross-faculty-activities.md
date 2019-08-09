@@ -5,7 +5,7 @@ title:  "Grant: Business-Oriented Activities"
 subtitle: "Faculty of Science and Technology at Aarhus University"
 thumbnail: 
 
-tags: [membership, peer esteem indicators, outreach]
+tags: [grant, funding]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

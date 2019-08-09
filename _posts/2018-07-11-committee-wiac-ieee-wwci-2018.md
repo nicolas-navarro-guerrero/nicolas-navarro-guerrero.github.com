@@ -5,7 +5,7 @@ title:  "Program Committee: Workshop on Intelligent Assistive Computing"
 subtitle: "Bi-Annual IEEE World Congress on Computational Intelligence (IEEE WCCI)"
 thumbnail: 
 
-tags: [call for papers, workshop, conference]
+tags: [program committee, call for papers, workshop, conference]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

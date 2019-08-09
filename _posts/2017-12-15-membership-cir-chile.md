@@ -2,7 +2,7 @@
 layout: post
 
 title:  "Membership: Centro de Innovación y Robótica"
-subtitle: "ONG: Robotic and Technological Innovation in Chile"
+subtitle: "NGO: Robotic and Technological Innovation in Chile"
 thumbnail: 
 
 tags: [membership, peer esteem indicators, outreach]
