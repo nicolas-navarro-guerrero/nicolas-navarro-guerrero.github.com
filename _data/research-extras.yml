@@ -1,9 +1,0 @@
-- name: publons
-  username: 1085460/nicolas-navarro-guerrero
-  baseurl: https://publons.com/author
-  icon: /assets/research-extras/publons.svg
-
-- name: figshare
-  username: Nicol_s_Navarro-Guerrero/2746636
-  baseurl: https://figshare.com/authors
-  icon: /assets/research-extras/figshare.png

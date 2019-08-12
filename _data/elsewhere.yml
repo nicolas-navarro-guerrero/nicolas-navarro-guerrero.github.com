@@ -1,0 +1,85 @@
+- name: repositories
+  subitems:
+    - name: gitlab
+      username: nicolas-navarro-guerrero
+      baseurl: https://gitlab.com/u
+#      icon: <i class="fab fa-gitlab"></i>
+      icon: /assets/img/logos/gitlab.svg
+
+    - name: github
+      username: nicolas-navarro-guerrero
+      baseurl: https://github.com
+#      icon: <i class="fab fa-github"></i>
+      icon: /assets/img/logos/GitHub-Mark-64px.png
+
+    - name: bitbucket
+      username: nicolas-navarro-guerrero
+      baseurl: https://bitbucket.org
+#      icon: <i class="fab fa-bitbucket"></i>
+      icon: /assets/img/logos/bucket.svg
+
+- name: research
+  subitems:
+    - name: ResearchGate
+      username: Nicolas_Navarro-Guerrero
+      baseurl: https://www.researchgate.net/profile
+#      icon: <i class="fab fa-researchgate"></i>
+      icon: /assets/img/logos/RG-Logo.png
+
+    - name: Google Scholar
+      username: citations?user=SeQvYQ0AAAAJ
+      baseurl: https://scholar.google.de
+      icon: /assets/img/logos/google-scholar-64x64.png
+
+    - name: orcid
+      username: 0000-0003-1164-5579
+      baseurl: https://orcid.org
+      icon: /assets/img/logos/orcid_64x64.png
+
+- name: extras
+  subitems:
+    - name: zotero
+      username: groups/nng-publications/items
+      baseurl: https://www.zotero.org
+      icon: /assets/img/logos/zotero_48x48x32.png
+
+    - name: publons
+      username: 1085460/nicolas-navarro-guerrero
+      baseurl: https://publons.com/author
+      icon: /assets/img/logos/publons.svg
+
+    - name: figshare
+      username: Nicol_s_Navarro-Guerrero/2746636
+      baseurl: https://figshare.com/authors
+      icon: /assets/img/logos/figshare.png
+
+- name: rest
+  subitems:
+    - name: linkedin
+      username: nicolasnavarroguerrero
+      baseurl: https://www.linkedin.com/in
+      icon: <i class="fab fa-linkedin-in"></i>
+
+    #- name: xing
+    #  username:
+    #  baseurl:
+    #  icon: <i class="fab fa-xing"></i>
+
+#- name: video
+#  subitems:
+    - name: vimeo
+      username: nicolasnavarroguerrero/videos
+      baseurl: https://vimeo.com
+      icon: <i class="fab fa-vimeo"></i>
+
+    #- name: youtube
+    #  username: niconavarroguerrero/videos
+    #  baseurl: https://www.youtube.com/user
+    #  icon: <i class="fab fa-youtube"></i>
+
+#- name: social-media
+#  subitems:
+    - name: tumblr
+      username: 
+      baseurl: http://nng-fres.tumblr.com
+      icon: <i class="fab fa-tumblr"></i>

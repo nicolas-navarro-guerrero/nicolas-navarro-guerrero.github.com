@@ -4,50 +4,22 @@ slug: /contact/
 tags: [contact, address, disclaimer, social networks, faq, GnuPG Public Key, website]
 ---
 
-<div class="card mb-3 border-light">
+<div class="card mb-3 border-0">
   <img src="{{ '/assets/map-engineering-aarhus.jpeg' | prepend: site.baseurl }}" class="card-img-top" alt="Map Department of Engineering - Section for Electrical and Computer Engineering">
   <div class="card-body">
     <p class="card-text"><small class="text-muted"><a href="https://www.openstreetmap.org/?mlat=56.1720&mlon=10.1912#map=15/56.1720/10.1912" target="_blank">View Larger Map <i class="fas fa-external-link-alt"></i></a></small></p>
   </div>
 </div>
 
-{% include my-address.html %}
+<!-- -->
+{% include contact-address.html %}
 
-<p style="margin-top:75px;"></p>
+<!-- -->
+<h3 class="mt-5 mb-5 text-center">Find Me Elsewhere</h3>
+{% include contact-elsewhere.html %}
 
-<p class="text-center"><strong>Find Me Elsewhere</strong></p>
-<p class="text-center">
-    {% for item in site.data.account-repositories %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-</p>
 
-<p class="text-center">
-    {% for item in site.data.networks-research %}
-    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-</p>
-
-<p class="text-center">
-    {% for item in site.data.account-reference-management %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-
-    {% for item in site.data.research-extras %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-</p>
-
-<p class="text-center">
-    {% for item in site.data.account-videos %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-
-    {% for item in site.data.networks-social %}
-        <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:45px;"></a>  &nbsp;
-    {% endfor %}
-</p>
-
+<!-- -->
 <div class="card text-white bg-info mt-5 mb-5">
   <div class="card-header">
     <h5>Disclaimer<h/5>

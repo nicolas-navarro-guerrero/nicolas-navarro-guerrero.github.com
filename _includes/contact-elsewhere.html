@@ -1,0 +1,16 @@
+{% assign size = '45px' %}
+
+{% for category in site.data.elsewhere %}
+    <div class="row justify-content-center">
+    {% for item in category.subitems %}
+        <div class="col-xs-1 col-sm-1 col-md-1 align-middle">
+        {% if item.icon contains "<i class=" %}
+            <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark" style="font-size:{{ size }};">{{ item.icon }}</a>
+        {% else %}
+            <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>  &nbsp;
+        {% endif %}
+        </div>
+    {% endfor %}
+    </div>
+{% endfor %}
+
