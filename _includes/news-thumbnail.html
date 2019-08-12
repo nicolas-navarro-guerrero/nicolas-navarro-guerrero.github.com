@@ -1,0 +1,118 @@
+{% assign post = include.post %}
+{% assign handle = post.tags | downcase %}
+
+{% if post.thumbnail %}
+  <img src="{{ post.thumbnail | prepend: site.baseurl }}" class="align-self-start mr-3 mt-0 d-sm-none d-md-block" alt="{{ post.tags }}">
+{% else %}
+  {% if handle contains 'membership' %}
+    {% assign icon = 'fas fa-user-plus' %}
+    <!--
+    far fa-registered
+    fas fa-registered
+    fas fa-sign-in-alt
+    fas fa-user-plus
+    -->
+
+  {% elsif handle contains 'leadership' %}
+    {% assign icon = 'fas fa-compass' %}
+    <!--
+    fas fa-clipboard-list
+    fas fa-clipboard-check
+    fas fa-drafting-compass
+    -->
+
+  {% elsif handle contains 'grant' %}
+    {% assign icon = 'fas fa-money-bill-alt' %}
+    <!-- fas fa-coins
+    fas fa-dollar-sign -->
+
+  {% elsif handle contains 'award' %}
+    {% assign icon = 'fas fa-award' %}
+    <!-- 
+    fas fa-medal
+    fas fa-trophy
+    -->
+
+  {% elsif handle contains 'graduation' %}
+    {% assign icon = 'fas fa-graduation-cap' %}
+    <!-- fas fa-user-graduate -->
+
+  {% elsif handle contains 'certificate' %}
+    {% assign icon = 'fas fa-certificate' %}
+
+  {% elsif handle contains 'robot' %}
+    {% assign icon = 'fas fa-robot' %}
+
+  {% elsif handle contains 'code' %}
+    {% assign icon = 'fas fa-code' %}
+
+  {% elsif handle contains 'dataset' %}
+    {% assign icon = 'fas fa-database' %}
+    <!-- fas fa-photo-video -->
+
+  {% elsif handle contains 'talk' %}
+    {% assign icon = 'fas fa-microphone' %}
+    <!-- fas fa-microphone-alt -->
+
+  {% elsif handle contains 'special issue' %}
+    {% assign icon = 'fas fa-book-reader' %}
+
+  {% elsif handle contains 'tools' %}
+    {% assign icon = 'fas fa-tools' %}
+
+  {% elsif handle contains 'survey' %}
+    {% assign icon = 'fas fa-poll' %}
+
+  {% elsif handle contains 'press' %}
+    {% assign icon = 'far fa-newspaper' %}
+
+  {% elsif handle contains 'participant' %}
+    {% assign icon = 'far fa-id-badge' %}
+
+  {% elsif handle contains 'network' %}
+    {% assign icon = 'fas fa-network-wired' %}
+
+  {% elsif handle contains 'article' %}
+    {% assign icon = 'fas fa-scroll' %}
+
+  {% elsif handle contains 'visiting' %}
+    {% assign icon = 'fas fa-suitcase-rolling' %}
+    <!-- 
+    fas fa-suitcase
+    fas fa-passport
+    -->
+
+  {% elsif handle contains 'committee' or handle contains 'chair' %}
+    {% assign icon = 'fas fa-chair' %}
+
+  {% elsif handle contains 'organiz' %}
+    {% assign icon = 'fas fa-sort' %}
+    <!--
+    fas fa-calendar-alt
+    fas fa-align-justify
+    fas fa-grip-horizontal
+    fas fa-grip-vertical
+    fas fa-list
+    fas fa-list-alt
+    fas fa-list-ul
+    fas fa-sort
+    fas fa-sort-amount-down
+    fas fa-sort-amount-down-alt
+    fas fa-sort-amount-up
+    fas fa-sort-amount-up-alt
+    fas fa-th
+    -->
+
+  {% elsif handle contains 'call' %}
+    {% assign icon = 'fas fa-bullhorn' %}
+
+  {% elsif handle contains 'lecture' %}
+    {% assign icon = 'fas fa-chalkboard-teacher' %}
+
+  {% else %}
+    {% assign icon = 'fas fa-asterisk' %}
+
+  {% endif %}
+{% endif %}
+<i class="{{ icon }} align-self-start mr-3 mt-0" style="width: 18px;"></i>
+
