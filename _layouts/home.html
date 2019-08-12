@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     {% include head.html %}
-    <link rel="stylesheet" href="/assets/css/hand-tuning.css">
-    <link rel="stylesheet" href="/assets/css/body-size.css">
   </head>
 
   <body>
@@ -12,8 +10,7 @@
 
     <div class="container-fluid">
       {{ content }}
+      {% include footer.html %}
     </div> <!-- /container -->
-
-    {% include footer.html %}
   </body>
 </html>
