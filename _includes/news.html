@@ -1,4 +1,5 @@
-{% assign group = include.grouped | downcase %}
+{% assign group = include.grouped | downcase | default: 'none' %}
+{% assign latest = include.latest | default: 5 %}
 
 {% if group contains 'year' %}
   {% assign byYear = site.posts | group_by_exp:"item", "item.date | date: '%Y'" %}
@@ -29,7 +30,7 @@
   <div class="row justify-content-center">
     <div class="col-xs-12 col-sm-12 col-md-11">
       <ul class="list-unstyled mr-n2">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:latest %}
         {% if post.shorttitle %}
           {% assign toctitle = post.shorttitle %}
         {% else %}

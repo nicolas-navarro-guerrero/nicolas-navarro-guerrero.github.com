@@ -60,27 +60,10 @@ author: Nicolás Navarro-Guerrero
 
 
 <hr>
-<div class="row">
-  <h3><a href="/news/">Latest News <span class="caret"></span></a></h3>
 
-    {% include news/latest.html param='5' %}
+<h2 class="pt-5"><a href="/news/">Latest News <span class="caret"></span></a><small class="text-muted"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"> <i class="fa fa-rss-square" style="color:#FF7F00"></i></a></small></h2>
 
-<div class="row">
-    <div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4" >
-        <a class="btn btn-primary btn-lg btn-block" href="/news" role="button">See All News <span class="caret"></span></a>
-    </div>
-</div><!-- row -->
-<!-- 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date_to_string }}</span>
+{% include news.html latest=5 %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
- -->
-</div>
+<a class="btn btn-primary btn-lg btn-block mt-5" href="{{ "/news" | prepend: site.baseurl }}" role="button">See All News <span class="caret"></span></a>
+
