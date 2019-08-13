@@ -20,6 +20,11 @@
 
 - name: research
   subitems:
+    - name: ORCID
+      username: 0000-0003-1164-5579
+      baseurl: https://orcid.org
+      icon: /assets/img/logos/orcid_64x64.png
+
     - name: ResearchGate
       username: Nicolas_Navarro-Guerrero
       baseurl: https://www.researchgate.net/profile
@@ -31,11 +36,6 @@
       baseurl: https://scholar.google.de
       icon: /assets/img/logos/google-scholar-64x64.png
 
-    - name: orcid
-      username: 0000-0003-1164-5579
-      baseurl: https://orcid.org
-      icon: /assets/img/logos/orcid_64x64.png
-
 - name: extras
   subitems:
     - name: zotero
@@ -43,7 +43,7 @@
       baseurl: https://www.zotero.org
       icon: /assets/img/logos/zotero_48x48x32.png
 
-    - name: publons
+    - name: Publons (Web of Science)
       username: 1085460/nicolas-navarro-guerrero
       baseurl: https://publons.com/author
       icon: /assets/img/logos/publons.svg
