@@ -1,0 +1,16 @@
+{% assign tmp = include.param | downcase | default: 'intro' %}
+
+{% if tmp contains 'intro' %}
+<p>View my publications sorted by <a href="/publications/by-type/">category</a>, <a href="/publications/chronological/">chronologically</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below just send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
+
+{% elsif tmp contains 'right' %}
+<div class="card text-white bg-info mt-5 mb-5">
+  <div class="card-header">
+    <h5 class="text-center">Copyright Notice</h5>
+  </div>
+  <div class="card-body">
+    <p class="card-text">The documents contained in this page are included to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are retained by authors or by other copyright holders. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.</p>
+  </div>
+</div>
+{% endif %}
+
