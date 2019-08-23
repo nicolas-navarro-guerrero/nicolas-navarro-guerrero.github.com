@@ -1,20 +1,6 @@
 {% assign size = '45px' %}
 {% assign handle = include.category | downcase | default: 'all' %}
-{% assign account = include.item | downcase %}
-
-{% if handle contains 'membership' %}
-  {% assign icon = 'fas fa-user-plus' %}
-
-{% elsif handle contains 'call' %}
-  {% assign icon = 'fas fa-bullhorn' %}
-
-{% elsif handle contains 'lecture' %}
-  {% assign icon = 'fas fa-chalkboard-teacher' %}
-
-{% else %}
-  {% assign icon = 'fas fa-asterisk' %}
-
-{% endif %}
+{% assign account = include.account | downcase | default: 'all' %}
 
 {% for category in site.data.elsewhere %}
   {% assign tmp = category.name | downcase %}
@@ -22,7 +8,7 @@
     <div class="row justify-content-center mt-3">
     {% for item in category.subitems %}
       {% assign name = item.name | downcase %}
-      {% if name contains account or account == nil %}
+      {% if name contains account or account == 'all' %}
         <div class="col text-center">
         {% if item.icon contains "<i class=" %}
             <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-secondary" style="font-size:{{ size }};">{{ item.icon }}</a>
