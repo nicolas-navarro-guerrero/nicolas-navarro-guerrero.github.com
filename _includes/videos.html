@@ -1,4 +1,5 @@
 {% assign latest = include.latest | default: 'all' %}
+{% assign style = include.style | default: 'list' %}
 
 {% if latest == 'all' %}
   {% assign latest = site.videos | size %}
@@ -6,8 +7,29 @@
 
 {% for vids in site.videos reversed limit:latest %}
   {% unless vids.categories contains 'template' %}
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      {% include media/video-style.html param=vids %}
+    <div class="card-deck">
+      {% if style == 'overview' %}
+  <div class="card mb-3">
+    <div class="embed-responsive embed-responsive-16by9 card-img-top">
+      <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ vids.title }}</h5>
+      <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
+    </div>
+  </div>
+      {% else %}
+  <div class="card mb-3">
+    <div class="embed-responsive embed-responsive-16by9 card-img-top">
+      <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ vids.title }}</h5>
+      <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
+      <p class="card-text">{{ vids.description }}</p>
+    </div>
+  </div>
+      {% endif %}
     </div>
   {% endunless %}
 {% endfor %}

@@ -1,7 +1,0 @@
-{% for vids in site.videos reversed %}
-  {% unless vids.categories contains 'template' %}
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      {% include media/video-style.html param=vids %}
-    </div>
-  {% endunless %}
-{% endfor %}
