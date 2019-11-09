@@ -1,0 +1,119 @@
+- name: Research and Publication Ethics
+  id: ethics
+  subitems: 
+    - name: Academic Urban Legends
+      url: https://journals.sagepub.com/doi/abs/10.1177/0306312714535679
+    - name: Advice for Advisors
+      url: https://www.cs.indiana.edu/how.2b/how.2b.advice.html
+    - name: Authorship should be based on the following four criteria
+      url: http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+    - name: "Responsible Authorship and Peer Review: Case Studies"
+      url: http://ccnmtl.columbia.edu/projects/rcr/rcr_authorship/case/index.html
+
+
+- name: Research Tools
+  id: tools
+  subitems: 
+    - name: Zotero (Literature Management)
+      url: https://www.zotero.org/
+    - name: Advanced attachments management plugin for Zotero
+      url: http://zotfile.com/
+    - name: Better Bib(La)TeX plugin for Zotero
+      url: https://github.com/retorquere/zotero-better-bibtex
+    - name: SCImago Journal & Country Rank (where to publish)
+      url: https://www.scimagojr.com/index.php
+    - name: DOAI (Digital Open Access Identifier) takes you to a free version of the article
+      url: http://doai.io/
+    - name: Creative Commons copyright licenses
+      url: https://open-access.net/DE-EN/germany-english/
+    - name: Open Data Commons
+      url: https://opendatacommons.org/
+    - name: GNU General Public License
+      url: https://www.gnu.org/licenses/gpl.html
+
+
+- name: Scientific Writing
+  id: writing
+  subitems: 
+    - name: The Chicago Manual of Style Online (Writing Style)
+      url: http://www.chicagomanualofstyle.org/home.html
+    - name: Publication Manual of the American Psychological Association (Writing Style)
+      url: http://www.apastyle.org/
+    - name: IEEE Computer Society Style Guide
+      url: https://www.computer.org/portal/web/publications/styleguide
+    - name: "The ACS Style Guide: Effective Communication of Scientific Information"
+      url: https://pubs.acs.org/isbn/9780841239999
+    - name: How to Write for Technical Periodicals & Conferences
+      url: https://www.ieee.org/publications_standards/publications/authors/author_guide_interactive.pdf
+      icon: <i class="fas fa-file-pdf"></i>
+    - name: Writing Style and Word Usage
+      url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch004
+    - name: Grammar, Punctuation, and Spelling
+      url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch009
+    - name: Artwork and Multimedia Instructions
+      url: https://www.elsevier.com/wps/find/authors.authors/authorartworkinstructions
+    - name: Ten Simple Rules for Better Figures
+      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003833
+    - name: Ten Simple Rules for Writing a Literature Review
+      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003149
+    - name: Ten Simple Rules for Writing Research Papers
+      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453
+    - name: Ten Simple (Empirical) Rules for Writing Science
+      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004205
+    - name: Ten Simple Rules for a Good Poster Presentation
+      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030102
+    - name: Ten Simple Rules for Making Good Oral Presentations
+      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077
+    - name: Ten simple rules for short and swift presentations
+      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373
+
+
+- name: LaTeX
+  id: latex
+  subitems: 
+    - name: The Comprehensive TeX Archive Network
+      url: http://www.ctan.org/
+    - name: MiKTeX (TeX/LaTeX for Windows)
+      url: http://www.miktex.org/
+    - name: LaTeX (Wikibooks)
+      url: https://en.wikibooks.org/wiki/LaTeX
+    - name: TeX – LaTeX Stack Exchange (Forum)
+      url: https://tex.stackexchange.com/
+    - name: Texmaker (cross-platform LaTeX editor)
+      url: http://www.xm1math.net/texmaker/
+    - name: LaTeX Math Symbols
+      url: http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html
+    - name: "Detexify: LaTeX symbols"
+      url: http://detexify.kirelabs.org/classify.html
+    - name: The LaTeX Font Catalogue
+      url: http://www.tug.dk/FontCatalogue/
+
+
+- name: Software Development Tools
+  id: programming
+  subitems: 
+    - name: Python
+      url: https://www.python.org/
+    - name: SciPy
+      url: http://www.scipy.org/
+    - name: NumPy
+      url: http://www.numpy.org/
+    - name: NumPy for Matlab Users
+      url: http://wiki.scipy.org/NumPy_for_Matlab_Users
+    - name: matplotlib
+      url: http://matplotlib.org/
+    - name: Spyder (IDE)
+      url: http://pythonhosted.org/spyder/
+    - name: Code::Blocks (IDE)
+      url: http://www.codeblocks.org/
+    - name: C++ reference
+      url: http://en.cppreference.com/w/
+    - name: C++ Programming (Wikibooks)
+      url: http://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Style_Conventions
+    - name: C++ FAQ Lite
+      url: http://www.parashift.com/c++-faq-lite/
+    - name: "GDB  The GNU Project Debugger"
+      url: https://sourceware.org/gdb/
+    - name: Umbrello – The UML Modeller
+      url: https://umbrello.kde.org/
+
