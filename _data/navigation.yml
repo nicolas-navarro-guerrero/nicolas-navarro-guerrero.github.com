@@ -4,8 +4,8 @@
   icon: 
 
 - name: Research
-  slug: /research
-  id: research
+  slug: /projects
+  id: projects
   icon: <span class="caret"></span>
 
 - name: Teaching
