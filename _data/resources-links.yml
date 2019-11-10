@@ -32,6 +32,23 @@
       url: https://www.gnu.org/licenses/gpl.html
 
 
+- name: Thesis Resources
+  id: thesis
+  subitems: 
+    - name: A Thesis Proposal Template
+      url: https://gitlab.com/nicolas-navarro-guerrero/expose-paper-template/repository/archive.zip
+      icon: <i class="fas fa-file-archive"></i>
+    - name: A Thesis Template
+      url: https://gitlab.com/nicolas-navarro-guerrero/thesis-template/repository/archive.zip
+      icon: <i class="fas fa-file-archive"></i>
+    - name: How to Be a Good Graduate Student (and advisor)
+      url: https://www.cs.indiana.edu/how.2b/how.2b.html
+    - name: Ten Simple Rules for Graduate Students
+      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030229
+    - name: Ten Simple Rules for Choosing between Industry and Academia
+      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000388
+
+
 - name: Scientific Writing
   id: writing
   subitems: 

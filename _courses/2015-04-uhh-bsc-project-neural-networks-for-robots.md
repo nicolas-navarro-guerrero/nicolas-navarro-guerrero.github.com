@@ -1,6 +1,7 @@
 ---
 year: 2015
 month: 04
+date: 2015-04-01
 institution: Universität Hamburg
 
 #semester: Summer Semester 2015

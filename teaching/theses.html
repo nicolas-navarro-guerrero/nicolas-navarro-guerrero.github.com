@@ -7,10 +7,10 @@ title: Teaching
 subtitle: Thesis Offers
 author: Nicolás Navarro-Guerrero
 ---
-{% include teaching/thesis-supervision-statement.html %}
-{% include teaching/thesis-resources.html %}
+{% include theses.html param='intro' %}
+{% include resources-link-formatting.html section='thesis' %}
 
-<h3 class="id-header sub-header" id="offers">Thesis Offers</h3>
+<h3 class="pt-5" id="offers">Thesis Offers</h3>
 <p><a href="https://projects.au.dk/socialrobotics/teaching/thesis-offers/">Please check the thesis offers from the AU Social Robotics Lab,</a> or contact me if you are interested in doing a research project with me. A few tentative thesis topics I am currently interested in supervising are:</p>
 
 <h4>Machine Learning</h4>
@@ -29,27 +29,15 @@ author: Nicolás Navarro-Guerrero
     <li>Power mobility and care equipment</li>
 </ul>
 
-<!--
-<ul class="media-list" style="padding-top: 10px;">
-  <li class="media">
-    <a class="pull-left" href="#">
-      <img class="media-object" src="..." alt="...">
-    </a>
-    <div class="media-body">
-      <h4 class="media-heading">Media heading</h4>
-      ...
-    </div>
-  </li>
-</ul>
--->
+<h3 class="pt-5" id="supervised">Supervised and Examined Theses</h3>
 
-<h3 class="id-header sub-header" id="supervised">Supervised and Examined Theses</h3>
+<h4 class="pt-3" id="MSc">Master Theses</h4>
+{% include theses.html param='MSc' param2='Diplom' %}
 
-<h4 class="sub-header id-header" id="MSc">Master Theses</h4>
-{% include teaching/supervised-theses.html param='MSc' param2='Diplom' %}
 
-<h4 class="sub-header id-header" id="MSc">Bachelor Theses</h4>
-{% include teaching/supervised-theses.html param='BSc' %}
+<h4 class="pt-5" id="MSc">Bachelor Theses</h4>
+{% include theses.html param='BSc' %}
+
 
 <div class="col-md-12" style="padding-top:25px;">
   {% include publications.html param='copyright' %}

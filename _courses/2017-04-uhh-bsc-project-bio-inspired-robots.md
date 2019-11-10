@@ -1,6 +1,7 @@
 ---
 year: 2017
 month: 04
+date: 2017-04-01
 institution: Universität Hamburg
 
 #semester: Summer Semester 2017

@@ -7,8 +7,9 @@ title: Teaching
 subtitle: Courses
 author: Nicolás Navarro-Guerrero
 ---
-<h2 class="sub-header">Recent Courses</h2>
-{% include teaching/courses-list.html param='recent' %}
+<h2 id="recent-courses">Recent Courses</h2>
+{% include courses.html param='recent' %}
 
-<h2 class="sub-header">Previous Courses</h2>
-{% include teaching/courses-list.html param='past' %}
+<h2 class="pt-5" id="past-courses">Previous Courses</h2>
+{% include courses.html param='past' %}
+

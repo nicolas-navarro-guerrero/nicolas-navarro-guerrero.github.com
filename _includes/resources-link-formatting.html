@@ -1,6 +1,8 @@
 {% assign datafile = site.data.resources-links %}
+{% assign handle = include.section | downcase | default: 'all' %}
 
 {% for item in datafile %}
+  {% if handle == 'all' or handle == item.id %}
   <h3 class="pt-5 text-center" id="{{ item.id }}">{{ item.name | capitalize }}</h3>
 
   {% assign ans = item.subitems | size %}
@@ -21,5 +23,6 @@
   {% endfor %}
     </div><!-- column -->
   </div><!-- row -->
+  {% endif %}
 {% endfor %}
 

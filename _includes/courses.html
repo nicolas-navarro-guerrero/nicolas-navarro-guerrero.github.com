@@ -1,0 +1,54 @@
+{% assign handle = include.param | downcase | default: 'all' %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign nowunix = nowunix | plus: 0 %}  <!-- cast as number -->
+{% assign month = 2592000 %}
+{% assign year = 31104000 %}
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <!--<th>Institution</th>-->
+        <th>Semester</th>
+        <th>Course Code</th>
+        <th>Course Type</th>
+        <th>Institution</th>
+        <th>Name</th>
+        <th>Teachers</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {% for item in site.courses reversed %}
+        {% assign print = 'no' %}
+        {% capture tmp %}{{ item.date | date: '%s' }}{% endcapture %}
+        <!-- cast as number -->
+        {% assign tmp = tmp | plus: year %}
+        {% if handle == "recent" %}
+          {% if tmp >= nowunix %}
+            {% assign print = 'yes' %}
+          {% endif %}
+        {% elsif handle == "past" %}
+          {% if tmp <= nowunix %}
+            {% assign print = 'yes' %}
+          {% endif %}
+        {% else %}
+          {% assign print = 'yes' %}
+        {% endif %}
+
+        {% if print == "yes" %}
+      <tr>
+        <!-- <td>{{ item.institution }}</td> -->
+        <td>{{ item.semester }}</td>
+        <td>{{ item.code }}</td>
+        <td>{{ item.type }}</td>
+        <td>{{ item.institution }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.teachers }}</td>
+      </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div><!-- table-responsive -->
+

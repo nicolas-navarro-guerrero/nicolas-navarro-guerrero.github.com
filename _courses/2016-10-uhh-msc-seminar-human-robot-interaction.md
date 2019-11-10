@@ -1,6 +1,7 @@
 ---
 year: 2016
 month: 10
+date: 2016-10-01
 institution: Universität Hamburg
 
 #semester: Winter Semester 2016/2017 
