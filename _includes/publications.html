@@ -1,9 +1,11 @@
-{% assign tmp = include.section | downcase | default: 'intro' %}
+{% assign section = include.section | downcase | default: '' %}
+{% assign latest = include.latest | default: -1 %}
+{% assign size = '130px' %}
 
-{% if tmp contains 'intro' %}
-<p>View my publications sorted by <a href="/publications/by-type/">category</a>, <a href="/publications/chronological/">chronologically</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below just send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
+{% if section contains 'intro' %}
+<p>View my publications sorted by <a href="/publications/">category</a>, <a href="/publications/chronological/">chronologically</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below just send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
 
-{% elsif tmp contains 'right' %}
+{% elsif section contains 'right' %}
 <div class="card text-white bg-info mt-5 mb-5">
   <div class="card-header">
     <h5 class="text-center">Copyright Notice</h5>
@@ -13,8 +15,7 @@
   </div>
 </div>
 
-{% elsif tmp contains 'id' %}
-
+{% elsif section contains 'id' %}
 {% assign size = '45px' %}
 <h3 class="mt-5" id="research-ids">Research IDs</h3>
 
@@ -45,5 +46,61 @@
     </tbody>
   </table>
 </div>
+
+{% else %}
+  {% assign datafile = site.publications %}
+  {% assign display = 'd-none d-sm-block' %}
+  {% assign ans = site.publications | size %}
+  {% if section contains 'journal' %}
+    {% assign title = 'Journal Articles' %}
+
+  {% elsif section contains 'chapter' %}
+    {% assign title = 'Book Chapters' %}
+
+  {% elsif section contains 'conference' %}
+    {% assign title = 'Conferences and Workshops' %}
+
+  {% elsif section contains 'abstract' %}
+    {% assign title = 'Abstracts and Posters' %}
+    {% assign display = 'd-none' %}
+  
+  {% elsif section contains 'thesis' or section contains 'report' %}
+    {% assign title = 'Theses and Technical Reports' %}
+
+  {% elsif section contains 'talk' %}
+    {% assign title = 'Invited Talks' %}
+    {% assign display = 'd-none' %}
+    {% assign datafile = site.talks %}
+
+  {% elsif section contains 'media' %}
+    {% assign title = 'Media Coverage and Activities' %}
+    {% assign display = 'd-none' %}
+    {% assign datafile = site.media %}
+  {% endif %}
+
+{% unless section == '' %}
+<h3 class="pt-5" id="{{ section }}">{{ title }}</h3>
+{% endunless %}
+
+<ul class="list-unstyled">
+  {% assign counter = 1 %}
+  {% for item in datafile reversed %}
+    {% unless item.categories contains 'template' %}
+      {% assign tmp = item.tags | downcase %}
+      {% if tmp contains section %}
+<li class="media mt-4">
+  <div class="media-body">
+    {% include publications-citation-style.html param=item %}
+  </div>
+  <img class="ml-3 rounded {{ display }}" src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" style="height:{{ size }};max-width:{{ size }};" alt="">
+</li>
+      {% endif %}
+      {% if counter == latest %}
+        {% break %}
+      {% endif %}
+      {% assign counter = counter | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+</ul>
 {% endif %}
 

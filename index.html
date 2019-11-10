@@ -36,7 +36,8 @@ author: Nicolás Navarro-Guerrero
 
 <hr class="mt-5 mb-5">
 <h3><a href="/publications/">Latest Publications <span class="caret"></span></a></h3>
-{% include pub/latest.html param='3' %}
+{% include publications.html section='intro' %}
+{% include publications.html latest=5 %}
 
 <a class="btn btn-primary btn-lg btn-block mt-5" href="{{ "/publications" | prepend: site.baseurl }}" role="button">See All Publications <span class="caret"></span></a>
 

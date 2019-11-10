@@ -14,7 +14,7 @@
       {% for papers in site.publications reversed %}
         {% if papers.tags contains include.param.relatedpapers %}
           <li style="padding-bottom:15px;">
-            {% include pub/citation-style-citeulike.html param=papers %}
+            {% include publications-citation-style.html param=papers %}
           </li>
         {% endif %}
       {% endfor %}

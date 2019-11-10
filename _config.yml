@@ -42,6 +42,8 @@ permalink: pretty
 
 collections:
 - publications
+- talks
+- media
 - pub-collaborations
 - courses
 - theses
