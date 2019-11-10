@@ -22,7 +22,7 @@
             </tr>
           </thead>
           <tbody>
-{% for item in site.supervised-theses reversed %}
+{% for item in site.theses reversed %}
   {% unless item.categories contains 'template' %}
   {% assign tmp = item.citation.genre | downcase %}
   {% if tmp contains handle or tmp contains include.param2 %}
