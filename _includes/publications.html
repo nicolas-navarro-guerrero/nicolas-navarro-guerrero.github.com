@@ -1,4 +1,4 @@
-{% assign tmp = include.param | downcase | default: 'intro' %}
+{% assign tmp = include.section | downcase | default: 'intro' %}
 
 {% if tmp contains 'intro' %}
 <p>View my publications sorted by <a href="/publications/by-type/">category</a>, <a href="/publications/chronological/">chronologically</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below just send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
