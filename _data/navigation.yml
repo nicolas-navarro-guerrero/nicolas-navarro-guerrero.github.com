@@ -3,7 +3,7 @@
   id: publications
   icon: 
 
-- name: Research
+- name: Projects
   slug: /projects
   id: projects
   icon: <span class="caret"></span>

@@ -8,9 +8,11 @@ title: Research
 subtitle: Overview
 author: Nicolás Navarro-Guerrero
 ---
-<h3 class="sub-header" id="interests">Research Interests</h3>
-{% include research/interests.html %}
-<h3 class="id-header sub-header" id="scientific">Scientific Projects</h3>
+<h3 id="interests">Research Interests</h3>
+{% include projects.html section='interests' %}
+
+<h3 class="pt-5" id="scientific">Scientific Projects</h3>
 {% include projs/overview-thumbnails.md param='research' %}
-<h3 class="id-header sub-header" id="others">Other Projects</h3>
+
+<h3 class="pt-5" id="others">Other Projects</h3>
 {% include projs/overview-thumbnails.md param='freelance' %}

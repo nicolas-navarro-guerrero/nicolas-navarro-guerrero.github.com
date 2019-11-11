@@ -1,0 +1,21 @@
+{% assign section = include.section | downcase | default: '' %}
+
+{% if section contains 'acknowledgment' %}
+<div class="col-md-12">
+  {% if include.param.acknowledgment != null %}
+    <h3>Acknowledgments:</h3>
+    {{ include.param.acknowledgment }}
+  {% endif %}
+</div><!-- column -->
+
+{% elsif section contains 'interests' %}
+<ul>
+  <li>Embodied and Developmental Cognition</li>
+  <li>Bio-inspired Perceptual Systems & Signal Processing</li>
+  <li>Cognitive Robotics</li>
+  <li>Neurorobotics</li>
+  <li>Human-Robot Interaction</li>
+  <li>Service Robots</li>
+</ul>
+{% endif %}
+
