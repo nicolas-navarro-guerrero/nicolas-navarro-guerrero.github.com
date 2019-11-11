@@ -1,10 +1,12 @@
 {% assign section = include.section | downcase | default: '' %}
+{% assign latest = include.latest | default: -1 %}
+{% assign page = include.page %}
 
 {% if section contains 'acknowledgment' %}
 <div class="col-md-12">
-  {% if include.param.acknowledgment != null %}
+  {% if page.acknowledgment != null %}
     <h3>Acknowledgments:</h3>
-    {{ include.param.acknowledgment }}
+    {{ page.acknowledgment }}
   {% endif %}
 </div><!-- column -->
 
@@ -17,5 +19,73 @@
   <li>Human-Robot Interaction</li>
   <li>Service Robots</li>
 </ul>
+
+{% elsif section contains 'partners' %}
+<div class="col-md-12">
+  {% if page.partners !=  null %}
+    <h3>Project Partners:</h3>
+    {{ page.partners }}
+  {% endif %}
+</div><!-- column -->
+
+{% elsif section contains 'sponsors' %}
+<div class="col-md-12">
+  {% if page.sponsors != null %}
+    <h3>Grants and Sponsors:</h3>
+    {{ page.sponsors }}
+  {% endif %}
+</div><!-- column -->
+
+{% elsif section contains 'publications' %}
+{% assign isrelatedpapers = null %}
+<div class="col-md-12">
+  {% if page.relatedpapers != null %}
+    {% for papers in site.publications reversed %}
+        {% if papers.tags contains page.relatedpapers %}
+            {% assign isrelatedpapers = 1 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if isrelatedpapers %}
+    <hr>
+    <h3>Related Publications:</h3>
+    <ol>
+      {% for papers in site.publications reversed %}
+        {% if papers.tags contains page.relatedpapers %}
+          <li style="padding-bottom:15px;">
+            {% include publications-citation-style.html param=papers %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+    {% endif %}
+  {% endif %}
+</div><!-- column -->
+
+{% else %}
+{% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
+
+  {% assign counter = 1 %}
+<div class="card-deck">
+  {% for item in projects %}
+    {% unless item.categories contains 'template' %}
+      {% assign tmp = item.tags | downcase %}
+      {% if tmp contains section %}
+  <div class="card">
+    <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top" alt="Project Thumbnail">
+    <div class="card-body">
+      <h5 class="card-title">{{ item.title }}</h5>
+      <p class="card-text">{{ item.start }} &#187; {{ item.end }}</p>
+      <a href="{{ item.slug }}" class="btn btn-primary">Read</a>
+    </div>
+  </div>
+      {% endif %}
+      {% if counter == latest %}
+        {% break %}
+      {% endif %}
+      {% assign counter = counter | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+</div><!-- card deck -->
 {% endif %}
 
