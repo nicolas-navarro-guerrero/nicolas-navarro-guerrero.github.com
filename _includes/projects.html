@@ -64,26 +64,33 @@
 
 {% else %}
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
+{% assign projects = projects | sort: "date" | reverse %}
 
-  {% assign counter = 1 %}
-<div class="card-deck">
+  {% assign counter = 0 %}
+<div class="card-columns">
   {% for item in projects %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
-  <div class="card">
-    <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top" alt="Project Thumbnail">
-    <div class="card-body">
-      <h5 class="card-title">{{ item.title }}</h5>
-      <p class="card-text">{{ item.start }} &#187; {{ item.end }}</p>
-      <a href="{{ item.slug }}" class="btn btn-primary">Read</a>
+        {% assign counter = counter | plus: 1 %}
+
+  <div class="card border-light mt-3">
+    <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top rounded" alt="Project Thumbnail">
+    <div class="card-body text-center">
+      <h5 class="card-title mx-n4"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
+      {% if item.subtitle != null %}
+      <h6 class="card-subtitle mb-2 mx-n4 text-muted">{{ item.subtitle }}</h6>
+      {% endif %}
+      <p class="card-text mx-n4">{{ item.start }} &#187; {{ item.end }}</p>
     </div>
-  </div>
+    <div class="card-footer bg-transparent border-white text-center">
+      <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
+    </div>
+  </div><!-- card -->
       {% endif %}
       {% if counter == latest %}
         {% break %}
       {% endif %}
-      {% assign counter = counter | plus: 1 %}
     {% endunless %}
   {% endfor %}
 </div><!-- card deck -->
