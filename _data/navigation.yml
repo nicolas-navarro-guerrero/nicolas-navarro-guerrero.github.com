@@ -36,30 +36,73 @@
       id: publications
       icon:  
 
+
 - name: Projects
   slug: /projects
   id: projects
-  icon: <span class="caret"></span>
+  icon: 
+
 
 - name: Teaching
   slug: /teaching
   id: teaching
-  icon: <span class="caret"></span>
+  icon: 
+
 
 - name: Resources
   slug: /resources
   id: resources
-  icon: <span class="caret"></span>
+  icon: 
+  submenuitems: 
+    - name: Software
+      slug: /resources/materials#software
+      id: resources
+      icon:  
+    - name: Datasets and Supplementary Material
+      slug: /resources/materials#datasets
+      id: resources
+      icon:  
+    - name: Videos
+      slug: /resources/videos
+      id: resources
+      icon:  
+    - name: Ethics
+      slug: /resources/links#ethics
+      id: resources
+      icon:  
+    - name: Research Tools
+      slug: /resources/links#tools
+      id: resources
+      icon:  
+    - name: Thesis resources
+      slug: /resources/links#thesis
+      id: resources
+      icon:  
+    - name: Scientific Writing
+      slug: /resources/links#writing
+      id: resources
+      icon:  
+    - name: Latex
+      slug: /resources/links#latex
+      id: resources
+      icon:  
+    - name: Programming
+      slug: /resources/links#programming
+      id: resources
+      icon:  
+
 
 - name: News
   slug: /news
   id: news
   icon: 
 
+
 - name: About
   slug: /about
   id: about
   icon: 
+
 
 - name: Contact
   slug: /contact
