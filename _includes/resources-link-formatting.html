@@ -3,7 +3,7 @@
 
 {% for item in datafile %}
   {% if handle == 'all' or handle == item.id %}
-  <h3 class="pt-5 text-center" id="{{ item.id }}">{{ item.name | capitalize }}</h3>
+  <h3 class="pt-5 text-center" id="{{ item.id }}">{{ item.name | capitalize }} <i class="fas fa-external-link-square-alt"></i></h3>
 
   {% assign ans = item.subitems | size %}
   {% assign ans = ans | divided_by: 2 %}
@@ -18,7 +18,7 @@
       </div><!-- column -->
       <div class="col-xs-12 col-sm-6 col-md-6">
     {% endif %}
-    <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }}</a>
+    <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }} {% if subitem.icon != null %}{{ subitem.icon }}{% endif %}</a>
     {% assign counter = counter | plus: 1 %}
   {% endfor %}
     </div><!-- column -->

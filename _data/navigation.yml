@@ -57,6 +57,10 @@
   id: teaching
   icon: 
   submenuitems: 
+    - name: Overview
+      slug: /teaching
+      id: teaching
+      icon: 
     - name: Courses
       slug: /teaching/courses
       id: teaching
@@ -76,6 +80,10 @@
   id: resources
   icon: 
   submenuitems: 
+    - name: Overview
+      slug: /resources/
+      id: resources
+      icon: 
     - name: Software
       slug: /resources/materials#software
       id: resources
@@ -111,7 +119,7 @@
     - name: Programming
       slug: /resources/links#programming
       id: resources
-      icon:  
+      icon: 
 
 
 - name: News

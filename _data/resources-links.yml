@@ -4,7 +4,7 @@
     - name: Academic Urban Legends
       url: https://journals.sagepub.com/doi/abs/10.1177/0306312714535679
     - name: Advice for Advisors
-      url: https://www.cs.indiana.edu/how.2b/how.2b.advice.html
+      url: https://www.oit.edu/faculty-staff/resources/academic-advising-handbook/how-to-be-good-academic-advisor
     - name: Authorship should be based on the following four criteria
       url: http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
     - name: "Responsible Authorship and Peer Review: Case Studies"
@@ -42,7 +42,7 @@
       url: https://gitlab.com/nicolas-navarro-guerrero/thesis-template/repository/archive.zip
       icon: <i class="fas fa-file-archive"></i>
     - name: How to Be a Good Graduate Student (and advisor)
-      url: https://www.cs.indiana.edu/how.2b/how.2b.html
+      url: https://heibeck.freeshell.org/Grad_Advice/how2b/how.2b.html
     - name: Ten Simple Rules for Graduate Students
       url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030229
     - name: Ten Simple Rules for Choosing between Industry and Academia
@@ -56,19 +56,20 @@
       url: http://www.chicagomanualofstyle.org/home.html
     - name: Publication Manual of the American Psychological Association (Writing Style)
       url: http://www.apastyle.org/
-    - name: IEEE Computer Society Style Guide
-      url: https://www.computer.org/portal/web/publications/styleguide
+    - name: IEEE Editorial Style Manual for Authors
+      url: https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE_Style_Manual.pdf
+      icon: <i class="fas fa-file-pdf"></i>
     - name: "The ACS Style Guide: Effective Communication of Scientific Information"
       url: https://pubs.acs.org/isbn/9780841239999
     - name: How to Write for Technical Periodicals & Conferences
-      url: https://www.ieee.org/publications_standards/publications/authors/author_guide_interactive.pdf
+      url: https://eps.ieee.org/images/files/mc-ieee_author_guide_interactive.pdf
       icon: <i class="fas fa-file-pdf"></i>
     - name: Writing Style and Word Usage
       url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch004
     - name: Grammar, Punctuation, and Spelling
       url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch009
     - name: Artwork and Multimedia Instructions
-      url: https://www.elsevier.com/wps/find/authors.authors/authorartworkinstructions
+      url: https://www.elsevier.com/authors/author-schemas/artwork-and-media-instructions
     - name: Ten Simple Rules for Better Figures
       url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003833
     - name: Ten Simple Rules for Writing a Literature Review
@@ -98,8 +99,6 @@
       url: https://tex.stackexchange.com/
     - name: Texmaker (cross-platform LaTeX editor)
       url: http://www.xm1math.net/texmaker/
-    - name: LaTeX Math Symbols
-      url: http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html
     - name: "Detexify: LaTeX symbols"
       url: http://detexify.kirelabs.org/classify.html
     - name: The LaTeX Font Catalogue
@@ -116,11 +115,11 @@
     - name: NumPy
       url: http://www.numpy.org/
     - name: NumPy for Matlab Users
-      url: http://wiki.scipy.org/NumPy_for_Matlab_Users
+      url: https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html
     - name: matplotlib
       url: http://matplotlib.org/
     - name: Spyder (IDE)
-      url: http://pythonhosted.org/spyder/
+      url: https://www.spyder-ide.org/
     - name: Code::Blocks (IDE)
       url: http://www.codeblocks.org/
     - name: C++ reference
