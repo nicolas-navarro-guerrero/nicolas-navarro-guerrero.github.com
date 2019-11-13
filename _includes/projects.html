@@ -2,13 +2,13 @@
 {% assign latest = include.latest | default: -1 %}
 {% assign page = include.page %}
 
+
 {% if section contains 'acknowledgment' %}
-<div class="col-md-12">
   {% if page.acknowledgment != null %}
-    <h3>Acknowledgments:</h3>
+    <h3 class="pt-4">Acknowledgments:</h3>
     {{ page.acknowledgment }}
   {% endif %}
-</div><!-- column -->
+
 
 {% elsif section contains 'interests' %}
 <ul>
@@ -21,36 +21,71 @@
 </ul>
 
 {% elsif section contains 'partners' %}
-<div class="col-md-12">
   {% if page.partners !=  null %}
-    <h3>Project Partners:</h3>
+    <h3 class="pt-4">Project Partners:</h3>
     {{ page.partners }}
   {% endif %}
-</div><!-- column -->
+
 
 {% elsif section contains 'sponsors' %}
-<div class="col-md-12">
   {% if page.sponsors != null %}
-    <h3>Grants and Sponsors:</h3>
+    <h3 class="pt-4">Grants and Sponsors:</h3>
     {{ page.sponsors }}
   {% endif %}
-</div><!-- column -->
+
+
+{% elsif section contains 'metadata' %}
+<div class="card mb-3">
+  <div class="row no-gutters">
+    {% if page.thumbnail != null %}
+    <div class="col-md-4">
+      <img src="{{ page.thumbnail }}" class="card-img rounded" alt="Thumbnail for {{ page.title }}">
+    </div>
+    {% endif %}
+    <div class="col-md-8">
+      <div class="card-header border-light"><h5 class="card-title">{{ page.title }}
+        <small class="text-muted">{{ page.subtitle }}</small></h5></div>
+      <div class="card-body">
+        {% if page.coordinator != null %}
+          <p class="card-text">Coordinator (PI): {{ page.coordinator }}</p>
+        {% endif %}
+        {% if page.staff != null %}
+          <p class="card-text">Contributors: {{ page.staff }}</p>
+        {% endif %}
+        <p>Start Date: {{ page.date }}</p>
+        <p>End Date: {{ page.end }}</p>
+        {% if page.funded != null %}
+          <p>Funded by {{ page.funded }}</p>
+          {% if page.grant %}
+            <p>Project Code or Grant Number: {{ page.grant }}</p>
+          {% endif %}
+        {% endif %}
+      </div><!-- card body -->
+    </div><!-- row 8 -->
+  </div><!-- row -->
+</div><!-- card -->
+
 
 {% elsif section contains 'publications' %}
-{% assign isrelatedpapers = null %}
-<div class="col-md-12">
+  {% assign isrelatedpapers = null %}
   {% if page.relatedpapers != null %}
     {% for papers in site.publications reversed %}
-        {% if papers.tags contains page.relatedpapers %}
-            {% assign isrelatedpapers = 1 %}
-            {% break %}
-        {% endif %}
+      {% if papers.tags contains page.relatedpapers %}
+        {% assign isrelatedpapers = 1 %}
+        {% break %}
+      {% endif %}
     {% endfor %}
     {% if isrelatedpapers %}
-    <hr>
-    <h3>Related Publications:</h3>
+    <h3 class="pt-4">Related Publications:</h3>
     <ol>
       {% for papers in site.publications reversed %}
+        {% if papers.tags contains page.relatedpapers %}
+          <li style="padding-bottom:15px;">
+            {% include publications-citation-style.html param=papers %}
+          </li>
+        {% endif %}
+      {% endfor %}
+      {% for papers in site.pub-collaborations reversed %}
         {% if papers.tags contains page.relatedpapers %}
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=papers %}
@@ -60,27 +95,27 @@
     </ol>
     {% endif %}
   {% endif %}
-</div><!-- column -->
+
 
 {% else %}
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
 {% assign projects = projects | sort: "date" | reverse %}
 
   {% assign counter = 0 %}
-<div class="card-columns">
+  <div class="card-columns">
   {% for item in projects %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
         {% assign counter = counter | plus: 1 %}
   <div class="card border-light mt-3">
-    <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top rounded" alt="Project Thumbnail">
-    <div class="card-body text-center">
-      <h5 class="card-title mx-n4"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
+    <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top rounded" alt="Project Thumbnail"></a>
+    <div class="card-body mx-n4 text-center">
+      <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
       {% if item.subtitle != null %}
-      <h6 class="card-subtitle mb-2 mx-n4 text-muted">{{ item.subtitle }}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
       {% endif %}
-      <p class="card-text mx-n4">{{ item.start }} &#187; {{ item.end }}</p>
+      <p class="card-text">{{ item.start }} &#187; {{ item.end }}</p>
     </div>
     <div class="card-footer bg-transparent border-white text-center">
       <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
@@ -92,6 +127,6 @@
       {% endif %}
     {% endunless %}
   {% endfor %}
-</div><!-- card deck -->
+  </div><!-- card columns -->
 {% endif %}
 

@@ -9,13 +9,8 @@
     {% include navbar.html %}
 
     <div class="container-fluid">
-      <div class="row">
-
-        {% include projs/show-metadata.html param=page %}
-
-        <div class="col-md-12">
-          {{ content }}
-        </div><!-- column -->
+        {% include projects.html section='metadata' page=page %}
+        {{ content }}
 
         {% include projects.html section='acknowledgments' page=page %}
 
@@ -25,8 +20,7 @@
 
         {% include projects.html section='publications' page=page %}
 
-      </div><!-- row -->
-      {% include footer.html %}
+        {% include footer.html %}
     </div><!-- container -->
   </body>
 </html>
