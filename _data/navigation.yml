@@ -41,6 +41,15 @@
   slug: /projects
   id: projects
   icon: 
+  submenuitems: 
+    - name: Scientific Projects
+      slug: /projects#scientific
+      id: projects
+      icon: 
+    - name: Others Projects
+      slug: /projects#others
+      id: projects
+      icon: 
 
 
 - name: Teaching
