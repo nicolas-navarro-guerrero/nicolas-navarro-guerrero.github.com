@@ -53,8 +53,8 @@
         {% if page.staff != null %}
           <p class="card-text">Contributors: {{ page.staff }}</p>
         {% endif %}
-        <p>Start Date: {{ page.date }}</p>
-        <p>End Date: {{ page.end }}</p>
+        <p>Start Date: {% include date-formatting.html date=page.date fmt='string' %}</p>
+        <p>End Date: {% include date-formatting.html date=page.enddate fmt='string' %}</p>
         {% if page.funded != null %}
           <p>Funded by {{ page.funded }}</p>
           {% if page.grant %}
@@ -116,7 +116,7 @@
       {% if item.subtitle != null %}
       <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
       {% endif %}
-      <p class="card-text">{{ item.start }} &#187; {{ item.end }}</p>
+      <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
     </div>
     <div class="card-footer bg-transparent border-white text-center">
       <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
