@@ -1,6 +1,4 @@
 ---
-year: 2015
-month: 10
 date: 2015-10-01
 institution: Universität Hamburg
 

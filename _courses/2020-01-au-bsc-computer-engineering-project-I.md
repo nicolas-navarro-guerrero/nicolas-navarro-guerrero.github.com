@@ -1,6 +1,4 @@
 ---
-year: 2020
-month: 01
 date: 2020-01-27
 institution: Aarhus University
 
