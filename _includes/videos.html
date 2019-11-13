@@ -13,7 +13,7 @@
     <div class="embed-responsive embed-responsive-16by9 card-img-top">
       <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
     </div>
-    <div class="card-body">
+    <div class="card-body mx-n3">
       <h5 class="card-title">{{ vids.title }}</h5>
       <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
     </div>
@@ -23,20 +23,20 @@
     <div class="embed-responsive embed-responsive-16by9 card-img-top">
       <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
     </div>
-    <div class="card-body">
-      <h5 class="card-title mx-n3">{{ vids.title }}</h5>
-      <p class="card-text mx-n3"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
-      <p class="card-text mx-n3">{{ vids.description }}</p>
+    <div class="card-body mx-n3">
+      <h5 class="card-title">{{ vids.title }}</h5>
+      <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
+      <p class="card-text">{{ vids.description }}</p>
     {% for item in site.publications reversed %}
       {% if vids.bibtex contains item.citation.bibtex %}
-      <p class="card-text mx-n3"><small>
+      <p class="card-text"><small>
         {% include publications-citation-style.html param=item %}
       </small></p>
       {% endif %}
     {% endfor %}
     {% for item in site.pub-collaborations reversed %}
       {% if vids.bibtex contains item.citation.bibtex %}
-      <p class="card-text mx-n3"><small>
+      <p class="card-text"><small>
         {% include publications-citation-style.html param=item %}
       </small></p>
       {% endif %}
