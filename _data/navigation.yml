@@ -47,6 +47,19 @@
   slug: /teaching
   id: teaching
   icon: 
+  submenuitems: 
+    - name: Courses
+      slug: /teaching/courses
+      id: teaching
+      icon: 
+    - name: Thesis Offers
+      slug: /teaching/theses#offers
+      id: teaching
+      icon: 
+    - name: Supervised Theses
+      slug: /teaching/theses#supervised
+      id: teaching
+      icon: 
 
 
 - name: Resources
