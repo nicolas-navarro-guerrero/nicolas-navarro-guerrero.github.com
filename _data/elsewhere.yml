@@ -2,7 +2,7 @@
   subitems:
     - name: gitlab
       username: nicolas-navarro-guerrero
-      baseurl: https://gitlab.com/u
+      baseurl: https://gitlab.com
 #      icon: <i class="fab fa-gitlab"></i>
       icon: /assets/img/logos/gitlab.svg
 
