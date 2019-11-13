@@ -8,7 +8,7 @@
       id: publications
       icon:  
     - name: Journals
-      slug: /publications/#journals
+      slug: /publications/
       id: publications
       icon:  
     - name: Conferences
