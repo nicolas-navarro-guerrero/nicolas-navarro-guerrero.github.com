@@ -44,10 +44,10 @@ collections:
 - publications
 - talks
 - media
-- pub-collaborations
 - courses
 - theses
 - videos
+- pub-collaborations
 
 
 defaults:

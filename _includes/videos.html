@@ -27,6 +27,20 @@
       <h5 class="card-title">{{ vids.title }}</h5>
       <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
       <p class="card-text">{{ vids.description }}</p>
+    {% for item in site.publications reversed %}
+      {% if vids.bibtex contains item.citation.bibtex %}
+      <p class="card-text"><small>
+        {% include publications-citation-style.html param=item %}
+      </small></p>
+      {% endif %}
+    {% endfor %}
+    {% for item in site.pub-collaborations reversed %}
+      {% if vids.bibtex contains item.citation.bibtex %}
+      <p class="card-text"><small>
+        {% include publications-citation-style.html param=item %}
+      </small></p>
+      {% endif %}
+    {% endfor %}
     </div>
   </div>
       {% endif %}

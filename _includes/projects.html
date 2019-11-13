@@ -73,7 +73,6 @@
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
         {% assign counter = counter | plus: 1 %}
-
   <div class="card border-light mt-3">
     <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top rounded" alt="Project Thumbnail">
     <div class="card-body text-center">
