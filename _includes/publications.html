@@ -8,7 +8,7 @@
 {% elsif section contains 'right' %}
 <div class="card text-white bg-info mt-5 mb-5">
   <div class="card-header">
-    <h5 class="text-center">Copyright Notice</h5>
+    <h5 class="text-center" id="copyright">Copyright Notice</h5>
   </div>
   <div class="card-body">
     <p class="card-text">The documents contained in this page are included to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are retained by authors or by other copyright holders. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.</p>
@@ -17,7 +17,7 @@
 
 {% elsif section contains 'id' %}
 {% assign size = '45px' %}
-<h3 class="mt-5" id="research-ids">Research IDs</h3>
+<h3 class="mt-5" id="ids">Research IDs</h3>
 
 <div class="table-responsive">
   <table class="table table-hover table-borderless table-striped">
@@ -51,23 +51,23 @@
   {% assign datafile = site.publications %}
   {% assign display = 'd-none d-sm-block' %}
   {% assign ans = site.publications | size %}
-  {% if section contains 'journal' %}
+  {% if section contains 'journals' %}
     {% assign title = 'Journal Articles' %}
 
-  {% elsif section contains 'chapter' %}
+  {% elsif section contains 'chapters' %}
     {% assign title = 'Book Chapters' %}
 
-  {% elsif section contains 'conference' %}
+  {% elsif section contains 'conferences' %}
     {% assign title = 'Conferences and Workshops' %}
 
-  {% elsif section contains 'abstract' %}
+  {% elsif section contains 'abstracts' %}
     {% assign title = 'Abstracts and Posters' %}
     {% assign display = 'd-none' %}
   
-  {% elsif section contains 'thesis' or section contains 'report' %}
+  {% elsif section contains 'thesis' or section contains 'reports' %}
     {% assign title = 'Theses and Technical Reports' %}
 
-  {% elsif section contains 'talk' %}
+  {% elsif section contains 'talks' %}
     {% assign title = 'Invited Talks' %}
     {% assign display = 'd-none' %}
     {% assign datafile = site.talks %}
@@ -87,7 +87,9 @@
   {% for item in datafile reversed %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
-      {% if tmp contains section %}
+      {% assign temp = section | size | minus: 1 %}
+      {% assign ection = section | slice: 0,temp %}
+      {% if tmp contains section or tmp contains ection %}
 <li class="media mt-4">
   <div class="media-body">
     {% include publications-citation-style.html param=item %}

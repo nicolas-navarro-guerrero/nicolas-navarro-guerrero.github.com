@@ -1,7 +1,40 @@
 - name: Publications
   slug: /publications
   id: publications
-  icon: 
+  icon:
+  submenuitems: 
+    - name: Chronological
+      slug: /publications/chronological
+      id: publications
+      icon:  
+    - name: Journals
+      slug: /publications/#journals
+      id: publications
+      icon:  
+    - name: Conferences
+      slug: /publications/#conferences
+      id: publications
+      icon:  
+    - name: Technical Reports
+      slug: /publications/#reports
+      id: publications
+      icon:  
+    - name: Abstracts
+      slug: /publications/#abstracts
+      id: publications
+      icon:  
+    - name: Invited Talks
+      slug: /publications/#talks
+      id: publications
+      icon:  
+    - name: Media
+      slug: /publications/#media
+      id: publications
+      icon:  
+    - name: Research IDs
+      slug: /publications/#ids
+      id: publications
+      icon:  
 
 - name: Projects
   slug: /projects
