@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Call for Papers: Postgraduate Conference on Robotics and Development of Cognition"
+title:  "Co-Organization: Postgraduate Conference on Robotics and Development of Cognition"
 subtitle: "International Conference on Artificial Neural Networks (ICANN)"
 thumbnail: 
 

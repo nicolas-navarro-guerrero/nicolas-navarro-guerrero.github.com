@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Call for Papers: ICDL-EpiRob Workshop on Naturalistic Non-Verbal and Affective Human-Robot Interactions"
+title:  "Organizer: ICDL-EpiRob Workshop on Naturalistic Non-Verbal and Affective Human-Robot Interactions"
 subtitle: "Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob 2019)"
 thumbnail: 
 
