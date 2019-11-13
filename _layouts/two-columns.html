@@ -1,27 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+---
+layout: fullwidth
+---
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    {{ content }}
+  </div>
 
-  <body>
-    <!-- Main navigation bar -->
-    {% include navbar.html %}
+  <div class="hidden-xs col-sm-4 col-md-4">
+    {% include photo.html %}
+    <div class="text-center">
+      {% include contact-address.html %}
+    </div>
+  </div>
+</div><!-- row -->
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-md-8">
-            {{ content }}
-        </div>
-
-        <div class="hidden-xs col-sm-4 col-md-4">
-            {% include photo.html %}
-          <div class="text-center">
-            {% include contact-address.html %}
-          </div>
-        </div>
-      </div><!-- row -->
-      {% include footer.html %}
-    </div><!-- container -->
-  </body>
-</html>
