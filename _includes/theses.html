@@ -45,7 +45,7 @@
           <a href="{{ item.file }}">pdf</a> 
         {% endif %}
         {% if item.bibtex != null %}
-          <br><a href="{{ item.bibtex }}">bibtex</a> 
+          <br><a href="{{ item.bibtex | prepend: '/assets/supervised-theses/' }}">bibtex</a> 
         {% endif %}
         {% if item.slides != null %}
           <br><a href="{{ item.slides }}"> slides</a> 
