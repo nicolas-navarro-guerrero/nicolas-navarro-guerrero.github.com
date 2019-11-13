@@ -12,9 +12,6 @@ slides:
 supplementary: "https://figshare.com/articles/Supplementary_Material_for_Improving_Robot_Motor_Learning_with_Negatively_Valenced_Reinforcement_Signals_/4555894"
 code:
 
-year: 2017
-month: April
-
 citation: {
 		"type": "article-journal",
 		"title": "Improving Robot Motor Learning with Negatively Valenced Reinforcement Signals",

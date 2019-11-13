@@ -12,9 +12,6 @@ slides:
 supplementary: "https://gitlab.com/nicolas-navarro-guerrero/thesis-nng-uhh-drawings"
 code:
 
-year: 2016
-month: may
-
 citation: {
 		"type": "thesis",
 		"title": "Neurocomputational Mechanisms for Adaptive Self-Preservative Robot Behaviour",

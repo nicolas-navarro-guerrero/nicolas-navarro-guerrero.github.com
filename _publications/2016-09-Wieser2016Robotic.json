@@ -12,9 +12,6 @@ slides:
 supplementary: "https://figshare.com/articles/Dataset_for_A_Robotic_Home_Assistant_with_Memory_Aid_Functionality_/3473630"
 code:
 
-year: 2016
-month: sep
-
 citation: {
 		"type": "paper-conference",
 		"title": "A Robotic Home Assistant with Memory Aid Functionality",

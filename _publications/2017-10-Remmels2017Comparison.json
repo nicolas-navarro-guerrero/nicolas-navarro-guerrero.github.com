@@ -12,9 +12,6 @@ slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/201
 supplementary: 
 code:
 
-year: 2017
-month: October
-
 citation: {
 		"type": "paper-conference",
 		"title": "Comparison of Behaviour-Based Architectures for Human-Robot Collaboration in a Package Delivery Task",

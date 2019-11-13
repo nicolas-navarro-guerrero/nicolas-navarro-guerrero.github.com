@@ -12,9 +12,6 @@ slides:
 supplementary:
 code:
 
-year: 2009
-month: 12
-
 citation: {
 		"type": "thesis",
 		"title": "Desarrollo e implementación de algoritmo evolutivo multi-objectivo para generar rutas online en un robot móvil autónomo",

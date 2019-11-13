@@ -12,9 +12,6 @@ slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/201
 supplementary: 
 code:
 
-year: 2017
-month: August
-
 citation: {
 		"type": "paper-conference",
 		"title": "Hey Robot, Why Don’t You Talk to Me?",

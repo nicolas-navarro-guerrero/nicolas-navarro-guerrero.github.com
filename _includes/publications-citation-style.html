@@ -32,11 +32,11 @@
 {% if handle.citation.event-place != null %}
   {{ handle.citation.event-place }},
 {% endif %}
-{% if handle.month != null %}
-  {% include 3-letters-month.html param=handle.month %}
+{% if handle.citation.issued.month != null %}
+  {% include 3-letters-month.html param=handle.citation.issued.month %}
 {% endif %}
-{% if handle.year != null %}
-  {{ handle.year }}.
+{% if handle.citation.issued.year != null %}
+  {{ handle.citation.issued.year }}.
 {% endif %}
 {% if handle.citation.language != null %}
   Language: {{ handle.citation.language }}.

@@ -12,9 +12,6 @@ slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/201
 supplementary: "https://figshare.com/s/1eba690a643302c08e72"
 code:
 
-year: 2017
-month: September
-
 citation: {
 		"type": "paper-conference",
 		"title": "The Effects on Adaptive Behaviour of Negatively Valenced Signals in Reinforcement Learning",
