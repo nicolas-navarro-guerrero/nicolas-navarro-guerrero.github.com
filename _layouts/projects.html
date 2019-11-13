@@ -1,26 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+---
+layout: fullwidth
+---
+{% include projects.html section='metadata' page=page %}
+{{ content }}
 
-  <body>
-    <!-- Main navigation bar -->
-    {% include navbar.html %}
+{% include projects.html section='acknowledgments' page=page %}
 
-    <div class="container-fluid">
-        {% include projects.html section='metadata' page=page %}
-        {{ content }}
+{% include projects.html section='partners' page=page %}
 
-        {% include projects.html section='acknowledgments' page=page %}
+{% include projects.html section='sponsors' page=page %}
 
-        {% include projects.html section='partners' page=page %}
+{% include projects.html section='publications' page=page %}
 
-        {% include projects.html section='sponsors' page=page %}
-
-        {% include projects.html section='publications' page=page %}
-
-        {% include footer.html %}
-    </div><!-- container -->
-  </body>
-</html>
