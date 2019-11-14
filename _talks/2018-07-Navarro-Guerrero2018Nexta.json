@@ -1,5 +1,5 @@
 ---
-tags: [talk, invited talk, outreach]
+tags: [talk, invited talk, research]
 categories: talk
 author: "Nicolás Navarro-Guerrero"
 rights: "Copyright (&copy;) 2018 Nicolás Navarro-Guerrero"
@@ -12,9 +12,6 @@ slides:
 supplementary:
 code:
 
-year: 2018
-month: 7
-
 citation: {
 		"id": "Navarro-Guerrero2018Nexta",
 		"type": "speech",
@@ -24,6 +21,7 @@ citation: {
 		"event": "Akademiet for Talentfuld Unge (ATU) Sommercamp",
 		"event-place": "Herning, Denmark",
 		"URL": "https://www.atumidt.dk/",
+		"note": "4 Jul.\\ 2018",
 		"language": "English",
 		"author": [
 			{
@@ -33,7 +31,9 @@ citation: {
 		],
 		"issued": {
 			"year": "2018",
-			"month": "5",
+			"month": "7",
+			"day": "4",
 		}
 	}
 ---
+
