@@ -23,7 +23,6 @@ citation: {
 		"abstract": "Temporal-difference learning is widely adopted and has been successfully applied to many problems as well as used to model animal learning. However, they are mainly based on neural pathways involved in reward-seeking behaviour since little is known about punishment-driven learning and less still about the combined effects of both types of reinforcement on learning. In this talk, I will discuss the implications for machine learning and robotics of this incomplete model of reward-based learning and possible strategies to deal with it.",
 		"URL": "http://www.imol-conf.org/",
 		"note": "1 Jul.\\ 2019",
-		"language": "English",
 		"author": [
 			{
 				"family": "Navarro-Guerrero",

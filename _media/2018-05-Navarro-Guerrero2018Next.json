@@ -2,7 +2,7 @@
 tags: [interview, media, outreach]
 categories: interview
 author: "Nicolás Navarro-Guerrero"
-rights: "Copyright (&copy;) 2018 Nicolás Navarro-Guerrero"
+rights: 
 license: 
 
 thumbnail: 
@@ -11,9 +11,6 @@ bibtex:
 slides: 
 supplementary:
 code:
-
-year: 2018
-month: 3
 
 citation: {
 		"id": "Navarro-Guerrero2018Next",

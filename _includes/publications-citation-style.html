@@ -1,90 +1,183 @@
+{% assign style = include.style | downcase | default: 'citeulike' %}
 {% assign handle = include.param %}
 
-<strong>{{ handle.citation.title }}</strong><br>
-{% if handle.citation.container-title != null %}
-  {{ handle.citation.container-title }}. 
-{% elsif handle.citation.event != null %}
-  Talk at {{ handle.citation.event }}.
-{% elsif handle.citation.medium != null %}
-  {{ handle.citation.medium }}.  
-{% elsif handle.citation.publisher != null %}
-  {{ handle.citation.publisher }}.
-{% endif %}
+{% if style == 'citeulike' %}
+  <strong>{{ handle.citation.title }}</strong><br>
+  {% if handle.citation.container-title != null %}
+    {{ handle.citation.container-title }}. 
+  {% elsif handle.citation.event != null %}
+    Talk at {{ handle.citation.event }}.
+  {% elsif handle.citation.medium != null %}
+    {{ handle.citation.medium }}.  
+  {% elsif handle.citation.publisher != null %}
+    {{ handle.citation.publisher }}.
+  {% endif %}
 
-{% if handle.citation.volume and handle.citation.collection-title %}
-  vol. {{ handle.citation.volume }} of {{ handle.citation.collection-title }},
-{% elsif handle.citation.volume %}
-  vol. {{ handle.citation.volume }},
-{% endif %}
+  {% if handle.citation.volume and handle.citation.collection-title %}
+    vol. {{ handle.citation.volume }} of {{ handle.citation.collection-title }},
+  {% elsif handle.citation.volume %}
+    vol. {{ handle.citation.volume }},
+  {% endif %}
 
-{% if handle.citation.issue != null %}
-  no. {{ handle.citation.issue }},
-{% endif %}
-{% assign pagesnumbers = null %}
-{% if handle.citation.page %}
-  {% assign pagesnumbers = handle.citation.page %}
-{% elsif handle.citation.pages %}
-  {% assign pagesnumbers = handle.citation.pages %}
-{% endif %}
-{% if pagesnumbers %}
-  pp. {{ pagesnumbers }},
-{% endif %}
-{% if handle.citation.event-place != null %}
-  {{ handle.citation.event-place }},
-{% endif %}
-{% if handle.citation.issued.month != null %}
-  {% include 3-letters-month.html param=handle.citation.issued.month %}
-{% endif %}
-{% if handle.citation.issued.year != null %}
-  {{ handle.citation.issued.year }}.
-{% endif %}
-{% if handle.citation.language != null %}
-  Language: {{ handle.citation.language }}.
-{% endif %}
-<br>
-{% for authors in handle.citation.author %}
-  {{ authors.family }}, {{ authors.given }};
-{% endfor %}
-<br>
-{% assign doicode = null %}
-{% if handle.citation.DOI %}
-  {% assign doicode = handle.citation.DOI %}
-{% elsif handle.citation.doi %}
-  {% assign doicode = handle.citation.doi %}
-{% endif %}
-{% if doicode %}
-  <a href="http://dx.doi.org/{{ doicode }}" target="_blank"> doi</a>, 
-{% endif %}
+  {% if handle.citation.issue != null %}
+    no. {{ handle.citation.issue }},
+  {% endif %}
+  {% assign pagesnumbers = null %}
+  {% if handle.citation.page %}
+    {% assign pagesnumbers = handle.citation.page %}
+  {% elsif handle.citation.pages %}
+    {% assign pagesnumbers = handle.citation.pages %}
+  {% endif %}
+  {% if pagesnumbers %}
+    pp. {{ pagesnumbers }},
+  {% endif %}
+  {% if handle.citation.event-place != null %}
+    {{ handle.citation.event-place }},
+  {% endif %}
+  {% if handle.citation.issued.month != null %}
+    {% include 3-letters-month.html param=handle.citation.issued.month %}
+  {% endif %}
+  {% if handle.citation.issued.year != null %}
+    {{ handle.citation.issued.year }}.
+  {% endif %}
+  {% if handle.citation.language != null %}
+    Language: {{ handle.citation.language }}.
+  {% endif %}
+  {% if handle.citation.interviewer != null %}
+    <br>
+    {% for item in handle.citation.interviewer %}
+      {{ item.family }}, {{ item.given }};
+    {% endfor %}
+  {% elsif handle.citation.author != null %}
+    <br>
+    {% for authors in handle.citation.author %}
+      {{ authors.family }}, {{ authors.given }};
+    {% endfor %}
+    <br>
+  {% endif %}
+  {% assign doicode = null %}
+  {% if handle.citation.DOI %}
+    {% assign doicode = handle.citation.DOI %}
+  {% elsif handle.citation.doi %}
+    {% assign doicode = handle.citation.doi %}
+  {% endif %}
+  {% if doicode %}
+    <a href="http://dx.doi.org/{{ doicode }}" target="_blank"> doi</a>, 
+  {% endif %}
 
-{% assign urlcode = null %}
-{% if handle.citation.URL %}
-  {% assign urlcode = handle.citation.URL %}
-{% elsif handle.citation.url %}
-  {% assign urlcode = handle.citation.url %}
-{% endif %}
-{% if urlcode %}
-  <a href="{{ urlcode }}" target="_blank"> url</a>, 
-{% endif %}
+  {% assign urlcode = null %}
+  {% if handle.citation.URL %}
+    {% assign urlcode = handle.citation.URL %}
+  {% elsif handle.citation.url %}
+    {% assign urlcode = handle.citation.url %}
+  {% endif %}
+  {% if urlcode %}
+    <a href="{{ urlcode }}" target="_blank"> url</a>, 
+  {% endif %}
 
-{% if handle.rights != null %}
-  {{ handle.rights }}, 
-{% endif %}
-{% if handle.file != null %}
-  <a href="{{ handle.file }}"> PDF</a>, 
-{% endif %}
-{% if handle.bibtex != null %}
-  <a href="{{ handle.bibtex }}"> bibtex</a>, 
-{% endif %}
-{% if handle.citation.bibtex != null %}
-  key: {{ handle.citation.bibtex }}, 
-{% endif %}
-{% if handle.slides != null %}
-  <a href="{{ handle.slides }}"> slides</a>, 
-{% endif %}
-{% if handle.supplementary != null %}
-  <a href="{{ handle.supplementary }}"> supplementary material</a>, 
-{% endif %}
-{% if handle.code != null %}
-  <a href="{{ handle.code }}"> source code</a>, 
-{% endif %}
+  {% if handle.rights != null %}
+    {{ handle.rights }}, 
+  {% endif %}
+  {% if handle.file != null %}
+    <a href="{{ handle.file }}"> PDF</a>, 
+  {% endif %}
+  {% if handle.bibtex != null %}
+    <a href="{{ handle.bibtex }}"> bibtex</a>, 
+  {% endif %}
+  {% if handle.citation.bibtex != null %}
+    key: {{ handle.citation.bibtex }}, 
+  {% endif %}
+  {% if handle.slides != null %}
+    <a href="{{ handle.slides }}"> slides</a>, 
+  {% endif %}
+  {% if handle.supplementary != null %}
+    <a href="{{ handle.supplementary }}"> supplementary material</a>, 
+  {% endif %}
+  {% if handle.code != null %}
+    <a href="{{ handle.code }}"> source code</a>, 
+  {% endif %}
 
+
+{% elsif style == 'other' %}
+  {% for authors in include.param.citation.author %}
+    {{ authors.family }}, {{ authors.given }};
+  {% endfor %}
+  </br>
+
+  <strong>{{ include.param.citation.title }}</strong></br>
+  {{ include.param.citation.container-title }}.
+  {{ include.param.citation.event }}.
+
+  {% if include.param.citation.volume and   include.param.citation.collection-title %}
+    vol. {{ include.param.citation.volume }} of   {{ include.param.citation.collection-title }},
+  {% elsif include.param.citation.volume %}
+    vol. {{ include.param.citation.volume }},
+  {% endif %}
+
+  {% if include.param.citation.issue != null %}
+    no. {{ include.param.citation.issue }},
+  {% endif %}
+  {% assign pagesnumbers = null %}
+  {% if include.param.citation.page %}
+    {% assign pagesnumbers = include.param.citation.page %}
+  {% elsif include.param.citation.pages %}
+    {% assign pagesnumbers = include.param.citation.pages %}
+  {% endif %}
+  {% if pagesnumbers %}
+    pp. {{ pagesnumbers }},
+  {% endif %}
+
+  {% if include.param.citation.event-place != null %}
+    {{ include.param.citation.event-place }},
+  {% endif %}
+  {% if include.param.month != null %}
+    {% include 3-letters-month.html param=include.param.month %}
+  {% endif %}
+  {% if include.param.year != null %}
+    {{ include.param.year }}.
+  {% endif %}
+  </br>
+
+  {% assign doicode = null %}
+  {% if include.param.citation.DOI %}
+    {% assign doicode = include.param.citation.DOI %}
+  {% elsif include.param.citation.doi %}
+    {% assign doicode = include.param.citation.doi %}
+  {% endif %}
+  {% if doicode %}
+    <a href="http://dx.doi.org/{{ doicode }}" target="_blank"> doi</a>, 
+  {% endif %}
+
+  {% assign urlcode = null %}
+  {% if include.param.citation.URL %}
+    {% assign urlcode = include.param.citation.URL %}
+  {% elsif include.param.citation.url %}
+    {% assign urlcode = include.param.citation.url %}
+  {% endif %}
+  {% if urlcode %}
+    <a href="{{ urlcode }}" target="_blank"> url</a>, 
+  {% endif %}
+
+  {% if include.param.rights != null %}
+    {{ include.param.rights }}, 
+  {% endif %}
+  {% if include.param.license != null %}
+    {{ include.param.license }}, 
+  {% endif %}
+  {% if include.param.file != null %}
+    <a href="{{ include.param.file }}"> PDF</a>, 
+  {% endif %}
+  {% if include.param.bibtex != null %}
+    <a href="{{ include.param.bibtex }}"> bibtex</a>, 
+  {% endif %}
+  {% if include.param.slides != null %}
+    <a href="{{ include.param.slides }}"> slides</a>, 
+  {% endif %}
+  {% if include.param.supplementary != null %}
+    <a href="{{ include.param.supplementary }}"> supplementary material</a>, 
+  {% endif %}
+  {% if include.param.code != null %}
+    <a href="{{ include.param.code }}"> source code</a>, 
+  {% endif %}
+
+{% endif %}
