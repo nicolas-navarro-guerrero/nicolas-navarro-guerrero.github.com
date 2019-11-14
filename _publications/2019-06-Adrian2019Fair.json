@@ -1,0 +1,76 @@
+---
+tags: [proceedings, conference, hri, social robotics, insor]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: "Springer US"
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2019-06-Adrian2019Fair.png"
+file: 
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2019-06-Adrian2019Fair.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"id": "Adrian2019Fair",
+		"type": "paper-conference",
+		"title": "Fair Proxy Mediation – First Experimental Results with Tele‐Operated Robots",
+		"container-title": "International Conference on Group Decision and Negotiation (GDN)",
+		"collection-title": "LNBIP",
+		"publisher": "Springer, Cham",
+		"publisher-place": "Loughborough, UK",
+		"volume": "351",
+		"event-place": "Loughborough, UK",
+		"abstract": "Numerous studies expect negative effects of computerization by artificial intelligence and automation by robots on employment (Ford, 2015; Frey & Osborne, 2017). With advances in big data analytics and sensors even non‐routine cognitive and manual tasks might be assumed by computers and robots in the future (Frey & Osborne, 2017). Tasks that require capabilities in creativity or social interaction (Frey & Osborne, 2017) and therefore empathy (Allen & Wallach, 2012), however, are harder to take over by machines.",
+		"URL": "https://link.springer.com/book/10.1007/978-3-030-21711-2",
+		"ISBN": "978-3-030-21710-5",
+		"note": "http://gdnconference.org/gdn2019/",
+		"author": [
+			{
+				"family": "Adrian",
+				"given": "Lin"
+			},
+			{
+				"family": "Druckman",
+				"given": "Daniel"
+			},
+			{
+				"family": "Filzmoser",
+				"given": "Michael"
+			},
+			{
+				"family": "Damholdt",
+				"given": "Malene Flensborg"
+			},
+			{
+				"family": "Koeszegi",
+				"given": "Sabine T."
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Seibt",
+				"given": "Johanna"
+			},
+			{
+				"family": "Smedegaard",
+				"given": "Catharina V."
+			},
+			{
+				"family": "Vestergaard",
+				"given": "Christina"
+			},
+			{
+				"family": "Quick",
+				"given": "Oliver"
+			}
+		],
+		"issued": {
+          "year": "2019",
+          "month": "06", 
+		}
+	}
+---
