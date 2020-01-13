@@ -6,7 +6,7 @@
   <h3 class="pt-5 text-center" id="{{ item.id }}">{{ item.name | capitalize }} <i class="fas fa-external-link-square-alt"></i></h3>
 
   {% assign ans = item.subitems | size %}
-  {% assign ans = ans | divided_by: 2 %}
+  {% assign ans = ans | divided_by: 2.0 | ceil %}
 
   {% assign counter = 0 %}
   <div class="row">
