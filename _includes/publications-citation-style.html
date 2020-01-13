@@ -38,10 +38,10 @@
     {% include 3-letters-month.html param=handle.citation.issued.month %}
   {% endif %}
   {% if handle.citation.issued.year != null %}
-    {{ handle.citation.issued.year }}.
+    {{ handle.citation.issued.year }}
   {% endif %}
   {% if handle.citation.language != null %}
-    Language: {{ handle.citation.language }}.
+    Language: {{ handle.citation.language }}
   {% endif %}
   {% if handle.citation.interviewer != null %}
     <br>
@@ -51,7 +51,7 @@
   {% elsif handle.citation.author != null %}
     <br>
     {% for authors in handle.citation.author %}
-      {{ authors.family }}, {{ authors.given }};
+      {{ authors.family }}, {{ authors.given }}{% if forloop.last == false %};{% endif %}
     {% endfor %}
     <br>
   {% endif %}
@@ -100,7 +100,7 @@
 
 {% elsif style == 'other' %}
   {% for authors in include.param.citation.author %}
-    {{ authors.family }}, {{ authors.given }};
+    {{ authors.family }}, {{ authors.given }}{% if forloop.last == false %} ; {% endif %}
   {% endfor %}
   </br>
 
