@@ -1,4 +1,8 @@
 {% assign handle = include.param | downcase | default: 'all' %}
+{% assign handle2 = null %}
+{% if include.param2 != null %} 
+  {% assign handle2 = include.param2 | downcase %}
+{% endif %}
 
 {% if handle contains 'intro' %}
 <p>If you are looking for a supervisor for your thesis feel free to <a href="/contact">contact me</a>. I do keep a <a href="/teaching/theses#offers">list of interesting projects</a> both theoretical and applied, but I am also kind on supervising other projects as long as they are within my <a href="/about#interests">interests</a>. <a href="/teaching/theses#offers">Here</a> you can find a broad collection of possible projects that I am currently interested in.</p>
@@ -12,7 +16,7 @@
           <thead>
             <tr>
               <th>Date</th>
-              <th>Degree</th>
+<!--              <th>Degree</th>   -->
               <th>Institution</th>
               <th>Name</th>
               <th>Supervisors</th>
@@ -25,19 +29,37 @@
 {% for item in site.theses reversed %}
   {% unless item.categories contains 'template' %}
   {% assign tmp = item.citation.genre | downcase %}
-  {% if tmp contains handle or tmp contains include.param2 %}
+  {% assign tmp2 = item.citation.type | downcase %}
+  {% if tmp contains handle or tmp contains handle2 or tmp2 contains handle %}
   <tr>
     <td>{{ item.citation.issued.year }} {% include 3-letters-month.html param=item.citation.issued.month %} </td>
-    <td>{{ item.citation.genre }}</td>
+<!--    <td>{% if item.citation.genre != null %}
+          {{ item.citation.genre }}
+        {% else %}
+          {% if item.tags contains 'master' %}
+            MSc
+          {% elsif item.tags contains 'bachelor' %}
+            BSc
+          {% endif %}
+        {% endif %}</td>  -->
     <td>{{ item.citation.publisher }}</td>
     <td>{% for authors in item.citation.author %}
           {{ authors.given }} {{ authors.family }}
+          {% if forloop.last == false %}
+            &amp;
+          {% endif %}
         {% endfor %}</td>
     <td>{% for super in item.supervisors %}
-          {{ super.given }} {{ super.family }};<br>
+          {{ super.given }} {{ super.family }}
+          {% if forloop.last == false %}
+            &amp; 
+          {% endif %}
         {% endfor %}</td>
     <td>{% for super in item.examiners %}
-          {{ super.given }} {{ super.family }};<br>
+          {{ super.given }} {{ super.family }}
+          {% if forloop.last == false %}
+            &amp; 
+          {% endif %}
         {% endfor %}</td>
     <td>{{ item.citation.title }}</td>
     <td>

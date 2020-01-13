@@ -1,0 +1,52 @@
+---
+tags: [master, report, project, au, ausrl]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2020-01-Morales2019Study.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Iosifidis,
+        given: Alexandros
+      },
+    ]
+
+examiners: [
+      {
+        family: Iosifidis,
+        given: Alexandros
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Morales2019Study",
+		"type": "report",
+		"abstract": "In this study, the recent advances in the field of 3D reconstruction from single images are analysed, and some of the best performing methods are selected to be compared and dissected. Although no novel ideas are brought, different kinds of breakthroughs are presented in depth, and an attempt to show results of a benchmark is demonstrated.",
+		"collection-title": "Engineering Research and Development Projects",
+		"event-place": "Aarhus, Denmark",
+		"page": "14",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "A Study on the State of the Art of Single-Image 3D Reconstruction",
+		"author": [
+			{
+				"family": "Morales",
+				"given": "Théo"
+			}
+		],
+		"issued": {
+			"year": "2019",
+			"month": "01",
+		}
+	}
+---

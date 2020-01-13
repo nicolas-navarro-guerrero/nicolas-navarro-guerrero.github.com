@@ -1,0 +1,61 @@
+---
+tags: [thesis, master, au, ausrl, MORL]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2020-01-Eriksen2020Advantages.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Iosifidis,
+        given: Alexandros
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Chrysostomou,
+        given: Dimitris
+      },
+    ]
+
+citation: {
+		"id": "Eriksen2020Advantages",
+		"type": "thesis",
+		"abstract": "Scalar reward design is a fundamentally difficult topic in reinforcement learning (RL), where agents have to learn by trial-and-error through interaction with an environment. The thesis investigates multi-objective reinforcement learning (MORL), which mitigates the need for scalar reward design by introducing vectorized rewards. We implement three off-policy Actor-Critic algorithms that deal with scalar rewards and continuous action spaces. Later we extend these three baseline agents with the state-of-the-art envelope MOQ-learning algorithm to create three new MORL agents. These extended agents aim to generalize a set of behaviours in a space of preferences. We compare all six agents to each other with two main tests in two continuous task environments of different difficulty. The first test compares the learning phase of all agents. The second test investigates if behavioural control can be achieved during the test phase by using explicitly inferred preferences. Our results demonstrate that we are not able to achieve better performance nor behavioural control of the agents using vectorized rewards. We argue that it is due to the fact that we are trying to compare a specialized and generalized agent to one another. Lastly, we discuss additional problems with our approach and suggest alternative evaluation procedures to better measure behavioural control for our MORL agents as well as possible future research.",
+		"event-place": "Aarhus, Denmark",
+		"genre": "MSc",
+		"number-of-pages": "127",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Advantages of Multi-Objective Reinforcement Learning in Continuous Task Environments",
+		"author": [
+			{
+				"family": "Eriksen",
+				"given": "Mads"
+			},
+			{
+				"family": "Bendikas",
+				"given": "Laimonas Ignas"
+			}
+		],
+		"issued": {
+			"year": "2020",
+			"month": "01",
+		}
+	}
+---
+

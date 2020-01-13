@@ -1,0 +1,56 @@
+---
+tags: [master, report, project, au, ausrl]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2020-01-Pedersen2020Autonomous.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Esterle,
+        given: Lukas
+      },
+    ]
+
+citation: {
+		"id": "Pedersen2020Autonomous",
+		"type": "report",
+		"abstract": "In this study, the recent advances in the field of 3D reconstruction from single images are analysed, and some of the best performing methods are selected to be compared and dissected. Although no novel ideas are brought, different kinds of breakthroughs are presented in depth, and an attempt to show results of a benchmark is demonstrated.",
+		"collection-title": "Engineering Research and Development Projects",
+		"event-place": "Aarhus, Denmark",
+		"page": "14",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Autonomous Cars: A Study on Reflex Behaviour and Direct Perception Based Methods",
+		"author": [
+			{
+				"family": "Pedersen",
+				"given": "Frode S. N."
+			},
+			{
+				"family": "Haudgaard",
+				"given": "Mathias"
+			}
+		],
+		"issued": {
+			"year": "2020",
+			"month": "01",
+		}
+	}
+---
