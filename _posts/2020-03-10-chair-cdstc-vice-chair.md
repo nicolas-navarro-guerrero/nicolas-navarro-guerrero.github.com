@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Vice-Chair of Conference"
+title:  "Vice-Chair of the IEEE CDSTC"
 subtitle: "IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC)"
 thumbnail: 
 
