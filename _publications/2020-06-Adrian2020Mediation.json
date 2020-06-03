@@ -1,0 +1,74 @@
+---
+tags: [proceedings, conference, hri, social robotics, insor]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: "Springer US"
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2020-06-Adrian2020Mediation.png"
+file: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2020-06-Adrian2020Mediation.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2020-06-Adrian2020Mediation.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"id": "Adrian2020Mediation",
+		"type": "paper-conference",
+		"abstract": "This study investigates the effects of using a mediation expert system under various support conditions in a laboratory setting. Information is provided to the system and advice retrieved either by the participants themselves, via a human mediator or via a tele-operated robot. We study the effects of these different ways of providing mediation support and communicating with the participants on negotiation outcomes, trust and technology acceptance. Though there are no significant differences in trust and technology acceptance measures conditions with the mediation support system achieve better result than the control group and conditions with robotic tele-presence better outcomes than those without. The gender of the mediator or operator does not influence negotiation outcomes.",
+		"collection-title": "LNBIP",
+		"container-title": "International Conference on Group Decision and Negotiation (GDN)",
+		"event-place": "Toronto, ON, Canada",
+		"note": "http://gdnconference.org/gdn2020/\nNegotiation Support Systems and Studies",
+		"publisher": "Springer, Cham",
+		"publisher-place": "Toronto, ON, Canada",
+		"title": "Mediation Support with Mediation Expert Systems and Robotic Tele-Presence",
+		"URL": "http://gdnconference.org/gdn2020/local-proceedings/",
+		"author": [
+			{
+				"family": "Adrian",
+				"given": "Lin"
+			},
+			{
+				"family": "Druckman",
+				"given": "Daniel"
+			},
+			{
+				"family": "Filzmoser",
+				"given": "Michael"
+			},
+			{
+				"family": "Damholdt",
+				"given": "Malene Flensborg"
+			},
+			{
+				"family": "Koeszegi",
+				"given": "Sabine T."
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Seibt",
+				"given": "Johanna"
+			},
+			{
+				"family": "Smedegaard",
+				"given": "Catharina V."
+			},
+			{
+				"family": "Vestergaard",
+				"given": "Christina"
+			},
+			{
+				"family": "Quick",
+				"given": "Oliver"
+			}
+		],
+		"issued": {
+          "year": "2020",
+          "month": "06", 
+		}
+	}
+---
