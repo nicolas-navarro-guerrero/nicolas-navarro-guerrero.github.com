@@ -14,7 +14,7 @@ This special issue will include state-of-the-art research on emerging topics on 
 
 This special issue has a focus on development and learning from a multidisciplinary perspective gathering researchers from computer science, robotics, psychology, and developmental studies. We invite researchers to share knowledge and research on how humans and animals develop sensing, reasoning and actions, and how to exploit robots as research tools to test models of development and learning. We expect the submitted contributions emphasize the interaction with social and physical environments and how cognitive and developmental capabilities can be transferred to computing systems and robotics. This approach goes hand in hand with the goals of both understanding human and animal development and applying this knowledge to improve future intelligent technology, including for robots that will be in close interaction with humans.
 
- For more information on the Special Issue, <a target="_blank" href="https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/">click here.</a>
+For more information on the Special Issue, <a target="_blank" href="https://cdstc.gitlab.io/icdl-2020/calls/#special-issue">click here.</a>
 
 <!--more-->
 
