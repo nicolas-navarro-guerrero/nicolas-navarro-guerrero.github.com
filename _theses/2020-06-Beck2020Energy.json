@@ -1,0 +1,52 @@
+---
+tags: [master, report, project, au, ausrl]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2020-06-Beck2020Energy.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Boudjadar,
+        given: Jalil
+      },
+    ]
+
+examiners: [
+      {
+        family: Boudjadar,
+        given: Jalil
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Beck2020Energy",
+		"type": "report",
+		"abstract": "In this article a time synchronisation protocol is developed. This protocol intents on creating a high accuracy and power efficient time synchronisation method. The protocol implements a simple solution in order to minimize the time the sensors must stay in receiving mode. The rational behind the protocol is to ensure that data is correctly time-stamped and time-relevant int in order to optimise a control loop managing building and factories resources. The protocol outperforms the state of the art protocols in terms of time accuracy and energy consumption.",
+		"collection-title": "Engineering Research and Development Projects",
+		"event-place": "Aarhus, Denmark",
+		"page": "7",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Energy Efficient Time Synchronisation on Sensor Networks",
+		"author": [
+			{
+				"family": "Beck",
+				"given": "Mads M."
+			}
+		],
+		"issued": {
+			"year": "2020",
+			"month": "06",
+		}
+	}
+---
