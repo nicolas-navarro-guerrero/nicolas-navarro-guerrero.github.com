@@ -1,0 +1,328 @@
+- name: Professional Experience
+  id: experience
+  subitems: 
+    - name: Assistant Professor
+      affiliation: Department of Engineering at Aarhus University, Denmark
+      from: 2017-10-01
+      until: Present
+      link: https://eng.au.dk/en/cognitive-and-developmental-robotics/
+
+    - name: Research and Teaching Associate
+      affiliation: Knowledge Technology Group at the University of Hamburg, Germany
+      from: 2014-07-01
+      until: 2017-09-30
+      link: https://www.inf.uni-hamburg.de/en/inst/ab/wtm
+
+    - name: Researcher Assistant
+      affiliation: Knowledge Technology Group at the University of Hamburg, Germany
+      from: 2010-06-01
+      until: 2013-09-30
+      link: https://www.inf.uni-hamburg.de/en/inst/ab/wtm
+
+    - name: Development Engineer
+      affiliation: Linktronic Ltda., Chile
+      from: 2010-01-02
+      until: 2010-05-31
+      link: http://linktronic.com/
+
+    - name: Research Engineer
+      affiliation: Southeastern Pacific Research Institute (SEPARI), Chile
+      from: 2008-06-01
+      until: 2009-07-31
+      link: 
+
+- name: Interships and Part-Time Experience
+  id: part-time
+  subitems: 
+    - name: Visiting Researcher
+      affiliation: Robotics Laboratory at the University of Chile, Chile
+      from: 2019-03-11
+      until: 2019-03-18
+      link: https://uchile-robotics.github.io/index.html
+
+    - name: Visiting Research Fellow
+      affiliation: Cognition and Interaction Lab. (COIN) at the University of Skövde, Sweden
+      from: 2013-02-01
+      until: 2013-03-31
+      link: https://www.his.se/en/Research/informatics/Interaction-Lab/
+
+    - name: Visiting Research Fellow
+      affiliation: Cognition and Interaction Lab. (COIN) at the University of Skövde, Sweden
+      from: 2011-06-01
+      until: 2011-06-30
+      link: https://www.his.se/en/Research/informatics/Interaction-Lab/
+
+    - name: Student Internship (Werkstudent)
+      affiliation: Qimonda Dresden GmbH & Co. OHG., Germany
+      from: 2007-03-01
+      until: 2008-01-31
+      link: https://en.wikipedia.org/wiki/Qimonda
+
+    - name: Research Assistant
+      affiliation: Universidad Técnica Federico Santa María, Chile
+      from: 2009-12-31
+      until: 2005-03-01
+      link: http://profesores.elo.utfsm.cl/~tarredondo/irma.html
+
+    - name: Student Internship
+      affiliation: Viña San Pedro S.A., Maintenance Department, Chile
+      from: 2003-12-01
+      until: 2004-02-29
+      link: http://www.sanpedro.cl/en/
+
+    - name: Teaching Assistant
+      affiliation: Universidad Técnica Federico Santa María, Chile
+      from: 2002-07-01
+      until: 2003-12-31
+      link: http://www.utfsm.cl/en/
+
+- name: Education
+  id: education
+  subitems: 
+    - name: Doktor der Naturwissenschaften (Dr. rer. nat.)
+      affiliation: University of Hamburg, Germany
+      from: 
+      until: 2016-05-03
+      link: https://www.inf.uni-hamburg.de/
+
+    - name: Electronics Engineer
+      affiliation: Universidad Técnica Federico Santa María, Chile
+      from: 
+      until: 2010-02-10
+      link: http://www.electronica.usm.cl/
+
+    - name: International Exchange Program – Programa Ingeniería-DAAD
+      affiliation: Technische Universität Dresden, Germany
+      from: 2006-08-01
+      until: 2008-01-31
+      link: https://tu-dresden.de/
+
+    - name: Bachelor of Science in Electronic Engineering
+      affiliation: Universidad Técnica Federico Santa María, Chile
+      from: 
+      until: 2006-09-30
+      link: http://www.electronica.usm.cl/
+
+- name: Pedagogical/Teacher Training
+  id: teaching
+  subitems: 
+    - name: Teacher Training Programme
+      affiliation: Aarhus University, Denmark
+      from: 2020-08-01
+      until: 2020-12-15
+      link: https://upnet.au.dk/en/teacher-training-programme/
+
+    - name: Two-Days Course in PhD Supervision
+      affiliation: Aarhus University, Denmark
+      from: 
+      until: 2019-05-01
+      link: http://phd.scitech.au.dk/for-supervisors/supervision-incl-courses/courses-in-phd-supervision/
+
+    - name: Cultural Awareness Training
+      affiliation: Aarhus University, Denmark
+      from: 
+      until: 2018-01-15
+      link: 
+
+- name: Awards, and Fellowships
+  id: awards
+  subitems: 
+    - name: International Exchange Program – Programa Ingeniería-DAAD
+      affiliation: German Academic Exchange Service (DAAD)
+      from: 2006-01-01
+      until: 
+      link: https://www.daad.de/en/
+
+    - name: Scholarship Guillermo Feick
+      affiliation: Universidad Técnica Federico Santa María, Chile
+      from: 2003-08-01
+      until: 
+      link: https://www.usm.cl/admision/becas/
+
+    - name: Scholarship Bicentennial
+      affiliation: Chilean Ministry of Education, Chile
+      from: 2003-03-01
+      until: 
+      link: https://www.chileatiende.gob.cl/fichas/ver/2227
+
+- name: Editorial Work
+  id: editorial
+  subitems: 
+    - name: Guest Editor Special Issue on Emerging Topics on Development and Learning
+      affiliation: IEEE Transactions on Cognitive and Developmental Systems
+      from: 
+      until: 2021-07-01
+      link: https://cdstc.gitlab.io/icdl-2020/calls/#special-issue
+
+    - name: Associate Editor
+      affiliation: IEEE Transactions on Cognitive and Developmental Systems
+      from: 2020-03-01
+      until: 2020-12-31
+      link: https://cis.ieee.org/publications/t-cognitive-and-developmental-systems
+
+    - name: Guest Editor Special Issue on Continual Unsupervised Sensorimotor Learning
+      affiliation: IEEE Transactions on Cognitive and Developmental Systems
+      from: 2019-03-01
+      until: 2020-10-31
+      link: https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/
+
+    - name: Editorial Board
+      affiliation: Frontiers in Neurorobotics
+      from: 2019-10-01
+      until: Present
+      link: https://www.frontiersin.org/journals/neurorobotics
+
+- name: Affiliations
+  id: affiliations
+  subitems: 
+    - name: Vice-Chair
+      affiliation: IEEE CIS Technical Committee on Cognitive and Developmental Systems
+      from: 2020-01-01
+      until: Present
+      link: https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee
+
+    - name: Member
+      affiliation: Aarhus University Centre for Digitalisation, Big Data and Data Analytics (AU DIGIT)
+      from: 2018-05-17
+      until: Present
+      link: https://digit.au.dk/
+
+    - name: Chair
+      affiliation: Task Force on Action and Perception of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
+      from: 2018-05-01
+      until: Present
+      link: https://cdstc.gitlab.io/task-force-on-action-and-perception/
+
+    - name: Member
+      affiliation: Task Force on Developmental Psychology of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
+      from: 2018-11-01
+      until: Present
+      link: https://cdstc.gitlab.io/task-force-on-developmental-psychology/
+
+    - name: Member
+      affiliation: IEEE CIS Technical Committee on Cognitive and Developmental Systems
+      from: 2018-02-01
+      until: Present
+      link: https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee/
+
+    - name: Honorary Member
+      affiliation: Centro de Innovación y Robótica
+      from: 2017-12-01
+      until: Present
+      link: https://www.innovacionyrobotica.com/
+
+    - name: Member
+      affiliation: IEEE RAS Technical Committee on Cognitive Robotics
+      from: 2016-06-01
+      until: Present
+      link: http://www.ieee-ras.org/cognitive-robotics
+
+    - name: Member
+      affiliation: EUCognition – European Society for Cognitive Systems
+      from: 2011-01-01
+      until: Present
+      link: http://www.eucognition.org/
+
+- name: Organizing Committee of Conferences
+  id: events
+  subitems: 
+    - name: Publicity Chair
+      affiliation: "10<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
+      from: 2021-08-23
+      until: 2021-08-26
+      link: 
+
+    - name: Program & Finance Chair
+      affiliation: 10<sup>th</sup> IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)
+      from: 2020-10-28
+      until: 2020-10-30
+      link: https://cdstc.gitlab.io/icdl-2020/
+
+    - name: Co-Chair
+      affiliation: Latin American Summer School on Cognitive Robotics (LACORO)
+      from: 2020-09-01
+      until: 2020-09-04
+      link: https://www.lacoro.org/
+
+    - name: Publicity Chair
+      affiliation: IEEE RAS International Summer School on Deep Learning for Robot Vision
+      from: 2019-12-09
+      until: 2019-12-13
+      link: http://robotvision2019.amtc.cl/
+
+    - name: Program Committee
+      affiliation: IEEE Symposium on Domestic Robotics at the IEEE Symposium Series on Computational Intelligence (IEEE SSCI)
+      from: 2019-12-06
+      until: 2019-12-09
+      link: http://ssci2019.org/dr.html
+
+    - name: Co-Organizer
+      affiliation: AU Smart Manufacturing Day
+      from: 2019-10-28
+      until: 
+      link: https://eng.au.dk/en/news-and-events/news/show/artikel/au-smart-manufacturing-day-2019/
+
+    - name: Session Chair
+      affiliation: Sensorimotor Development Session at the Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)
+      from: 2019-08-20
+      until: 
+      link: https://icdl-epirob2019.org/
+
+    - name: Co-Organizer
+      affiliation: Workshop on Naturalistic Non-Verbal and Affective Human-Robot Interactions at ICDL-EpiRob
+      from: 2019-08-19
+      until: 
+      link: https://nicolas-navarro-guerrero.gitlab.io/workshop-non-verbal-human-robot-interactions-icdl-epirob-2019/
+
+    - name: Co-Organizer
+      affiliation: Workshop on Continual Unsupervised Sensorimotor Learning at ICDL-EpiRob
+      from: 2018-09-17
+      until: 
+      link: https://conferences.au.dk/icdl-epirob-2018-workshop/
+
+    - name: Organizer
+      affiliation: Workshop on Next Generation Social Robots at the Akademiet for Talentfulde Unge | Midt – Sommercamp
+      from: 2018-07-04
+      until: 
+      link: https://www.atumidt.dk/
+
+    - name: Program Committee
+      affiliation: Workshop on Intelligent Assistive Computing at IEEE WCCI
+      from: 2018-07-11
+      until: 
+      link: http://www.wac2018.ecomp.poli.br/
+
+    - name: Co-organizer & Speaker
+      affiliation: "Workshop on Social Robotics at the Matchpoints seminar: The Welfare State: New Solutions to Old Problems?"
+      from: 2018-05-26
+      until: 
+      link: https://matchpoints-archive.au.dk/workshops/social-robotics-saturday-26-may/
+
+    - name: Organizing Committee
+      affiliation: International Conference on Artificial Neural Networks (ICANN)
+      from: 2014-07-15
+      until: 2014-07-19
+      link: https://e-nns.org/icanns/2014-2/
+
+    - name: Co-organizer & Speaker
+      affiliation: "Special Session: Training in Robotics for Development of Cognition (RobotDoC) at ICDL-EpiRob"
+      from: 2013-08-18
+      until: 
+      link: http://www.er.ams.eng.osaka-u.ac.jp/icdl-epirob-2013/specialsession-vollmer.html
+
+    - name: Co-Organizer
+      affiliation: "Postgraduate Conference on Robotics and Development of Cognition (RobotDoC-PhD) at ICANN"
+      from: 2012-09-10
+      until: 2012-09-12
+      link: http://www.robotdoc.org/conference
+
+
+- name: Template
+  id: template
+  subitems: 
+    - name: template
+      affiliation: template
+      from: template
+      until: template
+      link: template
+

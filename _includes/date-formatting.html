@@ -24,4 +24,12 @@
 {{ date | date: "%B" }}
 {{ date | date: "%Y" }}
 
+{% elsif format contains 'month-year' %}
+  {% assign tmp = date | downcase %}
+  {% if tmp contains 'present' %}
+    {{ tmp | capitalize }}
+  {% else %}
+    {{ date | date: "%b" }}
+    {{ date | date: "%Y" }}
+  {% endif %}
 {% endif %}

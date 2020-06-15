@@ -1,0 +1,32 @@
+{% assign param = include.section | downcase %}
+
+{% for item in site.data.cv %}
+  {% assign tmp = item.id | downcase %}
+  {% if tmp contains param %}
+    <p>{{ item.text }}</p>
+    <div class="table-responsive table-sm">
+      <table class="table table-striped">
+        <tbody>
+          {% for role in item.subitems %}
+            <tr>
+              <td>
+              {% if role.from and role.until %}
+                {% include date-formatting.html date=role.from fmt='month-year' %} – {% include date-formatting.html date=role.until fmt='month-year' %}
+              {% elsif role.from %}
+                {% include date-formatting.html date=role.from fmt='month-year' %}
+              {% elsif role.until %}
+                {% include date-formatting.html date=role.until fmt='month-year' %}
+              {% endif %}
+              </td>
+              {% if role.link %}
+                <td><a href="{{ role.link }}" target="_blank">{{ role.name }}</a><br>{{ role.affiliation }}</td>
+              {% else %}
+                <td>{{ role.name }}<br>{{ role.affiliation }}</td>
+              {% endif %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div><!-- table-responsive -->
+  {% endif %}
+{% endfor %}
