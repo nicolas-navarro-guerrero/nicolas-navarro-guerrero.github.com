@@ -3,20 +3,20 @@
     - name: gitlab
       username: nicolas-navarro-guerrero
       baseurl: https://gitlab.com
-#      icon: <i class="fab fa-gitlab"></i>
-      icon: /assets/img/logos/gitlab.svg
+      icon: <i class="fab fa-gitlab"></i>
+#      icon: /assets/img/logos/gitlab.svg
 
     - name: github
       username: nicolas-navarro-guerrero
       baseurl: https://github.com
-#      icon: <i class="fab fa-github"></i>
-      icon: /assets/img/logos/GitHub-Mark-64px.png
+      icon: <i class="fab fa-github"></i>
+#      icon: /assets/img/logos/GitHub-Mark-64px.png
 
     - name: bitbucket
       username: nicolas-navarro-guerrero
       baseurl: https://bitbucket.org
-#      icon: <i class="fab fa-bitbucket"></i>
-      icon: /assets/img/logos/bucket.svg
+      icon: <i class="fab fa-bitbucket"></i>
+#      icon: /assets/img/logos/bucket.svg
 
 - name: research
   subitems:
@@ -24,12 +24,13 @@
       username: 0000-0003-1164-5579
       baseurl: https://orcid.org
       icon: /assets/img/logos/orcid_64x64.png
+#      icon: <i class="fab fa-orcid"></i>
 
     - name: ResearchGate
       username: Nicolas_Navarro-Guerrero
       baseurl: https://www.researchgate.net/profile
-#      icon: <i class="fab fa-researchgate"></i>
-      icon: /assets/img/logos/RG-Logo.png
+      icon: <i class="fab fa-researchgate"></i>
+#      icon: /assets/img/logos/RG-Logo.png
 
     - name: Google Scholar
       username: citations?user=SeQvYQ0AAAAJ
