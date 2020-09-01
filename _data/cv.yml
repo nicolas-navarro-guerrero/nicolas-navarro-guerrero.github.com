@@ -60,8 +60,8 @@
 
     - name: Research Assistant
       affiliation: Universidad Técnica Federico Santa María, Chile
-      from: 2009-12-31
-      until: 2005-03-01
+      from: 2005-03-01
+      until: 2009-12-31
       link: http://profesores.elo.utfsm.cl/~tarredondo/irma.html
 
     - name: Student Internship
@@ -178,7 +178,7 @@
     - name: Vice-Chair
       affiliation: IEEE CIS Technical Committee on Cognitive and Developmental Systems
       from: 2020-01-01
-      until: Present
+      until: 2020-12-31
       link: https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee
 
     - name: Member
