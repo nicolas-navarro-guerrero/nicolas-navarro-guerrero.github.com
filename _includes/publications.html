@@ -27,7 +27,13 @@
           {% for item in category.subitems %}
             <tr>
               <th scope="row" class="align-middle">{{ item.name }}:</th>
-              <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:{{ size }};"></a></td>
+              <td class="align-middle">
+              {% if item.icon contains "<i class=" %}
+                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
+              {% else %}
+                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+              {% endif %}
+              </td>
               <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
             </tr>
           {% endfor %}
@@ -37,7 +43,13 @@
           {% if ans contains "publons" %}
             <tr>
               <th scope="row" class="align-middle">{{ item.name }}:</th>
-              <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" style="height:{{ size }};"></a></td>
+              <td class="align-middle">
+              {% if item.icon contains "<i class=" %}
+                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
+              {% else %}
+                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+              {% endif %}
+              </td>
               <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
             </tr>
           {% endif %}
