@@ -6,6 +6,7 @@ institution: Universität Hamburg
 semester: Spring 2015
 code: LV 64-193
 type: Bachelor Project
+level: BSc
 name: <a href="https://www.informatik.uni-hamburg.de/wtm/teaching/SoSe15_NNRobots_Pj.shtml" title="Details" target="_blank">Neuronale Netze f&uuml;r Roboter</a>
 teachers: Magg, Navarro
 

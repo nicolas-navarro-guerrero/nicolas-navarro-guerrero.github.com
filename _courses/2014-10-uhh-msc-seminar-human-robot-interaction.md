@@ -6,6 +6,7 @@ institution: Universität Hamburg
 semester: Fall 2014
 code: LV 64-467
 type: Integrated Seminar
+level: MSc
 name: <a href="https://www.informatik.uni-hamburg.de/WTM/teaching/WiSe14_HumanRobotInteraction_Pj.shtml" title="Details" target="_blank">Human-Robot Interaction</a>
 teachers: Heinrich, Navarro, Weber, Wermter
 
