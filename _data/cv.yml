@@ -154,6 +154,12 @@
       until: 2021-07-01
       link: https://cdstc.gitlab.io/icdl-2020/calls/#special-issue
 
+    - name: Editorial Board
+      affiliation: Frontiers in Robotics and AI
+      from: 2020-09-21
+      until: Present
+      link: https://www.frontiersin.org/journals/robotics-and-ai
+
     - name: Associate Editor
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 2020-03-01
