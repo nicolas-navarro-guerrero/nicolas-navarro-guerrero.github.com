@@ -73,10 +73,10 @@
       baseurl: https://vimeo.com
       icon: <i class="fab fa-vimeo"></i>
 
-    #- name: youtube
-    #  username: niconavarroguerrero/videos
-    #  baseurl: https://www.youtube.com/user
-    #  icon: <i class="fab fa-youtube"></i>
+    - name: youtube
+      username: niconavarroguerrero/videos
+      baseurl: https://www.youtube.com/user
+      icon: <i class="fab fa-youtube"></i>
 
 #- name: social-media
 #  subitems:
