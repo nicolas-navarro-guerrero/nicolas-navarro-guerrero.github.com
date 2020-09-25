@@ -37,11 +37,15 @@
       icon:  
 
 
-- name: Projects
+- name: Research & Projects
   slug: /projects
   id: projects
   icon: 
   submenuitems: 
+    - name: Research Themes
+      slug: /projects#themes
+      id: projects
+      icon: 
     - name: Scientific Projects
       slug: /projects#scientific
       id: projects
