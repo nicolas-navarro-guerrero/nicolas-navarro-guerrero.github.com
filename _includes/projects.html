@@ -125,32 +125,31 @@
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
 {% assign projects = projects | sort: "date" | reverse %}
 
-  {% assign counter = 0 %}
-  <div class="card-columns">
   {% for item in projects %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
-        {% assign counter = counter | plus: 1 %}
-  <div class="card border-light mt-3">
-    <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img-top rounded" alt="Project Thumbnail"></a>
-    <div class="card-body mx-n4 text-center">
-      <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
-      {% if item.subtitle != null %}
-      <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
-      {% endif %}
-      <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img rounded" alt="Project Thumbnail"></a>
     </div>
-    <div class="card-footer bg-transparent border-white text-center">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
+        {% if item.subtitle != null %}
+          <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
+        {% endif %}
+        <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
+      </div>
+      <div class="card-footer bg-transparent border-white text-center">
       <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
-    </div>
-  </div><!-- card -->
-      {% endif %}
-      {% if counter == latest %}
-        {% break %}
+      </div>
+    </div><!-- TEXT -->
+  </div><!-- ROW -->
+</div><!-- CARD -->
       {% endif %}
     {% endunless %}
   {% endfor %}
-  </div><!-- card columns -->
 {% endif %}
 
