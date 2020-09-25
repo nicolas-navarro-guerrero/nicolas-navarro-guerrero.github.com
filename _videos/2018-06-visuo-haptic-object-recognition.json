@@ -1,0 +1,16 @@
+---
+tags: [media, videos, wtm, uhh, msc project]
+categories: videos
+
+date: 2018-06-01
+year: 2018
+month: 06
+bibtex: [Toprak2018Evaluating]
+
+source: "//player.vimeo.com/video/461755688"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://vimeo.com/461755688">The Impact of Personalisation on Human-Robot Interaction in Learning Scenarios</a> from <a href="https://vimeo.com/nicolasnavarroguerrero">Nicolas Navarro-Guerrero</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+title: "Evaluating Integration Strategies for Visuo-Haptic Object Recognition"
+description: "In computational systems for visuo-haptic object recognition, vision and haptics are often modeled as separate processes. But this is far from what really happens in the human brain, where cross- as well as multimodal interactions take place between the two sensory modalities. Generally, three main principles can be identified as underlying the processing of the visual and haptic object-related stimuli in the brain: (1) hierarchical processing, (2) the divergence of the processing onto substreams for object shape and material perception, and (3) the experience-driven self-organization of the integratory neural circuits. The question arises whether an object recognition system can benefit in terms of performance from adopting these brain-inspired processing principles for the integration of the visual and haptic inputs. To address this, we compare the integration strategy that incorporates all three principles to the two commonly used integration strategies in the literature. We collected data with a NAO robot enhanced with inexpensive contact microphones as tactile sensors. The results of our experiments involving every-day objects indicate that (1) the contact microphones are a good alternative to capturing tactile information and that (2) organizing the processing of the visual and haptic inputs hierarchically and in two pre-processing streams is helpful performance-wise. Nevertheless, further research is needed to effectively quantify the role of each identified principle by itself as well as in combination with others."
+---
