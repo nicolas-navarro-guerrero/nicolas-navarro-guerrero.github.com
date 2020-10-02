@@ -1,0 +1,38 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2020 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2020Rolea",
+		"type": "speech",
+		"abstract": "The dream and need for autonomous robots are coming together. This development is the product of many factors, including a demographic change in all developed countries, deemed the silver tsunami, and improvements on computing and machine learning techniques. Despite the advances in machine learning and automation, there are numerous challenges we need to overcome before developing robots that can operate autonomously and safely alongside people. These involve making robots smarter and capable of complex, useful and efficient behaviours, but also robots would have to be able to interact with humans naturally and effortlessly.\n\nIn this talk, I will discuss the need for understanding biological behaviour to design both robot's embodiment and behaviour. Further, I will briefly introduce the three pillars that characterize my research. Finally, I will present one example of my research on cognitive-inspired learning algorithms for the development of adaptive embodied behaviour with application to industrial and domestic robots.",
+		"event": "Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence at the University of Groningen",
+		"event-place": "Groningen, The Netherlands",
+		"genre": "Invited Talk",
+		"note": "1 Oct. 2020",
+		"publisher-place": "Groningen, The Netherlands",
+		"title": "The Role of Cognitive-Inspired Machine Learning in Autonomous Assistive Systems",
+		"URL": "https://www.rug.nl/research/bernoulli/calendar/colloquia/artificial-intelligence/2020/20201001-n-navarro",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2020",
+			"month": "10",
+		}
+	}
+---
+

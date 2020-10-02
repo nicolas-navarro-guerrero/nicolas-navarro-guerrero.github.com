@@ -1,0 +1,38 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2020 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2020Role",
+		"type": "speech",
+		"abstract": "The dream and need for autonomous robots beyond the assembly line are coming together. This development is the product of many factors including a demographic change in all developed countries, deemed the silver tsunami, improvements on computing and machine learning techniques, the pervasive dumb, dangerous, and dirty tasks, etc. Despite the advances in machine learning and automation, there are numerous challenges we need to overcome before developing robots that can operate autonomously alongside people. These involve making robots smarter and capable, but also robots would have to be able to interact with humans naturally and effortlessly. Such capabilities are not only indispensable for domestic robot applications but are also essential to guarantee safe and efficient operation in the production line. In this talk, I will discuss my current and ongoing research on Cognitive Robotics and Human-Robot Interaction towards creating smarter and safer robots.",
+		"event": "Seminar of the Computational Intelligence and Applications Research Group (CIA) Nottingham Trent University",
+		"URL": "https://www.ntu.ac.uk/research/groups-and-centres/groups/computational-intelligence-applications-research-group",
+		"event-place": "Nottingham, UK",
+		"genre": "Invited Talk",
+		"note": "22 Jan. 2020",
+		"publisher-place": "Nottingham, UK",
+		"title": "The Role of Cognitive Robotics in Autonomous Assistive Systems",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2020",
+			"month": "1",
+		}
+	}
+---
+
