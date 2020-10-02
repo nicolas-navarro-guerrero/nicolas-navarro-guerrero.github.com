@@ -124,6 +124,21 @@
       until: 2018-01-15
       link: 
 
+- name: Research Integrity Qualifications
+  id: ethics
+  subitems: 
+    - name: Research Integrity at Aarhus University
+      affiliation: Aarhus University, Denmark
+      from: 2020-10-10
+      until: 
+      link: 
+
+    - name: Protecting Human Research Participants
+      affiliation: Cognition and Behavior Lab at Aarhus University, Denmark
+      from: 2017-10-10
+      until: 
+      link: https://bss.au.dk/en/cognition-and-behavior-lab/
+
 - name: Awards, and Fellowships
   id: awards
   subitems: 
