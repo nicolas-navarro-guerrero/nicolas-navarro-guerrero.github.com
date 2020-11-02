@@ -129,7 +129,7 @@
   subitems: 
     - name: Research Integrity at Aarhus University
       affiliation: Aarhus University, Denmark
-      from: 2020-10-10
+      from: 2020-11-02
       until: 
       link: 
 
@@ -211,7 +211,7 @@
     - name: Chair
       affiliation: Task Force on Action and Perception of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
       from: 2018-05-01
-      until: Present
+      until: 2020-12-31
       link: https://cdstc.gitlab.io/task-force-on-action-and-perception/
 
     - name: Member
