@@ -202,17 +202,17 @@
       until: 2020-12-31
       link: https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee
 
-    - name: Member
-      affiliation: Aarhus University Centre for Digitalisation, Big Data and Data Analytics (AU DIGIT)
-      from: 2018-05-17
-      until: Present
-      link: https://digit.au.dk/
-
     - name: Chair
       affiliation: Task Force on Action and Perception of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
       from: 2018-05-01
       until: 2020-12-31
       link: https://cdstc.gitlab.io/task-force-on-action-and-perception/
+
+    - name: Member
+      affiliation: Aarhus University Centre for Digitalisation, Big Data and Data Analytics (AU DIGIT)
+      from: 2018-05-17
+      until: Present
+      link: https://digit.au.dk/
 
     - name: Member
       affiliation: Task Force on Developmental Psychology of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
@@ -247,11 +247,17 @@
 - name: Organizing Committee of Conferences
   id: events
   subitems: 
+    - name: Bridge Chair
+      affiliation: "11<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
+      from: 2022-09-12
+      until: 2022-09-15
+      link: 
+
     - name: Publicity Chair
       affiliation: "10<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
       from: 2021-08-23
       until: 2021-08-26
-      link: 
+      link: https://icdl-2021.org/
 
     - name: Program & Finance Chair
       affiliation: 10<sup>th</sup> IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)
