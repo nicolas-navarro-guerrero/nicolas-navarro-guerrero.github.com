@@ -28,7 +28,7 @@ Submissions must be done through the IEEE TCDS Manuscript center: <a href="https
   <table class="table table-striped">
     <tbody>
     <tr>
-      <th scope="row">15<sup>th</sup> January 2021</th>
+      <th scope="row">25<sup>th</sup> January 2021<small class="text-muted"><strike>15<sup>st</sup> January 2021</strike></small></th>
       <td>Paper submission deadline</td>
     </tr>
     <tr>
