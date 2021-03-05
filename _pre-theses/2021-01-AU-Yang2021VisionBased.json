@@ -1,0 +1,51 @@
+---
+tags: [master, report, project, au]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2021-01-Yang2021VisionBased.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Kayacan,
+        given: Erdal
+      },
+    ]
+
+examiners: [
+      {
+        family: Kayacan,
+        given: Erdal
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Yang2021VisionBased",
+		"type": "report",
+		"collection-title": "Engineering Research and Development Projects",
+		"event-place": "Aarhus, Denmark",
+		"page": "12",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Vision-Based State Estimation Towards High-Speed Flight with a Quadrotor",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "Hanshuo"
+			}
+		],
+		"issued": {
+			"year": "2021",
+			"month": "01",
+		}
+	}
+---

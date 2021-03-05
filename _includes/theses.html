@@ -4,6 +4,15 @@
   {% assign handle2 = include.param2 | downcase %}
 {% endif %}
 
+{% if handle contains "report" or handle2 contains "report" %}
+  {% assign datafile = site.pre-theses %}
+  {% assign bibfiles = "/assets/supervised-pre-theses/" %}
+{% else %}
+  {% assign datafile = site.theses %}
+  {% assign bibfiles = "/assets/supervised-theses/" %}
+{% endif %}
+
+
 {% if handle contains 'intro' %}
 <p>If you are looking for a supervisor for your thesis, feel free to <a href="/contact">contact me</a>. I do keep a <a href="/teaching/theses#offers">list of interesting projects</a>, both theoretical and applied, but I am also interested in supervising other projects as long as they are within my <a href="/about#interests">interests</a>. <a href="/teaching/theses#offers">Here</a> you can find a broad collection of possible projects that I am currently interested in.</p>
 
@@ -26,7 +35,7 @@
             </tr>
           </thead>
           <tbody>
-{% for item in site.theses reversed %}
+{% for item in datafile reversed %}
   {% unless item.categories contains 'template' %}
   {% assign tmp = item.citation.genre | downcase %}
   {% assign tmp2 = item.citation.type | downcase %}
@@ -67,7 +76,7 @@
           <a href="{{ item.file }}">pdf</a> 
         {% endif %}
         {% if item.bibtex != null %}
-          <br><a href="{{ item.bibtex | prepend: '/assets/supervised-theses/' }}">bibtex</a> 
+          <br><a href="{{ item.bibtex | prepend: bibfiles }}">bibtex</a> 
         {% endif %}
         {% if item.slides != null %}
           <br><a href="{{ item.slides }}"> slides</a> 
