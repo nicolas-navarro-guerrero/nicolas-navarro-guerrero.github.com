@@ -2,7 +2,7 @@
   id: experience
   subitems: 
     - name: Assistant Professor
-      affiliation: Department of Engineering at Aarhus University, Denmark
+      affiliation: Department of Electrical and Computer Engineering at Aarhus University, Denmark
       from: 2017-10-01
       until: Present
       link: https://eng.au.dk/en/cognitive-and-developmental-robotics/
@@ -178,7 +178,7 @@
     - name: Associate Editor
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 2020-03-01
-      until: 2020-12-31
+      until: 2021-12-31
       link: https://cis.ieee.org/publications/t-cognitive-and-developmental-systems
 
     - name: Guest Editor Special Issue on Continual Unsupervised Sensorimotor Learning
@@ -205,7 +205,7 @@
     - name: Chair
       affiliation: Task Force on Action and Perception of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
       from: 2018-05-01
-      until: 2020-12-31
+      until: 2021-12-31
       link: https://cdstc.gitlab.io/task-force-on-action-and-perception/
 
     - name: Member
