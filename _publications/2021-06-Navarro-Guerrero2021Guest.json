@@ -1,0 +1,51 @@
+---
+tags: [abstract, Sensorimotor Learning, Continual Learning, Guest Editorial, Special Issue]
+categories: "publications"
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: "IEEE"
+
+thumbnail: 
+file: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2021-06-Navarro-Guerrero2021Guest_pre-print.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2021-06-Navarro-Guerrero2021Guest.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2021Guest",
+		"type": "article-journal",
+		"abstract": "The pursuit of higher levels of autonomy and versatility in robotics is arguably led by two main factors. Firstly, as we push robots out of the labs and productions lines, it becomes increasingly challenging to design for all possible scenarios that a particular robot might encounter. Secondly, the cost of designing, manufacturing, and maintaining such systems becomes prohibitive.",
+		"container-title": "IEEE Transactions on Cognitive and Developmental Systems",
+		"DOI": "10.1109/TCDS.2021.3082880",
+		"ISSN": "2379-8939",
+		"issue": "2",
+		"page": "234 - 238",
+		"source": "IEEE Xplore",
+		"title": "Guest Editorial Special Issue on Continual Unsupervised Sensorimotor Learning",
+		"URL": "https://ieeexplore.ieee.org/document/9448370",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Sao Mai"
+			},
+			{
+				"family": "Öztop",
+				"given": "Erhan"
+			},
+			{
+				"family": "Zhong",
+				"given": "Junpei"
+			}
+		],
+		"issued": {
+          "year": "2021",
+          "month": "06", 
+		}
+	}
+---
