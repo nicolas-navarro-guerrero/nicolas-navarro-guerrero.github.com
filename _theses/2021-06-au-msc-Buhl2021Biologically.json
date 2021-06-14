@@ -1,0 +1,56 @@
+---
+tags: [thesis, master, au, ausrl, haptic perception]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2021-06-Buhl2021Biologically.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Chrysostomou,
+        given: Dimitris
+      },
+    ]
+
+citation: {
+		"id": "Buhl2021Biologically",
+		"type": "thesis",
+		"abstract": "The brain processes sensory input in a hierarchical sense, by building intermediate abstract understandings of objects by combining information from different sensory inputs. Studies suggest that the sensory inputs in the brain are processed in parallel, by grouping information into categories, such as shape and material.\n\nTherefore, this thesis seeks to question if a bio-inspired approach to object recognition can yield better performance than a conventional approach. \n\nTo test this, approaches inspired by both hierarchical and parallel processing are implemented. To test the principle of hierarchical processing, methods for extracting separable features from visual, kinesthetic, and tactile data are implemented and combined. Resulting in a collection of property descriptive features: \\textit{ shape, texture, size, weight, color, and hardness}. \nThese property descriptive features are then combined in different ways to mimic parallel processing in the brain, by constructing the properties: \\textit{material and shape}. \n\nA comparison between the different combination architectures shows no performance increase from using parallel processing. However, by comparing our results to modality-based approaches conducted on the same dataset, we show that hierarchical processing of data can yield improved performance compared to state-of-the-art CNN-based feature extraction methods. When choosing an approach, however, there is a trade-off between generalizability (CNN based approach) and performance (hierarchical processing).",
+		"event-place": "Aarhus, Denmark",
+		"genre": "MSc",
+		"number-of-pages": "126",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Biologically Inspired Multimodal Fusion Learning for Robotic Object Recognition",
+		"author": [
+			{
+				"family": "Buhl",
+				"given": "Daniel Daugaard"
+			},
+			{
+				"family": "Bonner",
+				"given": "Lasse Emil Ranulph"
+			}
+		],
+		"issued": {
+			"year": "2021",
+			"month": "06",
+		}
+	}
+---

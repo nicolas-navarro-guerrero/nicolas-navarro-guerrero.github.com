@@ -1,0 +1,53 @@
+---
+tags: [thesis, master, au, ausrl, haptic perception]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2021-06-Kristensen2021Better.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+      {
+        family: Chrysostomou,
+        given: Dimitris
+      },
+    ]
+
+citation: {
+		"id": "Kristensen2021Better",
+		"type": "thesis",
+		"abstract": "Using multiple modalities to describe and recognize objects in machine learning has shown promising results compared to using a single modality. The aim of this thesis is to obtain a better understanding of the properties described by each modality and to investigate how to most efficiently fuse features from these modalities when doing multimodal object recognition.\n\nA solution for multimodal object recognition has been implemented in this project where visual and tactile features are extracted in a unified way using Convolutional Neural Networks (\\gls{CNN}s). Object recognition has been performed using each modality separately in order to investigate the ability of the different modalities to recognize objects based on color and material.\nFusion of the features from the different modalities is performed using different combinations of simple concatenation, slice concatenation and self-attention.  \n\nThe results of the experiments show that the visual modality yields good performance on objects grouped by both color and material, while the tactile and kinesthetic modalities show better performance on objects grouped by material compared to objects grouped by color. Combining features yields similar or better results on all object categories compared to using the features separately.\nFurthermore, the results show that the best strategy for fusing features from different modalities depends on the fusion scenario. Slice concatenation and self-attention yields the best performance for fusing tactile and kinesthetic features, while simple concatenation yields the best performance fusing the visual and haptic features. This suggests that the size of the feature maps being fused impacts the best fusion strategy, but further experiments on more fusion scenarios are necessary to confirm this observation.",
+		"event-place": "Aarhus, Denmark",
+		"genre": "MSc",
+		"number-of-pages": "82",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Towards Better Multimodal Object Recognition",
+		"author": [
+			{
+				"family": "Kristensen",
+				"given": "Kristian"
+			}
+		],
+		"issued": {
+			"year": "2021",
+			"month": "06",
+		}
+	}
+---
+
