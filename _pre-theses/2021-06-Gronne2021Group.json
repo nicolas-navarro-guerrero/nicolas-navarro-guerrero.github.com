@@ -1,0 +1,56 @@
+---
+tags: [master, report, project, au]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2021-06-Gronne2021Group.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Larsen,
+        given: Peter Gorm
+      },
+      {
+        family: Thule,
+        given: Casper
+      },
+    ]
+
+examiners: [
+      {
+        family: Larsen,
+        given: Peter Gorm
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Gronne2021Group",
+		"type": "report",
+		"abstract": "Reinforcement learning is usually optimized by using either a single Agent or a group of Agents with identical environment. This project researches the current state of reinforcement learning when optimized with groups. The research investigates what effect the increasing amount of Agents have on the performance and what happens when new Agents with different environments are introduced to the group. The project proposes a new performance metric that is more suitable for measuring the performance of groups. A simulation-engine is introduced to enable these new measurements and to increase control over how much new Agents differentiate from the current group. Finally, the project proposes a new concept for optimization that prioritize the collaboration between Agents with different environments. The project finds that the rate of optimization increase as Agents with identical environments are added to the group but discovers that the performance decrease as Agents with different environments are added. This justifies the importance of a new concept for optimization. In conclusion, more research is required to utilize the information provided by Agents with different environments.",
+		"collection-title": "Engineering Research and Development Projects",
+		"event-place": "Aarhus, Denmark",
+		"page": "61",
+		"publisher": "Aarhus University",
+		"publisher-place": "Aarhus, Denmark",
+		"title": "Group Based Optimization",
+		"author": [
+			{
+				"family": "Grønne",
+				"given": "Mathias Nyberg"
+			}
+		],
+		"issued": {
+			"year": "2021",
+			"month": "06",
+		}
+	}
+---
