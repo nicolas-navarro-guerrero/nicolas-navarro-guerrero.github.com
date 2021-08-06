@@ -1,10 +1,16 @@
 - name: Professional Experience
   id: experience
   subitems: 
+    - name: Senior Researcher
+      affiliation: Robotics Innovation Center at the German Research Center for Artificial Intelligence GmbH, Germany
+      from: 2021-08-01
+      until: Present
+      link: https://robotik.dfki-bremen.de/en
+
     - name: Assistant Professor
       affiliation: Department of Electrical and Computer Engineering at Aarhus University, Denmark
       from: 2017-10-01
-      until: Present
+      until: 2021-07-31
       link: https://eng.au.dk/en/cognitive-and-developmental-robotics/
 
     - name: Research and Teaching Associate
