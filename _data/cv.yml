@@ -122,7 +122,7 @@
       affiliation: Aarhus University, Denmark
       from: 
       until: 2019-05-01
-      link: http://phd.scitech.au.dk/for-supervisors/supervision-incl-courses/courses-in-phd-supervision/
+      link: https://phd.tech.au.dk/for-supervisors/supervision-incl-courses/courses-in-phd-supervision/
 
     - name: Cultural Awareness Training
       affiliation: Aarhus University, Denmark
@@ -173,7 +173,7 @@
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
       until: 2021-07-01
-      link: https://cdstc.gitlab.io/icdl-2020/calls/#special-issue
+      link: https://cdstc.gitlab.io/icdl-2020/calls/special-issue/
 
     - name: Editorial Board
       affiliation: Frontiers in Robotics and AI
@@ -187,17 +187,18 @@
       until: 2021-12-31
       link: https://cis.ieee.org/publications/t-cognitive-and-developmental-systems
 
+    - name: Editorial Board
+      affiliation: Frontiers in Neurorobotics
+      from: 2019-10-01
+      until: Present
+      link: https://www.frontiersin.org/journals/neurorobotics
+
     - name: Guest Editor Special Issue on Continual Unsupervised Sensorimotor Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 2019-03-01
       until: 2020-10-31
       link: https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/
 
-    - name: Editorial Board
-      affiliation: Frontiers in Neurorobotics
-      from: 2019-10-01
-      until: Present
-      link: https://www.frontiersin.org/journals/neurorobotics
 
 - name: Affiliations
   id: affiliations
@@ -208,6 +209,12 @@
       until: 2020-12-31
       link: https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee
 
+    - name: Member
+      affiliation: Task Force on Developmental Psychology of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
+      from: 2018-11-01
+      until: Present
+      link: https://cdstc.gitlab.io/task-force-on-developmental-psychology/
+
     - name: Chair
       affiliation: Task Force on Action and Perception of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
       from: 2018-05-01
@@ -217,14 +224,8 @@
     - name: Member
       affiliation: Aarhus University Centre for Digitalisation, Big Data and Data Analytics (AU DIGIT)
       from: 2018-05-17
-      until: Present
+      until: 2021-07-31
       link: https://digit.au.dk/
-
-    - name: Member
-      affiliation: Task Force on Developmental Psychology of the IEEE CIS Technical Committee on Cognitive and Developmental Systems
-      from: 2018-11-01
-      until: Present
-      link: https://cdstc.gitlab.io/task-force-on-developmental-psychology/
 
     - name: Member
       affiliation: IEEE CIS Technical Committee on Cognitive and Developmental Systems
