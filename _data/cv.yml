@@ -172,8 +172,14 @@
     - name: Guest Editor Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
-      until: 2021-07-01
+      until: 2021-11-01
       link: https://cdstc.gitlab.io/icdl-2020/calls/special-issue/
+
+    - name: Guest Editorial Special Issue on Continual Unsupervised Sensorimotor Learning
+      affiliation: IEEE Transactions on Cognitive and Developmental Systems
+      from: 2021-06-08
+      until: 
+      link: https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/
 
     - name: Editorial Board
       affiliation: Frontiers in Robotics and AI
@@ -192,12 +198,6 @@
       from: 2019-10-01
       until: Present
       link: https://www.frontiersin.org/journals/neurorobotics
-
-    - name: Guest Editor Special Issue on Continual Unsupervised Sensorimotor Learning
-      affiliation: IEEE Transactions on Cognitive and Developmental Systems
-      from: 2019-03-01
-      until: 2020-10-31
-      link: https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/
 
 
 - name: Affiliations
