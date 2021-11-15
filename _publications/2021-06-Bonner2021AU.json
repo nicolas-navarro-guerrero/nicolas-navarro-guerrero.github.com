@@ -6,7 +6,7 @@ rights: "&copy;2021 The Authors."
 license: "CC BY 4.0"
 
 thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2021-06-Bonner2021AU.jpg"
-file: "https://figshare.com/ndownloader/files/31457746"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2021-06-Bonner2021AU.pdf"
 bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2021-06-Bonner2021AU.bib"
 slides: 
 supplementary: 
@@ -15,10 +15,10 @@ code:
 citation: {
 		"id": "Bonner2021AU",
 		"type": "article",
-		"note": "DOI: 10.6084/m9.figshare.14222486",
+		"DOI": "10.6084/m9.figshare.14222486",
 		"publisher": "figshare",
 		"title": "AU Dataset for Visuo-Haptic Object Recognition for Robots",
-		"URL": "https://figshare.com/s/1b67afbb2ea2d66826e4",
+		"URL": "https://figshare.com/articles/dataset/AU_Dataset_for_Visuo-Haptic_Object_Recognition_for_Robots/14222486",
 		"author": [
 			{
 				"family": "Bonner",
