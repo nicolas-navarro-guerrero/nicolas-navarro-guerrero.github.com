@@ -11,7 +11,7 @@ categories: [news]
 author: Nicolás Navarro-Guerrero
 ---
 
-Member of the program/technical committee of the <a href="https://ubicproxemics.ucsp.edu.pe/2022/" target="_blank"> 1st International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics)</a> to be held in  Biarritz, France between the 20<sup>th</sup> and 22<sup>th</sup> of June 2022.
+Member of the program/technical committee of the <a href="https://ubicproxemics.ucsp.edu.pe/2022/" target="_blank">1st International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics)</a> to be held in Biarritz, France between the 20<sup>th</sup> and 23<sup>rd</sup> of June 2022. Co-located with the <a href="https://ie2022.iutbayonne.univ-pau.fr/" target="_blank">18<sup>th</sup> International Conference on Intelligent Environments (IE)</a>.
 
 <!--more-->
 
