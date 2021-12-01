@@ -1,0 +1,16 @@
+---
+layout: post
+
+title:  "Editorial Board: Joined the Editorial Board of the Humanoid Robotics Section"
+subtitle: "Frontiers in Robotics and AI"
+thumbnail: 
+
+tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
+categories: [news]
+
+author: Nicolás Navarro-Guerrero
+---
+I joined the Editorial Board of the Humanoid Robotics Section at the <a href="https://www.frontiersin.org/journals/robotics-and-ai/sections/humanoid-robotics" target="_blank">Frontiers in Robotics and AI</a> journal as Review Editor.
+
+<!--more-->
+

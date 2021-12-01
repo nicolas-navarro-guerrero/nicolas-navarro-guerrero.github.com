@@ -179,13 +179,19 @@
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 2021-06-08
       until: 
-      link: https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/
+      link: https://ieeexplore.ieee.org/document/9448370
 
     - name: Editorial Board
-      affiliation: Frontiers in Robotics and AI
+      affiliation: Frontiers in Robotics and AI, Computational Intelligence in Robotics Section
+      from: 2021-12-01
+      until: Present
+      link: https://www.frontiersin.org/journals/robotics-and-ai/sections/computational-intelligence-in-robotics
+
+    - name: Editorial Board
+      affiliation: Frontiers in Robotics and AI, Humanoid Robotics Section
       from: 2020-09-21
       until: Present
-      link: https://www.frontiersin.org/journals/robotics-and-ai
+      link: https://www.frontiersin.org/journals/robotics-and-ai/sections/humanoid-robotics
 
     - name: Associate Editor
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
