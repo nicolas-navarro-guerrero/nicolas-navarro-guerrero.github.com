@@ -172,7 +172,7 @@
     - name: Guest Editor Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
-      until: 2021-11-01
+      until: 2022-01-01
       link: https://cdstc.gitlab.io/icdl-2020/calls/special-issue/
 
     - name: Guest Editorial Special Issue on Continual Unsupervised Sensorimotor Learning
@@ -205,6 +205,20 @@
       until: Present
       link: https://www.frontiersin.org/journals/neurorobotics
 
+- name: Evaluation Committees
+  id: evaluation
+  subitems: 
+    - name: Grant Reviewer
+      affiliation: Engineering track at Fondecyt, Chile
+      from: 2020-12-01
+      until: 
+      link: 
+
+    - name: Evaluation Committee for PhD Position
+      affiliation: Aarhus University Centre for Digitalisation, Big Data and Data Analytics (AU DIGIT)
+      from: 2019-11-11
+      until: 
+      link: 
 
 - name: Affiliations
   id: affiliations
@@ -257,7 +271,7 @@
       until: Present
       link: http://www.eucognition.org/
 
-- name: Organizing Committee of Conferences
+- name: Organizing Committee of Scientific Events
   id: events
   subitems: 
     - name: Bridge Chair
