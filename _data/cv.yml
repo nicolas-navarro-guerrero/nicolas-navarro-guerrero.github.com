@@ -169,7 +169,7 @@
 - name: Editorial Work
   id: editorial
   subitems: 
-    - name: Guest Editor Special Issue on Emerging Topics on Development and Learning
+    - name: Guest Editorial Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
       until: 2022-01-01
