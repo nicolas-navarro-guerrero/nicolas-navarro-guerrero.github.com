@@ -49,6 +49,13 @@
       baseurl: https://publons.com/researcher
       icon: /assets/img/logos/publons.svg
 
+- name: datasets
+  subitems:
+    - name: zenodo
+      username: 
+      baseurl: https://zenodo.org
+      icon: /assets/img/logos/zenodo-gradient-round.svg
+
     - name: figshare
       username: Nicol_s_Navarro-Guerrero/2746636
       baseurl: https://figshare.com/authors
