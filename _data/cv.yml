@@ -281,16 +281,22 @@
       link: https://icdl2022.qmul.ac.uk/
 
     - name: Program Committee
-      affiliation: "1<sup>st</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots)"
+      affiliation: "1<sup>st</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
       from: 2022-06-20
       until: 2022-06-23
       link: https://sentirobots.ucsp.edu.pe/2022/
 
     - name: Program Committee
-      affiliation: "1<sup>st</sup> International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics)"
+      affiliation: "1<sup>st</sup> International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics) at the International Conference on Intelligent Environments (IE)"
       from: 2022-06-20
       until: 2022-06-22
       link: https://ubicproxemics.ucsp.edu.pe/2022/
+
+    - name: Program Committee
+      affiliation: "12<sup>th</sup> Adaptive and Learning Agents (ALA) at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+      from: 2022-05-09
+      until: 2022-05-10
+      link: https://ala2022.github.io/
 
     - name: Publicity Chair
       affiliation: "10<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
