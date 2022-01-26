@@ -298,6 +298,12 @@
       until: 2022-05-10
       link: https://ala2022.github.io/
 
+    - name: Program Committee
+      affiliation: 4<sup>th</sup> International Symposium on Intelligent Computing Systems (ISICS)
+      from: 2022-03-23
+      until: 2022-03-25
+      link: https://isics-symposium.org/2022/
+
     - name: Publicity Chair
       affiliation: "10<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
       from: 2021-08-23
