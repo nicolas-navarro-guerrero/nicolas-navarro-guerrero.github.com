@@ -1,23 +1,24 @@
 ---
-tags: [journal, survey, Language Processing, reinforcement learning]
+tags: [survey, Language Processing, reinforcement learning, upcoming]
 categories: "publications"
 author: "Uc-Cetina et al."
-rights: "&copy;2021 The Authors."
+rights: "&copy;2022 The Authors."
 license: "Springer US"
 
-thumbnail: 
-file: 
-bibtex: 
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Uc-Cetina2022Survey.png"
+file: "https://arxiv.org/pdf/2104.05565"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Uc-Cetina2022Survey.bib"
 slides: 
 supplementary: 
 code:
 
 citation: {
-		"id": "Uc-Cetina2021Survey",
+		"id": "Uc-Cetina2022Survey",
 		"type": "article-journal",
 		"abstract": "In recent years some researchers have explored the use of reinforcement learning (RL) algorithms as key components in the solution of various natural language processing tasks. For instance, some of these algorithms leveraging deep neural learning have found their way into conversational systems. This paper reviews the state of the art of RL methods for their possible use for different problems of natural language processing, focusing primarily on conversational systems, mainly due to their growing relevance. We provide detailed descriptions of the problems as well as discussions of why RL is well-suited to solve them. Also, we analyze the advantages and limitations of these methods. Finally, we elaborate on promising research directions in natural language processing that might benefit from reinforcement learning.",
-		"container-title": "arXiv.org under review in Artificial Intelligence Review",
+		"container-title": "arXiv.org in press in Artificial Intelligence Review",
 		"title": "Survey on Reinforcement Learning for Language Processing",
+		"page": "1–36",
 		"URL": "https://arxiv.org/abs/2104.05565",
 		"author": [
 			{
@@ -42,8 +43,8 @@ citation: {
 			}
 		],
 		"issued": {
-          "year": "2021",
-          "month": "04", 
+          "year": "2022",
+          "month": "06", 
 		}
 	}
 ---

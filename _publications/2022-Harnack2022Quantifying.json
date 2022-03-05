@@ -1,0 +1,40 @@
+---
+tags: [interactive reinforcement learning, irl, mrock, upcoming]
+categories: "publications"
+author: "Harnack et al."
+rights: "&copy;2022 The Authors."
+license: "Springer"
+
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Harnack2022Quantifying.png"
+file: 
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Harnack2022Quantifying.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"id": "Harnack2022Quantifying",
+		"type": "article-journal",
+		"abstract": "Reinfocement learning (RL) has become widely adopted in robot control. \tDespite many successes, one major persisting problem can be very low data efficiency. One solution is interactive feedback, which has been shown to speed up RL considerably. As a result, there is an abundance of different strategies, which are, however, primarily tested on discrete grid-world and small scale optimal control scenarios. In the literature, there is no consensus about which feedback frequency is optimal or at which time the feedback is most beneficial. To resolve these discrepancies we isolate and quantify the effect of feedback frequency in robotic tasks with continuous state and action spaces. The experiments encompass inverse kinematics learning for robotic manipulator arms of different complexity. We show that seemingly contradictory reported phenomena occur at different complexity levels. Furthermore, our results suggest that no single ideal feedback frequency exists for a given task complexity. Rather that feedback frequency should be changed as the agent's proficiency in the task increases.",
+		"container-title": "Under Review in Neural Computing and Applications",
+		"title": "Quantifying the Effect of Feedback Frequency in Interactive Reinforcement Learning Performance for Robotic Tasks",
+		"author": [
+			{
+				"family": "Harnack",
+				"given": "Daniel"
+			},
+			{
+				"family": "Pivin-Bachler",
+				"given": "Julie"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2022",
+          "month": "06", 
+		}
+	}
+---

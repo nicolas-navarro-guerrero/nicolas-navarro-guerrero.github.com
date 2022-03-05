@@ -7,8 +7,12 @@
       slug: /publications/chronological
       id: publications
       icon:  
-    - name: Journals
+    - name: Upcoming
       slug: /publications/
+      id: publications
+      icon:  
+    - name: Journals
+      slug: /publications/#journals
       id: publications
       icon:  
     - name: Conferences

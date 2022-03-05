@@ -63,7 +63,10 @@
   {% assign datafile = site.publications %}
   {% assign display = 'd-none d-sm-block' %}
   {% assign ans = site.publications | size %}
-  {% if section contains 'journals' %}
+  {% if section contains 'upcoming' %}
+    {% assign title = 'Upcoming Articles' %}
+
+  {% elsif section contains 'journals' %}
     {% assign title = 'Journal Articles' %}
 
   {% elsif section contains 'chapters' %}
