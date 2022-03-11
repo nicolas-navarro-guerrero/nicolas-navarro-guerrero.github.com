@@ -93,7 +93,7 @@
     {% assign datafile = site.media %}
   {% endif %}
 
-{% unless section == '' %}
+{% unless section == '' or section contains 'talks' or section contains 'media' %}
 <h3 class="pt-5" id="{{ section }}">{{ title }}</h3>
 {% endunless %}
 

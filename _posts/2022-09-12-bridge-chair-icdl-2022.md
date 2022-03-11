@@ -10,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-Bridge Chair at the <a target="_blank" href="https://icdl2022.qmul.ac.uk/">IEEE International Conference on Development and Learning (ICDL 2022)</a> to be held in London, UK, 12<sup>th</sup> to 15<sup>th</sup> Sep. 2022.
+Bridge Chair and Associate Editor at the <a target="_blank" href="https://icdl2022.qmul.ac.uk/">IEEE International Conference on Development and Learning (ICDL 2022)</a> to be held in London, UK, 12<sup>th</sup> to 15<sup>th</sup> Sep. 2022.
 
 <!--more-->
 

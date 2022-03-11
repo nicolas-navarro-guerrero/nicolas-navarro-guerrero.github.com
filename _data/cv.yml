@@ -172,7 +172,7 @@
     - name: Guest Editorial Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
-      until: 2022-01-01
+      until: 2022-06-01
       link: https://cdstc.gitlab.io/icdl-2020/calls/special-issue/
 
     - name: Guest Editorial Special Issue on Continual Unsupervised Sensorimotor Learning
@@ -271,32 +271,29 @@
       until: Present
       link: http://www.eucognition.org/
 
-- name: Organizing Committee of Scientific Events
-  id: events
+- name: Summer Schools
+  id: summer-schools
   subitems: 
-    - name: Bridge Chair
+    - name: Co-Chair
+      affiliation: Latin American Summer School on Cognitive Robotics (LACORO)
+      from: 2020-09-01
+      until: 2020-09-04
+      link: https://lacoro.gitlab.io/2020/
+
+    - name: Publicity Chair
+      affiliation: IEEE RAS International Summer School on Deep Learning for Robot Vision
+      from: 2019-12-09
+      until: 2019-12-13
+      link: http://robotvision2019.amtc.cl/
+
+- name: Conferences
+  id: conferences
+  subitems: 
+    - name: Bridge Chair & Associate Editor
       affiliation: "11<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
       from: 2022-09-12
       until: 2022-09-15
       link: https://icdl2022.qmul.ac.uk/
-
-    - name: Program Committee
-      affiliation: "1<sup>st</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
-      from: 2022-06-20
-      until: 2022-06-23
-      link: https://sentirobots.ucsp.edu.pe/2022/
-
-    - name: Program Committee
-      affiliation: "1<sup>st</sup> International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics) at the International Conference on Intelligent Environments (IE)"
-      from: 2022-06-20
-      until: 2022-06-22
-      link: https://ubicproxemics.ucsp.edu.pe/2022/
-
-    - name: Program Committee
-      affiliation: "Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
-      from: 2022-05-09
-      until: 2022-05-10
-      link: https://ala2022.github.io/
 
     - name: Program Committee
       affiliation: 4<sup>th</sup> International Symposium on Intelligent Computing Systems (ISICS)
@@ -316,23 +313,44 @@
       until: 2020-10-30
       link: https://cdstc.gitlab.io/icdl-2020/
 
-    - name: Co-Chair
-      affiliation: Latin American Summer School on Cognitive Robotics (LACORO)
-      from: 2020-09-01
-      until: 2020-09-04
-      link: https://lacoro.gitlab.io/2020/
-
-    - name: Publicity Chair
-      affiliation: IEEE RAS International Summer School on Deep Learning for Robot Vision
-      from: 2019-12-09
-      until: 2019-12-13
-      link: http://robotvision2019.amtc.cl/
-
     - name: Program Committee
       affiliation: IEEE Symposium on Domestic Robotics at the IEEE Symposium Series on Computational Intelligence (IEEE SSCI)
       from: 2019-12-06
       until: 2019-12-09
       link: http://ssci2019.org/dr.html
+
+    - name: Organizing Committee
+      affiliation: International Conference on Artificial Neural Networks (ICANN)
+      from: 2014-07-15
+      until: 2014-07-19
+      link: https://e-nns.org/icanns/2014-2/
+
+    - name: Co-Organizer
+      affiliation: "Postgraduate Conference on Robotics and Development of Cognition (RobotDoC-PhD) at ICANN"
+      from: 2012-09-10
+      until: 2012-09-12
+      link: http://www.robotdoc.org/conference
+
+- name: Workshops
+  id: workshops
+  subitems: 
+    - name: Program Committee
+      affiliation: "1<sup>st</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
+      from: 2022-06-20
+      until: 2022-06-23
+      link: https://sentirobots.ucsp.edu.pe/2022/
+
+    - name: Program Committee
+      affiliation: "1<sup>st</sup> International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics) at the International Conference on Intelligent Environments (IE)"
+      from: 2022-06-20
+      until: 2022-06-22
+      link: https://ubicproxemics.ucsp.edu.pe/2022/
+
+    - name: Program Committee
+      affiliation: "Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+      from: 2022-05-09
+      until: 2022-05-10
+      link: https://ala2022.github.io/
 
     - name: Co-Organizer
       affiliation: AU Smart Manufacturing Day
@@ -376,23 +394,11 @@
       until: 
       link: https://matchpoints-archive.au.dk/workshops/social-robotics-saturday-26-may/
 
-    - name: Organizing Committee
-      affiliation: International Conference on Artificial Neural Networks (ICANN)
-      from: 2014-07-15
-      until: 2014-07-19
-      link: https://e-nns.org/icanns/2014-2/
-
     - name: Co-organizer & Speaker
       affiliation: "Special Session: Training in Robotics for Development of Cognition (RobotDoC) at ICDL-EpiRob"
       from: 2013-08-18
       until: 
       link: http://www.er.ams.eng.osaka-u.ac.jp/icdl-epirob-2013/specialsession-vollmer.html
-
-    - name: Co-Organizer
-      affiliation: "Postgraduate Conference on Robotics and Development of Cognition (RobotDoC-PhD) at ICANN"
-      from: 2012-09-10
-      until: 2012-09-12
-      link: http://www.robotdoc.org/conference
 
 
 - name: Template

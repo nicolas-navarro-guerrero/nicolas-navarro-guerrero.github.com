@@ -18,30 +18,51 @@ author: Nicolás Navarro-Guerrero
 
 <p class="text-center mt-4">Download my <a href="https://www.dropbox.com/s/joebsy7tbof3nl3/cv_en_nicolas_navarro-guerrero_a4_web-version.pdf" title="Download my CV in pdf">"Curriculum Vitae":</a><a href="https://www.dropbox.com/s/joebsy7tbof3nl3/cv_en_nicolas_navarro-guerrero_a4_web-version.pdf" title="Download my CV in pdf"> <i class="fas fa-file-pdf align-middle" style="font-size:48px;;color:red;"></i></a></p>
 
-<h4 class="mt-5" id="experience">Education</h4>
+<h4 class="mt-5" id="education">Education</h4>
 {% include cv.html section='education' %}
-<h4 class="mt-5" id="experience">Pedagogical/Teacher Training</h4>
+
+<h4 class="mt-5" id="teaching">Pedagogical/Teacher Training</h4>
 {% include cv.html section='teaching' %}
-<h4 class="mt-5" id="experience">Research Integrity Qualifications</h4>
+
+<h4 class="mt-5" id="ethics">Research Integrity Qualifications</h4>
 {% include cv.html section='ethics' %}
+
 <h4 class="mt-5" id="experience">Professional Experience</h4>
 {% include cv.html section='experience' %}
-<h4 class="mt-5" id="experience">Interships and Part-Time Experience</h4>
+
+<h4 class="mt-5" id="part-time">Interships and Part-Time Experience</h4>
 {% include cv.html section='part-time' %}
-<h4 class="mt-5" id="experience">Awards, and Fellowships</h4>
+
+<h4 class="mt-5" id="awards">Awards, and Fellowships</h4>
 {% include cv.html section='awards' %}
-<h4 class="mt-5" id="experience">Evaluation Committees</h4>
+
+<h4 class="mt-5" id="evaluation">Evaluation Committees</h4>
 {% include cv.html section='evaluation' %}
-<h4 class="mt-5" id="experience">Editorial Work</h4>
+
+<h4 class="mt-5" id="editorial">Editorial Work</h4>
 <p>Ad-hoc reviewer of Journals, and Conference, see the detailed list of my verified reviews in Publons <a href="https://publons.com/researcher/1085460/nicolas-navarro-guerrero/peer-review/" target="_blank">https://publons.com/researcher/1085460/nicolas-navarro-guerrero/peer-review/</a></p>
 {% include cv.html section='editorial' %}
-<h4 class="mt-5" id="experience">Affiliations</h4>
+
+<h4 class="mt-5" id="affiliations">Affiliations</h4>
 {% include cv.html section='affiliations' %}
-<h4 class="mt-5" id="experience">Organizing Committee of Scientific Events</h4>
-{% include cv.html section='events' %}
+
+<h4 class="mt-5" id="events">Organizing Committee of Scientific Events</h4>
+<h5 class="mt-1" id="events-summer-schools">Summer Schools</h5>
+{% include cv.html section='summer-schools' %}
+<h5 class="mt-1" id="events-conferences">Conferences</h5>
+{% include cv.html section='conferences' %}
+<h5 class="mt-1" id="events-workshops">Workshops</h5>
+{% include cv.html section='workshops' %}
 
 
+<h4 class="mt-5" id="affiliations">Invited Talks</h4>
+{% include publications.html section='talks' %}
 
+<h4 class="mt-5" id="affiliations">Media Coverage and Activities</h4>
+{% include publications.html section='media' %}
+
+
+<!--
 <h4 class="mt-5" id="interests">General Areas of Interest and Specialties:</h4>
 {% include projects.html section='interests' %}
 
@@ -53,4 +74,4 @@ author: Nicolás Navarro-Guerrero
     <li>Unconventional farming that foster biodiversity and ecosystem such as strip cropping, edible forest, permaculture...</li>
     <li>Martial arts, mountain biking, hiking, kayaking...</li>
 </ul>
-
+-->
