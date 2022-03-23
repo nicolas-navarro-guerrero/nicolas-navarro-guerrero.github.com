@@ -6,7 +6,7 @@ rights: "&copy;2022 The Authors."
 license: "Springer US"
 
 thumbnail: 
-file: 
+file: "https://arxiv.org/pdf/2203.11544"
 bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Navarro-Guerrero2022VisuoHaptic.bib"
 slides: 
 supplementary: 
@@ -18,6 +18,8 @@ citation: {
 		"abstract": "This article summarizes the current state of multimodal object perception for robotic applications. It covers aspects of biological inspiration, sensor technologies, data sets, and sensory data processing for object recognition and grasping. \nFirstly, the biological basis of multimodal object perception is outlined. Then the sensing technologies and data collection strategies are discussed. Next, an introduction to the main computational aspects is presented, highlighting a few representative articles for each main application area, including object recognition, object manipulation and grasping, texture recognition, and transfer learning. \nFinally, informed by the current advancements in each area, this article outlines promising new research directions.",
 		"container-title": "Under Review in Autonomous Robots",
 		"ISSN": "1573-7462",
+		"URL": "https://arxiv.org/abs/2203.11544",
+		"page": "1–24",
 		"title": "Visuo-Haptic Object Perception for Robots: An Overview",
 		"author": [
 			{
