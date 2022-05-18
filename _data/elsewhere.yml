@@ -87,10 +87,6 @@
 
 #- name: social-media
 #  subitems:
-    - name: tumblr
-      username: 
-      baseurl: http://nng-fres.tumblr.com
-      icon: <i class="fab fa-tumblr"></i>
 
     - name: twitter
       username: nico_navarro_g
