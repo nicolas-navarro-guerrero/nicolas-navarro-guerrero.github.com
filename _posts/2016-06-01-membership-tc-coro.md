@@ -11,7 +11,7 @@ categories: [news]
 author: Nicolás Navarro-Guerrero
 ---
 
-Joined the IEEE Technical Committee on Cognitive Robotics. For more information about the mission and activities of the Technical Committee, <a href="http://www.ieee-coro.org/" target="_blank">please visit this link.</a>
+I joined the IEEE Technical Committee on Cognitive Robotics. For more information about the mission and activities of the Technical Committee, <a href="http://www.ieee-coro.org/" target="_blank">please visit this link.</a>
 
 <!--more-->
 

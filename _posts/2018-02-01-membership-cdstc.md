@@ -11,7 +11,7 @@ categories: [news]
 author: Nicolás Navarro-Guerrero
 ---
 
-Joined the IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC) for the 2018 term. For more information about the mission and activities of the Technical Committee, <a href="https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee" target="_blank">please visit this link.</a>
+I joined the IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC) for the 2018 term. For more information about the mission and activities of the Technical Committee, <a href="https://cis.ieee.org/technical-committees/cognitive-and-developmental-systems-technical-committee" target="_blank">please visit this link.</a>
 
 <!--more-->
 
