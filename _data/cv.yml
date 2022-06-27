@@ -169,11 +169,17 @@
 - name: Editorial Work
   id: editorial
   subitems: 
+    - name: Guest Editorial Research Topic on Cognitive Inspired Aspects of Robot Learning
+      affiliation: Frontiers in Neurorobotics
+      from: 
+      until: 2023-04-01
+      link: https://www.frontiersin.org/research-topics/42299/cognitive-inspired-aspects-of-robot-learning
+
     - name: Guest Editorial Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 
-      until: 2022-06-01
-      link: https://cdstc.gitlab.io/icdl-2020/calls/special-issue/
+      until: 2022-06-10
+      link: https://ieeexplore.ieee.org/document/9793369
 
     - name: Guest Editorial Special Issue on Continual Unsupervised Sensorimotor Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
