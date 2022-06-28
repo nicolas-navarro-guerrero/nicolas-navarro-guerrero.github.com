@@ -2,7 +2,7 @@
 tags: [proceedings, conference, hri, social robotics, insor]
 categories: "publications"
 author: "Nicolás Navarro-Guerrero"
-rights: 
+rights: "&copy;2020 The Authors."
 license: "Springer US"
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2020-06-Adrian2020Mediation.png"
@@ -13,7 +13,7 @@ supplementary:
 code:
 
 citation: {
-		"id": "Adrian2020Mediation",
+		"bibtex": "Adrian2020Mediation",
 		"type": "paper-conference",
 		"abstract": "This study investigates the effects of using a mediation expert system under various support conditions in a laboratory setting. Information is provided to the system and advice retrieved either by the participants themselves, via a human mediator or via a tele-operated robot. We study the effects of these different ways of providing mediation support and communicating with the participants on negotiation outcomes, trust and technology acceptance. Though there are no significant differences in trust and technology acceptance measures conditions with the mediation support system achieve better result than the control group and conditions with robotic tele-presence better outcomes than those without. The gender of the mediator or operator does not influence negotiation outcomes.",
 		"collection-title": "LNBIP",
