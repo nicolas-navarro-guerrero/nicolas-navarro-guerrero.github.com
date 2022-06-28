@@ -6,7 +6,7 @@ rights: "&copy;2022 The Authors."
 license: "IEEE"
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2022-Josifovski2022Analysis.png"
-file: 
+file: "https://arxiv.org/pdf/2206.06282"
 bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Josifovski2022Analysis.bib"
 slides: 
 supplementary: 
@@ -17,6 +17,8 @@ citation: {
 		"type": "paper-conference",
 		"abstract": "Current state-of-the-art approaches for transferring deep-learning models trained in simulation either rely on highly realistic simulations or employ randomization techniques to bridge the reality gap. However, such strategies do not scale well for complex robotic tasks. Highly-realistic simulations are computationally expensive and challenging to implement, while randomization techniques become sample-inefficient as the complexity of the task increases. This paper proposes a procedure for training on incremental simulations in a continual learning setup. \nWe develop a simulation platform for the experimental analysis that can serve as a training environment and as a benchmark for continual and reinforcement learning sim2real approaches. The results show that training time for complex tasks can be reduced. Thus, we argue that Sequentially-Randomized Simulations improve the sim2real transfer.",
 		"container-title": "Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.48550/arXiv.2206.06282",
+		"URL": "https://arxiv.org/abs/2206.06282",
 		"event-place": "Kyoto, Japan",
 		"publisher": "IEEE",
 		"publisher-place": "Kyoto, Japan",
