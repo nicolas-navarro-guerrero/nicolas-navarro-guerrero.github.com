@@ -13,7 +13,7 @@ supplementary:
 code:
 
 citation: {
-		"id": "Bonner2021AU",
+		"bibtex": "Bonner2021AU",
 		"type": "article",
 		"DOI": "10.48550/arXiv.2112.13761",
 		"publisher": "figshare",

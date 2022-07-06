@@ -13,7 +13,7 @@ supplementary:
 code:
 
 citation: {
-		"id": "Navarro-Guerrero2021Guest",
+		"bibtex": "Navarro-Guerrero2021Guest",
 		"type": "article-journal",
 		"abstract": "The pursuit of higher levels of autonomy and versatility in robotics is arguably led by two main factors. Firstly, as we push robots out of the labs and productions lines, it becomes increasingly challenging to design for all possible scenarios that a particular robot might encounter. Secondly, the cost of designing, manufacturing, and maintaining such systems becomes prohibitive.",
 		"container-title": "IEEE Transactions on Cognitive and Developmental Systems",
