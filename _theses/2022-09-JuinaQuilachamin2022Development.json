@@ -1,0 +1,52 @@
+---
+tags: [thesis, master, dfki, haptic perception]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2022-09-JuinaQuilachamin2022Development.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Kipfmüller,
+        given: Martin
+      },
+      {
+        family: Kirchner,
+        given: Frank
+      },
+    ]
+
+citation: {
+		"id": "JuinaQuilachamin2022Development",
+		"type": "thesis",
+		"event-place": "Bremen, Germany",
+		"genre": "MSc",
+		"number-of-pages": "99",
+		"publisher": "Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI) and Universität Hochschule Karlsruhe (HKA)",
+		"publisher-place": "Bremen, Germany",
+		"title": "Development of 3D Printed Fingerprint for Robotic Hands and Grippers",
+		"author": [
+			{
+				"family": "Juiña Quilachamín",
+				"given": "Oscar Alberto"
+			}
+		],
+		"issued": {
+			"year": "2022",
+			"month": "09",
+		}
+	}
+---
+
