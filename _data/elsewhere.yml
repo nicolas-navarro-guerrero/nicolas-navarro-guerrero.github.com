@@ -45,8 +45,8 @@
       icon: /assets/img/logos/zotero_48x48x32.png
 
     - name: Publons (Web of Science)
-      username: 1085460/nicolas-navarro-guerrero/peer-review
-      baseurl: https://publons.com/researcher
+      username: 1481323
+      baseurl: https://www.webofscience.com/wos/author/record
       icon: /assets/img/logos/publons.svg
 
 - name: datasets
