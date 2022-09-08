@@ -1,0 +1,40 @@
+---
+tags: [upcoming, haptics, haptic perception, tactile perception]
+categories: "publications"
+author: "Juina Quilachamin et al."
+rights: "&copy;2023 The Authors."
+license: "IEEE"
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2023-03-JuinaQuilachamin2023Fingerprint.png"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2023-03-JuinaQuilachamin2023Fingerprint.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"bibtex": "JuinaQuilachamin2023Fingerprint",
+		"type": "paper-conference",
+		"container-title": "Submitted to IEEE International Conference on Robotics and Automation (ICRA)",
+		"event-place": "London, UK",
+		"event-title": "IEEE International Conference on Robotics and Automation (ICRA)",
+		"page": "1-7",
+		"publisher": "IEEE",
+		"publisher-place": "London, UK",
+		"title": "A Biomimetic Fingerprint for Robotic Tactile Sensing",
+		"author": [
+			{
+				"family": "Juiña Quilachamín",
+				"given": "Oscar Alberto"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2023",
+          "month": "03", 
+		}
+	}
+---
