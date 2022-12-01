@@ -347,6 +347,12 @@
   id: workshops
   subitems: 
     - name: Program Committee
+      affiliation: "2<sup>nd</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
+      from: 2023-06-27
+      until: 2023-06-30
+      link: https://sentirobots.ucsp.edu.pe/2023/
+
+    - name: Program Committee
       affiliation: "1<sup>st</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
       from: 2022-06-20
       until: 2022-06-23
