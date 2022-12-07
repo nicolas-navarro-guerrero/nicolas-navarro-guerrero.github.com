@@ -1,0 +1,39 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2023 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2023Designing",
+		"type": "speech",
+		"abstract": "The dream and need for autonomous robots beyond the assembly line are coming together. This development is the product of many factors, including a demographic change in all developed countries, deemed the silver tsunami, and improvements in computing and machine learning techniques. Despite the advances in machine learning and automation, there are numerous challenges we need to overcome before developing robots that can operate autonomously and safely alongside people. These involve making robots more competent, but also, robots would have to be able to interact with humans naturally and effortlessly. Such capabilities are indispensable for domestic robot applications and essential to guarantee safe and efficient operation in the production line. In this talk, I will discuss my current and ongoing research on Cognitive Robotics and Human-Robot Interaction towards creating more competent and safer robots.",
+		"event-place": "Concepción, Chile",
+		"event": "Bio Bio AI Robotics Summit",
+		"genre": "Invited Talk",
+		"language": "Spanish",
+		"note": "1 Jul.\\ 2019",
+		"publisher-place": "Concepción, Chile",
+		"title": "Designing Social Robots",
+		"URL": "https://sites.google.com/view/biobo-airobotics-summit",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2023",
+			"month": "01",
+		}
+	}
+---
+
