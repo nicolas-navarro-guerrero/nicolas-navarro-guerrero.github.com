@@ -346,6 +346,12 @@
 - name: Workshops
   id: workshops
   subitems: 
+    - name: Co-Organizer
+      affiliation: "Special Session on Human-in-the-loop Algorithms and System Designs at the International Joint Conference on Neural Networks (IJCNN)"
+      from: 2023-06-18
+      until: 2023-06-23
+      link: https://2023.ijcnn.org/
+
     - name: Program Committee
       affiliation: "2<sup>nd</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
       from: 2023-06-27
