@@ -1,5 +1,5 @@
 ---
-tags: [reinforcement learning, sim2real, upcoming]
+tags: [reinforcement learning, sim2real, proceedings, conference]
 categories: "publications"
 author: "Josifovski et al."
 rights: "&copy;2022 The Authors."
@@ -9,7 +9,7 @@ thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/
 file: "https://arxiv.org/pdf/2206.06282"
 bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-10-Josifovski2022Analysis.bib"
 slides: 
-supplementary: 
+supplementary: "https://josifovski.github.io/sim2real-randomization-effects/"
 code:
 
 citation: {
@@ -17,12 +17,15 @@ citation: {
 		"type": "paper-conference",
 		"abstract": "Current state-of-the-art approaches for transferring deep-learning models trained in simulation either rely on highly realistic simulations or employ randomization techniques to bridge the reality gap. However, such strategies do not scale well for complex robotic tasks. Highly-realistic simulations are computationally expensive and challenging to implement, while randomization techniques become sample-inefficient as the complexity of the task increases. This paper proposes a procedure for training on incremental simulations in a continual learning setup. \nWe develop a simulation platform for the experimental analysis that can serve as a training environment and as a benchmark for continual and reinforcement learning sim2real approaches. The results show that training time for complex tasks can be reduced. Thus, we argue that Sequentially-Randomized Simulations improve the sim2real transfer.",
 		"container-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-		"DOI": "10.48550/arXiv.2206.06282",
-		"URL": "https://arxiv.org/abs/2206.06282",
+		"DOI": "10.1109/IROS47612.2022.9981951",
 		"event-place": "Kyoto, Japan",
+		"ISBN": "978-1-66547-927-1",
+		"license": "All rights reserved",
+		"page": "10193-10200",
 		"publisher": "IEEE",
 		"publisher-place": "Kyoto, Japan",
 		"title": "Analysis of Randomization Effects on Sim2Real Transfer in Reinforcement Learning for Robotic Manipulation Tasks",
+		"URL": "https://ieeexplore.ieee.org/document/9981951",
 		"author": [
 			{
 				"family": "Josifovski",
