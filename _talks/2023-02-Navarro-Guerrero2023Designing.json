@@ -1,0 +1,39 @@
+---
+tags: [talk, invited talk, general]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2023 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2023Designinga",
+		"type": "speech",
+		"abstract": "Despite the advances in robotics, there are numerous challenges we need to overcome before developing robots that can operate autonomously and safely alongside people. These involve making robots more competent, but also, robots would have to be able to interact with humans naturally and effortlessly. Such capabilities are essential to guarantee safe and efficient operation in the production line. This talk will present some of the current and ongoing research towards creating smarter and safer robots.",
+		"event-place": "Hanover, Germany",
+		"event-title": "12. Robotics Kongress – Safety, Security und Künstliche Intelligenz",
+		"genre": "Invited Talk",
+		"language": "English",
+		"note": "8 Feb.\\ 2023",
+		"publisher-place": "Hanover, Germany",
+		"title": "Designing Safer Robotic Systems",
+		"URL": "https://www.technology-academy.group/project/rk23/",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2023",
+			"month": "02",
+		}
+	}
+---
+
