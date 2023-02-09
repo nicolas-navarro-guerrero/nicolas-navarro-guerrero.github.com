@@ -1,5 +1,5 @@
 {% assign section = include.section | downcase | default: '' %}
-{% assign latest = include.latest | default: -1 %}
+{% assign latest = include.latest | default: 5 %}
 {% assign page = include.page %}
 
 
@@ -124,7 +124,7 @@
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
 {% assign projects = projects | sort: "date" | reverse %}
 
-  {% for item in projects %}
+  {% for item in projects limit:latest %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
