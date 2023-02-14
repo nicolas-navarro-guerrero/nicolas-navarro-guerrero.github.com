@@ -17,7 +17,7 @@ citation: {
 		"type": "speech",
 		"abstract": "Despite the advances in robotics, there are numerous challenges we need to overcome before developing robots that can operate autonomously and safely alongside people. These involve making robots more competent, but also, robots would have to be able to interact with humans naturally and effortlessly. Such capabilities are essential to guarantee safe and efficient operation in the production line. This talk will present some of the current and ongoing research towards creating smarter and safer robots.",
 		"event-place": "Hanover, Germany",
-		"event-title": "12. Robotics Kongress – Safety, Security und Künstliche Intelligenz",
+		"event": "12. Robotics Kongress – Safety, Security und Künstliche Intelligenz",
 		"genre": "Invited Talk",
 		"language": "English",
 		"note": "8 Feb.\\ 2023",
