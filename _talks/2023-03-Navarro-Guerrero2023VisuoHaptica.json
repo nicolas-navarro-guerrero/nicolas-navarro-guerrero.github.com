@@ -1,0 +1,38 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright (&copy;) 2023 Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2023VisuoHaptica",
+		"type": "speech",
+		"event-place": "Prague, Czech Republic",
+		"event-title": "Research Seminar at the Department of Cybernetics at the Czech Technical University in Prague",
+		"genre": "Invited Talk",
+		"language": "English",
+		"note": "8 Mar.\\ 2023",
+		"publisher-place": "Prague, Czech Republic",
+		"title": "Visuo-Haptic Object Perception for Robots: An Overview",
+		"URL": "https://cyber.felk.cvut.cz/department/events/",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2023",
+			"month": "03",
+		}
+	}
+---
+

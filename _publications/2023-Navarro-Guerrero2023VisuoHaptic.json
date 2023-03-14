@@ -1,26 +1,26 @@
 ---
-tags: [survey, haptics, haptic perception, tactile perception, upcoming]
+tags: [survey, haptics, haptic perception, tactile perception, journal]
 categories: "publications"
 author: "Navarro-Guerrero et al."
 rights: "&copy;2023 The Authors."
 license: "Springer US"
 
-thumbnail: 
-file: "https://arxiv.org/pdf/2203.11544"
-bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-Navarro-Guerrero2022VisuoHaptic.bib"
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-Navarro-Guerrero2023VisuoHaptic.png"
+file: "https://link.springer.com/content/pdf/10.1007/s10514-023-10091-y.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-Navarro-Guerrero2023VisuoHaptic.bib"
 slides: 
 supplementary: 
 code:
 
 citation: {
-		"bibtex": "Navarro-Guerrero2022VisuoHaptic",
+		"bibtex": "Navarro-Guerrero2023VisuoHaptic",
 		"type": "article-journal",
 		"abstract": "This article summarizes the current state of multimodal object perception for robotic applications. It covers aspects of biological inspiration, sensor technologies, data sets, and sensory data processing for object recognition and grasping. \nFirstly, the biological basis of multimodal object perception is outlined. Then the sensing technologies and data collection strategies are discussed. Next, an introduction to the main computational aspects is presented, highlighting a few representative articles for each main application area, including object recognition, object manipulation and grasping, texture recognition, and transfer learning. \nFinally, informed by the current advancements in each area, this article outlines promising new research directions.",
-		"container-title": "In Press: Autonomous Robots",
+		"container-title": "Autonomous Robots",
 		"ISSN": "1573-7462",
-		"DOI": "10.48550/arXiv.2203.11544",
-		"URL": "https://arxiv.org/abs/2203.11544",
-		"page": "1–24",
+		"DOI": "10.1007/s10514-023-10091-y",
+		"URL": "https://link.springer.com/article/10.1007/s10514-023-10091-y",
+		"page": "1–27",
 		"title": "Visuo-Haptic Object Perception for Robots: An Overview",
 		"author": [
 			{
@@ -42,7 +42,8 @@ citation: {
 		],
 		"issued": {
           "year": "2023",
-          "month": "06", 
+          "month": "03", 
 		}
 	}
 ---
+
