@@ -1,7 +1,6 @@
 {% assign section = include.section | downcase | default: '' %}
-{% assign latest = include.latest | default: 5 %}
+{% assign latest = include.latest | default: -1 %}
 {% assign page = include.page %}
-
 
 {% if section contains 'acknowledgment' %}
   {% if page.acknowledgment != null %}
@@ -123,9 +122,11 @@
 {% else %}
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
 {% assign projects = projects | sort: "date" | reverse %}
-
+{% if latest == -1 %}
+  {% assign latest = forloop.length %}
+{% endif %}
   {% for item in projects limit:latest %}
-    {% unless item.categories contains 'template' %}
+<!--    {% unless item.categories contains 'template' %}-->
       {% assign tmp = item.tags | downcase %}
       {% if tmp contains section %}
 <div class="card mb-3">
@@ -148,7 +149,7 @@
   </div><!-- ROW -->
 </div><!-- CARD -->
       {% endif %}
-    {% endunless %}
+<!--    {% endunless %}-->
   {% endfor %}
 {% endif %}
 
