@@ -38,10 +38,10 @@
   id: thesis
   subitems: 
     - name: A Thesis Proposal Template
-      url: https://gitlab.com/nicolas-navarro-guerrero/expose-paper-template/repository/archive.zip
+      url: https://gitlab.com/nicolas-navarro-guerrero/expose-paper-template/-/archive/master/expose-paper-template-master.zip
       icon: <i class="fas fa-file-archive"></i>
     - name: A Thesis Template
-      url: https://gitlab.com/nicolas-navarro-guerrero/thesis-template/repository/archive.zip
+      url: https://gitlab.com/nicolas-navarro-guerrero/thesis-template/-/archive/master/thesis-template-master.zip
       icon: <i class="fas fa-file-archive"></i>
     - name: How to Be a Good Graduate Student (and advisor)
       url: https://heibeck.freeshell.org/Grad_Advice/how2b/how.2b.html
