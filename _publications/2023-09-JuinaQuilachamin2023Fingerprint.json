@@ -14,11 +14,15 @@ code:
 
 citation: {
 		"bibtex": "JuinaQuilachamin2023Fingerprint",
-		"type": "article",
-        "event-place": "Bremen, Germany",
-		"event-title": "IEEE International Conference on Robotics and Automation (ICRA)",
+		"type": "paper-conference",
+		"abstract": "Tactile sensors have been developed since the early '70s and have greatly improved, but there are still no widely adopted solutions. Various technologies, such as capacitive, piezoelectric, piezoresistive, optical, and magnetic, are used in haptic sensing. However, most sensors are not mechanically robust for many applications and cannot cope well with curved or sizeable surfaces. \nAiming to address this problem, we present a 3D printed fingerprint pattern to enhance the body-borne vibration signal for dynamic tactile feedback. \nThe 3D printed fingerprint patterns were designed and tested for an RH8D Adult size Robot Hand. The patterns significantly increased the signal's power to over 11 times the baseline. \nA public haptic dataset including 52 objects of several materials was created using the best fingerprint pattern and material.",
+		"container-title": "International Symposium on Robotics (ISR Europe)",
+		"event-place": "Stuttgart, Germany",
+		"event-title": "International Symposium on Robotics (ISR Europe)",
+		"license": "All rights reserved",
 		"page": "1-7",
-		"publisher": "arXiv",
+		"publisher": "Information Technology Society in the VDE (ITG)",
+		"publisher-place": "Stuttgart, Germany",
 		"title": "A Biomimetic Fingerprint for Robotic Tactile Sensing",
 		"author": [
 			{
@@ -36,3 +40,4 @@ citation: {
 		}
 	}
 ---
+
