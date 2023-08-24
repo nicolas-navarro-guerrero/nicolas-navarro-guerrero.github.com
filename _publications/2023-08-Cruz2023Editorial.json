@@ -1,0 +1,49 @@
+---
+tags: [abstract, Guest Editorial, Special Issue]
+categories: "publications"
+author: "Cruz et al."
+rights: "&copy;2023 The Authors."
+license: "Frontiers Media S.A."
+
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-08-Cruz2023Editorial.png"
+file: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-08-Cruz2023Editorial.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-08-Cruz2023Editorial.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"bibtex": "Cruz2023Editorial",
+		"type": "article-journal",
+		"abstract": "Robot learning enables robots to acquire new knowledge and skills through experience and interaction with their environment. Robot learning involves developing algorithms that allow robots to learn autonomously, adapt to new situations, and improve their performance over time. Using machine learning, robots can analyze large amounts of data and extract patterns to make decisions. This approach allows robots to learn from past experiences and apply that knowledge to future tasks, ultimately enhancing their capabilities and versatility.",
+		"container-title": "Frontiers in Neurorobotics",
+		"DOI": "10.3389/fnbot.2023.1256788",
+		"ISSN": "1662-5218",
+		"license": "All rights reserved",
+		"page": "1256788",
+		"source": "Frontiers",
+		"title": "Editorial: Cognitive Inspired Aspects of Robot Learning",
+		"title-short": "Editorial",
+		"URL": "https://www.frontiersin.org/articles/10.3389/fnbot.2023.1256788",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Cruz",
+				"given": "Francisco"
+			},
+			{
+				"family": "Solis",
+				"given": "Miguel A."
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2023",
+          "month": "08", 
+		}
+	}
+---
+
