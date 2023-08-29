@@ -1,0 +1,53 @@
+---
+tags: [survey, haptics, haptic perception, tactile perception, journal]
+categories: "publications"
+author: "Navarro-Guerrero et al."
+rights: "&copy;2023 The Authors."
+license: "Springer US"
+
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-04-Navarro-Guerrero2023VisuoHaptic.png"
+file: "https://link.springer.com/content/pdf/10.1007/s10514-023-10091-y.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-04-Navarro-Guerrero2023VisuoHaptic.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"bibtex": "Navarro-Guerrero2023VisuoHaptic",
+		"type": "article-journal",
+		"abstract": "The object perception capabilities of humans are impressive, and this becomes even more evident when trying to develop solutions with a similar proficiency in autonomous robots. While there have been notable advancements in the technologies for artificial vision and touch, the effective integration of these two sensory modalities in robotic applications still needs to be improved, and several open challenges exist. Taking inspiration from how humans combine visual and haptic perception to perceive object properties and drive the execution of manual tasks, this article summarises the current state of the art of visuo-haptic object perception in robots. Firstly, the biological basis of human multimodal object perception is outlined. Then, the latest advances in sensing technologies and data collection strategies for robots are discussed. Next, an overview of the main computational techniques is presented, highlighting the main challenges of multimodal machine learning and presenting a few representative articles in the areas of robotic object recognition, peripersonal space representation and manipulation. Finally, informed by the latest advancements and open challenges, this article outlines promising new research directions.",
+		"container-title": "Autonomous Robots",
+		"DOI": "10.1007/s10514-023-10091-y",
+		"ISSN": "1573-7527",
+		"issue": "4",
+		"license": "All rights reserved",
+		"note": "Open Access",
+		"page": "377–403",
+		"title": "Visuo-Haptic Object Perception for Robots: An Overview",
+		"URL": "https://link.springer.com/article/10.1007/s10514-023-10091-y",
+		"volume": "47",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Toprak",
+				"given": "Sibel"
+			},
+			{
+				"family": "Josifovski",
+				"given": "Josip"
+			},
+			{
+				"family": "Jamone",
+				"given": "Lorenzo"
+			}
+		],
+		"issued": {
+          "year": "2023",
+          "month": "04", 
+		}
+	}
+---
+

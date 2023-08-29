@@ -1,0 +1,56 @@
+---
+tags: [survey, Language Processing, reinforcement learning, journal]
+categories: "publications"
+author: "Uc-Cetina et al."
+rights: "&copy;2022 The Authors."
+license: "Springer US"
+
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-02-Uc-Cetina2023Survey.png"
+file: "https://link.springer.com/content/pdf/10.1007/s10462-022-10205-5.pdf"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-02-Uc-Cetina2023Survey.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"bibtex": "Uc-Cetina2023Survey",
+		"type": "article-journal",
+		"abstract": "In recent years some researchers have explored the use of reinforcement learning (RL) algorithms as key components in the solution of various natural language processing (NLP) tasks. For instance, some of these algorithms leveraging deep neural learning have found their way into conversational systems. This paper reviews the state of the art of RL methods for their possible use for different problems of NLP, focusing primarily on conversational systems, mainly due to their growing relevance. We provide detailed descriptions of the problems as well as discussions of why RL is well-suited to solve them. Also, we analyze the advantages and limitations of these methods. Finally, we elaborate on promising research directions in NLP that might benefit from RL.",
+		"container-title": "Artificial Intelligence Review",
+		"DOI": "10.1007/s10462-022-10205-5",
+		"ISSN": "1573-7462",
+		"issue": "2",
+		"license": "Open Access",
+		"page": "1543–1575",
+		"title": "Survey on Reinforcement Learning for Language Processing",
+		"URL": "https://link.springer.com/article/10.1007/s10462-022-10205-5",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Uc-Cetina",
+				"given": "Víctor"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Martin-Gonzalez",
+				"given": "Anabel"
+			},
+			{
+				"family": "Weber",
+				"given": "Cornelius"
+			},
+			{
+				"family": "Wermter",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+          "year": "2023",
+          "month": "02", 
+		}
+	}
+---
+

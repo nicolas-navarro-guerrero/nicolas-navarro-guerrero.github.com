@@ -5,21 +5,27 @@ author: "Harnack et al."
 rights: "&copy;2022 The Authors."
 license: "Springer"
 
-thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-12-Harnack2022Quantifying.png"
+thumbnail: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-08-Harnack2023Quantifying.png"
 file: "https://link.springer.com/content/pdf/10.1007/s00521-022-07949-0.pdf"
-bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2022-12-Harnack2022Quantifying.bib"
+bibtex: "https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2023-08-Harnack2023Quantifying.bib"
 slides: 
 supplementary: 
 code:
 
 citation: {
-		"bibtex": "Harnack2022Quantifying",
+		"bibtex": "Harnack2023Quantifying",
 		"type": "article-journal",
 		"abstract": "Reinforcement learning (RL) has become widely adopted in robot control. Despite many successes, one major persisting problem can be very low data efficiency. One solution is interactive feedback, which has been shown to speed up RL considerably. As a result, there is an abundance of different strategies, which are, however, primarily tested on discrete grid-world and small scale optimal control scenarios. In the literature, there is no consensus about which feedback frequency is optimal or at which time the feedback is most beneficial. To resolve these discrepancies we isolate and quantify the effect of feedback frequency in robotic tasks with continuous state and action spaces. The experiments encompass inverse kinematics learning for robotic manipulator arms of different complexity. We show that seemingly contradictory reported phenomena occur at different complexity levels. Furthermore, our results suggest that no single ideal feedback frequency exists. Rather that feedback frequency should be changed as the agent's proficiency in the task increases.",
 		"container-title": "Neural Computing and Applications. Special Issue on Human-aligned Reinforcement Learning for Autonomous Agents and Robots",
-		"title": "Quantifying the Effect of Feedback Frequency in Interactive Reinforcement Learning for Robotic Tasks",
 		"DOI": "10.1007/s00521-022-07949-0",
+		"ISSN": "1433-3058",
+		"issue": "23",
+		"license": "All rights reserved",
+		"note": "Open Access",
+		"page": "16931–16943",
+		"title": "Quantifying the Effect of Feedback Frequency in Interactive Reinforcement Learning for Robotic Tasks",
 		"URL": "https://link.springer.com/article/10.1007/s00521-022-07949-0",
+		"volume": "35",
 		"author": [
 			{
 				"family": "Harnack",
@@ -35,8 +41,9 @@ citation: {
 			}
 		],
 		"issued": {
-          "year": "2022",
-          "month": "12", 
+          "year": "2023",
+          "month": "08", 
 		}
 	}
 ---
+
