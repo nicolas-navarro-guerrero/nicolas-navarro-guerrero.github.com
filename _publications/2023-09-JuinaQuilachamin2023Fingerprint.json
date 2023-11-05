@@ -19,13 +19,13 @@ citation: {
 		"container-title": "International Symposium on Robotics (ISR Europe)",
 		"event-place": "Stuttgart, Germany",
 		"event-title": "International Symposium on Robotics (ISR Europe)",
+		"ISBN": "978-3-8007-6140-1",
 		"license": "All rights reserved",
-		"page": "1-7",
-		"DOI": "10.48550/arXiv.2307.00937",
-		"URL": "https://arxiv.org/abs/2307.00937",
-		"publisher": "Information Technology Society in the VDE (ITG)",
+		"page": "112-118",
+		"publisher": "VDE Verlag GmbH",
 		"publisher-place": "Stuttgart, Germany",
 		"title": "A Biomimetic Fingerprint for Robotic Tactile Sensing",
+		"URL": "https://arxiv.org/abs/2307.00937",
 		"author": [
 			{
 				"family": "Juiña Quilachamín",

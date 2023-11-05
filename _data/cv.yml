@@ -178,8 +178,8 @@
     - name: Guest Editorial Research Topic on Cognitive Inspired Aspects of Robot Learning
       affiliation: Frontiers in Neurorobotics
       from: 
-      until: 2023-04-01
-      link: https://www.frontiersin.org/research-topics/42299/cognitive-inspired-aspects-of-robot-learning
+      until: 2023-08-24
+      link: https://www.frontiersin.org/articles/10.3389/fnbot.2023.1256788/full
 
     - name: Guest Editorial Special Issue on Emerging Topics on Development and Learning
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
@@ -286,6 +286,12 @@
 - name: Summer Schools
   id: summer-schools
   subitems: 
+    - name: Co-Chair
+      affiliation: 3rd Latin American Summer School on Cognitive Robotics (LACORO)
+      from: 2024-12-09
+      until: 2024-12-13
+      link: https://lacoro.gitlab.io/2024/
+
     - name: Co-Chair
       affiliation: 2nd Latin American Summer School on Cognitive Robotics (LACORO)
       from: 2023-01-03
