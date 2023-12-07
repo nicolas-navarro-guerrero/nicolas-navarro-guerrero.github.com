@@ -151,6 +151,7 @@
       until: 
       link: https://bss.au.dk/en/cognition-and-behavior-lab/
 
+
 - name: Awards, and Fellowships
   id: awards
   subitems: 
@@ -171,6 +172,7 @@
       from: 2003-03-01
       until: 
       link: https://www.chileatiende.gob.cl/fichas/ver/2227
+
 
 - name: Editorial Work
   id: editorial
@@ -208,7 +210,7 @@
     - name: Associate Editor
       affiliation: IEEE Transactions on Cognitive and Developmental Systems
       from: 2020-03-01
-      until: 2023-12-31
+      until: 2024-12-31
       link: https://cis.ieee.org/publications/t-cognitive-and-developmental-systems
 
     - name: Editorial Board
@@ -216,6 +218,7 @@
       from: 2019-10-01
       until: Present
       link: https://www.frontiersin.org/journals/neurorobotics
+
 
 - name: Evaluation Committees
   id: evaluation
@@ -231,6 +234,7 @@
       from: 2019-11-11
       until: 
       link: 
+
 
 - name: Affiliations
   id: affiliations
@@ -283,6 +287,7 @@
       until: Present
       link: http://www.eucognition.org/
 
+
 - name: Summer Schools
   id: summer-schools
   subitems: 
@@ -309,6 +314,7 @@
       from: 2019-12-09
       until: 2019-12-13
       link: http://robotvision2019.amtc.cl/
+
 
 - name: Conferences
   id: conferences
@@ -354,6 +360,7 @@
       from: 2012-09-10
       until: 2012-09-12
       link: http://www.robotdoc.org/conference
+
 
 - name: Workshops
   id: workshops
