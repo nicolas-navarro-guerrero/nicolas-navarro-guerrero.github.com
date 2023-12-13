@@ -1,0 +1,54 @@
+---
+tags: [thesis, master, dfki, uni bremen, air pollution]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-01-Gelbhardt2024Ambient.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Kirchner,
+        given: Frank
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Gelbhardt2024Ambient",
+		"type": "thesis",
+		"event-place": "Bremen, Germany",
+		"genre": "MSc",
+		"language": "en",
+		"number-of-pages": "93",
+		"publisher": "Universität Bremen",
+		"publisher-place": "Bremen, Germany",
+		"source": "Zotero",
+		"title": "Ambient Air Pollutants Prediction: Enhancing Established Regional Forecasting Systems for Urban Environments Using Machine Learning",
+		"title-short": "Ambient Air Pollutants Prediction",
+		"author": [
+			{
+				"family": "Gelbhardt",
+				"given": "Hannes"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "01",
+		}
+	}
+---
