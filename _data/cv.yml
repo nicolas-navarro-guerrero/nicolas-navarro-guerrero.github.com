@@ -366,6 +366,12 @@
   id: workshops
   subitems: 
     - name: Program Committee
+      affiliation: " Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots at the IEEE International Conference on Robotics and Automation (ICRA)"
+      from: 2024-05-13
+      until: 
+      link: https://harlworkshop.github.io/
+
+    - name: Program Committee
       affiliation: "2<sup>nd</sup> International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots) at the International Conference on Intelligent Environments (IE)"
       from: 2023-06-27
       until: 2023-06-30
