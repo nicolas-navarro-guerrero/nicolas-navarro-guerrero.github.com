@@ -1,0 +1,55 @@
+---
+tags: [thesis, master, dfki, uni bremen, air pollution]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-02-Felmet2024Episodic.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Domínguez,
+        given: Raúl
+      },
+      {
+        family: Bande Firvida,
+        given: Miguel
+      },
+    ]
+
+examiners: [
+      {
+        family: Kirchner,
+        given: Frank
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Felmet2024Episodic",
+		"type": "thesis",
+		"event-place": "Bremen, Germany",
+		"genre": "MSc",
+		"number-of-pages": "68",
+		"publisher": "Universität Bremen",
+		"publisher-place": "Bremen, Germany",
+		"title": "Episodic Long-Term Memory for Autonomous Robotic Planetary Exploration",
+		"author": [
+			{
+				"family": "Felmet",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "02",
+		}
+	}
+---
