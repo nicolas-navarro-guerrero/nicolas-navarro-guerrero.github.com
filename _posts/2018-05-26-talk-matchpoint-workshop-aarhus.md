@@ -16,3 +16,4 @@ The AU Social Robotics Lab and the Research Programme Human Futures offer a work
 <!--more-->
 
 The use of so-called "social robots" may offer new ways to unburden employees in social and health services both physically and psychologically, while opening up for citizens new modes of receiving social and health services---as a 'win-win' solution for both sides. However, as the research landscape in "Social Robotics" and "Human Robot Interaction Studies" shows, special efforts at 'user-driven design' are called for. Socio-cultural differences play an important role in the way social robots are designed, conceptually framed, and experienced. While the use of robots in principle may further some of the core values the welfare state aims to realize, currently we still lack in-depth understanding on which interactions with social robots we should promote, when, and where.
+
