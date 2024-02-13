@@ -1,0 +1,51 @@
+---
+tags: [thesis, master, l3s, uni Osnabrück, rl]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-02-Farah2024Understanding.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+examiners: [
+      {
+        family: Bruni,
+        given: Elia
+      },
+      {
+        family: Navarro-Guerrero,
+        given: Nicolás
+      },
+    ]
+
+citation: {
+		"id": "Farah2024Understanding",
+		"type": "thesis",
+		"abstract": "Temporal-Difference (TD) Learning is a key concept within Reinforcement Learning (RL), effectively integrating the strengths of both Monte Carlo methods and Dynamic Programming. Nevertheless, TD Learning, as applied in RL, encounters a significant limitation: its inability to distinguish between rewards and punishments, which is caused by merging these distinct signals into a single scalar value. Numerous studies have acknowledged this limitation and have proposed modifications to the standard TD algorithms to address it. However, there is a lack of focused research explicitly validating the different impacts of punishment and reward on TD Learning. This thesis aims to thoroughly investigate the effects of punishment within TD Learning by conducting extensive experiments on a range of prominent TD algorithms, utilising a grid world task as the testing environment. The experimental framework encompasses a variety of conditions, including varying densities of reward and punishment, multiple magnitudes, and problems of varying complexity. This approach ensures a comprehensive examination of potential changes in algorithmic performance. The findings from this exhaustive series of experiments reveal that the impact of punishment on TD algorithms diverges significantly from that of rewards. Notably, this distinction is further accentuated when DL is applied. This thesis highlights the importance of addressing this inherent limitation within TD algorithms. By refining these algorithms to reflect the distinct effects of punishment and reward more accurately, we can move closer to the development of advanced RL agents that mirror human cognitive processes in learning and decision-making.",
+		"event-place": "Osnabrück, Germany",
+		"genre": "MSc",
+		"publisher": "Universität Osnabrück",
+		"publisher-place": "Osnabrück, Germany",
+		"title": "Understanding the Punishment Effects on Temporal Difference Algorithms",
+		"author": [
+			{
+				"family": "Farah",
+				"given": "Reem"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "02",
+		}
+	}
+---
