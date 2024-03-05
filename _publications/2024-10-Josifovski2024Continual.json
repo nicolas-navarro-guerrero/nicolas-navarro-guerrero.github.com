@@ -1,0 +1,56 @@
+---
+tags: [upcoming, reinforcement learning, sim2real, proceedings, continual learning]
+categories: "publications"
+author: "Josifovski et al."
+rights: "&copy;2024 The Authors."
+license: IEEE
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-10-Josifovski2024Continual.png"
+file: ""
+bibtex: ""
+slides: 
+supplementary: ""
+code:
+
+citation: {
+		"bibtex": "Josifovski2024Continual",
+		"type": "paper-conference",
+		"container-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"event-place": "Abu Dhabi, United Arab Emirates",
+		"event-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"page": "8",
+		"publisher": "IEEE",
+		"publisher-place": "Abu Dhabi, United Arab Emirates",
+		"title": "Continual Domain Randomization",
+		"author": [
+			{
+				"family": "Josifovski",
+				"given": "Josip"
+			},
+			{
+				"family": "Auddy",
+				"given": "Sayantan"
+			},
+			{
+				"family": "Malmir",
+				"given": "Mohammadhossein"
+			},
+			{
+				"family": "Piater",
+				"given": "Justus"
+			},
+			{
+				"family": "Knoll",
+				"given": "Alois"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2024",
+          "month": "10", 
+		}
+	}
+---
