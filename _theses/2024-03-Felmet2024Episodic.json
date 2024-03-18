@@ -4,7 +4,7 @@ categories:
 
 thumbnail: 
 file: 
-bibtex: "2024-02-Felmet2024Episodic.bib"
+bibtex: "2024-03-Felmet2024Episodic.bib"
 slides: 
 supplementary: 
 library: 
@@ -49,7 +49,7 @@ citation: {
 		],
 		"issued": {
 			"year": "2024",
-			"month": "02",
+			"month": "03",
 		}
 	}
 ---
