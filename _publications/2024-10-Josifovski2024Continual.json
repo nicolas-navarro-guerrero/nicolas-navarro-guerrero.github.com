@@ -9,7 +9,7 @@ thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/
 file: ""
 bibtex: ""
 slides: 
-supplementary: ""
+supplementary: "https://continual-dr.github.io/"
 code:
 
 citation: {
@@ -18,7 +18,7 @@ citation: {
 		"container-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"event-place": "Abu Dhabi, United Arab Emirates",
 		"event-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-		"page": "8",
+		"page": "1-8",
 		"publisher": "IEEE",
 		"publisher-place": "Abu Dhabi, United Arab Emirates",
 		"title": "Continual Domain Randomization",

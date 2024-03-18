@@ -1,0 +1,40 @@
+---
+tags: [upcoming, proceedings, tactile perception]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "&copy;2024 The Authors."
+license: IEEE
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-07-ZaiElAmri2024Optimizing.png"
+file: ""
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-07-ZaiElAmri2024Optimizing.bib"
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"id": "ZaiElAmri2024Optimizing",
+		"type": "paper-conference",
+		"container-title": "International Joint Conference on Neural Networks (IJCNN)",
+		"event-place": "Yokohama, Japan",
+		"event-title": "IEEE World Congress on Computational Intelligence (IEEE WCCI)",
+		"publisher": "IEEE",
+		"page": "1-8",
+		"publisher-place": "Yokohama, Japan",
+		"title": "Optimizing BioTac Simulation for Realistic Tactile Perception",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2024",
+          "month": "07", 
+		}
+	}
+---
