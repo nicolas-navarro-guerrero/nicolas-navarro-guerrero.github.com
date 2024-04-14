@@ -13,7 +13,7 @@ supplementary:
 code:
 
 citation: {
-		"id": "ZaiElAmri2024Optimizing",
+		"bibtex": "ZaiElAmri2024Optimizing",
 		"type": "paper-conference",
 		"container-title": "International Joint Conference on Neural Networks (IJCNN)",
 		"event-place": "Yokohama, Japan",

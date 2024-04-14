@@ -96,7 +96,9 @@
   {% if handle.code != null %}
     <a href="{{ handle.code }}"> source code</a>, 
   {% endif %}
-
+  {% if include.param.citation.note %}
+    {{ include.param.citation.note }}
+  {% endif %}
 
 {% elsif style == 'other' %}
   {% for authors in include.param.citation.author %}
@@ -179,5 +181,7 @@
   {% if include.param.code != null %}
     <a href="{{ include.param.code }}"> source code</a>, 
   {% endif %}
-
+  {% if include.param.citation.note %}
+    {{ include.param.citation.note }}
+  {% endif %}
 {% endif %}

@@ -155,6 +155,12 @@
 - name: Awards, and Fellowships
   id: awards
   subitems: 
+    - name: "Top 10 Downloaded Articles 2023: Visuo-Haptic Object Perception for Robots: An Overview"
+      affiliation: Autonomous Robots Journal from Springer Nature Group
+      from: 2024-01-01
+      until: 
+      link: https://link.springer.com/journal/10514/updates/20394502
+
     - name: International Exchange Program – Programa Ingeniería-DAAD
       affiliation: German Academic Exchange Service (DAAD)
       from: 2006-01-01
