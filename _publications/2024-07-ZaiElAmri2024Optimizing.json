@@ -9,8 +9,8 @@ thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/
 file: ""
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-07-ZaiElAmri2024Optimizing.bib"
 slides: 
-supplementary: 
-code:
+supplementary: "https://github.com/wzaielamri/Optimizing_BioTac_Simulation"
+code: "https://github.com/wzaielamri/Optimizing_BioTac_Simulation"
 
 citation: {
 		"bibtex": "ZaiElAmri2024Optimizing",
