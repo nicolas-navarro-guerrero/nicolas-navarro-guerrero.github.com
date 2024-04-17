@@ -20,6 +20,7 @@ citation: {
 		"event-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"page": "1-8",
 		"publisher": "IEEE",
+		"DOI": "10.48550/arXiv.2403.12193",
 		"URL": "https://arxiv.org/abs/2403.12193",
 		"publisher-place": "Abu Dhabi, United Arab Emirates",
 		"title": "Continual Domain Randomization",
