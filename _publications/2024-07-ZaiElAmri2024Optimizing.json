@@ -19,6 +19,8 @@ citation: {
 		"event-place": "Yokohama, Japan",
 		"event-title": "IEEE World Congress on Computational Intelligence (IEEE WCCI)",
 		"publisher": "IEEE",
+		"DOI": "10.48550/arXiv.2404.10425",
+		"URL": "https://arxiv.org/abs/2404.10425",
 		"page": "1-8",
 		"publisher-place": "Yokohama, Japan",
 		"title": "Optimizing BioTac Simulation for Realistic Tactile Perception",
@@ -38,3 +40,4 @@ citation: {
 		}
 	}
 ---
+
