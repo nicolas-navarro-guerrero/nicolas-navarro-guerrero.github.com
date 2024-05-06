@@ -88,8 +88,8 @@
 #- name: social-media
 #  subitems:
 
-    - name: twitter
-      username: nico_navarro_g
-      baseurl: https://twitter.com
-      icon: <i class="fab fa-twitter"></i>
+#    - name: twitter
+#      username: nico_navarro_g
+#      baseurl: https://twitter.com
+#      icon: <i class="fab fa-twitter"></i>
 
