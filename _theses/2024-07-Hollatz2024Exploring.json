@@ -1,0 +1,64 @@
+---
+tags: [thesis, master, luh, l3s, nerfs]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-07-Hollatz2024Exploring.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Pfingsthorn",
+        "given": "Max"
+      },
+      {
+        "family": "Kapelner",
+        "given": "Tamas"
+      },
+      {
+        "family": "Boeder",
+	    "given": "Simon"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Hollatz2024Exploring",
+		"type": "thesis",
+		"abstract": "Recent advancements in 3D reconstruction using NeRFs provide a great opportunity to extend indoor robotics use cases with a novel kind of user interface and innovative applications. However, the mobile robotics domain poses some unique challenges that are overlooked in mainstream literature publications. Specifically, the reconstruction quality might be low because of inaccurate 3D camera poses, low image quality, restricted number of images, changes of lighting conditions in the long term, viewpoint restrictions, or challenges in depth estimation due to viewing angle – to name a few. \n\nIn this thesis we investigate 1) how well can a scene be reconstructed using state-of-the-art NeRF models trained on a dataset collected by a mobile robot, 2) we implement the most common degradations, which datasets could be subject to and investigate their impact on the reconstruction quality, 3) we compare the results using three most common metrics and provide examples when these metrics can lead to false conclusions. \n\nDuring this work, we found out that advanced NeRF models are not affected by changing lighting and can reconstruct nearly identical scenes when no degradations are contained in a dataset. Adding different types of image noise does worsen the reconstruction, but not by a large margin. Reconstruction is highly affected by noise in camera poses, but enabling a camera optimizer can overcome up to a certain level of inaccuracy. Reducing the training amount of images slightly decreases the quality of reconstruction, but in some cases, the decrease is very significant. \n\nWe discovered that one can not only rely on the common achieved perceptual metrics since they do not represent the objective quality of the reconstructed scene. We find that the achieved metric scores are subject to the type of trained model, the type of the dataset, and the degradation type, that occurs in the training set.",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"number-of-pages": "46",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Exploring the Limitations of 3D Scene Reconstruction for Mobile Robotics",
+		"author": [
+			{
+				"family": "Hollatz",
+				"given": "Danik"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "07",
+		}
+	}
+---

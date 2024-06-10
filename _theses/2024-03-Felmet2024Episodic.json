@@ -1,5 +1,5 @@
 ---
-tags: [thesis, master, dfki, uni bremen, air pollution]
+tags: [thesis, master, dfki, uni bremen, navigation, eltm]
 categories: 
 
 thumbnail: 
@@ -50,6 +50,7 @@ citation: {
 		"issued": {
 			"year": "2024",
 			"month": "03",
-		}
+		},
+		"abstract": "Long-term autonomous robotic missions, especially in isolated environments, have to cope with various challenges, e.g., limited possibilities for maintenance or recovery in case of failure. Better adaptation of the robot to its environment is therefore the first step towards a more robust behavioural strategy, leading to less error-prone expeditions and thus reducing the need for potential external maintenance, allowing for a higher degree of autonomy. We propose the integration of an Episodic Long-Term Memory (ELTM) to existing navigation systems as a building block for such a learning robot system, e.g., improving the efficiency of the robot by avoiding unnecessary replanning. Further, the aim of this work is the investigation of possible benefits of the ELTM regarding different performance metrics, i.e., duration of traverses, computational cost, and improvements in failure resistance."
 	}
 ---
