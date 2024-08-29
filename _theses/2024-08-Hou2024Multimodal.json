@@ -1,0 +1,52 @@
+---
+tags: [thesis, master, luh, l3s, haptic]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-08-Hou2024Multimodal.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Lindauer",
+        "given": "Marius"
+      },
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "Hou2024Multimodal",
+		"type": "thesis",
+		"abstract": "In the field of robotics, using multiple senses for recognizing objects performs better than relying on just one sense. This study investigates how visual and haptic signals can be combined for recognizing objects and suggests two different approaches. It uses various Vision Transformer (ViT) models to extract features from visual and haptic inputs. The combination of these multimodal features is achieved by using different methods such as simple concatenation and weighted summation. The experimental results show that ViT models have great potential for integrating visual and haptic information. Among the different ViT models evaluated, the Data-efficient Image Transformer (DeiT) performs well in both visual and haptic single-mode recognition tasks. On the other hand, the Shifted Window (Swin Transformer) excels in multimodal object recognition tasks. When combining features from different modalities, direct concatenation proves to be the most effective method, as it retains all the information without adding complexity to the model during training.",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"number-of-pages": "67",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Multimodal Object Recognition",
+		"author": [
+			{
+				"family": "Hou",
+				"given": "Qizhen"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "08",
+		}
+	}
+---

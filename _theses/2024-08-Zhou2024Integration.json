@@ -1,0 +1,51 @@
+---
+tags: [thesis, master, luh, l3s, pepper]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-08-Zhou2024Integration.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Lindauer",
+        "given": "Marius"
+      },
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "Zhou2024Integration",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"number-of-pages": "95",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Integration of Pepper Robot with ROS2 Middleware",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "Yue"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "08",
+		}
+	}
+---
