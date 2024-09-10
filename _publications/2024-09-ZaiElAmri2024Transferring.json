@@ -1,0 +1,46 @@
+---
+tags: [abstract, tactile perception, transfer learning]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "&copy;2024 The Authors."
+license: IEEE
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-09-ZaiElAmri2024Transferring.png"
+file: ""
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-09-ZaiElAmri2024Transferring.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"id": "ZaiElAmri2024Transferring",
+		"type": "paper-conference",
+		"abstract": "Tactile perception is essential for human interaction with the environment and is becoming increasingly crucial in robotics. Tactile sensors like the BioTac mimic human fingertips and provide detailed interaction data. Despite its utility in applications like slip detection and object identification, this sensor is now deprecated, making many existing datasets obsolete. This article introduces a novel method for translating data between tactile sensors by exploiting sensor deformation information rather than output signals. We demonstrate the approach by translating BioTac signals into the DIGIT sensor. Our framework consists of three Steps: first, converting signal data into corresponding 3D deformation meshes; second, translating these 3D deformation meshes from one sensor to another; and third, generating output images using the converted meshes. Our approach enables the continued use of valuable datasets.",
+		"container-title": "ICRA@40 • 40th Anniversary of the IEEE Conference on Robotics and Automation (ICRA)",
+		"event-place": "Rotterdam, The Netherlands",
+		"license": "All rights reserved",
+		"page": "1-3",
+		"publisher": "IEEE",
+		"publisher-place": "Rotterdam, The Netherlands",
+		"title": "Transferring Tactile Data Across Sensors",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2024",
+          "month": "09", 
+		}
+	}
+---
+
