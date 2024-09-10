@@ -1,5 +1,5 @@
 ---
-tags: [upcoming, proceedings, tactile perception]
+tags: [conference, proceedings, tactile perception]
 categories: "publications"
 author: "Zai El Amri et al."
 rights: "&copy;2024 The Authors."
@@ -19,11 +19,15 @@ citation: {
 		"event-place": "Yokohama, Japan",
 		"event-title": "IEEE World Congress on Computational Intelligence (IEEE WCCI)",
 		"publisher": "IEEE",
-		"DOI": "10.48550/arXiv.2404.10425",
-		"URL": "https://arxiv.org/abs/2404.10425",
+		"ISBN": "979-8-3503-5931-2",
+		"note": "ISSN: 2161-4407",
+		"DOI": "10.1109/IJCNN60899.2024.10650656",
+		"URL": "https://ieeexplore.ieee.org/document/10650656",
+		"source": "IEEE Xplore",
 		"page": "1-8",
 		"publisher-place": "Yokohama, Japan",
 		"title": "Optimizing BioTac Simulation for Realistic Tactile Perception",
+		"license": "All rights reserved. https://github.com/wzaielamri/Optimizing_BioTac_Simulation",
 		"author": [
 			{
 				"family": "Zai El Amri",
