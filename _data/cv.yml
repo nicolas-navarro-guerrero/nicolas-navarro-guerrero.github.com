@@ -1,7 +1,7 @@
 - name: Professional Experience
   id: experience
   subitems: 
-    - name: Group Leader
+    - name: Researcher Group Leader
       affiliation: L3S Research Center, Leibniz Universität Hannover, Germany
       from: 2023-02-01
       until: Present
@@ -183,6 +183,12 @@
 - name: Editorial Work
   id: editorial
   subitems: 
+    - name: Editorial Board
+      affiliation: Springer Nature Group' npj Robotics Journal
+      from: 2024-09-09
+      until: Present
+      link: https://www.nature.com/npjrobot/
+
     - name: Guest Editorial Research Topic on Cognitive Inspired Aspects of Robot Learning
       affiliation: Frontiers in Neurorobotics
       from: 
