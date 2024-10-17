@@ -1,0 +1,16 @@
+---
+tags: [media, videos, l3s, luh]
+categories: videos
+
+date: 2025-05-19
+year: 2025
+month: 05
+bibtex: [ZaiElAmri2024Transferring, ZaiElAmri2025DeformationBased]
+
+source: "//player.vimeo.com/video/1020539657"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://vimeo.com/1020539657?share=copy">"ACROSS – A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception"</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+ 
+title: "ACROSS: A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception"
+description: "Tactile perception is essential for human interaction with the environment and is becoming increasingly crucial in robotics. Tactile sensors like the BioTac mimic human fingertips and provide detailed interaction data. Despite its utility in applications like slip detection and object identification, this sensor is now deprecated, making many existing valuable datasets obsolete. However, recreating similar datasets with newer sensor technologies is both tedious and time-consuming. Therefore, it is crucial to adapt these existing datasets for use with new setups and modalities. In response, we introduce ACROSS, a novel framework for translating data between tactile sensors by exploiting sensor deformation information. We demonstrate the approach by translating BioTac signals into the DIGIT sensor. Our framework consists of first converting the input signals into 3D deformation meshes. We then transition from the 3D deformation mesh of one sensor to the mesh of another, and finally convert the generated 3D deformation mesh into the corresponding output space. We demonstrate our approach to the most challenging problem of going from a low-dimensional tactile representation to a high-dimensional one. In particular, we transfer the tactile signals of a BioTac sensor to DIGIT tactile images. Our approach enables the continued use of valuable datasets and the exchange of data between groups with different setups."
+---
