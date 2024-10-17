@@ -1,0 +1,17 @@
+---
+tags: [media, videos, dfki, tum]
+categories: videos
+
+date: 2022-10-23
+year: 2022
+month: 10
+bibtex: [Josifovski2022Analysis]
+
+source: "https://www.youtube.com/embed/05FAYL6UiMI"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://youtu.be/05FAYL6UiMI?feature=shared">"Analysis of Randomization Effects on Sim2Real Transfer in Reinforcement Learning for Robotic Manipulation Tasks"</a> on <a href="https://www.youtube.com/embed/05FAYL6UiMI?si=JH5buyUTB17Z5euH">YouTube</a>.</p>
+ 
+title: "Analysis of Randomization Effects on Sim2Real Transfer in Reinforcement Learning for Robotic Manipulation Tasks"
+description: "Current state-of-the-art approaches for transferring deep-learning models trained in simulation either rely on highly realistic simulations or employ randomization techniques to bridge the reality gap. However, such strategies do not scale well for complex robotic tasks. Highly-realistic simulations are computationally expensive and challenging to implement, while randomization techniques become sample-inefficient as the complexity of the task increases. This paper proposes a procedure for training on incremental simulations in a continual learning setup. We develop a simulation platform for the experimental analysis that can serve as a training environment and as a benchmark for continual and reinforcement learning sim2real approaches. The results show that training time for complex tasks can be reduced. Thus, we argue that Sequentially-Randomized Simulations improve the sim2real transfer."
+---
+

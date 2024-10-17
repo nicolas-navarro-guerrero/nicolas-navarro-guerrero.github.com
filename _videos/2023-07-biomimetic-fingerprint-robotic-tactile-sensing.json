@@ -1,0 +1,17 @@
+---
+tags: [media, videos, dfki, hka]
+categories: videos
+
+date: 2023-09-01
+year: 2023
+month: 09
+bibtex: [JuinaQuilachamin2023Fingerprint]
+
+source: "https://figshare.com/ndownloader/files/37470670/preview/37470670/video_preview.mp4"
+iframe: "webkitallowfullscreen mozallowfullscreen allowfullscreen"
+caption: <p><a href="https://figshare.com/articles/dataset/Supplementary_Material_for_A_Biomimetic_Fingerprint_for_Robotic_Tactile_Sensing_/21120982?file=37470670">"A Biomimetic Fingerprint for Robotic Tactile Sensing"</a> on <a href="https://figshare.com/">figshare</a>.</p>
+ 
+title: "A Biomimetic Fingerprint for Robotic Tactile Sensing"
+description: "Tactile sensors have been developed since the early '70s and have greatly improved, but there are still no widely adopted solutions. Various technologies, such as capacitive, piezoelectric, piezoresistive, optical, and magnetic, are used in haptic sensing. However, most sensors are not mechanically robust for many applications and cannot cope well with curved or sizeable surfaces. Aiming to address this problem, we present a 3D printed fingerprint pattern to enhance the body-borne vibration signal for dynamic tactile feedback. The 3D printed fingerprint patterns were designed and tested for an RH8D Adult size Robot Hand. The patterns significantly increased the signal's power to over 11 times the baseline. A public haptic dataset including 52 objects of several materials was created using the best fingerprint pattern and material."
+---
+
