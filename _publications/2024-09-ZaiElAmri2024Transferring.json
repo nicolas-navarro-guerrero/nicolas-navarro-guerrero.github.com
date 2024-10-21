@@ -6,7 +6,7 @@ rights: "&copy;2024 The Authors."
 license: IEEE
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-09-ZaiElAmri2024Transferring.png"
-file: ""
+file: "https://arxiv.org/pdf/2410.14310"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-09-ZaiElAmri2024Transferring.bib"
 slides: 
 supplementary: 
@@ -24,6 +24,7 @@ citation: {
 		"publisher": "IEEE",
 		"publisher-place": "Rotterdam, The Netherlands",
 		"title": "Transferring Tactile Data Across Sensors",
+        "DOI": "10.48550/arXiv.2410.14310",
 		"URL": "https://icra40.ieee.org/",
 		"author": [
 			{
