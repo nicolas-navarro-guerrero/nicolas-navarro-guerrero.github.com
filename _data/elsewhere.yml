@@ -26,16 +26,21 @@
       icon: /assets/img/logos/orcid_64x64.png
 #      icon: <i class="fab fa-orcid"></i>
 
+    - name: Google Scholar
+      username: citations?user=SeQvYQ0AAAAJ
+      baseurl: https://scholar.google.de
+      icon: /assets/img/logos/google-scholar-64x64.png
+
     - name: ResearchGate
       username: Nicolas_Navarro-Guerrero
       baseurl: https://www.researchgate.net/profile
       icon: <i class="fab fa-researchgate"></i>
 #      icon: /assets/img/logos/RG-Logo.png
 
-    - name: Google Scholar
-      username: citations?user=SeQvYQ0AAAAJ
-      baseurl: https://scholar.google.de
-      icon: /assets/img/logos/google-scholar-64x64.png
+    - name: Semantic Scholar
+      username: author/Nicol%C3%A1s-Navarro-Guerrero/1407995488
+      baseurl: https://www.semanticscholar.org
+      icon: /assets/img/logos/Semantic-Scholar.png
 
 - name: extras
   subitems:
