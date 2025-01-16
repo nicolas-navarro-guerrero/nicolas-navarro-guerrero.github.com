@@ -1,5 +1,5 @@
 ---
-tags: [upcoming, reinforcement learning, sim2real, proceedings, continual learning]
+tags: [conference, reinforcement learning, sim2real, proceedings, continual learning]
 categories: "publications"
 author: "Josifovski et al."
 rights: "&copy;2024 The Authors."
@@ -15,15 +15,20 @@ code:
 citation: {
 		"bibtex": "Josifovski2024Continual",
 		"type": "paper-conference",
+		"abstract": "Domain Randomization (DR) is commonly used for sim2real transfer of reinforcement learning (RL) policies in robotics. Most DR approaches require a simulator with a fixed set of tunable parameters from the start of the training, from which the parameters are randomized simultaneously to train a robust model for use in the real world. However, the combined randomization of many parameters increases the task difficulty and might result in sub-optimal policies. To address this problem and to provide a more flexible training process, we propose Continual Domain Randomization (CDR) for RL that combines domain randomization with continual learning to enable sequential training in simulation on a subset of randomization parameters at a time. Starting from a model trained in a non-randomized simulation where the task is easier to solve, the model is trained on a sequence of randomizations, and continual learning is employed to remember the effects of previous randomizations. Our robotic reaching and grasping tasks experiments show that the model trained in this fashion learns effectively in simulation and performs robustly on the real robot while matching or outperforming baselines that employ combined randomization or sequential randomization without continual learning. Our code and videos are available at https://continual-dr.github.io/.",
 		"container-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.1109/IROS58592.2024.10802060",
 		"event-place": "Abu Dhabi, United Arab Emirates",
 		"event-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-		"page": "1-8",
+		"ISBN": "979-8-3503-7770-5",
+		"license": "All rights reserved",
+		"note": "ISSN: 2153-0866",
+		"page": "4965-4972",
 		"publisher": "IEEE",
-		"DOI": "10.48550/arXiv.2403.12193",
-		"URL": "https://arxiv.org/abs/2403.12193",
 		"publisher-place": "Abu Dhabi, United Arab Emirates",
+		"source": "IEEE Xplore",
 		"title": "Continual Domain Randomization",
+		"URL": "https://ieeexplore.ieee.org/document/10802060",
 		"author": [
 			{
 				"family": "Josifovski",

@@ -304,7 +304,13 @@
   id: summer-schools
   subitems: 
     - name: Co-Chair
-      affiliation: 3rd Latin American Summer School on Cognitive Robotics (LACORO)
+      affiliation: 4th Latin American Summer School on Robotics (LACORO)
+      from: 2024-12-08
+      until: 2024-12-12
+      link: https://lacoro.gitlab.io/2025/
+
+    - name: Co-Chair
+      affiliation: 3rd Latin American Summer School on Robotics (LACORO)
       from: 2024-12-09
       until: 2024-12-13
       link: https://lacoro.gitlab.io/2024/
