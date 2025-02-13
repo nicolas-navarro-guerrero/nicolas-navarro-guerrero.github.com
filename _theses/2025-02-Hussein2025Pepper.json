@@ -1,0 +1,52 @@
+---
+tags: [thesis, bsc, luh, l3s, pepper]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2025-02-Hussein2025Pepper.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Lindauer",
+        "given": "Marius"
+      },
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "Hussein2025Pepper",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "BSc",
+		"number-of-pages": "70",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "The Pepper Hat: An Open-Hardware Add-on for Fast Software Development for the Pepper Robot",
+		"author": [
+			{
+				"family": "Hussein",
+				"given": "Abdalaziz"
+			}
+		],
+		"issued": {
+			"year": "2025",
+			"month": "02",
+		}
+	}
+---
+
