@@ -1,0 +1,48 @@
+---
+tags: [abstract, tactile perception, vibrosense]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "&copy;2025 The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-03-ZaiElAmri2025VibroSense.jpg"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-03-ZaiElAmri2025VibroSense.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"bibtex": "ZaiElAmri2025VibroSense",
+		"type": "paper-conference",
+		"abstract": "Tactile sensors are crucial for many robotic applications, such as dexterous robotic gripping, prosthetics, and surgical robots. However, only a few companies offer this type of sensor. Additionally, these sensors are too expensive and fragile to be used in many applications. We are developing a vibration-based tactile sensor integrated into a robotic hand as a demonstration. We focus on improving machine learning algorithms for texture recognition, object detection, and localization of touch stimuli using body-borne vibrations, creating a more efficient and cost-effective solution for diverse applications such as robotics. We are transferring the technology to a start-up developing robotics hands and grippers.",
+		"collection-title": "1st",
+		"container-title": "German Robotics Conference (GRC)",
+		"event-place": "Nuremberg, Germany",
+		"event-title": "German Robotics Conference (GRC)",
+		"license": "All rights reserved",
+		"note": "https://www.robotics-institute-germany.de/conference/",
+		"page": "1-3",
+		"publisher-place": "Nuremberg, Germany",
+		"title": "Vibro-Sense: Bio-Inspired Vibration-Based Tactile Sensor for Robotics",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Faúndes-Tejos",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2025",
+          "month": "03", 
+		}
+	}
+---
+
