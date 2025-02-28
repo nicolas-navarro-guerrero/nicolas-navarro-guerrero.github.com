@@ -1,0 +1,52 @@
+---
+tags: [thesis, master, luh, l3s, vibrosense]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: "2024-12-Jiang2024Sound.bib"
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Lindauer",
+        "given": "Marius"
+      },
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "Jiang2024Sound",
+		"type": "thesis",
+		"abstract": "This study proposes a multimodal neural network-based method for sound source localization on a bionic robotic hand. Using vibration signals treated via processing, including convolutional neural networks, the method achieves centimeter-level accuracy without relying on traditional vibration modeling. The results demonstrate the feasibility of this method while highlighting challenges like interference and generalization.",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"number-of-pages": "113",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Sound Source Localization for Contact Detection on Bionic Robot Surfaces",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Minghao"
+			}
+		],
+		"issued": {
+			"year": "2024",
+			"month": "12",
+		}
+	}
+---

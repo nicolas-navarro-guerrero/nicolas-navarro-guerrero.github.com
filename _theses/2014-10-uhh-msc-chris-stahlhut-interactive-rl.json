@@ -32,7 +32,7 @@ supervisors: [
     ]
 
 citation: {
-		"id": 2962,
+		"id": "Stahlhut2014Learning",
 		"type": "thesis",
 		"title": "Learning to Reach with Interactive Reinforcement Learning",
 		"publisher": "Universität Hamburg",
