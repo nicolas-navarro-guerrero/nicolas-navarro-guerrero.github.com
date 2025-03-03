@@ -6,7 +6,7 @@ rights: "&copy;2025 The Authors."
 license: 
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-03-Kuhlmann2025VisionBased.png"
-file: 
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-03-Kuhlmann2025VisionBased_pre-print.pdf"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-03-Kuhlmann2025VisionBased.bib"
 slides: 
 supplementary: 
@@ -23,7 +23,7 @@ citation: {
 		"note": "https://www.robotics-institute-germany.de/conference-3/",
 		"page": "1-3",
 		"publisher-place": "Nuremberg, Germany",
-		"title": "Vision-Based Object Compliance Estimation",
+		"title": "Toward Vision-Based Object Compliance Estimation",
 		"author": [
 			{
 				"family": "Kuhlmann",
