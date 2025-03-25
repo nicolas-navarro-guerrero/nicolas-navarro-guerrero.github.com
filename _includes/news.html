@@ -6,14 +6,14 @@
   {% for year in byYear %}
   <h3 class="pt-5">{{ year.name }}</h3>
   <div class="row justify-content-center">
-    <div class="col-xs-12 col-sm-12 col-md-11">
+    <div class="col-12 col-sm-12 col-md-11">
       {% for post in year.items %}
         {% if post.shorttitle %}
           {% assign toctitle = post.shorttitle %}
         {% else %}
           {% assign toctitle = post.title %}
         {% endif %}
-        <div class="media mt-4 mr-n2">
+        <div class="media mt-4 me-n2">
           {% include news-thumbnail.html post=post %}
           <div class="media-body">
             <h4 class="mb-1"><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -28,8 +28,8 @@
   {% endfor %}
 {% else %}
   <div class="row justify-content-center">
-    <div class="col-xs-12 col-sm-12 col-md-11">
-      <ul class="list-unstyled mr-n2">
+    <div class="col-12 col-sm-12 col-md-11">
+      <ul class="list-unstyled me-n2">
       {% for post in site.posts limit:latest %}
         {% if post.shorttitle %}
           {% assign toctitle = post.shorttitle %}
@@ -50,4 +50,3 @@
     </div>
   </div>
 {% endif %}
-

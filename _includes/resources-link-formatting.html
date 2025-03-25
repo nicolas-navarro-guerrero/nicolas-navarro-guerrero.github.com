@@ -10,13 +10,13 @@
 
   {% assign counter = 0 %}
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="col-12 col-sm-6 col-md-6">
       <div class="list-group">
   {% for subitem in item.subitems %}
     {% if counter == ans %}
         </div><!-- list-group -->
       </div><!-- column -->
-      <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="col-12 col-sm-6 col-md-6">
     {% endif %}
     <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }} {% if subitem.icon != null %}{{ subitem.icon }}{% endif %}</a>
     {% assign counter = counter | plus: 1 %}
@@ -25,4 +25,3 @@
   </div><!-- row -->
   {% endif %}
 {% endfor %}
-

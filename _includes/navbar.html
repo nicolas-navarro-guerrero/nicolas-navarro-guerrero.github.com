@@ -1,11 +1,11 @@
 <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" href="{{ site.baseurl | append: '/' }}"><strong>{{ site.brand }}</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand ms-5" href="{{ site.baseurl | append: '/' }}"><strong>{{ site.brand }}</strong></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ms-auto">
         {% for item in site.data.navigation %}
           {% if item.submenuitems %}
             <li {% if page.url contains item.id %}
@@ -13,10 +13,10 @@
                 {% else %}
                   class="nav-item dropdown">
                 {% endif %}
-              <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ item.name }}
             </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="{{ item.id }}">
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="{{ item.id }}">
               {% for submenu in item.submenuitems %}
                 <a {% if page.url contains submenu.slug %}
                      class="dropdown-item active"
@@ -35,7 +35,7 @@
                 {% endif %}>
                 <a class="nav-link" href="{{ item.slug | prepend: site.baseurl }}" title="{{ item.name }}">{{ item.name }}
                 {% if page.slug == item.name %}
-                  <span class="sr-only">(current)</span>
+                  <span class="visually-hidden">(current)</span>
                 {% endif %}
                 </a></li>
           {% endif %}
@@ -43,4 +43,3 @@
       </ul>
   </div><!-- collapse -->
 </nav><!-- navbar -->
-

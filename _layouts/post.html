@@ -2,14 +2,14 @@
 layout: fullwidth
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<header class="post-header">
-<h1>{{ page.title }}</h1>
-<h2>{{ page.subtitle }}</h2>
-<p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}, {% endfor %}</p>
-</header>
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.subtitle }}</h2>
+    <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}, {% endfor %}</p>
+  </header>
   
-<div class="post-content mt-5" itemprop="articleBody">
-{{ content }}
-</div>
+  <div class="post-content mt-5" itemprop="articleBody">
+    {{ content }}
+  </div>
 </article>
 <div class="mb-5"></div>

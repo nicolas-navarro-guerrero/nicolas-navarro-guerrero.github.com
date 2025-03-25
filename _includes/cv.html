@@ -4,7 +4,7 @@
   {% assign tmp = item.id | downcase %}
   {% if tmp contains param %}
     <p>{{ item.text }}</p>
-    <div class="table-responsive table-sm">
+    <div class="table-responsive">
       <table class="table table-striped">
         <tbody>
           {% for role in item.subitems %}

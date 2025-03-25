@@ -5,46 +5,49 @@
   {% assign latest = site.videos | size %}
 {% endif %}
 
-<div class="card-columns" style="column-count:2;">
+<div class="row row-cols-1 row-cols-md-2 g-4">
 {% for vids in site.videos reversed limit:latest %}
   {% unless vids.categories contains 'template' %}
-      {% if style == 'overview' %}
-  <div class="card mb-3">
-    <div class="embed-responsive embed-responsive-16by9 card-img-top">
-      <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
-    </div>
-    <div class="card-body mx-n3">
-      <h5 class="card-title">{{ vids.title }}</h5>
-      <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
-    </div>
-  </div>
-      {% else %}
-  <div class="card mb-3">
-    <div class="embed-responsive embed-responsive-16by9 card-img-top">
-      <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
-    </div>
-    <div class="card-body mx-n3">
-      <h5 class="card-title">{{ vids.title }}</h5>
-      <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
-      <p class="card-text">{{ vids.description }}</p>
-    {% for item in site.publications reversed %}
-      {% if vids.bibtex contains item.citation.bibtex %}
-      <p class="card-text"><small>
-        {% include publications-citation-style.html param=item %}
-      </small></p>
-      {% endif %}
-    {% endfor %}
-    {% for item in site.pub-collaborations reversed %}
-      {% if vids.bibtex contains item.citation.bibtex %}
-      <p class="card-text"><small>
-        {% include publications-citation-style.html param=item %}
-      </small></p>
-      {% endif %}
-    {% endfor %}
-    </div>
-  </div>
-      {% endif %}
+    {% if style == 'overview' %}
+      <div class="col">
+        <div class="card mb-3">
+          <div class="embed-responsive embed-responsive-16by9 card-img-top">
+            <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ vids.title }}</h5>
+            <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <div class="col">
+        <div class="card mb-3">
+          <div class="embed-responsive embed-responsive-16by9 card-img-top">
+            <iframe class="embed-responsive-item" src="{{ vids.source }}" {{ vids.iframe }}></iframe>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ vids.title }}</h5>
+            <p class="card-text"><small class="text-muted">recorded and edited: {{ vids.date | date_to_string }}</small></p>
+            <p class="card-text">{{ vids.description }}</p>
+            {% for item in site.publications reversed %}
+              {% if vids.bibtex contains item.citation.bibtex %}
+                <p class="card-text"><small>
+                  {% include publications-citation-style.html param=item %}
+                </small></p>
+              {% endif %}
+            {% endfor %}
+            {% for item in site.pub-collaborations reversed %}
+              {% if vids.bibtex contains item.citation.bibtex %}
+                <p class="card-text"><small>
+                  {% include publications-citation-style.html param=item %}
+                </small></p>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
   {% endunless %}
 {% endfor %}
-</div><!-- card columns -->
-
+</div><!-- row -->

@@ -7,8 +7,6 @@
     <h3 class="pt-4">Acknowledgments:</h3>
     {{ page.acknowledgment }}
   {% endif %}
-
-
 {% elsif section contains 'interests' %}
 <ul>
   <li>Cognitive Systems</li>
@@ -23,24 +21,20 @@
     <h3 class="pt-4">Project Partners:</h3>
     {{ page.partners }}
   {% endif %}
-
-
 {% elsif section contains 'sponsors' %}
   {% if page.sponsors != null %}
     <h3 class="pt-4">Grants and Sponsors:</h3>
     {{ page.sponsors }}
   {% endif %}
-
-
 {% elsif section contains 'metadata' %}
 <div class="card mb-3">
-  <div class="row no-gutters">
+  <div class="row g-0">
     {% if page.thumbnail != null %}
-    <div class="col-md-4">
-      <img src="{{ page.thumbnail }}" class="card-img rounded" alt="Thumbnail for {{ page.title }}">
+    <div class="col-lg-4">
+      <img src="{{ page.thumbnail }}" class="card-img rounded-3" alt="Thumbnail for {{ page.title }}">
     </div>
     {% endif %}
-    <div class="col-md-8">
+    <div class="col-lg-8">
       <div class="card-header border-light"><h5 class="card-title">{{ page.title }}
         <small class="text-muted">{{ page.subtitle }}</small></h5></div>
       <div class="card-body">
@@ -58,12 +52,10 @@
             <p>Project Code or Grant Number: {{ page.grant }}</p>
           {% endif %}
         {% endif %}
-      </div><!-- card body -->
+      </div>
     </div><!-- row 8 -->
   </div><!-- row -->
 </div><!-- card -->
-
-
 {% elsif section contains 'publications' %}
   {% assign isrelatedpapers = null %}
   {% if page.relatedpapers != null %}
@@ -95,28 +87,25 @@
   {% endif %}
 
 {% elsif section contains 'themes' %}
-<div class="card-deck">
-  <div class="card">
-    <img src="https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-04-Navarro-Guerrero2017Improving.jpeg" class="card-img-top" alt="Caption: Inverse Kinematics learning with TD-learning, Copyright: Nicolás Navarro-Guerrero.">
-    <div class="card-body">
-      <h5 class="card-title">Reinforcement Learning</h5>
-      <p class="card-text">Reinforcement learning is one of the key frameworks to enable open-ended learning, and it is the prime technique for decision making, optimal control and autonomous systems. Reinforcement learning techniques are at the core of systems such as AlphaGo and other board games and eSports bots developed by OpenAI and Deepmind. However, what it is often forgotten is that current reinforcement learning algorithms are particularly slow and computationally expensive to train and mostly unsuitable for online learning in embodied autonomous and assistive systems. Thus, we investigate how to make these algorithms faster and more efficient to a point in which they could be deployed in real autonomous intelligent systems and assistive systems.</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-04-Navarro-Guerrero2017Improving.jpeg" class="card-img-top" alt="Caption: Inverse Kinematics learning with TD-learning, Copyright: Nicolás Navarro-Guerrero.">
+      <div class="card-body">
+        <h5 class="card-title">Reinforcement Learning</h5>
+        <p class="card-text">Reinforcement learning is one of the key frameworks to enable open-ended learning, and it is the prime technique for decision making, optimal control and autonomous systems. Reinforcement learning techniques are at the core of systems such as AlphaGo and other board games and eSports bots developed by OpenAI and Deepmind...</p>
+      </div>
     </div>
   </div>
-  <div class="card">
-    <img src="https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2018-06-Toprak2018Evaluating.jpeg" class="card-img-top" alt="Caption: Visuo-Haptic Object Recognition systems. Copyright Sibel Toprak">
-    <div class="card-body">
-      <h5 class="card-title">Bio-Inspired Perceptual Systems</h5>
-      <p class="card-text">Perception systems are crucial for the application of any learning algorithm to autonomous systems and automation. For the application of robot reaching and grasping, including smart prosthetics, we develop bio-inspired perceptual systems for haptic and vision, which would provide more suitable input to different stages of the autonomous learning model.</p>
+  <div class="col">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2018-06-Toprak2018Evaluating.jpeg" class="card-img-top" alt="Caption: Visuo-Haptic Object Recognition systems. Copyright Sibel Toprak">
+      <div class="card-body">
+        <h5 class="card-title">Bio-Inspired Perceptual Systems</h5>
+        <p class="card-text">Perception systems are crucial for the application of any learning algorithm to autonomous systems and automation. For the application of robot reaching and grasping, including smart prosthetics, we develop bio-inspired perceptual systems for haptic and vision...</p>
+      </div>
     </div>
   </div>
-<!--  <div class="card">
-    <img src="https://raw.githubusercontent.com/nicolas-navarro-guerrero/publications/master/2017-10-Remmels2017Comparison.png" class="card-img-top" alt="Caption: Package delivery companion. Copyright: Nicolás Navarro-Guerrero">
-    <div class="card-body">
-      <h5 class="card-title">Bidirectional Non-Verbal Communication</h5>
-      <p class="card-text">Autonomous intelligent and assistive systems are increasingly permeating our society, both on the factory floor and our daily life. As these systems become willingly or unwillingly part of our life, making them smarter will be necessary. However, we argue that it will not be sufficient to guarantee an effective and safe interaction. Thus, we study how to endow autonomous assistive systems with learning mechanisms to understand, some of, the users' intentions, as well as, adaptive mechanisms to display the intentions of autonomous assistive systems intuitively.</p>
-    </div>
-  </div>-->
 </div>
 
 {% else %}
@@ -126,30 +115,27 @@
   {% assign latest = forloop.length %}
 {% endif %}
   {% for item in projects limit:latest %}
-<!--    {% unless item.categories contains 'template' %}-->
-      {% assign tmp = item.tags | downcase %}
-      {% if tmp contains section %}
-<div class="card mb-3">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img rounded" alt="Project Thumbnail"></a>
+    {% assign tmp = item.tags | downcase %}
+    {% if tmp contains section %}
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img rounded-3" alt="Project Thumbnail"></a>
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
+            {% if item.subtitle != null %}
+              <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
+            {% endif %}
+            <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
+          </div>
+          <div class="card-footer bg-transparent border-white text-center">
+            <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
-        {% if item.subtitle != null %}
-          <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
-        {% endif %}
-        <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
-      </div>
-      <div class="card-footer bg-transparent border-white text-center">
-      <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
-      </div>
-    </div><!-- TEXT -->
-  </div><!-- ROW -->
-</div><!-- CARD -->
-      {% endif %}
-<!--    {% endunless %}-->
+    {% endif %}
   {% endfor %}
 {% endif %}
-

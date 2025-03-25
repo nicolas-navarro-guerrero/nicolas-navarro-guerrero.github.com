@@ -2,7 +2,7 @@
 {% assign handle = post.tags | downcase %}
 
 {% if post.thumbnail %}
-  <img src="{{ post.thumbnail | prepend: site.baseurl }}" class="align-self-start mr-3 mt-0 d-sm-none d-md-block" alt="{{ post.tags }}">
+  <img src="{{ post.thumbnail | prepend: site.baseurl }}" class="align-self-start me-3 mt-0 d-sm-none d-md-block" alt="{{ post.tags }}">
 {% else %}
   {% if handle contains 'membership' %}
     {% assign icon = 'fas fa-user-plus' %}
@@ -114,5 +114,4 @@
 
   {% endif %}
 {% endif %}
-<i class="{{ icon }} align-self-start mr-3 mt-0" style="width: 18px;"></i>
-
+<i class="{{ icon }} align-self-start me-3 mt-0" style="width: 18px;"></i>
