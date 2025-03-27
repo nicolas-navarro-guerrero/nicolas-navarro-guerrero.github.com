@@ -16,9 +16,8 @@
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-<!-- FontAwesome 6 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Fo2wzxB3Vp2/1XzTz8lfk8GQ8A0yzOhh2dJfMv9ghK3Pfmr+aFq0c0Zt4vAW6N8U" crossorigin="anonymous">
-
+<!-- FontAwesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
   body {
     padding-top: 80px;
@@ -26,3 +25,10 @@
     margin: auto;
   }
 </style>
+<script>
+  //theme localstorage
+  document.addEventListener("DOMContentLoaded", function () {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-bs-theme", savedTheme);
+  });
+</script>

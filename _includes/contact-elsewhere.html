@@ -5,21 +5,31 @@
 {% for category in site.data.elsewhere %}
   {% assign tmp = category.name | downcase %}
   {% if tmp contains handle or handle == 'all' %}
-    <div class="row justify-content-center g-3">
-    {% for item in category.subitems %}
-      {% assign name = item.name | downcase %}
-      {% if name contains account or account == 'all' %}
-        <div class="col text-center">
-        {% if item.icon contains "<i class=" %}
-            <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark d-inline-block" style="font-size:{{ size }};">{{ item.icon }}</a>
-        {% else %}
-            <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
-              <img src="{{ item.icon }}" alt="{{ item.name }}" class="my-2" style="height:{{ size }};">
-            </a>
+    <div class="row row-cols-4 justify-content-center m-3"> 
+      {% for item in category.subitems %}
+        {% assign name = item.name | downcase %}
+        {% if name contains account or account == 'all' %}
+          <div class="col text-center">
+            <div class="d-flex align-items-center justify-content-center"
+                 style="width: 100px; height: 100px; border-radius: 10px; background-color: #ffffff;">
+              
+              {% if item.icon contains "<i class=" %}
+                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" 
+                   class="text-dark d-inline-block" style="font-size: {{ size }};">
+                  {{ item.icon }}
+                </a>
+              {% else %}
+                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
+                  <img src="{{ item.icon }}" alt="{{ item.name }}" 
+                       style="max-width: 80px; max-height: 80px;">
+                </a>
+              {% endif %}
+            
+            </div>
+          </div>
         {% endif %}
-        </div>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
     </div>
   {% endif %}
 {% endfor %}
+
