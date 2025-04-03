@@ -19,7 +19,7 @@ citation: {
 		"event": "Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence at the University of Groningen",
 		"event-place": "Groningen, The Netherlands",
 		"genre": "Invited Talk",
-		"note": "1 Oct. 2020",
+		"note": ,
 		"publisher-place": "Groningen, The Netherlands",
 		"title": "The Role of Cognitive-Inspired Machine Learning in Autonomous Assistive Systems",
 		"URL": "https://www.rug.nl/research/bernoulli/calendar/colloquia/artificial-intelligence/2020/20201001-n-navarro",
@@ -32,6 +32,7 @@ citation: {
 		"issued": {
 			"year": "2020",
 			"month": "10",
+			"day":"1"
 		}
 	}
 ---

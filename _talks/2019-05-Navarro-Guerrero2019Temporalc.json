@@ -22,7 +22,7 @@ citation: {
 		"event-place": "Bochum, Germany",
 		"abstract": "Temporal-difference learning is widely adopted and has been successfully applied to many problems as well as used to model animal learning. However, they are mainly based on neural pathways involved in reward-seeking behaviour since little is known about punishment-driven learning and less still about the combined effects of both types of reinforcement on learning. In this talk, I will discuss the implications for machine learning and robotics of this incomplete model of reward-based learning and possible strategies to deal with it.",
 		"URL": "https://www.ini.rub.de/",
-		"note": "22 May 2019",
+		"note": ,
 		"author": [
 			{
 				"family": "Navarro-Guerrero",
@@ -32,6 +32,7 @@ citation: {
 		"issued": {
 			"year": "2019",
 			"month": "5",
+			"day":"22"
 		}
 	}
 ---

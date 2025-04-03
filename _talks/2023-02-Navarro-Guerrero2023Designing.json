@@ -20,7 +20,7 @@ citation: {
 		"event": "12. Robotics Kongress – Safety, Security und Künstliche Intelligenz",
 		"genre": "Invited Talk",
 		"language": "English",
-		"note": "8 Feb.\\ 2023",
+		"note": ,
 		"publisher-place": "Hanover, Germany",
 		"title": "Designing Safer Robotic Systems",
 		"URL": "https://www.technology-academy.group/project/rk23/",
@@ -33,6 +33,7 @@ citation: {
 		"issued": {
 			"year": "2023",
 			"month": "02",
+			"day":"8"
 		}
 	}
 ---

@@ -21,7 +21,7 @@ citation: {
 		"event": "Matchpoints seminar: The Welfare State: New solutions to Old Problems?",
 		"event-place": "Aarhus, Denmark",
 		"URL": "https://matchpoints-archive.au.dk/workshops/social-robotics-saturday-26-may/",
-		"note": "26 May 2018",
+		"note": ,
 		"author": [
 			{
 				"family": "Navarro-Guerrero",
@@ -31,7 +31,7 @@ citation: {
 		"issued": {
 			"year": "2018",
 			"month": "5",
-			"month": "26",
+			"day": "26",
 		}
 	}
 ---

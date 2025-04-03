@@ -20,7 +20,7 @@ citation: {
 		"event": "Bio Bio AI Robotics Summit",
 		"genre": "Invited Talk",
 		"language": "Spanish",
-		"note": "9 Jan.\\ 2023",
+		"note": ,
 		"publisher-place": "Concepción, Chile",
 		"title": "Designing Social Robots",
 		"URL": "https://sites.google.com/view/biobo-airobotics-summit",
@@ -33,6 +33,7 @@ citation: {
 		"issued": {
 			"year": "2023",
 			"month": "01",
+			"day":"9"
 		}
 	}
 ---

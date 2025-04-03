@@ -20,7 +20,7 @@ citation: {
 		"URL": "https://www.ntu.ac.uk/research/groups-and-centres/groups/computational-intelligence-applications-research-group",
 		"event-place": "Nottingham, UK",
 		"genre": "Invited Talk",
-		"note": "22 Jan. 2020",
+		"note": ,
 		"publisher-place": "Nottingham, UK",
 		"title": "The Role of Cognitive Robotics in Autonomous Assistive Systems",
 		"author": [
@@ -32,6 +32,7 @@ citation: {
 		"issued": {
 			"year": "2020",
 			"month": "1",
+			"day":"22"
 		}
 	}
 ---

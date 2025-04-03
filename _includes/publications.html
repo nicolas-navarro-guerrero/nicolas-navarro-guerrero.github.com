@@ -16,48 +16,48 @@
 </div>
 
 {% elsif section contains 'id' %}
-{% assign size = '45px' %}
-<h3 class="mt-5" id="ids">Research IDs</h3>
+  {% assign size = '45px' %}
+  <h3 class="mt-5" id="ids">Research IDs</h3>
 
-<div class="table-responsive">
-  <table class="table table-hover table-borderless table-striped">
-    <tbody>
-      {% for category in site.data.elsewhere %}
-        {% if category.name contains "research" %}
-          {% for item in category.subitems %}
-            <tr>
-              <th scope="row" class="align-middle">{{ item.name }}:</th>
-              <td class="align-middle">
-              {% if item.icon contains "<i class=" %}
-                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
-              {% else %}
-                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
-              {% endif %}
-              </td>
-              <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
-            </tr>
-          {% endfor %}
-        {% endif %}
-        {% for item in category.subitems %}
-          {% assign ans = item.name | downcase %}
-          {% if ans contains "publons" %}
-            <tr>
-              <th scope="row" class="align-middle">{{ item.name }}:</th>
-              <td class="align-middle">
-              {% if item.icon contains "<i class=" %}
-                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
-              {% else %}
-                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
-              {% endif %}
-              </td>
-              <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
-            </tr>
+  <div class="table-responsive">
+    <table class="table table-hover table-borderless table-striped">
+      <tbody>
+        {% for category in site.data.elsewhere %}
+          {% if category.name contains "research" %}
+            {% for item in category.subitems %}
+              <tr>
+                <th scope="row" class="align-middle">{{ item.name }}:</th>
+                <td class="align-middle">
+                {% if item.icon contains "<i class=" %}
+                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
+                {% else %}
+                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+                {% endif %}
+                </td>
+                <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
+              </tr>
+            {% endfor %}
           {% endif %}
+          {% for item in category.subitems %}
+            {% assign ans = item.name | downcase %}
+            {% if ans contains "publons" %}
+              <tr>
+                <th scope="row" class="align-middle">{{ item.name }}:</th>
+                <td class="align-middle">
+                {% if item.icon contains "<i class=" %}
+                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
+                {% else %}
+                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+                {% endif %}
+                </td>
+                <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
+              </tr>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+      </tbody>
+    </table>
+  </div>
 
 {% else %}
   {% assign datafile = site.publications %}
@@ -77,7 +77,7 @@
 
   {% elsif section contains 'abstracts' %}
     {% assign title = 'Abstracts and Posters' %}
-    {% assign display = 'd-none' %}
+    {% assign display = 'd-block' %}
   
   {% elsif section contains 'thesis' or section contains 'reports' %}
     {% assign title = 'Theses and Technical Reports' %}
@@ -93,30 +93,51 @@
     {% assign datafile = site.media %}
   {% endif %}
 
-{% unless section == '' or section contains 'talks' or section contains 'media' %}
-<h3 class="pt-5" id="{{ section }}">{{ title }}</h3>
-{% endunless %}
+  {% unless section == '' or section contains 'talks' or section contains 'media' %}
+  <h3 class="pt-5" id="{{ section }}">{{ title }}</h3>
+  {% endunless %}
 
-<ul class="list-unstyled">
-  {% assign counter = 1 %}
+  <ul class="list-unstyled">
+    {% assign last_index = datafile.size | minus: 1 %}
+    {% assign current_year = datafile[last_index].citation.issued.year %}
+    {% assign counter = 1 %}
+
+    {% if page.url == '/publications/chronological/' %}
+      <span style="font-size: 25px;"><strong>{{ current_year }}</strong></span>
+    {% endif %}
+  
   {% for item in datafile reversed %}
     {% unless item.categories contains 'template' %}
       {% assign tmp = item.tags | downcase %}
       {% assign temp = section | size | minus: 1 %}
       {% assign ection = section | slice: 0,temp %}
+      
       {% if tmp contains section or tmp contains ection %}
-<li class="media mt-4">
-  <div class="media-body">
-    {% include publications-citation-style.html param=item %}
-  </div>
-  <img class="ms-3 rounded {{ display }}" src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" style="height:{{ size }};max-width:{{ size }};" alt="">
-</li>
-      {% endif %}
-      {% if counter == latest %}
-        {% break %}
-      {% endif %}
-      {% assign counter = counter | plus: 1 %}
-    {% endunless %}
-  {% endfor %}
-</ul>
+        {% if page.url == '/publications/chronological/' %}
+          {% if item.citation.issued.year != current_year %}
+            {% assign current_year = item.citation.issued.year %}
+            <span style="font-size: 25px;"><strong>{{ current_year }}</strong></span>
+          {% endif %}
+        {% endif %}
+          <li class="mt-4">
+            <div class="row align-items-center">
+              <div class="col-md-3 text-end {{display}}">
+                <img  src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+                onerror="this.src='/assets/placeholders.svg';" style="width:auto; height:auto; max-width:80%;max-height:80%; border:none;" >
+              </div>
+              <div class="col-md-9">
+                {% include publications-citation-style.html param=item %}
+              </div>
+            </div>
+            <hr> 
+          </li>
+        {% endif %}
+        {% if counter == latest %}
+          {% break %}
+        {% endif %}
+        {% assign counter = counter | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+  </ul>
 {% endif %}
+

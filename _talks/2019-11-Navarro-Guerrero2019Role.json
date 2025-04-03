@@ -22,7 +22,7 @@ citation: {
 		"event-place": "Bordeaux, France",
 		"abstract": "The dream and need for autonomous robots beyond the assembly line are coming together. This development is the product of many factors including a demographic change in all developed countries, deemed the silver tsunami, improvements on computing and machine learning techniques, the pervasive dumb, dangerous, and dirty tasks, etc. Despite the advances in machine learning and automation, there are numerous challenges we need to overcome before developing robots that can operate autonomously alongside people. These involve making robots smarter and capable, but also robots would have to be able to interact with humans naturally and effortlessly. Such capabilities are not only indispensable for domestic robot applications but are also essential to guarantee safe and efficient operation in the production line. In this talk, I will discuss my current and ongoing research on Cognitive Robotics and Human-Robot Interaction towards creating smarter and safer robots.",
 		"URL": "https://sites.google.com/site/xavierhinaut/gt8-neurorobotique-bdx-2019",
-		"note": "26 Nov.\\ 2019",
+		"note": ,
 		"author": [
 			{
 				"family": "Navarro-Guerrero",
@@ -32,6 +32,7 @@ citation: {
 		"issued": {
 			"year": "2019",
 			"month": "11",
+			"day":"26"
 		}
 	}
 ---

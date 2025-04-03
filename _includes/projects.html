@@ -28,9 +28,9 @@
   {% endif %}
 {% elsif section contains 'metadata' %}
 <div class="card mb-3">
-  <div class="row g-0">
+  <div class="row g-0 d-flex align-items-center">
     {% if page.thumbnail != null %}
-    <div class="col-lg-4">
+    <div class="col-lg-4 d-flex justify-content-center" style="border:none; background-color: #ffffff; border-radius: 10px;">
       <img src="{{ page.thumbnail }}" class="card-img rounded-3" alt="Thumbnail for {{ page.title }}">
     </div>
     {% endif %}
@@ -114,28 +114,38 @@
 {% if latest == -1 %}
   {% assign latest = forloop.length %}
 {% endif %}
+<div class="row g-3 d-flex justify-content-center">
   {% for item in projects limit:latest %}
     {% assign tmp = item.tags | downcase %}
     {% if tmp contains section %}
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-lg-4 p-1" style=" border:none; background-color: #ffffff; border-radius: 10px;">
-          <a href="{{ item.slug }}"><img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" class="card-img rounded-3" alt="Project Thumbnail"></a>
-        </div>
-        <div class="col-lg-8">
-          <div class="card-body">
-            <h5 class="card-title"><a href="{{ item.slug }}">{{ item.title }}</a></h5>
+      <div class="col-lg-4 col-md-6 d-flex" >
+        <div class="card h-100 d-flex flex-column w-100" style="border: solid 2px rgb(56, 56, 56);">
+
+          <div class="d-flex justify-content-center align-items-center bg-white" style="min-height: 200px; max-height: 600px;">
+            <a href="{{ item.slug }}">
+              <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+                  class="card-img-top" 
+                  alt="Project Thumbnail" 
+                  style=" object-fit: contain;">
+            </a>
+          </div>
+
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <h5 class="card-title">
+              <a href="{{ item.slug }}"><strong>{{ item.title }}</strong></a>
+            </h5>
             {% if item.subtitle != null %}
               <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
             {% endif %}
-            <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
+            <p class="card-text mt-auto">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
           </div>
-          <div class="card-footer bg-transparent border-white text-center">
+          <div class="card-footer bg-transparent border-black text-center">
             <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
-    </div>
     {% endif %}
   {% endfor %}
+</div>
+
 {% endif %}
