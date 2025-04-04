@@ -30,7 +30,7 @@
 <div class="card mb-3">
   <div class="row g-0 d-flex align-items-center">
     {% if page.thumbnail != null %}
-    <div class="col-lg-4 d-flex justify-content-center" style="border:none; background-color: #ffffff; border-radius: 10px;">
+    <div class="col-lg-4 d-flex justify-content-center m-3" style="border:none; background-color: #ffffff; border-radius: 10px;">
       <img src="{{ page.thumbnail }}" class="card-img rounded-3" alt="Thumbnail for {{ page.title }}">
     </div>
     {% endif %}
@@ -118,15 +118,15 @@
   {% for item in projects limit:latest %}
     {% assign tmp = item.tags | downcase %}
     {% if tmp contains section %}
-      <div class="col-lg-4 col-md-6 d-flex" >
-        <div class="card h-100 d-flex flex-column w-100" style="border: solid 2px rgb(56, 56, 56);">
+      <div class="col-lg-6 col-md-6 d-flex" >
+        <div class="card h-100 d-flex flex-column w-100" style="border: solid 2px rgb(56, 56, 56); ">
 
-          <div class="d-flex justify-content-center align-items-center bg-white" style="min-height: 200px; max-height: 600px;">
+          <div class="d-flex justify-content-center align-items-center m-3" style="min-height: 200px; max-height: 600px;">
             <a href="{{ item.slug }}">
               <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
-                  class="card-img-top" 
+                  class="card-img-top  p-2 " 
                   alt="Project Thumbnail" 
-                  style=" object-fit: contain;">
+                  style=" object-fit: contain; border-radius: 5px; background-color: #ffffff77;">
             </a>
           </div>
 
@@ -139,7 +139,7 @@
             {% endif %}
             <p class="card-text mt-auto">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
           </div>
-          <div class="card-footer bg-transparent border-black text-center">
+          <div class=" bg-transparent border-none text-center pb-2">
             <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
           </div>
         </div>

@@ -1,4 +1,4 @@
-{% assign size = '45px' %}
+{% assign size = '60px' %}
 {% assign handle = include.category | downcase | default: 'all' %}
 {% assign account = include.account | downcase | default: 'all' %}
 
@@ -11,7 +11,7 @@
         {% if name contains account or account == 'all' %}
           <div class="col text-center">
             <div class="d-flex align-items-center justify-content-center"
-                 style="width: 100px; height: 100px; border-radius: 10px; background-color: #ffffff;">
+                 style="width: 100px; height: 100px; border-radius: 10px; background-color: #ffffff77;">
               
               {% if item.icon contains "<i class=" %}
                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" 
@@ -21,7 +21,7 @@
               {% else %}
                 <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
                   <img src="{{ item.icon }}" alt="{{ item.name }}" 
-                       style="max-width: 80px; max-height: 80px;">
+                       style="width: {{ size }}; height: {{ size }};">
                 </a>
               {% endif %}
             
