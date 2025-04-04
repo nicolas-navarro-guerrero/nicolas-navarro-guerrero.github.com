@@ -121,12 +121,12 @@
       <div class="col-lg-6 col-md-6 d-flex" >
         <div class="card h-100 d-flex flex-column w-100" style="border: solid 2px rgb(56, 56, 56); ">
 
-          <div class="d-flex justify-content-center align-items-center m-3" style="min-height: 200px; max-height: 600px;">
+          <div class="d-flex justify-content-center align-items-center m-3" style="min-height: 250px; max-height: 600px;">
             <a href="{{ item.slug }}">
               <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                   class="card-img-top  p-2 " 
                   alt="Project Thumbnail" 
-                  style=" object-fit: contain; border-radius: 5px; background-color: #ffffff77;">
+                  style=" object-fit: cover; border-radius: 5px; background-color: #ffffff77;">
             </a>
           </div>
 
