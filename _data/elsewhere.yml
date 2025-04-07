@@ -1,18 +1,18 @@
 - name: repositories
   subitems:
-    - name: gitlab
+    - name: Gitlab
       username: nicolas-navarro-guerrero
       baseurl: https://gitlab.com
       icon: <i class="fab fa-gitlab"></i>
 #      icon: /assets/img/logos/gitlab.svg
 
-    - name: github
+    - name: Github
       username: nicolas-navarro-guerrero
       baseurl: https://github.com
       icon: <i class="fab fa-github"></i>
 #      icon: /assets/img/logos/GitHub-Mark-64px.png
 
-    - name: bitbucket
+    - name: Bitbucket
       username: nicolas-navarro-guerrero
       baseurl: https://bitbucket.org
       icon: <i class="fab fa-bitbucket"></i>
@@ -44,7 +44,7 @@
 
 - name: extras
   subitems:
-    - name: zotero
+    - name: Zotero
       username: groups/nng-publications/items
       baseurl: https://www.zotero.org
       icon: /assets/img/logos/zotero_48x48x32.png
@@ -56,19 +56,19 @@
 
 - name: datasets
   subitems:
-    - name: zenodo
+    - name: Zenodo
       username: 
       baseurl: https://zenodo.org
       icon: /assets/img/logos/zenodo-gradient-round.svg
 
-    - name: figshare
+    - name: Figshare
       username: Nicol_s_Navarro-Guerrero/2746636
       baseurl: https://figshare.com/authors
       icon: /assets/img/logos/figshare.png
 
 - name: rest
   subitems:
-    - name: linkedin
+    - name: Linkedin
       username: nicolasnavarroguerrero
       baseurl: https://www.linkedin.com/in
       icon: <i class="fab fa-linkedin-in"></i>
@@ -80,12 +80,12 @@
 
 #- name: video
 #  subitems:
-    - name: vimeo
+    - name: Vimeo
       username: nicolasnavarroguerrero/videos
       baseurl: https://vimeo.com
       icon: <i class="fab fa-vimeo"></i>
 
-    - name: youtube
+    - name: Youtube
       username: niconavarroguerrero/videos
       baseurl: https://www.youtube.com/user
       icon: <i class="fab fa-youtube"></i>

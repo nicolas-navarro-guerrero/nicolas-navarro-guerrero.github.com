@@ -1,6 +1,5 @@
 {% assign section = include.section | downcase | default: '' %}
 {% assign latest = include.latest | default: -1 %}
-{% assign size = '130px' %}
 
 {% if section contains 'intro' %}
 <p>View my publications sorted by <a href="/publications/">category</a>, <a href="/publications/chronological/">chronologically*</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
@@ -16,7 +15,7 @@
 </div>
 
 {% elsif section contains 'id' %}
-  {% assign size = '45px' %}
+  {% assign size = '50px' %}
   <h3 class="mt-5" id="ids">Research IDs</h3>
 
   <div class="table-responsive">
@@ -29,12 +28,19 @@
                 <th scope="row" class="align-middle">{{ item.name }}:</th>
                 <td class="align-middle">
                 {% if item.icon contains "<i class=" %}
-                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
+                  <div class="bg-white " style="width:{{size}};height:{{size}}; border-radius: 10px;">
+                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark d-flex justify-content-center" style="font-size:{{ size }};">{{ item.icon }}</a>
+                  </div>
                 {% else %}
-                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+                  <div class="bg-white" style="width:{{size}};height:{{size}}; border-radius: 10px;">
+                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }}; width:{{size}}"></a>
+                  </div>
                 {% endif %}
                 </td>
-                <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>
+                <td class="align-middle">
+                  
+                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a>
+                </td>
               </tr>
             {% endfor %}
           {% endif %}
@@ -61,7 +67,7 @@
 
 {% else %}
   {% assign datafile = site.publications %}
-  {% assign display = 'd-none d-sm-block' %}
+  {% assign display = ' d-flex' %}
   {% assign ans = site.publications | size %}
   {% if section contains 'upcoming' %}
     {% assign title = 'Upcoming Articles' %}
@@ -77,7 +83,7 @@
 
   {% elsif section contains 'abstracts' %}
     {% assign title = 'Abstracts and Posters' %}
-    {% assign display = 'd-block' %}
+    {% assign display = 'd-flex' %}
   
   {% elsif section contains 'thesis' or section contains 'reports' %}
     {% assign title = 'Theses and Technical Reports' %}
@@ -120,10 +126,12 @@
           {% endif %}
         {% endif %}
           <li class="mt-4">
-            <div class="row align-items-center">
-              <div class="col-md-3 text-end {{display}}">
-                <img  src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
-                onerror="this.src='/assets/placeholders.svg';" style="width:auto; height:auto; max-width:80%;max-height:80%; border:none;" >
+            <div class="row align-items-center d-flex">
+              <div class="col-md-3 {{display}} justify-content-center align-items-center">
+                <img  
+                  src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+                  onerror="this.src='/assets/placeholders.svg';" 
+                  style="max-height: 200px; max-width: 100%; height: auto; width: auto; border: none;">
               </div>
               <div class="col-md-9">
                 {% include publications-citation-style.html param=item %}

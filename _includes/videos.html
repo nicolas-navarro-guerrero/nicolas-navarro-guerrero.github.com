@@ -5,9 +5,10 @@
   {% assign latest = site.videos | size %}
 {% endif %}
 
+{% assign filtered = site.videos | reject: "categories", "template" | reverse | slice:0, latest %}
+
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-{% for vids in site.videos reversed limit:latest %}
-  {% unless vids.categories contains 'template' %}
+  {% for vids in filtered %}
     {% if style == 'overview' %}
       <div class="col">
         <div class="card mb-3">
@@ -48,6 +49,5 @@
         </div>
       </div>
     {% endif %}
-  {% endunless %}
 {% endfor %}
 </div><!-- row -->

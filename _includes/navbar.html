@@ -1,16 +1,18 @@
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand ms-5" href="{{ site.baseurl | append: '/' }}" style="color:white;"><strong>{{ site.brand }}</strong></a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+
+
+  <a class="navbar-brand ms-2 site-brand" href="{{ site.baseurl | append: '/' }}"><strong>{{ site.brand }}</strong></a>
+  
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-<!--themetoggle button-->
   <div class="navbar-brand d-flex justify-content-center align-items-center me-auto" style="width: 40px; height: 40px; flex-shrink: 0;">
     <button id="darkModeToggle" class="btn d-flex justify-content-center align-items-center" style="border: none; width: 40px; height: 40px; padding: 0;" type="button">
       <i id="darkmode-icon" class="fa-solid" style="color: white; font-size: 20px;"></i>
     </button>
-  </div>
 
+  </div><!--themetoggle button-->
   <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         {% for item in site.data.navigation %}
@@ -64,8 +66,22 @@
   height:30px;
   border-radius: 15px;
   background-color: rgb(70, 66, 66);
+  
+}
+.site-brand {
+  color: white;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .site-brand {
+    font-size: 16px; 
+  }
 }
 </style>
+
+
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const icon = document.getElementById("darkmode-icon");

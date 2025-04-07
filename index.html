@@ -19,14 +19,12 @@ author: Nicolás Navarro-Guerrero
         {% include about.html %}
     </div>
 </div><!-- row -->
-
-
 <hr class="mt-5 mb-5">
-{% include contact-elsewhere.html category='research' %}
-{% include contact-elsewhere.html category='extras' %}
-{% include contact-elsewhere.html category='datasets' %}
-
-
+<div class=" justify-content-center row ">
+    {% include contact-elsewhere.html category='research' %}
+    {% include contact-elsewhere.html category='extras' %}
+    {% include contact-elsewhere.html category='datasets' %}
+</div>
 <hr class="mt-5 mb-5">
 <h3><a href="/projects/#scientific">Recent Projects <span class="caret"></span></a></h3>
 {% include projects.html latest=3 %}

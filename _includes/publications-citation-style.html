@@ -28,7 +28,7 @@
 
   <!-- TITLE -->
   <span style="font-size: 18px;">
-    <strong>{{ handle.citation.title }}</strong>.<br> {{ handle.citation.container-title }}{% if details != "" %}, {{ details }}{% endif %}.
+    <strong>{{ handle.citation.title }}</strong>.<br> {{ handle.citation.container-title }}{% if details != "" %}, {{ details }}.{% endif %}
   </span><br>
 
   <div class="gap"></div>
@@ -71,6 +71,16 @@
       <a href="{{ urlcode }}" target="_blank">URL</a>
     {% endif %}
     
+  {% endif %}
+
+
+  <!-- RIGHTS & LICENSE -->
+  {% if include.param.rights %}
+   {{ include.param.rights }},
+  {% endif %}
+
+  {% if include.param.license %}
+   {{ include.param.license }}
   {% endif %}
 
   <!--BIBKEY-->
@@ -117,7 +127,7 @@
 
   <!-- TITLE -->
   <span style="font-size: 18px;">
-    <strong>{{ include.param.citation.title }}</strong>. {{ include.param.citation.container-title }}{% if details != "" %}, {{ details }}{% endif %}.
+    <strong>{{ include.param.citation.title }}</strong>. {{ include.param.citation.container-title }}{% if details != "" %}, {{ details }}.{% endif %}
   </span><br>
 
   <div class="gap"></div>
