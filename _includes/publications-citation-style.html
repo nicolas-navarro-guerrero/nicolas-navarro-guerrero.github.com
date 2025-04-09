@@ -1,218 +1,107 @@
-{% assign style = include.style | downcase | default: 'citeulike' %}
 {% assign handle = include.param %}
 
-{% if style == 'citeulike' %}
-<div class="citation-details">
-  {% assign details = "" %}
+<!-- TITLE -->
+<span style="font-size: 18px;">
+  <strong>{{ handle.citation.title }}</strong>.<br>
+</span>
 
-  {% if handle.citation.volume and handle.citation.collection-title %}
-    {% assign details = details | append: "Vol. " | append: handle.citation.volume | append: " of " | append: handle.citation.collection-title %}
-  {% elsif handle.citation.volume %}
-    {% assign details = details | append: "Vol. " | append: handle.citation.volume %}
-  {% endif %}
-
-  {% if handle.citation.issue %}
-    {% if details != "" %}
-      {% assign details = details | append: ", " %}
-    {% endif %}
-    {% assign details = details | append: "No. " | append: handle.citation.issue %}
-  {% endif %}
-
-  {% assign pagesnumbers = handle.citation.page | default: handle.citation.pages %}
-  {% if pagesnumbers %}
-    {% if details != "" %}
-      {% assign details = details | append: ", " %}
-    {% endif %}
-    {% assign details = details | append: "pp. " | append: pagesnumbers %}
-  {% endif %}
-
-  <!-- TITLE -->
-  <span style="font-size: 18px;">
-    <strong>{{ handle.citation.title }}</strong>.<br> {{ handle.citation.container-title }}{% if details != "" %}, {{ details }}.{% endif %}
-  </span><br>
-
-  <div class="gap"></div>
-  
-  <!-- AUTHORS-->
-  {% if handle.citation.author %}
-    {% assign author_list = "" %}
-    {% for authors in handle.citation.author %}
-      {% assign author_list = author_list | append: authors.family | append: ", " | append: authors.given %}
-      {% if forloop.last == false %}
-        {% assign author_list = author_list | append: "; " %}
-      {% endif %}
-    {% endfor %}
-    {{ author_list }}.
-  {% endif %}
-  <!--EVENTPLACE-->
-  {% if handle.citation.event-place %}
-    {{ handle.citation.event-place }}, 
-  {% endif %}
-
-  <!-- DATE -->
-  {% if include.param.citation.issued.day and include.param.citation.issued.month and include.param.citation.issued.year %}
-    {{ include.param.citation.issued.day }} {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
-  {% elsif include.param.citation.issued.month and include.param.citation.issued.year %}
-    {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
-  {% elsif include.param.citation.issued.year %}
-    {{ include.param.citation.issued.year }}.
-  {% endif %}
-
-  <!--LINKS-->
-  {% assign doicode = include.param.citation.DOI | default: include.param.citation.doi %}
-  {% assign urlcode = include.param.citation.URL | default: include.param.citation.url %}
-  
-  {% if doicode or urlcode or include.param.file %}
-    <a href="http://dx.doi.org/{{ doicode }}" target="_blank">DOI</a>
-    {% if include.param.file %}
-      <a href="{{ include.param.file }}" target="_blank">PDF</a>
-    {% endif %}
-    {% if urlcode %}
-      <a href="{{ urlcode }}" target="_blank">URL</a>
-    {% endif %}
-    
-  {% endif %}
-
-
-  <!-- RIGHTS & LICENSE -->
-  {% if include.param.rights %}
-   {{ include.param.rights }},
-  {% endif %}
-
-  {% if include.param.license %}
-   {{ include.param.license }}
-  {% endif %}
-
-  <!--BIBKEY-->
-  {% if handle.bibtex %}
-    <strong>bibkey: </strong> {{ handle.citation.bibtex }}
-  {% endif %}
-
-  <!--SUPPLEMENTARY-->
-  {% if handle.supplementary %}
-    <a href="{{ handle.supplementary }}">Supplementary material</a>
-  {% endif %}
-  
-</div>
-
-
-
-{% elsif style == 'other' %}
-<div class="citation-details">
-
-  <!-- CITATION REFERENCES -->
-
-  {% assign details = "" %}
-
-  {% if include.param.citation.volume and include.param.citation.collection-title %}
-    {% assign details = details | append: "Vol. " | append: include.param.citation.volume | append: " of " | append: include.param.citation.collection-title %}
-  {% elsif include.param.citation.volume %}
-    {% assign details = details | append: "Vol. " | append: include.param.citation.volume %}
-  {% endif %}
-
-  {% if include.param.citation.issue %}
-    {% if details != "" %}
-      {% assign details = details | append: ", " %}
-    {% endif %}
-    {% assign details = details | append: "No. " | append: include.param.citation.issue %}
-  {% endif %}
-
-  {% assign pagesnumbers = include.param.citation.page | default: include.param.citation.pages %}
-  {% if pagesnumbers %}
-    {% if details != "" %}
-      {% assign details = details | append: ", " %}
-    {% endif %}
-    {% assign details = details | append: "pp. " | append: pagesnumbers %}
-  {% endif %}
-
-  <!-- TITLE -->
-  <span style="font-size: 18px;">
-    <strong>{{ include.param.citation.title }}</strong>. {{ include.param.citation.container-title }}{% if details != "" %}, {{ details }}.{% endif %}
-  </span><br>
-
-  <div class="gap"></div>
-
-  <!-- AUTHORS -->
-  {% if include.param.citation.author %}
-    {% assign author_list = "" %}
-    {% for authors in include.param.citation.author %}
-      {% assign author_list = author_list | append: authors.family | append: ", " | append: authors.given %}
-      {% if forloop.last == false %}
-        {% assign author_list = author_list | append: "; " %}
-      {% endif %}
-    {% endfor %}
-    {{ author_list }}.
-  {% endif %}
-
-  <!-- EVENT -->
-  {% if include.param.citation.event %}
-    {{ include.param.citation.event }}.
-  {% endif %}
-
-  <!-- RIGHTS & LICENSE -->
-  {% if include.param.rights %}
-   {{ include.param.rights }}<br>
-  {% endif %}
-
-  {% if include.param.license %}
-   {{ include.param.license }}<br>
-  {% endif %}
-
-  <!-- DATE -->
-  {% if include.param.citation.issued.day and include.param.citation.issued.month and include.param.citation.issued.year %}
-    {{ include.param.citation.issued.day }} {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.<br>
-  {% elsif include.param.citation.issued.month and include.param.citation.issued.year %}
-    {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.<br>
-  {% elsif include.param.citation.issued.year %}
-    {{ include.param.citation.issued.year }}.<br>
-  {% endif %}
-
-  <!-- LINKS -->
-  {% assign doicode = include.param.citation.DOI | default: include.param.citation.doi %}
-  {% assign urlcode = include.param.citation.URL | default: include.param.citation.url %}
-
-  {% if doicode or urlcode or include.param.file !=null %}
-    {% if doicode %}
-      <a href="http://dx.doi.org/{{ doicode }}" target="_blank">DOI</a>
-    {% endif %}
-    {% if include.param.file %}
-      <a href="{{ include.param.file }}" target="_blank">PDF</a>
-    {% endif %}
-    {% if urlcode %}
-      <a href="{{ urlcode }}" target="_blank">URL</a>
-    {% endif %}
-    <br>
-  {% endif %}
-
-  <!-- SLIDES -->
-  {% if include.param.slides %}
-    <strong>Slides:</strong> <a href="{{ include.param.slides }}">slides</a><br>
-  {% endif %}
-
-  <!-- SUPPLEMENTARY MATERIAL -->
-  {% if include.param.supplementary %}
-     <a href="{{ include.param.supplementary }}">supplementary material</a><br>
-  {% endif %}
-
-  <!-- SOURCE CODE -->
-  {% if include.param.code %}
-    <strong>Source Code:</strong> <a href="{{ include.param.code }}">source code</a><br>
-  {% endif %}
-
-  <!-- NOTE -->
-  {% if include.param.citation.note %}
-    <strong>Note:</strong> {{ include.param.citation.note }}
-  {% endif %}
-
-
-</div>
-
+{% if handle.citation.container-title != null %}
+  {{ handle.citation.container-title }}. 
+{% elsif handle.citation.event != null %}
+  Talk at {{ handle.citation.event }}.
+{% elsif handle.citation.medium != null %}
+  {{ handle.citation.medium }}.  
+{% elsif handle.citation.publisher != null %}
+  {{ handle.citation.publisher }}.
 {% endif %}
 
+{% if handle.citation.volume and handle.citation.collection-title %}
+  vol. {{ handle.citation.volume }} of {{ handle.citation.collection-title }},
+{% elsif handle.citation.volume %}
+  vol. {{ handle.citation.volume }},
+{% endif %}
+
+{% if handle.citation.issue != null %}
+  no. {{ handle.citation.issue }},
+{% endif %}
+{% assign pagesnumbers = null %}
+{% if handle.citation.page %}
+  {% assign pagesnumbers = handle.citation.page %}
+{% elsif handle.citation.pages %}
+  {% assign pagesnumbers = handle.citation.pages %}
+{% endif %}
+{% if pagesnumbers %}
+  pp. {{ pagesnumbers }},  
+{% endif %}
+
+<!--EVENTPLACE-->
+{% if handle.citation.event-place %}
+  {{ handle.citation.event-place }}. 
+{% endif %}
+
+<!-- DATE -->
+{% if include.param.citation.issued.day and include.param.citation.issued.month and include.param.citation.issued.year %}
+  {{ include.param.citation.issued.day }} {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
+{% elsif include.param.citation.issued.month and include.param.citation.issued.year %}
+  {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
+{% elsif include.param.citation.issued.year %}
+  {{ include.param.citation.issued.year }}.
+{% endif %}
+
+<!--LANGUAGE-->
+{% if handle.citation.language != null %}
+  Language: {{ handle.citation.language }}
+{% endif %}
+
+<br>
+
+<!-- AUTHORS-->
+{% if handle.citation.interviewer != null %}
+<br>
+  {% for item in handle.citation.interviewer %}
+    {{ item.family }}, {{ item.given }};
+  {% endfor %}
+{% elsif handle.citation.author != null %}
+<br>
+  {% for authors in handle.citation.author %}
+    {{ authors.family }}, {{ authors.given }}{% if forloop.last == false %};{% endif %}
+  {% endfor %}
+  <br>
+{% endif %}
+
+<!--LINKS-->
+
+{% if include.param.citation.DOI%}
+  <a href="http://dx.doi.org/{{ doicode }}" target="_blank">DOI</a> 
+{%endif%}
+{% if include.param.file%}
+<a href="{{ include.param.file }}" target="_blank">PDF</a> 
+{%endif%}
+{% if include.param.citation.URL%}
+<a href="{{ include.param.citation.URL }}" target="_blank">URL</a> 
+{%endif%}
 
 
-<style>
-  .gap {
-  margin-bottom: 10px;
-}
-</style>
+
+<!--BIBKEY-->
+{% if handle.bibtex %}
+  <strong>bibkey: </strong> {{ handle.citation.bibtex }}
+{% endif %}
+
+<!--SUPPLEMENTARY-SLIDES-->
+{% if handle.supplementary %}
+  <a href="{{ handle.supplementary }}">Supplementary material</a>
+{% endif %}
+{% if handle.slides != null %}
+  <a href="{{ handle.slides }}"> slides</a>, 
+{% endif %}
+
+<!-- RIGHTS & LICENSE -->
+{% if include.param.rights %}
+  {{ include.param.rights }}
+{% endif %}
+
+{% if include.param.license %}
+  {{include.param.license }}
+{% endif %}
+

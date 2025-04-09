@@ -137,7 +137,7 @@
             {% if item.subtitle != null %}
               <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
             {% endif %}
-            <p class="card-text mt-auto">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
+            <p class="card-text">{{ item.date | date_to_string }} &#187; {{ item.enddate | date_to_string }}</p>
           </div>
           <div class=" bg-transparent border-none text-center pb-2">
             <a href="{{ item.slug }}" class="btn btn-primary">Read more</a>
