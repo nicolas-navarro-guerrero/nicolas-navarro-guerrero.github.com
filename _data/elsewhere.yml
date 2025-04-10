@@ -12,12 +12,6 @@
       icon: <i class="fab fa-github"></i>
 #      icon: /assets/img/logos/GitHub-Mark-64px.png
 
-    - name: Bitbucket
-      username: nicolas-navarro-guerrero
-      baseurl: https://bitbucket.org
-      icon: <i class="fab fa-bitbucket"></i>
-#      icon: /assets/img/logos/bucket.svg
-
 - name: research
   subitems:
     - name: ORCID
