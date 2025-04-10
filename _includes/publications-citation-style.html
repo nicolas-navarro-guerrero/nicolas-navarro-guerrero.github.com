@@ -34,18 +34,21 @@
   pp. {{ pagesnumbers }},  
 {% endif %}
 
-<!--EVENTPLACE-->
-{% if handle.citation.event-place %}
+<!--EVENTPLACE-TITLE-->
+{% if handle.citation.event-place != null %}
   {{ handle.citation.event-place }}. 
+{% endif %}
+{% if handle.citation.event-title != null %}
+  {{ handle.citation.event-title}}. 
 {% endif %}
 
 <!-- DATE -->
-{% if include.param.citation.issued.day and include.param.citation.issued.month and include.param.citation.issued.year %}
-  {{ include.param.citation.issued.day }} {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
-{% elsif include.param.citation.issued.month and include.param.citation.issued.year %}
-  {% include 3-letters-month.html param=include.param.citation.issued.month %} {{ include.param.citation.issued.year }}.
-{% elsif include.param.citation.issued.year %}
-  {{ include.param.citation.issued.year }}.
+{% if handle.citation.issued.day and handle.citation.issued.month and handle.citation.issued.year %}
+  {{ handle.citation.issued.day }} {% include 3-letters-month.html param=handle.citation.issued.month %} {{ handle.citation.issued.year }}.
+{% elsif handle.citation.issued.month and handle.citation.issued.year %}
+  {% include 3-letters-month.html param=handle.citation.issued.month %} {{ handle.citation.issued.year }}.
+{% elsif handle.citation.issued.year %}
+  {{ handle.citation.issued.year }}.
 {% endif %}
 
 <!--LANGUAGE-->
@@ -53,16 +56,14 @@
   Language: {{ handle.citation.language }}
 {% endif %}
 
-<br>
+<div class="mt-2"></div>
 
 <!-- AUTHORS-->
 {% if handle.citation.interviewer != null %}
-<br>
   {% for item in handle.citation.interviewer %}
     {{ item.family }}, {{ item.given }};
   {% endfor %}
 {% elsif handle.citation.author != null %}
-<br>
   {% for authors in handle.citation.author %}
     {{ authors.family }}, {{ authors.given }}{% if forloop.last == false %};{% endif %}
   {% endfor %}
@@ -71,37 +72,38 @@
 
 <!--LINKS-->
 
-{% if include.param.citation.DOI%}
-  <a href="http://dx.doi.org/{{ doicode }}" target="_blank">DOI</a> 
+{% if handle.citation.DOI != null%}
+  <a href="http://dx.doi.org/{{ handle.citation.DOI }}" target="_blank">DOI</a> 
 {%endif%}
-{% if include.param.file%}
-<a href="{{ include.param.file }}" target="_blank">PDF</a> 
+{% if handle.file != null%}
+<a href="{{ handle.file }}" target="_blank">PDF</a> 
 {%endif%}
-{% if include.param.citation.URL%}
-<a href="{{ include.param.citation.URL }}" target="_blank">URL</a> 
+{% if handle.citation.URL != null%}
+<a href="{{ handle.citation.URL }}" target="_blank">URL</a> 
 {%endif%}
 
 
 
 <!--BIBKEY-->
-{% if handle.bibtex %}
+{% if handle.bibtex != null%}
   <strong>bibkey: </strong> {{ handle.citation.bibtex }}
 {% endif %}
 
 <!--SUPPLEMENTARY-SLIDES-->
-{% if handle.supplementary %}
+{% if handle.supplementary != null%}
   <a href="{{ handle.supplementary }}">Supplementary material</a>
 {% endif %}
 {% if handle.slides != null %}
-  <a href="{{ handle.slides }}"> slides</a>, 
+  <a href="{{ handle.slides }}"> slides</a>
 {% endif %}
 
 <!-- RIGHTS & LICENSE -->
-{% if include.param.rights %}
-  {{ include.param.rights }}
+&copy;{{handle.citation.issued.year}}
+{% if handle.license != null%}
+  {{handle.license }}
+{% endif %}
+{% if handle.rights != null%}
+  {{ handle.rights }}
 {% endif %}
 
-{% if include.param.license %}
-  {{include.param.license }}
-{% endif %}
 

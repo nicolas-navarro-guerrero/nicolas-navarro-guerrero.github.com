@@ -1,7 +1,7 @@
 ---
 tags: [robotdoc, conference, research]
 categories: publications
-author: Nicolás Navarro-Guerrero
+author: "Nicolás Navarro-Guerrero"
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-06-Navarro-Guerrero2012Neurocomputational.png"
 file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-06-Navarro-Guerrero2012Neurocomputational_pre-print.pdf"
@@ -10,7 +10,7 @@ slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/201
 supplementary:
 code:
 
-rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&amp;publication=proceedings&amp;title=A+neurocomputational+amygdala+model+of+auditory+fear+conditioning%3A+A+hybrid+system+approach&amp;isbn=978-1-4673-1488-6&amp;publicationDate=10-15+June+2012&amp;author=Navarro-Guerrero%2C+N.%3B+Lowe%2C+R.%3B+Wermter%2C+S.&amp;ContentID=10.1109/IJCNN.2012.6252392&amp;orderBeanReset=true&amp;startPage=1&amp;endPage=8&amp;proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on">&copy;2012, IEEE</a>
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&amp;publication=proceedings&amp;title=A+neurocomputational+amygdala+model+of+auditory+fear+conditioning%3A+A+hybrid+system+approach&amp;isbn=978-1-4673-1488-6&amp;publicationDate=10-15+June+2012&amp;author=Navarro-Guerrero%2C+N.%3B+Lowe%2C+R.%3B+Wermter%2C+S.&amp;ContentID=10.1109/IJCNN.2012.6252392&amp;orderBeanReset=true&amp;startPage=1&amp;endPage=8&amp;proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on">IEEE</a>
 license: 
 
 citation: {

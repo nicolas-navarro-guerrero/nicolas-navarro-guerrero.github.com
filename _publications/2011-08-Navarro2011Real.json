@@ -1,7 +1,7 @@
 ---
 tags: [robotdoc, conference, research]
 categories: publications
-author: Nicolás Navarro-Guerrero
+author: "Nicolás Navarro-Guerrero"
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2011-08-Navarro2011Real.jpg"
 file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2011-08-Navarro2011Real_pre-print.pdf"
@@ -10,7 +10,7 @@ slides: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/201
 supplementary:
 code:
 
-rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&amp;orderBeanReset=true&amp;orderSource=SpringerLink&amp;author=Nicol%C3%A1s+Navarro&amp;AuthorEmail=navarro%40informatik.uni-hamburg.de&amp;contentID=10.1007%2F978-3-642-23232-9_21&amp;openAccess=false&amp;endPage=240&amp;publicationDate=2011&amp;startPage=231&amp;title=Real-World+Reinforcement+Learning+for+Autonomous+Humanoid+Robot+Charging+in+a+Home+Environment&amp;imprint=Springer-Verlag+Berlin+Heidelberg&amp;publication=eBook&amp;authorAddress=Hamburg%2C+Germany">&copy;2011, Springer-Verlag Berlin Heidelberg</a>
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&amp;orderBeanReset=true&amp;orderSource=SpringerLink&amp;author=Nicol%C3%A1s+Navarro&amp;AuthorEmail=navarro%40informatik.uni-hamburg.de&amp;contentID=10.1007%2F978-3-642-23232-9_21&amp;openAccess=false&amp;endPage=240&amp;publicationDate=2011&amp;startPage=231&amp;title=Real-World+Reinforcement+Learning+for+Autonomous+Humanoid+Robot+Charging+in+a+Home+Environment&amp;imprint=Springer-Verlag+Berlin+Heidelberg&amp;publication=eBook&amp;authorAddress=Hamburg%2C+Germany">Springer-Verlag Berlin Heidelberg</a>
 license: 
 
 citation: {

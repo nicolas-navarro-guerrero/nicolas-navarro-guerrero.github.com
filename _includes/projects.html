@@ -28,28 +28,31 @@
   {% endif %}
 {% elsif section contains 'metadata' %}
 <div class="card mb-3">
-  <div class="row g-0 d-flex align-items-center">
+  <div class="row g-0 d-flex justify-content-center align-items-center">
     {% if page.thumbnail != null %}
-    <div class="col-lg-4 d-flex justify-content-center m-3" style="border:none; background-color: #ffffff; border-radius: 10px;">
-      <img src="{{ page.thumbnail }}" class="card-img rounded-3" alt="Thumbnail for {{ page.title }}">
+    <div class="col-lg-4 m-5 w-50">
+      <img src="{% if page.thumbnail != null %}{{ page.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+      class="card-img-top  p-3 " 
+      alt="Project Thumbnail" 
+      style=" object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">
     </div>
     {% endif %}
-    <div class="col-lg-8">
-      <div class="card-header border-light"><h5 class="card-title">{{ page.title }}
-        <small class="text-muted">{{ page.subtitle }}</small></h5></div>
+    <div class="col-lg-8 mt-3 w-100">
+      <div class="card-header border-light "><h5 class="card-title text-center">{{ page.title }}
+        <small class="text-muted text-center">{{ page.subtitle }}</small></h5></div>
       <div class="card-body">
         {% if page.coordinator != null %}
-          <p class="card-text">Coordinator (PI): {{ page.coordinator }}</p>
+          <p class="card-text"><strong>Coordinator (PI): </strong>{{ page.coordinator }}</p>
         {% endif %}
         {% if page.staff != null %}
           <p class="card-text">Contributors: {{ page.staff }}</p>
         {% endif %}
-        <p>Start Date: {% include date-formatting.html date=page.date fmt='string' %}</p>
-        <p>End Date: {% include date-formatting.html date=page.enddate fmt='string' %}</p>
+        <p><strong>Start Date: </strong>{% include date-formatting.html date=page.date fmt='string' %}</p>
+        <p><strong>End Date: </strong>{% include date-formatting.html date=page.enddate fmt='string' %}</p>
         {% if page.funded != null %}
-          <p>Funded by {{ page.funded }}</p>
+          <p><strong>Funded by </strong>{{ page.funded }}</p>
           {% if page.grant %}
-            <p>Project Code or Grant Number: {{ page.grant }}</p>
+            <p><strong>Project Code or Grant Number: </strong>{{ page.grant }}</p>
           {% endif %}
         {% endif %}
       </div>
@@ -126,7 +129,7 @@
               <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                   class="card-img-top  p-2 " 
                   alt="Project Thumbnail" 
-                  style=" object-fit: scale-down; border-radius: 5px; background-color: #ffffffd2;">
+                  style=" object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">
             </a>
           </div>
 

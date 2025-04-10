@@ -1,7 +1,7 @@
 ---
 tags: [robotdoc, abstract, research]
 categories: publications
-author: Nicolás Navarro-Guerrero
+author: "Nicolás Navarro-Guerrero"
 
 thumbnail: 
 file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2011-09-Navarro2011Many.pdf"
@@ -10,7 +10,7 @@ slides:
 supplementary:
 code:
 
-rights: "Copyright (&copy;) 2011 Nicolás Navarro-Guerrero"
+rights: "Copyright Nicolás Navarro-Guerrero"
 license: 
 
 citation: {

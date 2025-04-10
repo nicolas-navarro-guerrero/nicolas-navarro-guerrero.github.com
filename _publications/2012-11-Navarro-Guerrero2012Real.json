@@ -1,7 +1,7 @@
 ---
 tags: [robotdoc, journal, research]
 categories: publications
-author: Nicolás Navarro-Guerrero
+author: "Nicolás Navarro-Guerrero"
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real.jpg"
 file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real_pre-print.pdf"
@@ -10,7 +10,7 @@ slides:
 supplementary:
 code: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2012-11-Navarro-Guerrero2012Real_source.code.zip"
 
-rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&amp;contentID=S0921889012000814">&copy;2012 Elsevier B.V. All rights reserved.</a>
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&amp;contentID=S0921889012000814"> Elsevier B.V. All rights reserved.</a>
 license: 
 
 citation: {

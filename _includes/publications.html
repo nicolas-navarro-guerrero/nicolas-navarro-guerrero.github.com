@@ -126,14 +126,14 @@
           {% endif %}
         {% endif %}
           <li class="mt-4">
-            <div class="row align-items-center d-flex">
+            <div class="row ">
               <div class="col-md-3 {{display}} justify-content-center align-items-center">
                 <img  
                   src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                   onerror="this.src='/assets/placeholders.svg';" 
                   style="max-height: 200px; max-width: 100%; height: auto; width: auto; border: none;">
               </div>
-              <div class="col-md-9">
+              <div class="{% if display == 'd-none' %}col-12{% else %}col-md-9{% endif %}">
                 {% include publications-citation-style.html param=item %}
               </div>
             </div>
