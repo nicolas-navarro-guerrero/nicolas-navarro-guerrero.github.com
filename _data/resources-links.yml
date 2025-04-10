@@ -24,8 +24,6 @@
       url: https://github.com/retorquere/zotero-better-bibtex
     - name: SCImago Journal & Country Rank (where to publish)
       url: https://www.scimagojr.com/index.php
-    - name: DOAI (Digital Open Access Identifier) takes you to a free version of the article
-      url: http://doai.io/
     - name: Creative Commons copyright licenses
       url: https://open-access.net/DE-EN/germany-english/
     - name: Open Data Commons
@@ -93,8 +91,6 @@
   subitems: 
     - name: The Comprehensive TeX Archive Network
       url: http://www.ctan.org/
-    - name: MiKTeX (TeX/LaTeX for Windows)
-      url: http://www.miktex.org/
     - name: LaTeX (Wikibooks)
       url: https://en.wikibooks.org/wiki/LaTeX
     - name: TeX – LaTeX Stack Exchange (Forum)
@@ -132,6 +128,4 @@
       url: http://www.parashift.com/c++-faq-lite/
     - name: "GDB  The GNU Project Debugger"
       url: https://sourceware.org/gdb/
-    - name: Umbrello – The UML Modeller
-      url: https://umbrello.kde.org/
 
