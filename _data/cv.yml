@@ -118,8 +118,14 @@
 - name: Pedagogical/Teacher Training
   id: teaching
   subitems: 
+    - name: Cotutelle/Binationale Promotionen – Was ist zu beachten?
+      affiliation: International Office at the Leibniz University Hannover
+      from: 
+      until: 2025-02-10
+      link: https://www.uni-hannover.de/de/weiterbildung/intern/tds/angebot/722
+
     - name: Teacher Training Programme
-      affiliation: Aarhus University, Denmark
+      affiliation: Centre for Educational Development at Aarhus University, Denmark
       from: 2020-08-01
       until: 2020-12-15
       link: https://ced.au.dk/en/courses/university-pedagogical-programme
@@ -193,7 +199,7 @@
       affiliation: Springer Nature Group' npj Robotics Journal
       from: 2024-09-09
       until: Present
-      link: https://www.nature.com/npjrobot/
+      link: https://www.nature.com/npjrobot/editors
 
     - name: Guest Editorial Research Topic on Cognitive Inspired Aspects of Robot Learning
       affiliation: Frontiers in Neurorobotics
@@ -242,7 +248,19 @@
   id: evaluation
   subitems: 
     - name: Grant Reviewer
+      affiliation: Grant Reviewer for the Swiss National Science Foundation (SNSF)
+      from: 2025-03-01
+      until: 
+      link: 
+
+    - name: Grant Reviewer
       affiliation: Engineering track at Fondecyt, Chile
+      from: 2020-12-01
+      until: 
+      link: 
+
+    - name: Nominated to the External Examiner Corps of Danish Institutions of Higher Education in Engineering (CensorNet)
+      affiliation: in the field of Electronics, IT and Energy for the period 2018-2022 by Dimitris Chrysostomou from Aalborg University.
       from: 2020-12-01
       until: 
       link: 
