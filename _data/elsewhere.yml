@@ -36,6 +36,11 @@
       baseurl: https://www.semanticscholar.org
       icon: /assets/img/logos/Semantic-Scholar.png
 
+    - name: DBLP computer science bibliography 
+      username: pid/36/3268.html
+      baseurl: https://dblp.org
+      icon: /assets/img/logos/dblp-icon.png
+
 - name: extras
   subitems:
     - name: Zotero

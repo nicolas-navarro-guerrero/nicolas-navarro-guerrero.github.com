@@ -122,7 +122,7 @@
       affiliation: Aarhus University, Denmark
       from: 2020-08-01
       until: 2020-12-15
-      link: https://upnet.au.dk/en/teacher-training-programme/
+      link: https://ced.au.dk/en/courses/university-pedagogical-programme
 
     - name: Two-Days Course in PhD Supervision
       affiliation: Aarhus University, Denmark
@@ -155,6 +155,12 @@
 - name: Awards, and Fellowships
   id: awards
   subitems: 
+    - name: "15<sup>th</sup> Brazilian-German Frontiers of Science and Technology Symposium (BRAGFOST)"
+      affiliation: "Nominated and funded by CAPES and the Alexander von Humboldt Foundation"
+      from: 2025-04-11
+      until: 
+      link: https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/frontiers-of-research-symposia
+
     - name: "Top 10 Downloaded Articles 2023: Visuo-Haptic Object Perception for Robots: An Overview"
       affiliation: Autonomous Robots Journal from Springer Nature Group
       from: 2024-01-01
@@ -304,25 +310,25 @@
   id: summer-schools
   subitems: 
     - name: Co-Chair
-      affiliation: 4th Latin American Summer School on Robotics (LACORO)
+      affiliation: "4<sup>th</sup> Latin American Summer School on Robotics (LACORO)"
       from: 2025-12-08
       until: 2025-12-12
       link: https://lacoro.gitlab.io/2025/
 
     - name: Co-Chair
-      affiliation: 3rd Latin American Summer School on Robotics (LACORO)
+      affiliation: "3<sup>rd</sup> Latin American Summer School on Robotics (LACORO)"
       from: 2024-12-09
       until: 2024-12-13
       link: https://lacoro.gitlab.io/2024/
 
     - name: Co-Chair
-      affiliation: 2nd Latin American Summer School on Cognitive Robotics (LACORO)
+      affiliation: "2<sup>nd</sup> Latin American Summer School on Cognitive Robotics (LACORO)"
       from: 2023-01-03
       until: 2023-01-06
       link: https://lacoro.gitlab.io/2023/
 
     - name: Co-Chair
-      affiliation: 1st Latin American Summer School on Cognitive Robotics (LACORO)
+      affiliation: "1<sup>st</sup> Latin American Summer School on Cognitive Robotics (LACORO)"
       from: 2020-09-01
       until: 2020-09-04
       link: https://lacoro.gitlab.io/2020/
