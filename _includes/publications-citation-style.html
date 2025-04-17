@@ -38,9 +38,9 @@
 {% if handle.citation.event-place != null %}
   {{ handle.citation.event-place }}. 
 {% endif %}
-{% if handle.citation.event-title != null %}
+{% unless handle.citation.event-title != null and handle.citation.event-title==handle.citation.container-title%}
   {{ handle.citation.event-title}}. 
-{% endif %}
+{% endunless %}
 
 <!-- DATE -->
 {% if handle.citation.issued.day and handle.citation.issued.month and handle.citation.issued.year %}
@@ -98,7 +98,9 @@
 {% endif %}
 
 <!-- RIGHTS & LICENSE -->
+{% if handle.rights != null or handle.license != null %}
 &copy;{{handle.citation.issued.year}}
+{%endif%}
 {% if handle.license != null%}
   {{handle.license }}
 {% endif %}

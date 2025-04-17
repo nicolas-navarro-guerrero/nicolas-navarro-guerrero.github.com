@@ -24,6 +24,11 @@
       url: https://github.com/retorquere/zotero-better-bibtex
     - name: SCImago Journal & Country Rank (where to publish)
       url: https://www.scimagojr.com/index.php
+<<<<<<< Updated upstream
+=======
+    - name: DOAI (Digital Open Access Identifier) takes you to a free version of the article
+      url: https://archivalia.hypotheses.org/54769
+>>>>>>> Stashed changes
     - name: Creative Commons copyright licenses
       url: https://open-access.net/DE-EN/germany-english/
     - name: Open Data Commons
@@ -44,7 +49,7 @@
     - name: How to Be a Good Graduate Student (and advisor)
       url: https://heibeck.freeshell.org/Grad_Advice/how2b/how.2b.html
     - name: Ten Simple Rules for Graduate Students
-      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030229
+      url: https://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030229
     - name: Ten Simple Rules for Choosing between Industry and Academia
       url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000388
 
@@ -53,54 +58,60 @@
   id: writing
   subitems: 
     - name: The Chicago Manual of Style Online (Writing Style)
-      url: http://www.chicagomanualofstyle.org/home.html
+      url: https://www.chicagomanualofstyle.org/home.html
     - name: Publication Manual of the American Psychological Association (Writing Style)
-      url: http://www.apastyle.org/
+      url: https://www.apastyle.org/
     - name: IEEE Editorial Style Manual for Authors
       url: https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE_Style_Manual.pdf
       icon: <i class="fas fa-file-pdf"></i>
     - name: "The ACS Style Guide: Effective Communication of Scientific Information"
-      url: https://pubs.acs.org/isbn/9780841239999
+      url: https://pubs.acs.org/doi/10.1021/ed083p1603.1
     - name: How to Write for Technical Periodicals & Conferences
       url: https://eps.ieee.org/images/files/mc-ieee_author_guide_interactive.pdf
       icon: <i class="fas fa-file-pdf"></i>
     - name: Writing Style and Word Usage
       url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch004
     - name: Grammar, Punctuation, and Spelling
-      url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch009
+      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50202
     - name: Artwork and Multimedia Instructions
       url: https://www.elsevier.com/authors/author-schemas/artwork-and-media-instructions
     - name: Ten Simple Rules for Better Figures
-      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003833
+      url: https://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003833
     - name: Ten Simple Rules for Writing a Literature Review
-      url: http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003149
+      url: https://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003149
     - name: Ten Simple Rules for Writing Research Papers
-      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453
+      url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453
     - name: Ten Simple (Empirical) Rules for Writing Science
-      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004205
+      url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004205
     - name: Ten Simple Rules for a Good Poster Presentation
-      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030102
+      url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030102
     - name: Ten Simple Rules for Making Good Oral Presentations
-      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077
+      url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077
     - name: Ten simple rules for short and swift presentations
-      url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373
+      url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373
 
 
 - name: LaTeX
   id: latex
   subitems: 
     - name: The Comprehensive TeX Archive Network
+<<<<<<< Updated upstream
       url: http://www.ctan.org/
+=======
+      url: https://www.ctan.org/
+    - name: MiKTeX (TeX/LaTeX for Windows)
+      url: https://miktex.org
+>>>>>>> Stashed changes
     - name: LaTeX (Wikibooks)
       url: https://en.wikibooks.org/wiki/LaTeX
     - name: TeX – LaTeX Stack Exchange (Forum)
       url: https://tex.stackexchange.com/
     - name: Texmaker (cross-platform LaTeX editor)
-      url: http://www.xm1math.net/texmaker/
+      url: https://www.xm1math.net/texmaker/
     - name: "Detexify: LaTeX symbols"
-      url: http://detexify.kirelabs.org/classify.html
+      url: https://detexify.kirelabs.org/classify.html
     - name: The LaTeX Font Catalogue
-      url: http://www.tug.dk/FontCatalogue/
+      url: https://tug.org/FontCatalogue/
 
 
 - name: Software Development Tools
@@ -109,23 +120,28 @@
     - name: Python
       url: https://www.python.org/
     - name: SciPy
-      url: http://www.scipy.org/
+      url: https://www.scipy.org/
     - name: NumPy
-      url: http://www.numpy.org/
+      url: https://www.numpy.org/
     - name: NumPy for Matlab Users
       url: https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html
     - name: matplotlib
-      url: http://matplotlib.org/
+      url: https://matplotlib.org/
     - name: Spyder (IDE)
       url: https://www.spyder-ide.org/
     - name: Code::Blocks (IDE)
-      url: http://www.codeblocks.org/
+      url: https://www.codeblocks.org/
     - name: C++ reference
-      url: http://en.cppreference.com/w/
+      url: https://en.cppreference.com/w/
     - name: C++ Programming (Wikibooks)
-      url: http://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Style_Conventions
+      url: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Style_Conventions
     - name: C++ FAQ Lite
-      url: http://www.parashift.com/c++-faq-lite/
+      url: https://www.parashift.com/c++-faq-lite/
     - name: "GDB  The GNU Project Debugger"
       url: https://sourceware.org/gdb/
+<<<<<<< Updated upstream
+=======
+    - name: Umbrello – The UML Modeller
+      url: https://uml.sourceforge.io
+>>>>>>> Stashed changes
 
