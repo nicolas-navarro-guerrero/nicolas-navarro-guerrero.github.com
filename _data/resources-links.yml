@@ -3,8 +3,8 @@
   subitems: 
     - name: Academic Urban Legends
       url: https://journals.sagepub.com/doi/abs/10.1177/0306312714535679
-    - name: Advice for Advisors
-      url: https://www.oit.edu/faculty-staff/resources/academic-advising-handbook/how-to-be-good-academic-advisor
+#    - name: Advice for Advisors
+#      url: https://www.oit.edu/faculty-staff/resources/academic-advising-handbook/how-to-be-good-academic-advisor
     - name: Ethics of Scientific Publication
       url: https://science.sciencemag.org/content/144/3619/655
     - name: Defining the Role of Authors and Contributors
@@ -27,7 +27,7 @@
     - name: DOAI (Digital Open Access Identifier) takes you to a free version of the article
       url: https://archivalia.hypotheses.org/54769
     - name: Creative Commons copyright licenses
-      url: https://open-access.net/DE-EN/germany-english/
+      url: https://creativecommons.org/share-your-work/cclicenses/
     - name: Open Data Commons
       url: https://opendatacommons.org/
     - name: GNU General Public License
@@ -67,7 +67,7 @@
       url: https://eps.ieee.org/images/files/mc-ieee_author_guide_interactive.pdf
       icon: <i class="fas fa-file-pdf"></i>
     - name: Writing Style and Word Usage
-      url: https://pubs.acs.org/doi/abs/10.1021/bk-2006-STYG.ch004
+      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50101
     - name: Grammar, Punctuation, and Spelling
       url: https://pubs.acs.org/doi/full/10.1021/acsguide.50202
     - name: Artwork and Multimedia Instructions
