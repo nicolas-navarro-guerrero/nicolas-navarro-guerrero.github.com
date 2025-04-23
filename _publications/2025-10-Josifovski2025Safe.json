@@ -1,0 +1,67 @@
+---
+tags: [upcoming, reinforcement learning, sim2real, proceedings, continual learning]
+categories: "publications"
+author: "Josifovski et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-10-Josifovski2025Safe.png"
+file: "https://arxiv.org/pdf/2503.10949"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-10-Josifovski2025Safe.bib"
+slides: 
+supplementary: "https://safe-cda.github.io/"
+code: 
+
+citation: {
+		"bibtex": "Josifovski2025Safe",
+		"type": "paper-conference",
+		"container-title": "Under review in the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.48550/arXiv.2503.10949",
+		"event-place": "Hangzhou, China",
+		"license": "All rights reserved",
+		"note": "ISSN: 2153-0866",
+		"publisher": "IEEE",
+		"publisher-place": "Hangzhou, China",
+		"source": "IEEE Xplore",
+		"title": "Safe Continual Domain Adaptation After Sim2Real Transfer of Reinforcement Learning Policies in Robotics",
+		"URL": "https://arxiv.org/abs/2503.10949",
+		"author": [
+			{
+				"family": "Josifovski",
+				"given": "Josip"
+			},
+			{
+				"family": "Gu",
+				"given": "Shangding"
+			},
+			{
+				"family": "Malmir",
+				"given": "Mohammadhossein"
+			},
+			{
+				"family": "Huang",
+				"given": "Haoliang"
+			},
+			{
+				"family": "Auddy",
+				"given": "Sayantan"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Spanos",
+				"given": "Costas"
+			},
+			{
+				"family": "Knoll",
+				"given": "Alois"
+			}
+		],
+		"issued": {
+          "year": "2025",
+          "month": "10", 
+		}
+	}
+---
