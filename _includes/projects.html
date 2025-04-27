@@ -27,14 +27,15 @@
     {{ page.sponsors }}
   {% endif %}
 {% elsif section contains 'metadata' %}
+
+
+
+
 <div class="card mb-3">
   <div class="row g-0 d-flex justify-content-center align-items-center">
     {% if page.thumbnail != null %}
-    <div class="col-lg-4 m-5 w-50">
-      <img src="{% if page.thumbnail != null %}{{ page.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
-      class="card-img-top  p-3 " 
-      alt="Project Thumbnail" 
-      style=" object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">
+    <div class="col-lg-4 m-5 w-75 svg">
+      {%include carousel.html thumbnail=page.thumbnail project=page%}
     </div>
     {% endif %}
     <div class="col-lg-8 mt-3 w-100">
@@ -59,6 +60,11 @@
     </div><!-- row 8 -->
   </div><!-- row -->
 </div><!-- card -->
+
+
+
+
+
 {% elsif section contains 'publications' %}
   {% assign isrelatedpapers = null %}
   {% if page.relatedpapers != null %}
