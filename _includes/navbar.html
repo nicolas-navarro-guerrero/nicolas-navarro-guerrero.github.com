@@ -32,7 +32,7 @@
                 <a {% if page.url contains submenu.slug %}
                      class="dropdown-item active"
                    {% else %}
-                     class="dropdown-item"
+                     class="dropdown-item" 
                    {% endif %}
                    href="{{ submenu.slug | prepend: site.baseurl }}" >{{ submenu.name }}</a>
               {% endfor %}

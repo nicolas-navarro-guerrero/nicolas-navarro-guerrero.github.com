@@ -56,16 +56,12 @@
   subitems: 
     - name: The Chicago Manual of Style Online (Writing Style)
       url: https://www.chicagomanualofstyle.org/home.html
-    - name: Publication Manual of the American Psychological Association (Writing Style)
-      url: https://www.apastyle.org/
     - name: IEEE Editorial Style Manual for Authors
       url: https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE_Style_Manual.pdf
-      icon: <i class="fas fa-file-pdf"></i>
-    - name: "The ACS Style Guide: Effective Communication of Scientific Information"
-      url: https://pubs.acs.org/doi/10.1021/ed083p1603.1
+      icon: 
     - name: How to Write for Technical Periodicals & Conferences
       url: https://eps.ieee.org/images/files/mc-ieee_author_guide_interactive.pdf
-      icon: <i class="fas fa-file-pdf"></i>
+      icon: 
     - name: Writing Style and Word Usage
       url: https://pubs.acs.org/doi/full/10.1021/acsguide.50101
     - name: Grammar, Punctuation, and Spelling
@@ -86,6 +82,10 @@
       url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077
     - name: Ten simple rules for short and swift presentations
       url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373
+    - name: Publication Manual of the American Psychological Association (Writing Style)
+      url: https://www.apastyle.org/
+    - name: "The ACS Style Guide: Effective Communication of Scientific Information"
+      url: https://pubs.acs.org/doi/10.1021/ed083p1603.1
 
 
 - name: LaTeX

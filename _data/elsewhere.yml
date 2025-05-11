@@ -17,13 +17,13 @@
     - name: ORCID
       username: 0000-0003-1164-5579
       baseurl: https://orcid.org
-      icon: /assets/img/logos/orcid_64x64.png
-#      icon: <i class="fab fa-orcid"></i>
+      icon: <i class="fab fa-orcid"></i>
 
     - name: Google Scholar
       username: citations?user=SeQvYQ0AAAAJ
       baseurl: https://scholar.google.de
-      icon: /assets/img/logos/google-scholar-64x64.png
+      icon: <i class="fab fa-google-scholar"></i>
+#      icon: /assets/img/logos/google-scholar-64x64.png
 
     - name: ResearchGate
       username: Nicolas_Navarro-Guerrero
@@ -43,11 +43,6 @@
 
 - name: extras
   subitems:
-    - name: Zotero
-      username: groups/nng-publications/items
-      baseurl: https://www.zotero.org
-      icon: /assets/img/logos/zotero_48x48x32.png
-
     - name: Publons (Web of Science)
       username: 1481323
       baseurl: https://www.webofscience.com/wos/author/record

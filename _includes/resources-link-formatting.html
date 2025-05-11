@@ -4,7 +4,7 @@
 {% for item in datafile %}
   {% if handle == 'all' or handle == item.id %}
     <h3 class="pt-5 text-center" id="{{ item.id }}">
-      {{ item.name | capitalize }} <i class="fa-solid fa-up-right-from-square"></i> <!-- Updated icon for Bootstrap 5.3 & Font Awesome 6 -->
+      {{ item.name | capitalize }} <i class="fa-solid fa-up-right-from-square"></i> 
     </h3>
 
     {% assign ans = item.subitems | size %}
@@ -21,6 +21,7 @@
             <div class="col-12 col-md-6">
               <div class="list-group">
             {% endif %}
+            
             <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }}{% if subitem.icon != null %}{{ subitem.icon }}{% endif %}</a>
             {% assign counter = counter | plus: 1 %}
           {% endfor %}
