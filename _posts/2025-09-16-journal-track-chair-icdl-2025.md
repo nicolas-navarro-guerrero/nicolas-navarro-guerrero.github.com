@@ -3,7 +3,7 @@ layout: post
 
 title:  "Journal Track Chair: IEEE International Conference on Development and Learning (ICDL 2025)"
 subtitle: 
-thumbnail: 
+thumbnail: "https://icdl2025.fel.cvut.cz/wp-content/uploads/2024/10/whitelogo_tr.png" 
 
 tags: [Journal Track chair, committee, conference, organization]
 categories: [news]

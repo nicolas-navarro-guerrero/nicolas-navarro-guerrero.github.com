@@ -10,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-Chair of the General Principles of Development and Learning Session at the <a target="_blank" href="https://icdl-2021.org/">IEEE International Conference on Development and Learning (ICDL)</a> held in Beijing, People's Republic of China, 25<sup>th</sup> Aug. 2021.
+Chair of the General Principles of Development and Learning Session at the <a target="_blank" href="https://ieeexplore.ieee.org/xpl/conhome/9515562/proceeding">IEEE International Conference on Development and Learning (ICDL)</a> held in Beijing, People's Republic of China, 25<sup>th</sup> Aug. 2021.
 
 <!--more-->
 

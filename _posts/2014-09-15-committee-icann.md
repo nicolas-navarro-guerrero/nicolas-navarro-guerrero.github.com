@@ -3,7 +3,7 @@ layout: post
 
 title:  "Co-Organization: International Conference on Artificial Neural Networks (ICANN)"
 subtitle: 
-thumbnail: 
+thumbnail: "https://e-nns.org/wp-content/themes/twentyfourteen-enns/images/logo.png"
 
 tags: [call for papers, conference, organization]
 categories: [news]

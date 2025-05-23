@@ -3,7 +3,7 @@ layout: post
 
 title:  "Project Leader M-RoCK project"
 subtitle: "Human-Machine Interaction Modeling for Continuous Improvement of Robot Behavior"
-thumbnail: 
+thumbnail: "https://www.dfki.de/fileadmin/_processed_/7/c/csm_Project_1445_fbde8b1a5c.png"
 
 tags: [Academic Management, Leadership]
 categories: [news]

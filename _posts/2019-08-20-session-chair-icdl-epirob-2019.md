@@ -10,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-Chair of the Sensorimotor Development Session at the <a target="_blank" href="https://icdl-epirob2019.org/">Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)</a> held in Oslo, Norway, 20<sup>th</sup> Aug. 2019.
+Chair of the Sensorimotor Development Session at the <a target="_blank" href="https://icdlepirob2019.wordpress.com">Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)</a> held in Oslo, Norway, 20<sup>th</sup> Aug. 2019.
 
 <!--more-->
 

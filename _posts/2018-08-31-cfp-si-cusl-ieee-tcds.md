@@ -10,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-This special issue aims to report state-of-the-art approaches and recent advances on Continual Unsupervised Sensorimotor Learning with a cross-disciplinary perspective. For more information on the Special Issue, <a target="_blank" href="https://projects.au.dk/socialrobotics/news-events/show/artikel/special-issue-on-continual-unsupervised-sensorimotor-learning/">click here.</a>
+This special issue aims to report state-of-the-art approaches and recent advances on Continual Unsupervised Sensorimotor Learning with a cross-disciplinary perspective. For more information on the Special Issue, <a target="_blank" href="https://www.researchgate.net/publication/352261282_Guest_Editorial_Special_Issue_on_Continual_Unsupervised_Sensorimotor_Learning">click here.</a>
 
 <!--more-->
 

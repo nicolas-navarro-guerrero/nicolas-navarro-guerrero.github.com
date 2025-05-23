@@ -3,7 +3,7 @@ layout: post
 
 title:  "Editorial Board: Joined the Editorial Board of the Humanoid Robotics Section"
 subtitle: "Frontiers in Robotics and AI"
-thumbnail: 
+thumbnail: "https://www.frontiersin.org/"
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
 categories: [news]
