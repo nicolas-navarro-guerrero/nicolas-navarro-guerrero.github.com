@@ -22,7 +22,7 @@
               <div class="list-group">
             {% endif %}
             
-            <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }}{% if subitem.icon != null %}{{ subitem.icon }}{% endif %}</a>
+            <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }}{% if subitem.icon != null %}  {{ subitem.icon }}{% endif %}</a>
             {% assign counter = counter | plus: 1 %}
           {% endfor %}
     </div><!-- column -->
