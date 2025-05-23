@@ -1,0 +1,51 @@
+---
+tags: [thesis, phd, luh, upe, brazil, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Fernandes",
+        "given": "Bruno"
+      },
+      {
+        "family": "Nejdl",
+        "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "RibeirodeAndrade2029Federated",
+		"type": "thesis",
+		"event-place": "Recife, Pernambuco, Brazil and Hanover, Germany",
+		"genre": "PhD",
+		"publisher": "Universidade de Pernambuco (Brazil) and Gottfried Wilhelm Leibniz Universität Hannover (Germany)",
+		"publisher-place": "Recife, Pernambuco, Brazil and Hanover, Germany",
+		"title": "Federated Learning for Demand Forecasting and Resource Optimization in Distributed Environments",
+		"author": [
+			{
+				"family": "Ribeiro de Andrade",
+				"given": "João Vinícius"
+			}
+		],
+		"issued": {
+			"year": "TBA",
+			"month": "MM",
+		}
+	}
+---
+

@@ -1,0 +1,47 @@
+---
+tags: [thesis, phd, luh, germany, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+        "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "Kuhlmann20YYROMEO",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "PhD",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "ROMEO: Robot-MEdiated Object manipulation with haptic feedback",
+		"author": [
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			}
+		],
+		"issued": {
+			"year": "TBA",
+			"month": "MM",
+		}
+	}
+---
+

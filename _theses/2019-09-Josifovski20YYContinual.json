@@ -1,0 +1,47 @@
+---
+tags: [thesis, phd, tum, macedonia, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Knoll",
+        "given": "Alois Christian"
+      },
+    ]
+
+citation: {
+		"id": "Josifovski20YYContinual",
+		"type": "thesis",
+		"event-place": "Munich, Germany",
+		"genre": "PhD",
+		"publisher": "Technische Universität München",
+		"publisher-place": "Munich, Germany",
+		"title": "Continual Domain Randomization",
+		"author": [
+			{
+				"family": "Josifovski",
+				"given": "Josip"
+			}
+		],
+		"issued": {
+			"year": "TBA",
+			"month": "MM",
+		}
+	}
+---
+

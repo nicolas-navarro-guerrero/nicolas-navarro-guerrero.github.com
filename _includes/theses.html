@@ -32,8 +32,9 @@
               <th>Name</th>
             {% if handle contains 'phd' %}
               <th>Mentors</th>
-            {% endif %}
+            {% else %}
               <th>Supervisors</th>
+            {% endif %}
               <th>Examiners</th>
               <th>Title</th>
               <th>Material</th>
@@ -63,14 +64,6 @@
             &amp;
           {% endif %}
         {% endfor %}</td>
-    {% if handle contains 'phd' %}
-    <td>{% for super in item.mentors %}
-          {{ super.given }} {{ super.family }}
-          {% if forloop.last == false %}
-            &amp; 
-          {% endif %}
-        {% endfor %}</td>
-    {% endif %}
     <td>{% for super in item.supervisors %}
           {{ super.given }} {{ super.family }}
           {% if forloop.last == false %}
