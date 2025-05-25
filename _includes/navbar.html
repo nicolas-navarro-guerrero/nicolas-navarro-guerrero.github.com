@@ -1,58 +1,59 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container px-3">
+    <a class="navbar-brand ms-2 site-brand" href="{{ site.baseurl | append: '/' }}"><strong>{{ site.brand }}</strong></a>
+    
 
-  <a class="navbar-brand ms-2 site-brand" href="{{ site.baseurl | append: '/' }}"><strong>{{ site.brand }}</strong></a>
-  
 
-
-  <!--themetoggle button-->
-  <div class="navbar-brand d-flex justify-content-center align-items-center me-auto" style="width: 40px; height: 40px; flex-shrink: 0;">
-    <button id="darkModeToggle" class="btn d-flex justify-content-center align-items-center" style="border: none; width: 40px; height: 40px; padding: 0;" type="button">
-      <i id="darkmode-icon" class="fa-solid" style="color: white; font-size: 20px;"></i>
+    <!--themetoggle button-->
+    <div class="navbar-brand d-flex justify-content-center align-items-center me-auto" style="width: 40px; height: 40px; flex-shrink: 0;">
+      <button id="darkModeToggle" class="btn d-flex justify-content-center align-items-center" style="border: none; width: 40px; height: 40px; padding: 0;" type="button">
+        <i id="darkmode-icon" class="fa-solid" style="color: white; font-size: 20px;"></i>
+      </button>
+    </div>
+    
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
+    
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          {% for item in site.data.navigation %}
+            {% if item.submenuitems %}
+              <li {% if page.url contains item.id %}
+                    class="nav-item dropdown active">
+                  {% else %}
+                    class="nav-item dropdown">
+                  {% endif %}
+                <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+              {{ item.name }}
+              </a>
+              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="{{ item.id }}">
+                {% for submenu in item.submenuitems %}
+                  <a {% if page.url contains submenu.slug %}
+                      class="dropdown-item active"
+                    {% else %}
+                      class="dropdown-item" 
+                    {% endif %}
+                    href="{{ submenu.slug | prepend: site.baseurl }}" >{{ submenu.name }}</a>
+                {% endfor %}
+              </div>
+              </li>
+            {% else %}
+              <li {% if page.url contains item.slug %}
+                    class="nav-item active" 
+                  {% else %}
+                    class="nav-item" 
+                  {% endif %}>
+                  <a class="nav-link" href="{{ item.slug | prepend: site.baseurl }}" title="{{ item.name }}" style="color: white;">{{ item.name }}
+                  {% if page.slug == item.name %}
+                    <span class="visually-hidden">(current)</span>
+                  {% endif %}
+                  </a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+    </div><!-- collapse -->
   </div>
-  
-  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        {% for item in site.data.navigation %}
-          {% if item.submenuitems %}
-            <li {% if page.url contains item.id %}
-                  class="nav-item dropdown active">
-                {% else %}
-                  class="nav-item dropdown">
-                {% endif %}
-              <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
-            {{ item.name }}
-            </a>
-            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="{{ item.id }}">
-              {% for submenu in item.submenuitems %}
-                <a {% if page.url contains submenu.slug %}
-                     class="dropdown-item active"
-                   {% else %}
-                     class="dropdown-item" 
-                   {% endif %}
-                   href="{{ submenu.slug | prepend: site.baseurl }}" >{{ submenu.name }}</a>
-              {% endfor %}
-            </div>
-            </li>
-          {% else %}
-            <li {% if page.url contains item.slug %}
-                  class="nav-item active" 
-                {% else %}
-                  class="nav-item" 
-                {% endif %}>
-                <a class="nav-link" href="{{ item.slug | prepend: site.baseurl }}" title="{{ item.name }}" style="color: white;">{{ item.name }}
-                {% if page.slug == item.name %}
-                  <span class="visually-hidden">(current)</span>
-                {% endif %}
-                </a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-  </div><!-- collapse -->
 </nav><!-- navbar -->
 
 <style>

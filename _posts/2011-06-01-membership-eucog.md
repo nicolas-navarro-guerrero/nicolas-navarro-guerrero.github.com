@@ -3,7 +3,7 @@ layout: post
 
 title:  "Membership: EUCognition – European Society for Cognitive Systems"
 subtitle: 
-thumbnail: 
+thumbnail: "../assets/img/posts/eucognition.png"
 
 tags: [membership, outreach]
 categories: [news]

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: 1st International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots)"
 subtitle: "18th International Conference on Intelligent Environments (IE)"
-thumbnail: "https://ebooks.iospress.nl/Content/themes/iospress/images/article.gif"
+thumbnail: "https://www.aal.at/wp-content/uploads/2022/02/IE2022.png"
 
 tags: [program committee, committee, technical committee, workshop, conference]
 categories: [news]

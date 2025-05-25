@@ -3,7 +3,7 @@ layout: post
 
 title:  "Call for Papers: Special Issue on Emerging Topics on Development and Learning"
 subtitle: "IEEE Transactions on Cognitive and Developmental Systems"
-thumbnail: 
+thumbnail: "https://slogix.in/images/journals/ieee-transactions-on-cognitive-and-developmental-systems-journal-with-impact-factor.jpg"
 
 tags: [special issue, journal, call for papers]
 categories: [news]

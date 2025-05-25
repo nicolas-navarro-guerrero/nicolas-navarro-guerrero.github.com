@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: 12th Robotics Kongress – Safety, Security und Künstliche Intelligenz"
 subtitle: Hanover, Germany
-thumbnail: 
+thumbnail: "https://www.technology-academy.group/wp-content/uploads/2022/11/Robotics-Kongress.jpg"
 
 tags: [outreach, talk, seminar]
 categories: [news]

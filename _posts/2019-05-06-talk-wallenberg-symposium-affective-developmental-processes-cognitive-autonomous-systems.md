@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Wallenberg Symposium on Affective and Developmental Processes in Cognitive and Autonomous Systems"
 subtitle: "Augmenting Deep Learning using Neural Dynamics and Predictive Coding"
-thumbnail: 
+thumbnail: "../assets/img/posts/talkwallenberg.png"
 
 tags: [outreach, talk, Workshop, Symposium]
 categories: [news]
