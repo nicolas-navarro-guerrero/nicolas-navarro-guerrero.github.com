@@ -46,7 +46,7 @@
           <p class="card-text"><strong>Coordinator (PI): </strong>{{ page.coordinator }}</p>
         {% endif %}
         {% if page.staff != null %}
-          <p class="card-text">Contributors: {{ page.staff }}</p>
+          <p class="card-text"><strong>Contributors:</strong> {{ page.staff }}</p>
         {% endif %}
         <p><strong>Start Date: </strong>{% include date-formatting.html date=page.date fmt='string' %}</p>
         <p><strong>End Date: </strong>{% include date-formatting.html date=page.enddate fmt='string' %}</p>

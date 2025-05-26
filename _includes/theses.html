@@ -41,24 +41,11 @@
             </tr>
           </thead>
           <tbody>
-
-{% assign total_count=0 %}
-{% assign men_count=0 %}
-{% assign women_count=0 %}
-
 {% for item in datafile reversed %}
   {% unless item.categories contains 'template' %}
   {% assign tmp = item.citation.genre | downcase %}
   {% assign tmp2 = item.citation.type | downcase %}
   {% if tmp contains handle or tmp contains handle2 or tmp2 contains handle %}
-
-
-  {% assign total_count = total_count | plus: 1 %}
-  {% if item.tags contains 'woman' %}
-    {% assign women_count = women_count | plus: 1 %}
-  {% elsif item.tags contains 'man' %}
-    {% assign men_count = men_count | plus: 1 %}
-  {% endif %}
   <tr>
     <td>{{ item.citation.issued.year }} {% include 3-letters-month.html param=item.citation.issued.month %} </td>
 <!--    <td>{% if item.citation.genre != null %}
@@ -116,46 +103,5 @@
       </div><!-- table-responsive -->
     </div><!-- column -->
   </div><!-- row -->
-
-{% unless handle contains "report" or handle2 contains "report"%}
-  <div class="table-responsive">
-    <table class="table table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Total</th>				
-          <th>Women</th>
-          <th>Women %</th>
-          <th>Men</th>
-          <th>Men %</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            {{total_count}}
-          </td>
-          <td>
-            {{women_count}}
-          </td>
-          <td>
-          {% if total_count>0 %}
-              {% assign ratio = women_count | times: 100 | divided_by: total_count %}
-              {{ ratio }}%
-          {% endif %}
-          </td>
-          <td>
-            {{men_count}}
-          </td>
-          <td>
-          {% if total_count>0 %}
-              {% assign ratio = men_count | times: 100 | divided_by: total_count %}
-              {{ ratio }}%
-          {% endif %}
-            
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-{% endunless %}
 {% endif %}
+

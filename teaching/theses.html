@@ -28,79 +28,27 @@ author: Nicolás Navarro-Guerrero
 </ul>
 
 <h3 class="pt-5" id="supervised">Mentored, Supervised and Examined Theses</h3>
+{% include theses-summary.html param='all' %}
 
 <h4 class="pt-3" id="MSc">PhD Theses: Mentored, Supervised or Examined</h4>
+{% include theses-summary.html param='phd' %}
 {% include theses.html param='phd' %}
 
 
 <h4 class="pt-3" id="MSc">Master Theses</h4>
+{% include theses-summary.html param='MSc' param2='Diplom' %}
 {% include theses.html param='MSc' param2='Diplom' %}
 
 
 <h4 class="pt-5" id="MSc">Bachelor Theses</h4>
+{% include theses-summary.html param='BSc' %}
 {% include theses.html param='BSc' %}
 
 
 <h4 class="pt-5" id="MSc">MSc Research and Development Projects</h4>
+{% include theses-summary.html param='report' %}
 {% include theses.html param='report' %}
 
-
-
-{% assign total_count=0 %}
-{% assign men_count=0 %}
-{% assign women_count=0 %}
-
-{% for item in site.theses%}
-    {% assign total_count = total_count | plus: 1 %}
-    {% if item.tags contains 'woman' %}
-        {% assign women_count = women_count | plus: 1 %}
-    {% elsif item.tags contains 'man' %}
-        {% assign men_count = men_count | plus: 1 %}
-    {% endif %}
-{%endfor%}
-
-
-
-<h4 class="pt-5">Total Overview</h4>
-  <div class="table-responsive">
-    <table class="table table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Total</th>				
-          <th>Women</th>
-          <th>Women %</th>
-          <th>Men</th>
-          <th>Men %</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            {{total_count}}
-          </td>
-          <td>
-            {{women_count}}
-          </td>
-          <td>
-          {% if total_count>0 %}
-              {% assign ratio = women_count | times: 100 | divided_by: total_count %}
-              {{ ratio }}%
-          {% endif %}
-          </td>
-          <td>
-            {{men_count}}
-          </td>
-          <td>
-          {% if total_count>0 %}
-              {% assign ratio = men_count | times: 100 | divided_by: total_count %}
-              {{ ratio }}%
-          {% endif %}
-            
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
 
 {% include publications.html section='copyright' %}
 
