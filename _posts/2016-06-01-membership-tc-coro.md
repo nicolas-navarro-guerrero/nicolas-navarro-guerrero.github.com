@@ -3,7 +3,7 @@ layout: post
 
 title:  "Membership: IEEE Technical Committee on Cognitive Robotics"
 subtitle: 
-thumbnail: "https://www.ieee-ras.org/templates/ras-tc/images/logo-ras_color.png"
+thumbnail: "../assets/img/posts/ieee-ras-cognitive-robotics.png"
 
 tags: [membership, peer esteem indicators, outreach]
 categories: [news]
