@@ -39,10 +39,10 @@
 
 - name: extras
   subitems:
-    - name: Publons (Web of Science)
+    - name: Web of Science
       username: 1481323
       baseurl: https://www.webofscience.com/wos/author/record
-      icon: /assets/img/logos/clarivate-logo.png
+      icon: /assets/img/logos/clarivate-icon.png
 
 - name: datasets
   subitems:
