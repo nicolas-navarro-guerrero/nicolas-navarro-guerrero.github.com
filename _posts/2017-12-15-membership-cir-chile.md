@@ -3,7 +3,7 @@ layout: post
 
 title:  "Membership: Centro de Innovación y Robótica"
 subtitle: "NGO: Robotic and Technological Innovation in Chile"
-thumbnail: "https://www.innovacionyrobotica.com/images/logo06.png"
+thumbnail: "../assets/img/posts/centro2017_dec.png"
 
 tags: [membership, peer esteem indicators, outreach]
 categories: [news]

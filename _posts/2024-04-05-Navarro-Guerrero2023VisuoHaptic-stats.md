@@ -3,7 +3,7 @@ layout: post
 
 title: "Autonomous Robots - Top 10 Downloaded Articles 2023"
 subtitle: 
-thumbnail: "https://media.springernature.com/w120/springer-static/cover-hires/journal/10514?as=webp"
+thumbnail: "../assets/img/posts/article2023_apr.png"
 
 tags: [research, impact]
 categories: [news]

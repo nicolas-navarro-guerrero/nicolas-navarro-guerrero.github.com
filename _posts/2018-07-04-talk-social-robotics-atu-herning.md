@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Akademiet for Talentfuld Unge (ATU)"
 subtitle: "Sommercamp 2018"
-thumbnail: "../assets/img/posts/akademiet.png"
+thumbnail: "../assets/img/posts/akademiet2018_jul.png"
 
 tags: [outreach, talk]
 categories: [news]

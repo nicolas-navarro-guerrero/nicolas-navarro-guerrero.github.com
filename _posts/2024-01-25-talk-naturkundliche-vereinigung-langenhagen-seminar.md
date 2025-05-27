@@ -3,7 +3,7 @@ layout: post
 
 title:  "Seminar: Naturkundliche Vereinigung Langenhagen e.V. (NVL)"
 subtitle: Hanover, Germany
-thumbnail: "https://nvl-langenhagen.de/img/main/header-logo.gif"
+thumbnail: "../assets/img/posts/nvl2024_jan.png"
 
 tags: [outreach, talk, seminar]
 categories: [news]

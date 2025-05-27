@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: 2nd International Workshop on Sentiment Analysis and Emotion Recognition for Social Robots (SentiRobots)"
 subtitle: "19th International Conference on Intelligent Environments (IE)"
-thumbnail: "https://easychair.org/images/cfp-logo/SentiRobots2023.jpg?id=15093319"
+thumbnail: "../assets/img/posts/SentiRobots2023_jun.jpg"
 
 tags: [program committee, committee, technical committee, workshop, conference]
 categories: [news]

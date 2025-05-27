@@ -6,68 +6,212 @@
 
 {% if handle contains "report" or handle2 contains "report" %}
   {% assign datafile = site.pre-theses %}
-  {% assign bibfiles = "/assets/supervised-pre-theses/" %}
 {% else %}
   {% assign datafile = site.theses %}
-  {% assign bibfiles = "/assets/supervised-theses/" %}
 {% endif %}
 
 
-{% assign total_count=0 %}
-{% assign men_count=0 %}
-{% assign women_count=0 %}
 
-{% for item in datafile reversed %}
-  {% unless item.categories contains 'template' %}
-    {% assign tmp = item.citation.genre | downcase %}
-    {% assign tmp2 = item.citation.type | downcase %}
-    {% if tmp contains handle or tmp contains handle2 or tmp2 contains handle or handle contains "all" %}
-      {% assign total_count = total_count | plus: 1 %}
-      {% if item.tags contains 'woman' %}
-        {% assign women_count = women_count | plus: 1 %}
-      {% elsif item.tags contains 'man' %}
-        {% assign men_count = men_count | plus: 1 %}
+{% if handle == "all" %}
+  {% assign total_count=0 %}
+  {% assign men_count=0 %}
+  {% assign women_count=0 %}
+
+
+  <div class="table-responsive">
+    <table class="table table-striped table-condensed">
+      <thead>
+        <tr>
+          <th class="text-center">Category</th>
+          <th class="text-center">Total</th>				
+          <th class="text-center">Women</th>
+          <th class="text-center">Women %</th>
+          <th class="text-center">Men</th>
+          <th class="text-center">Men %</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- All theses -->
+        {% assign types = "phd,master,bsc" | split: "," %}
+        {% assign labels = "PhD Theses,Master Theses,Bachelor Theses" | split: "," %}
+
+        {% for type in types %}
+          {% assign idx = forloop.index0 %}
+          {% assign label = labels[idx] %}
+          
+          {% assign total_subcount = 0 %}
+          {% assign women_subcount = 0 %}
+          {% assign men_subcount = 0 %}
+
+          {% for item in site.theses %}
+            {% if item.tags contains {{type}} %}
+              {% assign total_subcount = total_subcount | plus: 1 %}
+              {% if item.tags contains 'woman' %}
+                {% assign women_subcount = women_subcount | plus: 1 %}
+              {% elsif item.tags contains 'man' %}
+                {% assign men_subcount = men_subcount | plus: 1 %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+
+          <tr>
+            <td class="text-center">{{ label }}</td>
+            <td class="text-center">{{ total_subcount }}</td>
+            <td class="text-center">{{ women_subcount }}</td>
+            <td class="text-center">
+              {% if total_subcount > 0 %}
+                {{ women_subcount | times: 100 | divided_by: total_subcount }}%
+              {% else %}
+                0%
+              {% endif %}
+            </td>
+            <td class="text-center">{{ men_subcount }}</td>
+            <td class="text-center">
+              {% if total_subcount > 0 %}
+                {{ men_subcount | times: 100 | divided_by: total_subcount  }}%
+              {% else %}
+                0%
+              {% endif %}
+            </td>
+            </tr>
+            {%assign women_count = women_count | plus : women_subcount%}
+            {%assign men_count = men_count | plus : men_subcount%}
+            {%assign total_count= total_count | plus : total_subcount%}
+        {% endfor %}
+
+        <!-- projects / preTheses -->
+        {% assign types = "master" | split: "," %}
+        {% assign labels = "Master Projects" | split: "," %}
+
+        {% assign total_subcount = 0 %}
+        {% assign women_subcount = 0 %}
+        {% assign men_subcount = 0 %}
+
+        {% for type in types %}
+          {% assign idx = forloop.index0 %}
+          {% assign label = labels[idx] %}
+          {% for item in site.pre-theses %}
+
+            {% if item.tags contains {{type}} %}
+              {% assign total_subcount = total_subcount | plus: 1 %}
+              {% if item.tags contains 'woman' %}
+                {% assign women_subcount = women_subcount | plus: 1 %}
+              {% elsif item.tags contains 'man' %}
+                {% assign men_subcount = men_subcount | plus: 1 %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          <tr>
+            <td class="text-center">{{ label }}</td>
+            <td class="text-center">{{ total_subcount }}</td>
+            <td class="text-center">{{ women_subcount }}</td>
+            <td class="text-center">
+              {% if total_subcount > 0 %}
+                {{ women_subcount | times: 100 | divided_by: total_subcount }}%
+              {% else %}
+                0%
+              {% endif %}
+            </td>
+            <td class="text-center">{{ men_subcount }}</td>
+            <td class="text-center">
+              {% if total_subcount > 0 %}
+                {{ men_subcount | times: 100 | divided_by: total_subcount  }}%
+              {% else %}
+                0%
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+
+        {%assign women_count = women_count | plus : women_subcount%}
+        {%assign men_count = men_count | plus : men_subcount%}
+        {%assign total_count= total_count | plus : total_subcount%}
+        <!--show Total -->
+        <tr>
+          <td class="text-center">All</td>
+          <td class="text-center">{{total_count}}</td>
+          <td class="text-center">{{women_count}}</td>
+          <td class="text-center">
+            {% if total_count > 0 %}
+              {{ women_count | times: 100 | divided_by: total_count  }}%
+            {% else %}
+              0%
+            {% endif %}
+          </td>
+          <td class="text-center">{{men_count}}</td>
+          <td class="text-center">
+            {% if total_count > 0 %}
+              {{ men_count | times: 100 | divided_by: total_count  }}%
+            {% else %}
+              0%
+            {% endif %}
+          </td>
+
+        </tr>
+
+        
+      </tbody>
+    </table>
+  </div>
+
+ 
+{% else %}
+  {% assign total_count=0 %}
+  {% assign men_count=0 %}
+  {% assign women_count=0 %}
+
+  {% for item in datafile %}
+    {% unless item.categories contains 'template' %}
+      {% assign tmp = item.citation.genre | downcase %}
+      {% assign tmp2 = item.citation.type | downcase %}
+      {% if tmp contains handle or tmp contains handle2 or tmp2 contains handle or handle contains "all" %}
+        {% assign total_count = total_count | plus: 1 %}
+        {% if item.tags contains 'woman' %}
+          {% assign women_count = women_count | plus: 1 %}
+        {% elsif item.tags contains 'man' %}
+          {% assign men_count = men_count | plus: 1 %}
+        {% endif %}
       {% endif %}
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-
-<div class="table-responsive">
-  <table class="table table-striped table-condensed">
-    <thead>
-      <tr>
-        <th class="text-center">Total</th>				
-        <th class="text-center">Women</th>
-        <th class="text-center">Women %</th>
-        <th class="text-center">Men</th>
-        <th class="text-center">Men %</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="text-center">
-          {{total_count}}
-        </td>
-        <td class="text-center">
-          {{women_count}}
-        </td>
-        <td class="text-center">
-        {% if total_count>0 %}
-          {% assign ratio = women_count | times: 100 | divided_by: total_count %}
-          {{ ratio }}%
-        {% endif %}
-        </td>
-        <td class="text-center">
-          {{men_count}}
-        </td>
-        <td class="text-center">
-        {% if total_count>0 %}
-          {% assign ratio = men_count | times: 100 | divided_by: total_count %}
-          {{ ratio }}%
-        {% endif %}
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
+    {% endunless %}
+  {% endfor %}
+  <div class="table-responsive">
+    <table class="table table-striped table-condensed">
+      <thead>
+        <tr>
+          <th class="text-center">Total</th>
+          <th class="text-center">Women</th>
+          <th class="text-center">Women %</th>
+          <th class="text-center">Men</th>
+          <th class="text-center">Men %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="text-center">
+            {{total_count}}
+          </td>
+          <td class="text-center">
+            {{women_count}}
+          </td>
+          <td class="text-center">
+          {% if total_count>0 %}
+            {% assign ratio = women_count | times: 100 | divided_by: total_count %}
+            {{ ratio }}%
+          {% endif %}
+          </td>
+          <td class="text-center">
+            {{men_count}}
+          </td>
+          <td class="text-center">
+          {% if total_count>0 %}
+            {% assign ratio = men_count | times: 100 | divided_by: total_count %}
+            {{ ratio }}%
+          {% endif %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+{% endif %}

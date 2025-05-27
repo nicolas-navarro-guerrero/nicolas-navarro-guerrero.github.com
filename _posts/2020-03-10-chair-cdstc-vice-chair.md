@@ -3,7 +3,7 @@ layout: post
 
 title:  "Vice-Chair of the IEEE CDSTC"
 subtitle: "IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC)"
-thumbnail: "https://cis.ieee.org/images/files/logos/TC_homepage_logos/CIS-CDS-300ppi.jpg"
+thumbnail: "../assets/img/posts/IEEmembership.jpg"
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach]
 categories: [news]

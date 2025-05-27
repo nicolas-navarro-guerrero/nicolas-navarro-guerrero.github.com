@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots"
 subtitle: "IEEE International Conference on Robotics and Automation (ICRA)"
-thumbnail: "https://harlworkshop.github.io/2024/images/harl_icra2024.jpeg"
+thumbnail: "../assets/img/posts/icra2024_may.jpg"
 
 tags: [program committee, committee, technical committee, workshop, conference]
 categories: [news]

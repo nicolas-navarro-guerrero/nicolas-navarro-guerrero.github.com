@@ -3,7 +3,7 @@ layout: post
 
 title:  "Visiting the UChile Robotics Lab"
 subtitle: "Electrical Engineering Department at the University of Chile, Santiago, Chile"
-thumbnail: "../assets/img/posts/Uchilehomebreakers.png"
+thumbnail: "../assets/img/posts/Uchilehomebreakers2019_mar.png"
 
 tags: [Visiting Researcher, outreach]
 categories: [news]

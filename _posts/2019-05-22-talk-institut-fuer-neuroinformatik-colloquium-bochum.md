@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Institut für Neuroinformatik (INI) Colloquium"
 subtitle: 
-thumbnail: "https://www.ini.rub.de/design/img/ini_logo.jpg"
+thumbnail: "../assets/img/posts/ini2019_may.jpg"
 
 tags: [outreach, talk, Workshop]
 categories: [news]

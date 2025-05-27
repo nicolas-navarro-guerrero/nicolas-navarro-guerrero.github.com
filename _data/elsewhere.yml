@@ -4,13 +4,11 @@
       username: nicolas-navarro-guerrero
       baseurl: https://gitlab.com
       icon: <i class="fab fa-gitlab"></i>
-#      icon: /assets/img/logos/gitlab.svg
 
     - name: Github
       username: nicolas-navarro-guerrero
       baseurl: https://github.com
       icon: <i class="fab fa-github"></i>
-#      icon: /assets/img/logos/GitHub-Mark-64px.png
 
 - name: research
   subitems:
@@ -23,13 +21,11 @@
       username: citations?user=SeQvYQ0AAAAJ
       baseurl: https://scholar.google.de
       icon: <i class="fab fa-google-scholar"></i>
-#      icon: /assets/img/logos/google-scholar-64x64.png
 
     - name: ResearchGate
       username: Nicolas_Navarro-Guerrero
       baseurl: https://www.researchgate.net/profile
       icon: <i class="fab fa-researchgate"></i>
-#      icon: /assets/img/logos/RG-Logo.png
 
     - name: Semantic Scholar
       username: author/Nicol%C3%A1s-Navarro-Guerrero/1407995488

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: 4th International Symposium on Intelligent Computing Systems (ISICS)"
 subtitle: 
-thumbnail: "https://scian.cl/scientific-image-analysis/wp-content/uploads/2022/03/Program_ISICS_2022_web.jpg"
+thumbnail: "../assets/img/posts/ISICS2022_mar.jpg"
 
 tags: [program committee, committee, technical committee, symposium, conference]
 categories: [news]

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: 1st International Workshop on Ubicomp Environments and Proxemic Applications (UbicProxemics)"
 subtitle: "18th International Conference on Intelligent Environments (IE)"
-thumbnail: "../assets/img/posts/UbicProxemics2022.png"
+thumbnail: "../assets/img/posts/IE2022_jun.png"
 
 tags: [program committee, committee, technical committee, workshop, conference]
 categories: [news]

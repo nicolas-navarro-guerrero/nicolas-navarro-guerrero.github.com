@@ -3,7 +3,7 @@ layout: post
 
 title:  "Participation: Lorentz Center Workshop on Emotions as Feedback Signals"
 subtitle: 
-thumbnail: "https://www.lorentzcenter.nl/uploadedfiles/evenementImages/emotions-as-feedback-signals-poster-pic.jpg?x=505122599"
+thumbnail: "../assets/img/posts/lorenzcenter2016_apr.jpg"
 
 tags: [workshop, outreach, participant]
 categories: [news]

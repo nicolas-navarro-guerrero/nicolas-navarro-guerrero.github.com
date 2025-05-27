@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Fourth International Workshop on Intrinsically Motivated Open-Ended Learning"
 subtitle: 
-thumbnail: "../assets/img/posts/IMOL2019.png"
+thumbnail: "../assets/img/posts/IMOL2019_jul.png"
 
 tags: [outreach, talk, Workshop]
 categories: [news]

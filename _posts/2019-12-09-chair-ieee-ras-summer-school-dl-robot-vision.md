@@ -3,7 +3,7 @@ layout: post
 
 title:  "Publicity Chair: IEEE RAS International Summer School on Deep Learning for Robot Vision"
 subtitle: ""
-thumbnail: "../assets/img/posts/IEEERAS2019.png"
+thumbnail: "../assets/img/posts/IEEERAS2019_dec.png"
 
 tags: [publicity chair, committee, symposium, workshop, conference]
 categories: [news]

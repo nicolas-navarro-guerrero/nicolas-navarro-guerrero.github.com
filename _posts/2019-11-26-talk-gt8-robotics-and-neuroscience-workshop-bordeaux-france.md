@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: GT8 Robotics and Neuroscience Workshop"
 subtitle: 
-thumbnail: "../assets/img/posts/GT8.png"
+thumbnail: "../assets/img/posts/GT8_2019_nov.png"
 
 tags: [outreach, talk, Workshop]
 categories: [news]

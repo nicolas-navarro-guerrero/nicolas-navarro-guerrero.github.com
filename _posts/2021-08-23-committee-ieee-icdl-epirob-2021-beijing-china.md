@@ -3,7 +3,7 @@ layout: post
 
 title:  "Publicity Chair: IEEE International Conference on Development and Learning (IEEE ICDL 2021)"
 subtitle: 
-thumbnail: "https://cognitive-mirroring.org/wp-content/uploads/2021/06/ICDL2021-1-e1623142929252-700x465.png"
+thumbnail: "../assets/img/posts/ICDL2021_aug.png"
 
 tags: [Publicity Co-Chair, committee, conference, organization]
 categories: [news]

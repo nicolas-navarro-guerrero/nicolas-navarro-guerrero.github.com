@@ -3,7 +3,7 @@ layout: post
 
 title:  "Interview: Next Generation Social Robots"
 subtitle: "Featured at the AU Department of Engineering Profile 2018"
-thumbnail: "../assets/img/posts/socialrobots.png"
+thumbnail: "../assets/img/posts/socialrobots2018_apr.png"
 
 tags: [press, interview, outreach]
 categories: [news]

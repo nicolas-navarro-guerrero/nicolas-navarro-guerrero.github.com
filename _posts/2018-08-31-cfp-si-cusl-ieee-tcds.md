@@ -3,7 +3,7 @@ layout: post
 
 title:  "Call for Papers: Special Issue on Continual Unsupervised Sensorimotor Learning"
 subtitle: "IEEE Transactions on Cognitive and Developmental Systems"
-thumbnail: "../assets/img/posts/IEEECIS2018.png"
+thumbnail: "../assets/img/posts/IEEECIS2018_aug.png"
 
 tags: [special issue, journal, call for papers]
 categories: [news]
