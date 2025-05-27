@@ -46,14 +46,14 @@
           {% endif %}
           {% for item in category.subitems %}
             {% assign ans = item.name | downcase %}
-            {% if ans contains "publons" %}
+            {% if ans contains "publons (web of science)" %}
               <tr>
                 <th scope="row" class="align-middle">{{ item.name }}:</th>
                 <td class="align-middle">
                 {% if item.icon contains "<i class=" %}
                   <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark align-middle" style="font-size:{{ size }};">{{ item.icon }}</a>
                 {% else %}
-                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }};"></a>
+                  <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="max-height:95px; max-width:95px;"></a>
                 {% endif %}
                 </td>
                 <td class="align-middle"><a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a></td>

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Membership: AU Social Robotics Lab"
 subtitle: 
-thumbnail: "../assets/img/posts/socialroboticslab2017_oct.png"
+thumbnail: "../assets/img/posts/2017-10-AU-Social-Robotics-Lab.png"
 
 tags: [membership, outreach]
 categories: [news]
