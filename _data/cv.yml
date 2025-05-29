@@ -161,8 +161,14 @@
 - name: Awards, and Fellowships
   id: awards
   subitems: 
+    - name: "NII Shonan Meeting: Next Generation Cognitive Robotics"
+      affiliation: "Invited to the NII Shonan Meeting NO.220. The NII Shonan Meetings follow the style of the Dagstuhl Seminars and are managed by the National Institute of Informatics (NII), Japan."
+      from: 2025-04-21
+      until: 
+      link: https://shonan.nii.ac.jp/seminars/220/
+
     - name: "15<sup>th</sup> Brazilian-German Frontiers of Science and Technology Symposium (BRAGFOST)"
-      affiliation: "Nominated and funded by CAPES and the Alexander von Humboldt Foundation"
+      affiliation: "Nominated and funded by CAPES and the Alexander von Humboldt Foundation. The event is part of the Alexander von Humboldt Foundation Frontiers of Research Symposia  Sponsorship program."
       from: 2025-04-11
       until: 
       link: https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/frontiers-of-research-symposia
