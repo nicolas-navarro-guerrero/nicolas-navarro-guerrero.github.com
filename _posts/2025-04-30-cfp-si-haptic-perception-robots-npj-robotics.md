@@ -3,7 +3,7 @@ layout: post
 
 title:  "Call for Papers: Special Issue on Haptic Perception Robots"
 subtitle: "Springer Nature npj Robotics"
-thumbnail: "../assets/img/posts/npj2025_apr.png"
+thumbnail: "../assets/img/posts/2025-04-npj2025.png"
 
 tags: [special issue, journal, call for papers]
 categories: [news]

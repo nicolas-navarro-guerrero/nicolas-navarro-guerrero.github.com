@@ -20,17 +20,10 @@
                 {{ item.icon }}
               </a>
             {% else %}
-              {% if item.name == "Publons (Web of Science)"%}
-                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
-                  <img src="{{ item.icon }}" alt="{{ item.name }}" 
-                      style="max-width: 95px; max-height: 95px;">
-                </a>
-              {%else%}
-                <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
-                  <img src="{{ item.icon }}" alt="{{ item.name }}" 
-                      style="max-width: {{ size }}; max-height: {{ size }};">
-                </a>
-              {%endif%}
+              <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">
+                <img src="{{ item.icon }}" alt="{{ item.name }}" 
+                    style="max-width: {{ size }}; max-height: {{ size }};">
+              </a>
             {% endif %}
           
             <div class="hover-text" style="display: none; border-radius: 5px;background-color: #ffffff; position: absolute; top: 80%; left: 50%; transform: translateX(-50%); width: auto; height: auto; white-space: nowrap;"">

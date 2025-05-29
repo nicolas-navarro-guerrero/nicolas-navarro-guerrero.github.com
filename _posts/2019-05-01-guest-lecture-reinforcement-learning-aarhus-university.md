@@ -3,7 +3,7 @@ layout: post
 
 title:  "Guest Lecture: Reinforcement Learning"
 subtitle: "Department of Engineering at Aarhus University, Denmark"
-thumbnail: "../assets/img/posts/CVML2019_may.png"
+thumbnail: "../assets/img/posts/2019-05-01-CVML.png"
 
 tags: [Guest Lecture, outreach, Teaching]
 categories: [news]

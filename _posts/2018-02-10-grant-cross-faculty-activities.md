@@ -3,7 +3,7 @@ layout: post
 
 title:  "Grant: Business-Oriented Activities"
 subtitle: "Faculty of Science and Technology at Aarhus University"
-thumbnail: "../assets/img/posts/socialrobots1_2018_feb.png"
+thumbnail: "../assets/img/posts/2018-02-socialrobots1.png"
 
 tags: [grant, funding]
 categories: [news]

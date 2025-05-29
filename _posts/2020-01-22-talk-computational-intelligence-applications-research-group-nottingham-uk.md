@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Computational Intelligence and Applications Research Group (CIA)"
 subtitle: Nottingham Trent University, UK
-thumbnail: "../assets/img/posts/Computational-Intelligence-Applications2020_jan.jpg"
+thumbnail: "../assets/img/posts/2020-01-Computational-Intelligence-Applications.jpg"
 
 tags: [outreach, talk, seminar]
 categories: [news]

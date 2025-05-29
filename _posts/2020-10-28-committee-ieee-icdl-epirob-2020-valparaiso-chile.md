@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program and Finance Co-Chair: Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob 2020)"
 subtitle: 
-thumbnail: "../assets/img/posts/IEEEICDL2020_oct.jpg"
+thumbnail: "../assets/img/posts/2020-10-IEEEICDL2020.jpg"
 
 tags: [Program and Finance Co-Chair, committee, conference, organization]
 categories: [news]

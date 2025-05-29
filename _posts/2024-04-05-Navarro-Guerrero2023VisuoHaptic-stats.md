@@ -3,7 +3,7 @@ layout: post
 
 title: "Autonomous Robots - Top 10 Downloaded Articles 2023"
 subtitle: 
-thumbnail: "../assets/img/posts/article2023_apr.png"
+thumbnail: "../assets/img/posts/2024-04-article.png"
 
 tags: [research, impact]
 categories: [news]

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Co-Organizer: IJCNN Special Session on Human-in-the-loop Algorithms and System Designs"
 subtitle: "International Joint Conference on Neural Networks (IJCNN)"
-thumbnail: "../assets/img/posts/IJCNN2023jun.png"
+thumbnail: "../assets/img/posts/2023-06-IJCNN2023.png"
 
 tags: [program committee, committee, technical committee, special session, workshop, conference]
 categories: [news]

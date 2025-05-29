@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Bio Bio AI Robotics Summit"
 subtitle: Concepción, Chile
-thumbnail: "../assets/img/posts/biobio2023_jan.png"
+thumbnail: "../assets/img/posts/2023-01-09-biobio2023.png"
 
 tags: [outreach, talk, seminar]
 categories: [news]
