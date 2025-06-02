@@ -1,0 +1,49 @@
+---
+tags: [upcoming, proceedings, romeo, haptics, tactile perception]
+categories: "publications"
+author: "Li et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Li2025Advances.png"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Li2025Advances.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"id": "Li2025Advances",
+		"type": "paper-conference",
+		"container-title": "IEEE International Conference on Development and Learning (ICDL)",
+		"event-place": "Prague, Czech Republic",
+		"event-title": "IEEE International Conference on Development and Learning (ICDL)",
+		"license": "All rights reserved",
+		"page": "1-8",
+		"publisher": "IEEE",
+		"publisher-place": "Prague, Czech Republic",
+		"title": "Advances in Compliance Detection: Novel Frameworks Using Vision-Based Tactile Sensors",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Ziteng"
+			},
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			},
+			{
+				"family": "Nisky",
+				"given": "Ilana"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2025",
+          "month": "09", 
+		}
+	}
+---
