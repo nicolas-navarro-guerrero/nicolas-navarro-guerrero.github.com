@@ -13,7 +13,7 @@ supplementary:
 code: 
 
 citation: {
-		"id": "Li2025Advances",
+		"bibtex": "Li2025Advances",
 		"type": "paper-conference",
 		"container-title": "IEEE International Conference on Development and Learning (ICDL)",
 		"event-place": "Prague, Czech Republic",
