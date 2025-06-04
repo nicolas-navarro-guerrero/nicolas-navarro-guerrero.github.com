@@ -10,10 +10,8 @@ slides:
 supplementary:
 code: 
 
-year: "2006"
-month: "Jun"
 
-rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&amp;publication=proceedings&amp;title=A+neural+approach+for+robot+navigation+based+on+cognitive+map+learning&amp;isbn=978-1-4673-1488-6&amp;publicationDate=10-15+June+2012&amp;author=Wenjie+Yan%3B+Weber%2C+C.%3B+Wermter%2C+S.&amp;ContentID=10.1109/IJCNN.2012.6252522&amp;orderBeanReset=true&amp;startPage=1&amp;endPage=8&amp;proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on">&copy;2012, IEEE</a>
+rights: <a target="_blank" href="https://s100.copyright.com/AppDispatchServlet?publisherName=ieee&amp;publication=proceedings&amp;title=A+neural+approach+for+robot+navigation+based+on+cognitive+map+learning&amp;isbn=978-1-4673-1488-6&amp;publicationDate=10-15+June+2012&amp;author=Wenjie+Yan%3B+Weber%2C+C.%3B+Wermter%2C+S.&amp;ContentID=10.1109/IJCNN.2012.6252522&amp;orderBeanReset=true&amp;startPage=1&amp;endPage=8&amp;proceedingName=Neural+Networks+%28IJCNN%29%2C+The+2012+International+Joint+Conference+on"> IEEE</a>
 license: 
 
 citation: {
@@ -31,7 +29,7 @@ citation: {
 		"URL": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6252522",
 		"DOI": "10.1109/IJCNN.2012.6252522",
 		"ISBN": "978-1-4673-1488-6",
-    bibtex: "Yan2012Neural",
+    	"bibtex": "Yan2012Neural",
 		"author": [
 			{
 				"family": "Yan",
@@ -46,5 +44,9 @@ citation: {
 				"given": "Stefan"
 			}
 		],
+		"issued": {
+			"year": "2006",
+			"month": "06",
+		}
   }
 ---

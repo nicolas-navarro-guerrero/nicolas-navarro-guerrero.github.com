@@ -66,33 +66,24 @@
 
 
 {% elsif section contains 'publications' %}
-  {% assign isrelatedpapers = null %}
-  {% if page.relatedpapers != null %}
-    {% for papers in site.publications reversed %}
-      {% if papers.tags contains page.relatedpapers %}
-        {% assign isrelatedpapers = 1 %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    {% if isrelatedpapers %}
+  {% if page.relatedpapers.size != 0 %}
     <h3 class="pt-4">Related Publications:</h3>
     <ol>
       {% for papers in site.publications reversed %}
-        {% if papers.tags contains page.relatedpapers %}
+        {% if  page.relatedpapers contains papers.citation.bibtex%}
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=papers %}
           </li>
         {% endif %}
       {% endfor %}
       {% for papers in site.pub-collaborations reversed %}
-        {% if papers.tags contains page.relatedpapers %}
+        {% if  page.relatedpapers contains papers.citation.bibtex%}
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=papers %}
           </li>
         {% endif %}
       {% endfor %}
     </ol>
-    {% endif %}
   {% endif %}
 
 {% elsif section contains 'themes' %}
