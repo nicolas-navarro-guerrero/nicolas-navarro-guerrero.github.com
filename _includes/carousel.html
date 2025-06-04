@@ -1,68 +1,39 @@
 {% assign project = include.project %}
-{% assign thumbnail = include.thumbnail | default: "/assets/placeholders.svg" %}
-{% assign image_folder = "assets/img" | append: project.slug%}
+{% assign image_folder = "assets/img" | append: project.slug %}
+{% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
 
+{% if images.size > 0 %}
 <div class="container-fluid p-0">
   <div class="w-100 p-2"
        style="background-color: #ffffffe9; border-radius: 5px; height: 500px; position: relative; overflow: hidden;">
 
+    
     <div id="carousel-indicators" class="carousel slide w-100 h-100" data-bs-ride="carousel" data-bs-interval="10000">
       
       <div class="carousel-inner w-100 h-100">
-
-        <div class="carousel-item active w-100 h-100">
-          <img src="{{ thumbnail }}"
-               class="d-block mx-auto position-absolute top-50 start-50 translate-middle"
-               style="max-height: 100%; max-width: 100%; object-fit: contain;"
-               alt="thumbnail">
-        </div>
-
-        {% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
-        {% assign counter = 0 %}
-
         {% for image in images %}
-          <div class="carousel-item w-100 h-100">
+          <div class="carousel-item w-100 h-100 {% if forloop.first %}active{% endif %}">
             <img src="{{ image.path | relative_url }}"
                  class="d-block mx-auto position-absolute top-50 start-50 translate-middle"
                  style="max-height: 100%; max-width: 100%; object-fit: contain;"
                  alt="image">
           </div>
-
-          {% assign counter = counter | plus: 1 %}
-          {% if counter == 3 %}
-            <div class="carousel-item w-100 h-100">
-              <img src="{{ thumbnail }}"
-                   class="d-block mx-auto position-absolute top-50 start-50 translate-middle"
-                   style="max-height: 100%; max-width: 100%; object-fit: contain;"
-                   alt="thumbnail">
-            </div>
-            {% assign counter = 0 %}
-          {% endif %}
         {% endfor %}
-
       </div>
-    </div>
 
-  </div>
-</div>
-
-
-      
-      
-      {% if images.size > 0 %}
-      <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-bs-slide="prev"
-          style="left: -40px;">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-indicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: gray;"></span>
         <span class="visually-hidden">Previous</span>
-      </a>
-   
-      <a class="carousel-control-next" href="#carousel-indicators" role="button" data-bs-slide="next"
-          style="right: -40px;">
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-indicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: gray;"></span>
         <span class="visually-hidden">Next</span>
-      </a>
-   
-      {%endif%}
+      </button>
+
     </div>
+    
+
   </div>
 </div>
+{% endif %}

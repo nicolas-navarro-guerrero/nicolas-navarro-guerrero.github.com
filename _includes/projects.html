@@ -26,18 +26,20 @@
     <h3 class="pt-4">Grants and Sponsors:</h3>
     {{ page.sponsors }}
   {% endif %}
+
+
+
 {% elsif section contains 'metadata' %}
 
-
-
-
+{% if page.thumbnail != null %}
+<div class="w-100 p-2" style="background-color: #ffffffe9; border-radius: 5px 5px 0 0; height: auto; width: auto;">
+  <div class="col-lg-4 m-5 w-75 svg">
+    <img class="w-100" src="{{page.thumbnail}}">
+  </div>
+</div>
+{% endif %}
 <div class="card mb-3">
   <div class="row g-0 d-flex justify-content-center align-items-center">
-    {% if page.thumbnail != null %}
-    <div class="col-lg-4 m-5 w-75 svg">
-      {%include carousel.html thumbnail=page.thumbnail project=page%}
-    </div>
-    {% endif %}
     <div class="col-lg-8 mt-3 w-100">
       <div class="card-header border-light "><h5 class="card-title text-center">{{ page.title }}
         <small class="text-muted text-center">{{ page.subtitle }}</small></h5></div>
@@ -107,6 +109,10 @@
     </div>
   </div>
 </div>
+{% elsif section contains 'carousel' %}
+{% include carousel.html project=page %}
+
+
 
 {% else %}
 {% assign projects = site.pages | where_exp: "item", "item.tags contains 'project'" %}
