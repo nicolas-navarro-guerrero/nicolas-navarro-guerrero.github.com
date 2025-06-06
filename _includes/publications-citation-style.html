@@ -73,40 +73,40 @@
 <!--LINKS-->
 
 {% if handle.citation.DOI != null%}
-  <a href="http://dx.doi.org/{{ handle.citation.DOI }}" target="_blank">DOI</a> 
+  <a href="http://dx.doi.org/{{ handle.citation.DOI }}" target="_blank">DOI</a>, 
 {%endif%}
 {% if handle.file != null%}
-,<a href="{{ handle.file }}" target="_blank">PDF</a> 
+<a href="{{ handle.file }}" target="_blank">PDF</a>, 
 {%endif%}
 {% if handle.citation.URL != null%}
-,<a href="{{ handle.citation.URL }}" target="_blank">URL</a>. 
+<a href="{{ handle.citation.URL }}" target="_blank">URL</a>, 
 {%endif%}
 
 
 
 <!--BIBKEY-->
 {% if handle.bibtex != null%}
-  <a href ="{{ handle.bibtex }}" ><strong>bibkey: </strong></a> {{ handle.citation.bibtex }}
+  <a href ="{{ handle.bibtex }}" >bib file</a>.
 {% endif %}
+  <strong>bibkey: </strong> {{ handle.citation.bibtex }}
 
 <!--SUPPLEMENTARY-SLIDES-->
 {% if handle.supplementary != null%}
-  <a class="ms-3" href="{{ handle.supplementary }}">Supplementary material</a>
+  <a class="ms-1" href="{{ handle.supplementary }}">Supplementary material</a>
 {% endif %}
 {% if handle.slides != null %}
   <a href="{{ handle.slides }}"> slides</a>
 {% endif %}
 
 <!-- RIGHTS & LICENSE -->
-<a class="ms-2"></a>
+<a class="ms-1"></a>
 {% if handle.rights != null or handle.license != null %}
   &copy;{{handle.citation.issued.year}}
 {%endif%}
 {% if handle.license != null%}
-  {{handle.license }}
+  {{ handle.license }}
 {% endif %}
 {% if handle.rights != null%}
   {{ handle.rights }}
 {% endif %}
-
 
