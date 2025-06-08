@@ -87,8 +87,9 @@
 <!--BIBKEY-->
 {% if handle.bibtex != null%}
   <a href ="{{ handle.bibtex }}" >bib file</a>.
-{% endif %}
   <strong>bibkey: </strong> {{ handle.citation.bibtex }}
+{% endif %}
+  
 
 <!--SUPPLEMENTARY-SLIDES-->
 {% if handle.supplementary != null%}
