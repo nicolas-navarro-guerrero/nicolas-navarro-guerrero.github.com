@@ -17,7 +17,7 @@
 </ul>
 
 {% elsif section contains 'partners' %}
-  {% if page.partners !=  null %}
+  {% if page.partners.size>0 %}
     <h3 class="pt-4">Project Partners:</h3>
     <ul>
       {% for partner in page.partners %}
