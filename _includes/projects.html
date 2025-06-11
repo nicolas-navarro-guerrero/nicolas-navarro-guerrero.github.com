@@ -19,7 +19,12 @@
 {% elsif section contains 'partners' %}
   {% if page.partners !=  null %}
     <h3 class="pt-4">Project Partners:</h3>
-    {{ page.partners }}
+    <ul>
+      {% for partner in page.partners %}
+
+        <li>{{ partner }}</li>
+      {% endfor %}
+    </ul>
   {% endif %}
 {% elsif section contains 'sponsors' %}
   {% if page.sponsors != null %}

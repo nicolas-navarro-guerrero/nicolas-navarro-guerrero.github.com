@@ -7,9 +7,18 @@ layout: fullwidth
     <h2>{{ page.subtitle }}</h2>
     <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}, {% endfor %}</p>
   </header>
-  
+  <div class="d-flex justify-content-center ">
+    <img style="max-width: 50%; max-height: 300px;" src="{{page.thumbnail}}">
+  </div>
   <div class="post-content mt-5" itemprop="articleBody">
     {{ content }}
   </div>
+  {% if page.image %}
+  <div class="d-flex justify-content-center ">
+    <img style="max-width: 50%; max-height: 300px;" src="{{page.image}}">
+  </div>
+  {% endif %}
+
+  
 </article>
 <div class="mb-5"></div>

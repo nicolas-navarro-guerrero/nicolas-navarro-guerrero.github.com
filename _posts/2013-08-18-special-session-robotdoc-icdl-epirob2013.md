@@ -3,7 +3,7 @@ layout: post
 
 title:  "Co-Organization: Special Session on Training in Robotics for Development of Cognition (RobotDoC)"
 subtitle: "Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob)"
-thumbnail: "../assets/img/posts/robotDoc.jpg"
+thumbnail: "/assets/img/posts/thumbnail/robotDoc.jpg"
 
 tags: [workshop, conference, organization]
 categories: [news]

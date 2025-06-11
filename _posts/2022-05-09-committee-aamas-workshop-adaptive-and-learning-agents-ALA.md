@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: Adaptive and Learning Agents (ALA) Workshop"
 subtitle: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
-thumbnail: "../assets/img/posts/2022-05-ALA2022.png"
+thumbnail: "/assets/img/posts/thumbnail/2022-05-ALA2022.png"
 
 tags: [program committee, committee, technical committee, workshop, conference]
 categories: [news]

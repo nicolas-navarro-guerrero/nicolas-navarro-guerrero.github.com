@@ -3,7 +3,7 @@ layout: post
 
 title:  "Program Committee: 4th International Symposium on Intelligent Computing Systems (ISICS)"
 subtitle: 
-thumbnail: "../assets/img/posts/2022-03-ISICS2022.jpg"
+thumbnail: "/assets/img/posts/thumbnail/2022-03-ISICS2022.jpg"
 
 tags: [program committee, committee, technical committee, symposium, conference]
 categories: [news]

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence"
 subtitle: University of Groningen, the Netherlands
-thumbnail: "../assets/img/posts/2020-10-BernouilTalk.png"
+thumbnail: "/assets/img/posts/thumbnail/2020-10-BernouilTalk.png"
 
 tags: [outreach, talk, seminar]
 categories: [news]

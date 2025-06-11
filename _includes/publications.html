@@ -28,9 +28,12 @@
                 <th scope="row" class="align-middle">{{ item.name }}:</th>
                 <td class="align-middle">
                 {% if item.icon contains "<i class=" %}
-                  <div class="bg-white " style="width:{{size}};height:{{size}}; border-radius: 10px;">
-                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark d-flex justify-content-center" style="font-size:{{ size }};">{{ item.icon }}</a>
+                  <div class="bg-white d-flex justify-content-center align-items-center" style="width:{{size}}; height:{{size}}; border-radius: 10px;">
+                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark" style="font-size:calc({{ size }} );">
+                      {{ item.icon }}
+                    </a>
                   </div>
+
                 {% else %}
                   <div class="bg-white" style="width:{{size}};height:{{size}}; border-radius: 10px;">
                     <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }}; width:{{size}}"></a>

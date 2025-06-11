@@ -3,7 +3,7 @@ layout: post
 
 title:  "Call for Papers: Special Issue on Cognitive Inspired Aspects of Robot Learning"
 subtitle: "Frontiers in Neurorobotics"
-thumbnail: "../assets/img/posts/frontiersNEURO.jpg"
+thumbnail: "/assets/img/posts/thumbnail/frontiersNEURO.jpg"
 
 tags: [special issue, journal, call for papers]
 categories: [news]

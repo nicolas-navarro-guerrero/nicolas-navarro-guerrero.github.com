@@ -3,7 +3,7 @@ layout: post
 
 title:  "Publicity Chair: IEEE International Conference on Development and Learning (IEEE ICDL 2021)"
 subtitle: 
-thumbnail: "../assets/img/posts/2021-08-ICDL2021.png"
+thumbnail: "/assets/img/posts/thumbnail/2021-08-ICDL2021.png"
 
 tags: [Publicity Co-Chair, committee, conference, organization]
 categories: [news]

@@ -3,7 +3,7 @@ layout: post
 
 title:  "Talk: 2nd Congress on Robotics and Neuroscience (CRoNe)"
 subtitle: 
-thumbnail: "../assets/img/posts/2016-10-CRONE.png"
+thumbnail: "/assets/img/posts/thumbnail/2016-10-CRONE.png"
 
 tags: [conference, outreach, Talk]
 categories: [news]

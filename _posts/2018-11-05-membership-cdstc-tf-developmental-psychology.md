@@ -3,7 +3,7 @@ layout: post
 
 title:  "Membership: Task Force on Developmental Psychology"
 subtitle: "IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC)"
-thumbnail: "../assets/img/posts/IEEmembership.jpg"
+thumbnail: "/assets/img/posts/thumbnail/IEEmembership.jpg"
 
 tags: [membership, peer esteem indicators, outreach]
 categories: [news]
