@@ -21,14 +21,17 @@
     <h3 class="pt-4">Project Partners:</h3>
     <ul>
       {% for partner in page.partners %}
-
-        <li>{{ partner }}</li>
+        {% if partner.link != null%}
+        <li class="pb-2"><a href="{{ partner.link }}" target="_blank">{{ partner.name }}</a></li>
+        {% else %}
+        <li class="pb-2">{{ partner.name }}</li>
+        {%endif%}
       {% endfor %}
     </ul>
   {% endif %}
 {% elsif section contains 'sponsors' %}
   {% if page.sponsors != null %}
-    <h3 class="pt-4">Grants and Sponsors:</h3>
+    <h3 class="pt-2">Grants and Sponsors:</h3>
     {{ page.sponsors }}
   {% endif %}
 
@@ -74,7 +77,7 @@
 
 {% elsif section contains 'publications' %}
   {% if page.relatedpapers.size != 0 %}
-    <h3 class="pt-4">Related Publications:</h3>
+    <h3 class="pt-5">Related Publications:</h3>
     <ol>
       {% for papers in site.publications reversed %}
         {% if  page.relatedpapers contains papers.citation.bibtex%}
@@ -160,3 +163,4 @@
 </div>
 
 {% endif %}
+

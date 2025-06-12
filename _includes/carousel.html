@@ -3,10 +3,10 @@
 {% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
 
 {% if images.size > 0 %}
+<h3 class="pt-5">Gallery</h3>
 <div class="container-fluid p-0">
   <div class="w-100 p-2"
        style="background-color: #ffffffe9; border-radius: 5px; height: 500px; position: relative; overflow: hidden;">
-
     
     <div id="carousel-indicators" class="carousel slide w-100 h-100" data-bs-ride="carousel" data-bs-interval="10000">
       
@@ -32,8 +32,7 @@
       </button>
 
     </div>
-    
-
   </div>
 </div>
 {% endif %}
+
