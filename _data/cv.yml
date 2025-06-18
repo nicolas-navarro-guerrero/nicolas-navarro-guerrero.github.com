@@ -335,8 +335,8 @@
   subitems: 
     - name: Co-Chair
       affiliation: "4<sup>th</sup> Latin American Summer School on Robotics (LACORO)"
-      from: 2025-12-08
-      until: 2025-12-12
+      from: 2025-12-09
+      until: 2025-12-13
       link: https://lacoro.gitlab.io/2025/
 
     - name: Co-Chair
