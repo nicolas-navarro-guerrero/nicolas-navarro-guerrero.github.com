@@ -6,10 +6,10 @@ rights: "The Authors."
 license: 
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Li2025Advances.png"
-file: 
+file: "https://arxiv.org/pdf/2506.14980"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Li2025Advances.bib"
 slides: 
-supplementary: 
+supplementary: "https://github.com/mfkuhlmann/youngs-modulus-estimation"
 code: 
 
 citation: {
@@ -23,6 +23,8 @@ citation: {
 		"publisher": "IEEE",
 		"publisher-place": "Prague, Czech Republic",
 		"title": "Advances in Compliance Detection: Novel Frameworks Using Vision-Based Tactile Sensors",
+		"DOI": "10.48550/arXiv.2506.14980",
+		"URL": "https://arxiv.org/html/2506.14980v1",
 		"author": [
 			{
 				"family": "Li",
