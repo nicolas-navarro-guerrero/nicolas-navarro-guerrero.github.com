@@ -22,7 +22,9 @@ title: Nicolás Navarro-Guerrero
 email: nicolas.navarro.guerrero@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Nicolás Navarro-Guerrero. 
-  Areas of interest and specialties robotics, embedded systems, embodied cognition and automation.
+  Areas of interest and specialties are Robotics, Embedded Systems, Embodied Cognition, Cognitive Systems, Robot Learning, Human-Robot Collaboration, and Automation.
+  Nicolas Navarro, Nicol&aacute;s Navarro, Nicolas Navarro-Guerrero, Nicolas Navarro Guerrero, nng. 
+  Universidad Técnica Federico Santa María, Universidad Santa María, USM, UTFSM, Chile, Technische Universität Dresden, TUD, Dresden, Deutschland, Hamburg, UHH, Universität Hamburg, Aarhus, Denmark, Aarhus University, Aarhus Universitet, German Research Center for Artificial Intelligence, Deutsches Forschungszentrum für Künstliche Intelligenz, DFKI, Bremen, Hannover, Hanover, Forschungszentrum L3S, L3S Research Center, L3S, University of Hamburg, Leibniz University Hannover, Leibniz Universität Hannover.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicolas-navarro-guerrero.github.io" # the base hostname & protocol for your site
 
