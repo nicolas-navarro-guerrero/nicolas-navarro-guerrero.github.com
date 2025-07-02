@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Editorial Board: Joined the Editorial Board of the Computational Intelligence in Robotics Section"
 subtitle: "Frontiers in Robotics and AI"
-thumbnail: "/assets/img/posts/thumbnail/frontiersRoboticsAi.jpeg"
+thumbnail: "frontiersRoboticsAi.jpeg"
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
 categories: [news]

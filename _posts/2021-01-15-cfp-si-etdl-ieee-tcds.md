@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Call for Papers: Special Issue on Emerging Topics on Development and Learning"
 subtitle: "IEEE Transactions on Cognitive and Developmental Systems"
-thumbnail: "/assets/img/posts/thumbnail/IEEE-transition-on-cogAndDevelopment.png"
+thumbnail: "IEEE-transition-on-cogAndDevelopment.png"
 
 tags: [special issue, journal, call for papers]
 categories: [news]

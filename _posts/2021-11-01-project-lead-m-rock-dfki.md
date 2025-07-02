@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Project Leader M-RoCK project"
 subtitle: "Human-Machine Interaction Modeling for Continuous Improvement of Robot Behavior"
-thumbnail: "/assets/img/posts/thumbnail/2021-11-M-rock.png"
+thumbnail: "2021-11-M-rock.png"
 
 tags: [Academic Management, Leadership]
 categories: [news]

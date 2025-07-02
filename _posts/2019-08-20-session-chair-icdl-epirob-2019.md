@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Session Chair: Sensorimotor Development Session at ICDL-EpiRob 2019"
 subtitle: "Joint IEEE International Conference on Development and Learning and on Epigenetic Robotics (ICDL-EpiRob 2019)"
-thumbnail: "/assets/img/posts/thumbnail/2019-08-icdl-epirob.png"
+thumbnail: "2019-08-icdl-epirob.png"
 
 tags: [session chair, session, conference]
 categories: [news]

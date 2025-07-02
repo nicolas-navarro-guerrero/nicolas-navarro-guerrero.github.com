@@ -7,16 +7,24 @@ layout: fullwidth
     <h2>{{ page.subtitle }}</h2>
     <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}, {% endfor %}</p>
   </header>
-  <div class="d-flex justify-content-center ">
-    <img style="max-width: 50%; max-height: 300px;" src="{{page.thumbnail}}">
+  <div class="d-flex justify-content-center">
+    <div style="background-color: #ffffffe9; border-radius: 5px; padding: 8px; display: inline-block;">
+      <img src="{{ page.thumbnail_base }}{{ page.thumbnail }}" style="max-width: 100%; max-height: 300px; display: block;">
+    </div>
   </div>
+
+
   <div class="post-content mt-5" itemprop="articleBody">
     {{ content }}
   </div>
   {% if page.image %}
-  <div class="d-flex justify-content-center ">
-    <img style="max-width: 50%; max-height: 300px;" src="{{page.image}}">
+  <p>{{ page.image_base }}{{ page.image }}</p>
+<div class="d-flex justify-content-center">
+  <div style="background-color: #ffffffe9; border-radius: 5px; padding: 8px;">
+    <img src="{{ page.image_base }}{{ page.image }}" style="max-width: 100%; max-height: 300px; display: block;">
   </div>
+</div>
+
   {% endif %}
 
   

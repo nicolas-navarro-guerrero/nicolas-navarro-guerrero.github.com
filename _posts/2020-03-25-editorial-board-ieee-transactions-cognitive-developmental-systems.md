@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Associate Editor: Joined the Editorial Board of IEEE Transactions on Cognitive and Developmental Systems (TCDS)"
 subtitle: ""
-thumbnail: "/assets/img/posts/thumbnail/IEEE-transition-on-cogAndDevelopment.png"
+thumbnail: "IEEE-transition-on-cogAndDevelopment.png"
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
 categories: [news]

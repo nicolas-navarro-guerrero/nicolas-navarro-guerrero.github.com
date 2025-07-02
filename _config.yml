@@ -60,6 +60,7 @@ defaults:
     values:
       layout: "fullwidth"
       author: "Nicolas Navarro-Guerrero"
+      
   - scope:
       path: "assets/img"
     values:
@@ -69,10 +70,9 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
-      layout: "fullwidth"
+      layout: "post"
       author: "Nicolas Navarro-Guerrero"
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+      image_base: "/assets/img/posts/media/"
+      thumbnail_base: "/assets/img/posts/thumbnail/"
+      
 

@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Editorial Board: Joined the Editorial Board of Frontiers in Neurorobotics"
 subtitle: ""
-thumbnail: "/assets/img/posts/thumbnail/frontiersNEURO.jpg"
+thumbnail: "frontiersNEURO.jpg"
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
 categories: [news]

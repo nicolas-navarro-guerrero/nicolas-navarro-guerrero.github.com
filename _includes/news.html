@@ -11,7 +11,7 @@
           <div class="row ">
             <div class="col-md-3 d-flex justify-content-center align-items-center">
               <img  
-                src="{% if post.thumbnail != null %}{{ post.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+                src="{% if post.thumbnail != null %}{{post.thumbnail_base}}{{ post.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                 onerror="this.src='/assets/placeholders.svg';" 
                 style="{% if post.thumbnail != null %}border-radius: 3px; padding: 10px; background-color: #ffffffef;{% endif %} max-height: 200px; max-width: 100%; height: auto; width: auto; border: none;" alt="thumbnail">
             </div>
@@ -49,7 +49,7 @@
           <div class="row ">
             <div class="col-md-3 d-flex justify-content-center align-items-center">
               <img  
-                src="{% if post.thumbnail != null %}{{ post.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+                src="{% if post.thumbnail != null %}{{ post.thumbnail_base }}{{ post.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                 onerror="this.src='/assets/placeholders.svg';" 
                 style="{% if post.thumbnail != null %}border-radius: 3px; padding: 10px; background-color: #ffffffef;{% endif %} max-height: 200px; max-width: 100%; height: auto; width: auto; border: none;">
             </div>

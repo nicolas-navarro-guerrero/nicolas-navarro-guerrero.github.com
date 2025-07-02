@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Organizer and Speaker: AU Smart Manufacturing Day"
 subtitle: ""
-thumbnail: "/assets/img/posts/thumbnail/2019-10-csm_Makerspace.jpg"
+thumbnail: "2019-10-csm_Makerspace.jpg"
 
 tags: [organization, speaker, workshop, outreach]
 categories: [news]

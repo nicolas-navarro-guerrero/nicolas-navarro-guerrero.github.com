@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Talk: 12th Robotics Kongress – Safety, Security und Künstliche Intelligenz"
 subtitle: Hanover, Germany
-thumbnail: "/assets/img/posts/thumbnail/2023-02-Robotics-Kongress.png"
+thumbnail: "2023-02-Robotics-Kongress.png"
 
 tags: [outreach, talk, seminar]
 categories: [news]

@@ -1,9 +1,9 @@
 ---
-layout: post
+
 
 title:  "Participation: 15th Brazilian-German Frontiers of Science and Technology (BRAGFOST) Symposium"
 subtitle: 
-thumbnail: "/assets/img/posts/thumbnail/2025-11-AvH-Frontiers-of-Research-Symposia-AvH-Logo.svg"
+thumbnail: "2025-11-AvH-Frontiers-of-Research-Symposia-AvH-Logo.svg"
 
 tags: [seminar, outreach, participant]
 categories: [news]
