@@ -1,0 +1,56 @@
+---
+tags: [upcoming, proceedings, federated learning, fl]
+categories: "publications"
+author: "Fernandes et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Fernandes2025FedP2PAvg.png"
+file: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Fernandes2025FedP2PAvg_pre-print.pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-09-Fernandes2025FedP2PAvg.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"bibtex": "Fernandes2025FedP2PAvg",
+		"type": "paper-conference",
+		"abstract": "Federated learning is a decentralized machine learning approach where models are trained collaboratively across multiple devices or nodes holding local data without sharing that data directly. It enables privacy-preserving, scalable, and collaborative machine learning. One of the key challenges in federated learning is its inefficiency in handling scenarios where data is highly imbalanced and non-independent and identically distributed (non-IID) across local nodes, leading to biased global models and slow convergence. This paper introduces a peer-to-peer refinement mechanism combined with FedAvg aggregation to enhance model accuracy in highly imbalanced and non-IID federated learning scenarios. Experiments were conducted on the MNIST, Fashion-MNIST and CIFAR-10 datasets using a Dirichlet distribution with α = 0.1 to simulate highly imbalanced and non-IID data scenarios. The results demonstrated that the proposed approach achieved higher accuracy, 98.17% in MNist, 84.35% in Fashion-MNIST and 67.49% in CIFAR-10 while requiring less than half the number of rounds to converge compared to traditional federated learning methods.",
+		"container-title": "International Conference on Artificial Neural Networks (ICANN)",
+		"event-place": "Kaunas, Lithuania",
+		"event-title": "International Conference on Artificial Neural Networks (ICANN)",
+		"license": "All rights reserved",
+		"page": "12",
+		"publisher-place": "Kaunas, Lithuania",
+		"title": "FedP2PAvg: A Peer-to-Peer Collaborative Framework for Federated Learning in Non-IID Scenarios",
+		"URL": "https://e-nns.org/icann2025/",
+		"volume": "34th",
+		"author": [
+			{
+				"family": "Fernandes",
+				"given": "Bruno J. T."
+			},
+			{
+				"family": "Freire",
+				"given": "Agostinho"
+			},
+			{
+				"family": "Andrade",
+				"given": "João V. R.",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Silva",
+				"given": "Leandro H. S."
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2025",
+          "month": "09", 
+		}
+	}
+---
