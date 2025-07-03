@@ -60,7 +60,7 @@ defaults:
     values:
       layout: "fullwidth"
       author: "Nicolas Navarro-Guerrero"
-      
+
   - scope:
       path: "assets/img"
     values:
@@ -74,5 +74,4 @@ defaults:
       author: "Nicolas Navarro-Guerrero"
       image_base: "/assets/img/posts/media/"
       thumbnail_base: "/assets/img/posts/thumbnail/"
-      
 
