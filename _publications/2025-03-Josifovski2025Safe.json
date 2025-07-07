@@ -15,9 +15,8 @@ code:
 citation: {
 		"bibtex": "Josifovski2025Safe",
 		"type": "paper-conference",
-		"container-title": "Under review in the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"container-title": "Pre-print",
 		"DOI": "10.48550/arXiv.2503.10949",
-		"event-place": "Hangzhou, China",
 		"license": "All rights reserved",
 		"note": "ISSN: 2153-0866",
 		"publisher": "IEEE",
@@ -61,7 +60,7 @@ citation: {
 		],
 		"issued": {
           "year": "2025",
-          "month": "10", 
+          "month": "03", 
 		}
 	}
 ---
