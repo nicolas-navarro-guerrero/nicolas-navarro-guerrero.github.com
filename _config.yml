@@ -73,5 +73,5 @@ defaults:
       layout: "post"
       author: "Nicolas Navarro-Guerrero"
       image_base: "/assets/img/posts/media/"
-      thumbnail_base: "/assets/img/posts/thumbnail/"
+      thumbnail_base: "/assets/img/posts/thumbnails/"
 

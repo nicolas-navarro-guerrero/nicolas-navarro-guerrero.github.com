@@ -1,0 +1,35 @@
+---
+tags: [interview, media, outreach]
+categories: interview
+author: "Nicolás Navarro-Guerrero"
+rights: 
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Amrhein-Blaser2025ti",
+		"type": "article-magazine",
+		"container-title": "Arbeitskreis der Technologietransferstellen niedersächsischer Hochschulen",
+		"page": "48",
+		"title": "„ti“ 1+2/2025: In Gesellschaft mit KI – Risiken und Chancen",
+		"URL": "https://www.wissenhochn.de/de/ti-magazin",
+		"volume": "1+2/2025",
+		"author": [
+			{
+				"family": "Amrhein-Bläser",
+				"given": "Christina"
+			}
+		],
+		"issued": {
+			"year": "2025",
+			"month": "6",
+		}
+	}
+---
+
