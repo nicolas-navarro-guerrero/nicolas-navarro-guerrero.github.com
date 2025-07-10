@@ -1,0 +1,14 @@
+---
+layout: null
+---
+[
+  {% assign all_items = site.pages | concat: site.posts %}
+  {% for item in all_items %}
+    {
+      "title": {% if item.citation and item.citation.title %}"{{ item.citation.title | xml_escape }}"{% else %}"{{ item.title | xml_escape }}"{% endif %},
+      "url": "{{ item.url | relative_url }}",
+      "tags": {% if item.tags %}"{{ item.tags | join: ' ' | xml_escape }}"{% else %}""{% endif %},
+      "categories": {% if item.categories %}"{{ item.categories | join: ' ' | xml_escape }}"{% else %}""{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -95,6 +95,20 @@
       {% endfor %}
     </ol>
   {% endif %}
+  {% if page.relatedmedia.size != 0 %}
+    <h3 class="pt-5">Related Media:</h3>
+    <ol>
+      {% for media in site.media reversed %}
+        {% if  page.relatedmedia contains media.citation.id%}
+          <li style="padding-bottom:15px;">
+            {% include publications-citation-style.html param=media %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  {% endif %}
+  
+
 
 {% elsif section contains 'themes' %}
 <div class="row row-cols-1 row-cols-md-2 g-4">

@@ -5,28 +5,32 @@ layout: fullwidth
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <h2>{{ page.subtitle }}</h2>
-    <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}, {% endfor %}</p>
+    <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
   </header>
-  <div class="d-flex justify-content-center">
-    <div style="background-color: #ffffffe9; border-radius: 5px; padding: 8px; display: inline-block;">
-      <img src="{{ page.thumbnail_base }}{{ page.thumbnail }}" style="max-width: 100%; max-height: 300px; display: block;">
+
+  <div class="container mt-4">
+    <div class="row align-items-start">
+      <div class="col-md-4 mb-3">
+        <div class="d-flex justify-content-center p-2" style="background-color: #ffffffe9; border-radius: 5px;">
+          <img src="{{ page.thumbnail_base }}{{ page.thumbnail }}" alt="Thumbnail" style="max-width: 100%; max-height: 100%;">
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      </div>
     </div>
   </div>
 
-
-  <div class="post-content mt-5" itemprop="articleBody">
-    {{ content }}
-  </div>
   {% if page.image %}
-
-<div class="d-flex justify-content-center">
-  <div style="background-color: #ffffffe9; border-radius: 5px; padding: 8px;">
-    <img src="{{ page.image_base }}{{ page.image }}" style="max-width: 100%; max-height: 300px; display: block;">
+  <div class="d-flex justify-content-center mt-5 p-2">
+    <div style="background-color: #ffffffe9; border-radius: 5px;">
+      <img src="{{ page.image_base }}{{ page.image }}" alt="Image" style="max-width: 100%; max-height: 300px; display: block;">
+    </div>
   </div>
-</div>
-
   {% endif %}
-
 </article>
-<div class="mb-5"></div>
 
+<div class="mb-5"></div>

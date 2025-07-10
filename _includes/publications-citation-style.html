@@ -2,7 +2,7 @@
 
 <!-- TITLE -->
 <span style="font-size: 18px;">
-  <strong>{{ handle.citation.title }}</strong>.<br>
+<strong>{{ handle.citation.title }}</strong></a><br>
 </span>
 
 {% if handle.citation.container-title != null %}
@@ -78,15 +78,15 @@
 {% if handle.file != null%}
 <a href="{{ handle.file }}" target="_blank">PDF</a>, 
 {%endif%}
-{% if handle.citation.URL != null%}
-<a href="{{ handle.citation.URL }}" target="_blank">URL</a>, 
+{% if handle.citation.URL != ""%}
+<a href="{{ handle.citation.URL }}" target="_blank">URL</a>  
 {%endif%}
 
 
 
 <!--BIBKEY-->
 {% if handle.bibtex != null%}
-  <a href ="{{ handle.bibtex }}" >bib file</a>.
+  ,<a href ="{{ handle.bibtex }}" >bib file</a>.
   <strong>bibkey: </strong> {{ handle.citation.bibtex }}
 {% endif %}
   
