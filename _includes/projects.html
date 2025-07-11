@@ -95,7 +95,7 @@
       {% endfor %}
     </ol>
   {% endif %}
-  {% if page.relatedmedia.size != 0 %}
+  {% if page.relatedmedia.size > 0 %}
     <h3 class="pt-5">Related Media:</h3>
     <ol>
       {% for media in site.media reversed %}

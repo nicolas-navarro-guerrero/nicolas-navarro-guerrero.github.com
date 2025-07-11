@@ -13,9 +13,9 @@
 
     <!-- search bar-->
     <div class="dropdown position-relativ pe-1 ">
-      <form id="site_search" >
-        <input id="search_box" type="text" class="form-control w-100 " placeholder="Search..." />
-        <ul id="search_results" class="dropdown-menu w-100"></ul>
+      <form id="navbar_site_search" action="/search" method="get">
+        <input id="navbar_search_box" name="query" type="text" class="form-control w-100" placeholder="Search..." />
+        <ul id="navbar_search_results" class="dropdown-menu w-100"></ul>
       </form>
     </div>
 
@@ -88,11 +88,11 @@
     font-size: 16px; 
   }
 }
-#site_search {
+#navbar_site_search {
   position: relative;
 }
 
-#search_results {
+#navbar_search_results {
   max-height: 250px;
   overflow-y: auto;
   position: absolute;

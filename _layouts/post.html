@@ -8,29 +8,17 @@ layout: fullwidth
     <p>{{ page.date | date_to_string }} | {{ page.author }} | {% for tag in page.tags %}{{ tag | upcase }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
   </header>
 
-  <div class="container mt-4">
-    <div class="row align-items-start">
-      <div class="col-md-4 mb-3">
-        <div class="d-flex justify-content-center p-2" style="background-color: #ffffffe9; border-radius: 5px;">
-          <img src="{{ page.thumbnail_base }}{{ page.thumbnail }}" alt="Thumbnail" style="max-width: 100%; max-height: 100%;">
-        </div>
-      </div>
+<div class="container mt-4">
+  <div class="clearfix">
+      <img class="rounded p-2 float-end" src="{{ page.thumbnail_base }}{{ page.thumbnail }}"  alt="Thumbnail" style="background-color: #ffffffe9; max-width: 300px;">
 
-      <div class="col-md-8">
-        <div class="post-content" itemprop="articleBody">
-          {{ content }}
-        </div>
-      </div>
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
     </div>
+    {% if page.image %}
+      <img class=" p-2 rounded float-start" src="{{ page.image_base }}{{ page.image }}"  alt="image"  style="max-width: 500px; background-color: #ffffffe9;">
+    {% endif %}
   </div>
-
-  {% if page.image %}
-  <div class="d-flex justify-content-center mt-5 p-2">
-    <div style="background-color: #ffffffe9; border-radius: 5px;">
-      <img src="{{ page.image_base }}{{ page.image }}" alt="Image" style="max-width: 100%; max-height: 300px; display: block;">
-    </div>
-  </div>
-  {% endif %}
+</div>
 </article>
-
 <div class="mb-5"></div>
