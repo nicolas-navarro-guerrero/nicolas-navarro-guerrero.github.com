@@ -1,0 +1,79 @@
+---
+layout: fullwidth
+slug: search
+
+title: Search
+author: Nicolás Navarro-Guerrero
+---
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="mb-3">Search Results</h1>
+      <p class="text-muted">Type a keyword and press Enter to search the site.</p>
+      <form id="site_search">
+        <input id="search_box" type="text" class="form-control" placeholder="Search..." />
+      </form>
+      <p id="result_hits"class="mt-1 d-none"></p>
+      <ul id="search_results" class="list-group mt-3"></ul>
+    </div>
+  </div>
+</div>
+
+
+<script>
+    const query = decodeURIComponent(window.location.search.slice(1));
+    const input = document.getElementById("search_box");
+    const resultsContainer = document.getElementById("search_results");
+    const result_hits = document.getElementById("result_hits");
+
+    input.value = query;
+    resultsContainer.innerHTML = '';
+
+    function Search() {
+        if (typeof idx === "undefined" || typeof data === "undefined") {
+            console.log("AAAA");
+            setTimeout(Search, 50);
+            return;
+        }
+        
+        const results = idx.search(`${query}*`);
+        if (results.length>0) {
+                    
+            result_hits.classList.remove('d-none');
+            result_hits.classList.add('d-block');
+
+            if (results.length==1) {
+                result_hits.innerHTML = `Found <strong>${results.length}</strong> result.`;
+            } else {
+                result_hits.innerHTML = `Found <strong>${results.length}</strong> results.`;
+            }
+            results.forEach(r => {
+            const match = data.find(d => d.url === r.ref);
+            const item = document.createElement('li');
+            item.innerHTML = `<a class="list-group-item mt-1" href="${match.url}">${match.title}</a>`;
+            resultsContainer.appendChild(item);
+            });
+            resultsContainer.classList.add('show');
+        } else {
+            resultsContainer.innerHTML = '<li class="list-group-item disabled">No results found.</li>';
+            resultsContainer.classList.add('show');
+        }
+        console.log(query);
+    }
+
+
+    Search();
+
+    input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      
+      e.preventDefault();
+      const q = input.value.trim();
+      
+      if (q.length > 0) {
+         window.location.href = `/search/?${encodeURIComponent(q)}`;
+        
+      }
+    }
+  });
+</script>
