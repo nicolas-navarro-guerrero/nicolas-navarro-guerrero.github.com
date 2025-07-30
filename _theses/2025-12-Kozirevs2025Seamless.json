@@ -1,0 +1,50 @@
+---
+tags: [thesis, master, luh, l3s, grasping, slip detection, shadow hand, tactile perception, msc, germany, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Zai El Amri",
+		"given": "Wadhah"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Kozirevs2025Seamless",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Seamless Sensor Translation: Enhancing Grasp Stability Detection from BioTac to DIGIT",
+		"author": [
+			{
+				"family": "Kozirevs",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---

@@ -1,0 +1,47 @@
+---
+tags: [thesis, phd, luh, tunisia, germany, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+        "given": "Wolfgang"
+      },
+    ]
+
+citation: {
+		"id": "ZaiElAmri20YYDeformationBased",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "PhD",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "ACROSS: A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "MM",
+		}
+	}
+---
+

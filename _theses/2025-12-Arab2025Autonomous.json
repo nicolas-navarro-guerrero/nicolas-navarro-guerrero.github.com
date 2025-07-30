@@ -1,5 +1,5 @@
 ---
-tags: [thesis, phd, luh, tunisia, germany, man]
+tags: [thesis, master, luh, l3s, msc, man, pepper, hri, navigation]
 categories: 
 
 thumbnail: 
@@ -20,28 +20,31 @@ supervisors: [
 examiners: [
       {
         "family": "Nejdl",
-        "given": "Wolfgang"
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
       },
     ]
 
 citation: {
-		"id": "ZaiElAmri20YYDeformationBased",
+		"id": "Arab2025Autonomous",
 		"type": "thesis",
 		"event-place": "Hanover, Germany",
-		"genre": "PhD",
+		"genre": "MSc",
 		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
 		"publisher-place": "Hanover, Germany",
-		"title": "ACROSS: A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception",
+		"title": "Autonomous Object Transport System for the Pepper Robot in Office Environments",
 		"author": [
 			{
-				"family": "Zai El Amri",
-				"given": "Wadhah"
+				"family": "Arab",
+				"given": "Mohamed Taher"
 			}
 		],
 		"issued": {
-			"year": "TBA",
-			"month": "MM",
+			"year": "Ongoing",
+			"month": "",
 		}
 	}
 ---
-
