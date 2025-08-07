@@ -78,17 +78,20 @@
 {% if handle.file != null%}
 <a href="{{ handle.file }}" target="_blank">PDF</a>, 
 {%endif%}
-{% if handle.citation.URL != ""%}
-<a href="{{ handle.citation.URL }}" target="_blank">URL</a>  
+{% if handle.citation.URL != null %}
+<a href="{{ handle.citation.URL }}" target="_blank">URL</a>,   
 {%endif%}
 
 
 
 <!--BIBKEY-->
 {% if handle.bibtex != null%}
-  ,<a href ="{{ handle.bibtex }}" >bib file</a>.
+  <a href ="{{ handle.bibtex }}" >bib file</a>.
+{% endif %}
+{% if handle.citation.bibtex != null%}
   <strong>bibkey: </strong> {{ handle.citation.bibtex }}
 {% endif %}
+
   
 
 <!--SUPPLEMENTARY-SLIDES-->
