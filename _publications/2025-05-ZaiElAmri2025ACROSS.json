@@ -1,5 +1,5 @@
 ---
-tags: [proceedings, upcoming, tactile perception, transfer learning, across]
+tags: [proceedings, conference, tactile perception, transfer learning, across]
 categories: "publications"
 author: "Zai El Amri et al."
 rights: "The Authors."
@@ -7,25 +7,28 @@ license: IEEE
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2024-09-ZaiElAmri2024Transferring.png"
 file: "https://arxiv.org/pdf/2411.08533"
-bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-05-ZaiElAmri2025DeformationBased.bib"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-05-ZaiElAmri2025ACROSS.bib"
 slides: 
 supplementary: "https://wzaielamri.github.io/publication/across"
 code: 
 
 citation: {
-		"bibtex": "ZaiElAmri2025DeformationBased",
+		"bibtex": "ZaiElAmri2025ACROSS",
 		"type": "paper-conference",
 		"abstract": "Tactile perception is essential for human interaction with the environment and is becoming increasingly crucial in robotics. Tactile sensors like the BioTac mimic human fingertips and provide detailed interaction data. Despite its utility in applications like slip detection and object identification, this sensor is now deprecated, making many existing valuable datasets obsolete. However, recreating similar datasets with newer sensor technologies is both tedious and time-consuming. Therefore, it is crucial to adapt these existing datasets for use with new setups and modalities. In response, we introduce ACROSS, a novel framework for translating data between tactile sensors by exploiting sensor deformation information. We demonstrate the approach by translating BioTac signals into the DIGIT sensor. Our framework consists of first converting the input signals into 3D deformation meshes. We then transition from the 3D deformation mesh of one sensor to the mesh of another, and finally convert the generated 3D deformation mesh into the corresponding output space. We demonstrate our approach to the most challenging problem of going from a low-dimensional tactile representation to a high-dimensional one. In particular, we transfer the tactile signals of a BioTac sensor to DIGIT tactile images. Our approach enables the continued use of valuable datasets and the exchange of data between groups with different setups.",
 		"container-title": "IEEE International Conference on Robotics and Automation (ICRA)",
-		"DOI": "10.48550/arXiv.2411.08533",
+		"DOI": "10.1109/ICRA55743.2025.11127851",
 		"event-place": "Atlanta, GA, USA",
 		"event-title": "IEEE International Conference on Robotics and Automation (ICRA)",
+		"ISBN": "979-8-3315-4139-2",
 		"license": "All rights reserved",
-		"page": "1-8",
+		"note": "https://wzaielamri.github.io/publication/across",
+		"page": "5836-5842",
 		"publisher": "IEEE",
 		"publisher-place": "Atlanta, GA, USA",
 		"title": "ACROSS: A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception",
-		"URL": "https://arxiv.org/abs/2411.08533",
+		"title-short": "ACROSS",
+		"URL": "https://ieeexplore.ieee.org/document/11127851",
 		"author": [
 			{
 				"family": "Zai El Amri",
