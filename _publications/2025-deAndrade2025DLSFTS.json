@@ -1,0 +1,65 @@
+---
+tags: [upcoming,  learning, fl, time-series]
+categories: "publications"
+author: "de Andrade et al."
+rights: "The Authors."
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+code:
+
+citation: {
+		"bibtex": "deAndrade2025DLSFTS",
+		"type": "article-journal",
+		"abstract": "Time series analysis is a well-established field in computer science, with a wide range of techniques developed over the years, from classical statistical models to modern machine learning approaches. Among these, fuzzy time series models stand out due to their low computational cost and high interpretability. However, they often struggle with data drift in real-world scenarios, leading to increasing forecast errors. Existing solutions to concept drift commonly rely on computationally intensive methods, such as ensembles, which are unsuitable for resource-constrained environments. In this paper, we propose DLS-FTS (Dynamic Lag Selection Fuzzy Time Series), a fuzzy logic-based model that dynamically selects the optimal lag order for non-stationary time series. The proposed method is computationally efficient and consistently outperforms baseline FTS approaches across multiple scenarios, with statistical significance demonstrated via the Friedman–Nemenyi test.",
+		"container-title": "Under Review in IEEE Open Journal of the Computer Society",
+		"journalAbbreviation": "IEEE Open J Comp Soc",
+		"page": "1-13",
+		"title": "DLS-FTS: Dynamic Lag Selection Fuzzy Time Series for Non-Stationary Environments",
+		"author": [
+			{
+				"family": "Andrade",
+				"given": "João V. R.",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Freire",
+				"given": "Agostinho"
+			},
+			{
+				"family": "Oliveira",
+				"given": "João F. L.",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "S. Silva",
+				"given": "Leandro Honorato",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Farias",
+				"given": "Igor"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Nejdl",
+				"given": "Wolfgang"
+			},
+			{
+				"family": "Fernandes",
+				"given": "Bruno J. T."
+			}
+		],
+		"issued": {
+          "year": "2025",
+          "month": "09", 
+		}
+	}
+---
