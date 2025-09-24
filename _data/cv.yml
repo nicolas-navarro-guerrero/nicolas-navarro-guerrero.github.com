@@ -201,6 +201,12 @@
 - name: Editorial Work
   id: editorial
   subitems: 
+    - name: Associate Editor
+      affiliation: IEEE International Conference on Robotics and Automation (ICRA2026)
+      from: 2025-09-09
+      until: Present
+      link: https://2026.ieee-icra.org/
+
     - name: Editorial Board
       affiliation: Springer Nature Group' npj Robotics Journal
       from: 2024-09-09
