@@ -1,5 +1,5 @@
 ---
-tags: [upcoming, proceedings, romeo, haptics, tactile perception]
+tags: [conference, proceedings, romeo, haptics, tactile perception]
 categories: "publications"
 author: "Li et al."
 rights: "The Authors."
@@ -15,16 +15,18 @@ code:
 citation: {
 		"bibtex": "Li2025Advances",
 		"type": "paper-conference",
+		"abstract": "Compliance is a critical parameter for describing objects in engineering, agriculture, and biomedical applications. Traditional compliance detection methods are limited by their lack of portability and scalability, rely on specialized, often expensive equipment, and are unsuitable for robotic applications. Moreover, existing neural network-based approaches using vision-based tactile sensors still suffer from insufficient prediction accuracy. In this paper, we propose two models based on Long-term Recurrent Convolutional Networks (LRCNs) and Transformer architectures that leverage RGB tactile images and other information captured by the vision-based sensor GelSight to predict compliance metrics accurately. We validate the performance of these models using multiple metrics and demonstrate their effectiveness in accurately estimating compliance. The proposed models exhibit significant performance improvement over the baseline. Additionally, we investigated the correlation between sensor compliance and object compliance estimation, which revealed that objects that are harder than the sensor are more challenging to estimate.",
 		"container-title": "IEEE International Conference on Development and Learning (ICDL)",
+		"DOI": "10.1109/ICDL63968.2025.11204406",
 		"event-place": "Prague, Czech Republic",
 		"event-title": "IEEE International Conference on Development and Learning (ICDL)",
-		"license": "All rights reserved",
+		"ISBN": "979-8-3315-4343-3",
 		"page": "1-8",
-		"publisher": "IEEE",
 		"publisher-place": "Prague, Czech Republic",
-		"title": "Advances in Compliance Detection: Novel Frameworks Using Vision-Based Tactile Sensors",
-		"DOI": "10.48550/arXiv.2506.14980",
-		"URL": "https://arxiv.org/html/2506.14980v1",
+		"source": "IEEE Xplore",
+		"title": "Advances in Compliance Detection: Novel Models Using Vision-Based Tactile Sensors",
+		"title-short": "Advances in Compliance Detection",
+		"URL": "https://ieeexplore.ieee.org/document/11204406",
 		"author": [
 			{
 				"family": "Li",
