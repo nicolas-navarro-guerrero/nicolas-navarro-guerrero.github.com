@@ -1,0 +1,40 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2025Dexterousa",
+		"type": "speech",
+		"abstract": "The object perception capabilities of humans are impressive, and this becomes even more evident when trying to develop solutions with similar proficiency in autonomous robots. While there have been notable advancements in technologies for artificial vision and touch, the effective integration of these two sensory modalities in robotic applications still needs improvement, and several open challenges remain. This talk summarizes the current state of the art in visuo-haptic object perception for robots, identifies open challenges, and presents some of my ongoing research in the area.",
+		"event-place": "Be'er-Sheva, Israel",
+		"event-title": "ABC Robotics Seminars",
+		"genre": "Invited Talk",
+		"language": "English",
+		"note": "27 Oct.\\ 2025",
+		"publisher-place": "Be'er-Sheva, Israel",
+		"title": "Towards Dexterous Manipulation: From Teleoperation to Autonomous Learning",
+		"title-short": "Towards Dexterous Manipulation",
+		"URL": "https://www.bgu.ac.il/en/u/research-centers/robotics/",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2025",
+			"month": "10",
+		}
+	}
+---
+

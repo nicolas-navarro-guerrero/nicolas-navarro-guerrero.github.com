@@ -1,0 +1,39 @@
+---
+tags: [talk, invited talk, research]
+categories: talk
+author: "Nicolás Navarro-Guerrero"
+rights: "Copyright Nicolás Navarro-Guerrero"
+license: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary:
+code:
+
+citation: {
+		"id": "Navarro-Guerrero2025Dexterous",
+		"type": "speech",
+		"abstract": "The object perception capabilities of humans are impressive, and this becomes even more evident when trying to develop solutions with similar proficiency in autonomous robots. While there have been notable advancements in technologies for artificial vision and touch, the effective integration of these two sensory modalities in robotic applications still needs improvement, and several open challenges remain. This talk summarizes the current state of the art in visuo-haptic object perception for robots, identifies open challenges, and presents some of my ongoing research in the area.",
+		"event-place": "Genoa, Italy",
+		"event-title": "Academic Workshop From Body to Mind: The Role of Embodiment in Human Thought and Learning",
+		"genre": "Invited Talk",
+		"language": "English",
+		"note": "22 Oct.\\ 2025",
+		"publisher-place": "Genoa, Italy",
+		"title": "Towards Dexterous Manipulation: From Teleoperation to Autonomous Learning",
+		"URL": "https://body-mind-workshop.lovable.app/",
+		"author": [
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2025",
+			"month": "10",
+		}
+	}
+---
+
