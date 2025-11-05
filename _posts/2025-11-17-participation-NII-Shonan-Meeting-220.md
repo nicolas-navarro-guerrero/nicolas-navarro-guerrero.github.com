@@ -1,6 +1,4 @@
 ---
-
-
 title:  "Participation: NII Shonan Meeting: Next Generation Cognitive Robotics"
 subtitle: 
 thumbnail: "2025-11-shonan-meeting-logo.svg"

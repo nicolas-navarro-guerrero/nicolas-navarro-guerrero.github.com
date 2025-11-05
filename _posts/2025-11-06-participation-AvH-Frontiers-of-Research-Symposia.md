@@ -1,6 +1,4 @@
 ---
-
-
 title:  "Participation: 15th Brazilian-German Frontiers of Science and Technology (BRAGFOST) Symposium"
 subtitle: 
 thumbnail: "2025-11-AvH-Frontiers-of-Research-Symposia-AvH-Logo.svg"
