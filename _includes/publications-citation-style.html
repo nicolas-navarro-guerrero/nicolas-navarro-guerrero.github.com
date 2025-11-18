@@ -35,12 +35,14 @@
 {% endif %}
 
 <!--EVENTPLACE-TITLE-->
+{% unless handle.citation.event-title != null and handle.citation.event-title==handle.citation.container-title%}
+  {% if handle.citation.event-title != null %}
+    {{ handle.citation.event-title }}. 
+  {% endif %} 
+{% endunless %}
 {% if handle.citation.event-place != null %}
   {{ handle.citation.event-place }}. 
 {% endif %}
-{% unless handle.citation.event-title != null and handle.citation.event-title==handle.citation.container-title%}
-  {{ handle.citation.event-title}} 
-{% endunless %}
 
 <!-- DATE -->
 {% if handle.citation.issued.day and handle.citation.issued.month and handle.citation.issued.year %}
