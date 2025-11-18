@@ -16,9 +16,12 @@ layout: fullwidth
       {{ content }}
     </div>
     {% if page.image %}
-      <img class=" p-2 rounded float-start" src="{{ page.image_base }}{{ page.image }}"  alt="image"  style="max-width: 500px; background-color: #ffffffe9;">
+      <div class="text-center">
+        <img class="p-2 rounded float-start img-fluid" src="{{ page.image_base }}{{ page.image }}"  alt="image" background-color: #ffffffe9;">
+      </div>
     {% endif %}
   </div>
 </div>
 </article>
 <div class="mb-5"></div>
+
