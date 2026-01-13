@@ -1,0 +1,50 @@
+---
+tags: [thesis, master, luh, l3s, grasping, slip detection, shadow hand, tactile perception, msc, germany, man]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Kuhlmann",
+		"given": "Malte"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Sharma2026Knowledge",
+		"type": "thesis",
+		"event-place": "Hanover, Germany",
+		"genre": "MSc",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Knowledge Graph-Filtered Reasoning-Augmented Generation for Factual Open-Domain Question Answering",
+		"author": [
+			{
+				"family": "Sharma",
+				"given": "Mukul"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---
