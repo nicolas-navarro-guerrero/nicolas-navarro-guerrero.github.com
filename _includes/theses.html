@@ -37,7 +37,7 @@
             {% endif %}
               <th>Examiners</th>
               <th>Title</th>
-              <th>Material</th>
+<!--              <th>Material</th> -->
             </tr>
           </thead>
           <tbody>
@@ -77,7 +77,7 @@
           {% endif %}
         {% endfor %}</td>
     <td>{{ item.citation.title }}</td>
-    <td>
+<!--    <td>
         {% if item.file != null %}
           <a href="{{ item.file }}">pdf</a> 
         {% endif %}
