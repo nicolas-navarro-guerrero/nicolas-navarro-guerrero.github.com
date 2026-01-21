@@ -1,0 +1,63 @@
+---
+tags: [thesis, phd, upe, brazil, man, chile]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Torres Fernandes",
+        "given": "Bruno José"
+      },
+      {
+        "family": "Cruz Naranjo",
+        "given": "Francisco Javier"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Houben",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Jost",
+        "given": "Jana"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Lorenzato de Oliveira",
+        "given": "João Fausto"
+      },
+    ]
+
+citation: {
+		"id": "AyalaMaldonado2025Decoupled",
+		"type": "thesis",
+		"citation-key": "AyalaMaldonado2025Decoupled",
+		"genre": "PhD",
+		"publisher": "Universidade de Pernambuco",
+		"publisher-place": "Recife, Brazil",
+		"title": "Decoupled Sensorimotor Self-Predictive Representation for Object-Goal Autonomous Navigation with a Quadcopter",
+		"author": [
+			{
+				"family": "Ayala Maldonado",
+				"given": "Angel"
+			}
+		],
+		"issued": {
+			"year": "2025",
+			"month": "12",
+		}
+	}
+---
+
