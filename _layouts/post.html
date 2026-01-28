@@ -11,13 +11,12 @@ layout: fullwidth
 <div class="container mt-4">
   <div class="clearfix">
       <img class="rounded p-2 float-end" src="{{ page.thumbnail_base }}{{ page.thumbnail }}"  alt="Thumbnail" style="background-color: #ffffffe9; max-width: 300px;">
-
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
     {% if page.image %}
       <div class="text-center">
-        <img class="p-2 rounded float-start img-fluid" src="{{ page.image_base }}{{ page.image }}"  alt="image" background-color: #ffffffe9;">
+        <img class="p-2 rounded float-center img-fluid" src="{{ page.image_base }}{{ page.image }}" alt="image" background-color: #ffffffe9;">
       </div>
     {% endif %}
   </div>
