@@ -155,7 +155,7 @@
 
           <div class="d-flex justify-content-center align-items-center ms-3 me-3 mt-2" style="min-height: 150px;">
             <a href="{{ item.slug }}">
-              <img src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
+              <img src="{% if item.thumbnail != null %}{{item.slug}}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                   class="card-img-top  p-2 " 
                   alt="Project Thumbnail" 
                   style="max-width:350px; max-height:500px; object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">

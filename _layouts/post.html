@@ -14,11 +14,15 @@ layout: fullwidth
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
+<<<<<<< Updated upstream
     {% if page.image %}
       <div class="text-center">
         <img class="p-2 rounded float-center img-fluid" src="{{ page.image_base }}{{ page.image }}" alt="image" background-color: #ffffffe9;">
       </div>
     {% endif %}
+=======
+      {% include carousel.html project=page %}
+>>>>>>> Stashed changes
   </div>
 </div>
 </article>

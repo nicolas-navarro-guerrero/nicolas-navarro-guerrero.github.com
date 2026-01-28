@@ -2,7 +2,7 @@
 title:  "Participation: NII Shonan Meeting: Next Generation Cognitive Robotics"
 subtitle: 
 thumbnail: "2025-11-shonan-meeting-logo.svg"
-image: "2025-11-19-NII-Shonan-220.jpeg"
+slug: "/posts/media/2025-11-19-NII-Shonan"
 
 tags: [seminar, outreach, participant]
 categories: [news]

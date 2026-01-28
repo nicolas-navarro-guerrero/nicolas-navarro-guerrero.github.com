@@ -4,7 +4,7 @@ layout: post
 title: "„ti“ 1+2/2025: In Gesellschaft mit KI – Risiken und Chancen"
 subtitle: "Mit Gefühl — taktile Sensoren für Roboterhand"
 thumbnail: "2025-06-ti-Magazin.jpg"
-image: "2025-06-Amrhein-Blaser2025ti.jpg"
+slug: "/posts/media/2025-06-Amrhein-Blaser"
 
 tags: [Media Coverage, Outreach]
 categories: [news]
