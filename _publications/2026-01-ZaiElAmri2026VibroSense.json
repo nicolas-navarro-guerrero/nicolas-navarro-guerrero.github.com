@@ -1,0 +1,39 @@
+---
+tags: [upcoming, tactile perception, vibrosense]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://wzaielamri.github.io/images/vibrosense/experiment_setup.jpeg"
+file: ""
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-01-ZaiElAmri2026VibroSense.bib"
+slides: 
+supplementary: "https://wzaielamri.github.io/publication/vibrosense"
+code: 
+
+citation: {
+		"bibtex": "ZaiElAmri2026VibroSense",
+		"type": "article-journal",
+		"citation-key": "ZaiElAmri2026VibroSense",
+		"container-title": "Submitted to Springer Autonomous Robots",
+		"journalAbbreviation": "Auton Robots",
+		"license": "All rights reserved",
+		"page": "1-13",
+		"title": "Vibro-Sense: Robust Vibration-based Impulse Response Localization and Trajectory Tracking for Robotic Hands",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2026",
+          "month": "01", 
+		}
+	}
+---
