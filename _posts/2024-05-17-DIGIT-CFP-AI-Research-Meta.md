@@ -4,7 +4,7 @@ layout: post
 title: "DIGIT CFP through AI Research at Meta"
 subtitle: 
 thumbnail: "DIGIT.png"
-image: [2024-08-29-DIGITs-1725431791518.jpeg, 2024-08-29-DIGITs-1725431791625.jpeg]
+slug: "/posts/media/2024-08-29-DIGITs"
 
 tags: [awards, grants]
 categories: [news]
@@ -19,4 +19,3 @@ author: Nicolás Navarro-Guerrero
 <p>We thank AI at Meta and GelSight for the support.</p>
 
 <!--more-->
-
