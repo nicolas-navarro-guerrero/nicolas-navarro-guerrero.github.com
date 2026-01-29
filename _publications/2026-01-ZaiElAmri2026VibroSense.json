@@ -6,7 +6,7 @@ rights: "The Authors."
 license: 
 
 thumbnail: "https://wzaielamri.github.io/images/vibrosense/experiment_setup.jpeg"
-file: ""
+file: "https://arxiv.org/pdf/2601.20555"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-01-ZaiElAmri2026VibroSense.bib"
 slides: 
 supplementary: "https://wzaielamri.github.io/publication/vibrosense"
@@ -17,6 +17,8 @@ citation: {
 		"type": "article-journal",
 		"citation-key": "ZaiElAmri2026VibroSense",
 		"container-title": "Submitted to Springer Autonomous Robots",
+		"URL": "https://arxiv.org/abs/2601.20555",
+        "DOI": "10.48550/arXiv.2601.20555",
 		"journalAbbreviation": "Auton Robots",
 		"license": "All rights reserved",
 		"page": "1-13",
