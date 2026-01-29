@@ -2,6 +2,11 @@
 {% assign latest = include.latest | default: -1 %}
 {% assign page = include.page %}
 
+{% assign image_folder = "assets/img" | append: page.slug %}
+{% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
+
+
+
 {% if section contains 'acknowledgment' %}
   {% if page.acknowledgment != null %}
     <h3 class="pt-4">Acknowledgments:</h3>
@@ -136,7 +141,10 @@
   </div>
 </div>
 {% elsif section contains 'carousel' %}
-{% include carousel.html project=page %}
+  {% if images.size > 0 %}
+   <h3 class="pt-5">Gallery</h3>
+  {% endif %}
+  {% include carousel.html project=page %}
 
 
 

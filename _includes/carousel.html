@@ -3,7 +3,6 @@
 {% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
 
 {% if images.size > 0 %}
-<h3 class="pt-5">Gallery</h3>
 <div class="container-fluid p-0">
   <div class="w-100 p-2 bg-white rounded position-relative overflow-hidden"
        style="height: 500px;">
