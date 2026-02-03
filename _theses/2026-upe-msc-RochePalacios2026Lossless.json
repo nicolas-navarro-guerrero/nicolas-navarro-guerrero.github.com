@@ -1,0 +1,57 @@
+---
+tags: [thesis, msc, master, upe, l3s, guatemala, man, federated learning]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+	    "family": "Fernandes",
+		"given": "Bruno"
+	  },
+	  {
+		"family": "Navarro-Guerrero",
+		"given": "Nicolás"
+	  }
+    ]
+
+examiners: [
+      {
+	    "family": "Fernandes",
+		"given": "Bruno"
+	  },
+	  {
+		"family": "Navarro-Guerrero",
+		"given": "Nicolás"
+	  }
+    ]
+
+citation: {
+		"id": "RochePalacios2026Lossless",
+		"type": "thesis",
+		"citation-key": "RochePalacios2026Lossless",
+		"genre": "MSc",
+		"publisher": "Universidade de Pernambuco",
+		"publisher-place": "Recife, Brazil",
+		"title": "Lossless Preprocessing Communication-Efficiency in Federated Learning",
+		"author": [
+			{
+				"family": "Roche Palacios",
+				"given": "Diego Roberto"
+			}
+		],
+		"contributor": [
+
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---

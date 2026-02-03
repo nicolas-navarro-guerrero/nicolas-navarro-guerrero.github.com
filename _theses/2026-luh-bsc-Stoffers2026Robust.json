@@ -1,0 +1,65 @@
+---
+tags: [thesis, bsc, bachelor, luh, l3s, germany, man, cv, computer vision, biobots, plant recognition, dataset]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+	    "family": "Fernandes",
+		"given": "Bruno"
+	  },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Stoffers2026Robust",
+		"type": "thesis",
+		"abstract": "This work focuses on expanding the functionality of the humanoid robot Pepper by integrating a Jetson Orin Nano, an Intel RealSense D435i depth camera, and a microphone to enhance its interaction and navigation capabilities in various application areas. The goal was to overcome the technical limitations of Pepper and to enable the use of modern software stacks and tools. The implementation of the hardware was carried out using specially developed 3D-printed mounts, ensuring a stable and aesthetic integration of the components. However, minor physical constraints were observed, such as the arms touching the box and the chin making contact with the tablet. Despite these limitations, the integration significantly enhances Pepper’s perception and interaction capabilities, demonstrating the feasibility of incorporating external hardware into humanoid robots and laying the foundation for future developments.",
+		"citation-key": "Stoffers2026Robust",
+		"genre": "BSc",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Robust Recognition of Invasive Plant Species Under Variable Conditions",
+		"author": [
+			{
+				"family": "Stoffers",
+				"given": "Niklas"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Nejdl",
+				"given": "Wolfgang"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---
