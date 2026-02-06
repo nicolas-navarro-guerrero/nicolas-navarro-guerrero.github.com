@@ -13,15 +13,16 @@ supplementary:
 code:
 
 citation: {
-		"bibtex": "Fabisch2025Robots",
+		"bibtex": "Fabisch2026Robots",
 		"type": "article-journal",
 		"abstract": "Human manipulation skills represent a pinnacle of their voluntary motor functions, requiring the coordination of many degrees of freedom and processing of high-dimensional sensor input to achieve such a high level of dexterity.\nThus, we set out to answer whether the human hand, with its associated biomechanic properties, sensors, and control mechanisms, is an ideal that we should strive for in robotics---do we really need anthropomorphic robotic hands?\n\nThis survey can help practitioners to make the trade-off between hand complexity and potential manipulation skills.\nWe provide an overview of the human hand, a comparison of commercially available robotic and prosthetic hands, and a systematic review of hand mechanisms and skills that they are capable of.\nThis leads to follow-up questions such as:\nwhat is the minimum requirement on mechanisms and sensors to implement most skills that a robot needs?\nAre we missing something else to reach human dexterity?\nCan we improve upon human dexterity?\n\nAlthough complex five-fingered hands are often used as the ultimate goal for robotic manipulators, they are not necessary for all tasks.\nWe found that wrist flexibility and finger abduction/adduction are important for manipulation capabilities. On the contrary, increasing the number of fingers, actuators, or degrees of freedom is often not necessary. Three fingers are a good compromise between simplicity and dexterity. Non-anthropomorphic hand designs with two opposing pairs of fingers or human hands with six fingers can further increase dexterity, suggesting that the human hand is not the optimum.",
-		"container-title": "arXiv",
-        "URL": "https://arxiv.org/abs/2508.05415",
-        "DOI": "10.48550/arXiv.2508.05415",
-		"ISSN": "1573-7527",
-		"journalAbbreviation": "Auton Robots",
-		"title": "Do Robots Really Need Anthropomorphic Hands?",
+		"citation-key": "Fabisch2026Robots",
+		"container-title": "Biomimetic Intelligence and Robotics",
+		"DOI": "10.48550/arXiv.2508.05415",
+		"ISSN": "2667-3797",
+		"journalAbbreviation": "Biomim Intell Robot",
+		"title": "Do Robots Really Need Anthropomorphic Hands?---A Comparison of Human and Robotic Hands",
+		"URL": "https://arxiv.org/abs/2508.05415",
 		"author": [
 			{
 				"family": "Fabisch",
@@ -46,4 +47,3 @@ citation: {
 		}
 	}
 ---
-
