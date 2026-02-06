@@ -86,8 +86,21 @@
     {% assign datafile = site.media %}
   {% endif %}
 
+  {% assign category_count = 0 %}
+  {% for item in datafile %}
+    {% unless item.categories contains 'template' %}
+      {% assign tmp = item.tags | downcase %}
+      {% assign temp = section | size | minus: 1 %}
+      {% assign ection = section | slice: 0,temp %}
+      
+      {% if tmp contains section or tmp contains ection %}
+        {% assign category_count = category_count | plus: 1 %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+
   {% unless section == '' or section contains 'talks' or section contains 'media' %}
-  <h3 class="pt-5" id="{{ section }}">{{ title }}</h3>
+  <h3 class="pt-5" id="{{ section }}">{{ title }} ({{ category_count }})</h3>
   {% endunless %}
 
   <ul class="list-unstyled">
