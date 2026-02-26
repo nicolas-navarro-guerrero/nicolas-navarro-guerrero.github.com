@@ -19,28 +19,25 @@
 <p>If you are seeking a supervisor for your thesis, please do not hesitate to <a href="/contact">contact me</a>. I maintain a <a href="/teaching/theses#offers">list of interesting projects</a>, both theoretical and applied, but I am also interested in supervising other projects as long as they align with my <a href="/">interests</a>. <a href="/teaching/theses#offers">Here</a> you can find a broad collection of possible projects that I am currently interested in.</p>
 
 {% else %}
-  <div class="row">
-    <div class="col-12">
-
-      <div class="table-responsive">
-        <table class="table table-striped table-condensed">
-          <thead>
-            <tr>
-              <th>Date</th>
+  <div class="table-responsive">
+    <table class="table table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Date</th>
 <!--              <th>Degree</th>   -->
-              <th>Institution</th>
-              <th>Name</th>
-            {% if handle contains 'phd' %}
-              <th>Mentors</th>
-            {% else %}
-              <th>Supervisors</th>
-            {% endif %}
-              <th>Examiners</th>
-              <th>Title</th>
+          <th>Institution</th>
+          <th>Name</th>
+          {% if handle contains 'phd' %}
+            <th>Mentors</th>
+          {% else %}
+            <th>Supervisors</th>
+          {% endif %}
+            <th>Examiners</th>
+            <th>Title</th>
 <!--              <th>Material</th> -->
-            </tr>
-          </thead>
-          <tbody>
+        </tr>
+      </thead>
+      <tbody>
 {% for item in datafile reversed %}
   {% unless item.categories contains 'template' %}
   {% assign tmp = item.citation.genre | downcase %}
@@ -92,8 +89,8 @@
         {% endif %}
 <!--        {% if item.library != null %}
           <br><a href="{{ item.library }}"> hard-copy</a> 
-        {% endif %} -->
-    </td>
+        {% endif %} 
+    </td>-->
   </tr>
   {% endif %}
   {% endunless %}
@@ -101,7 +98,5 @@
           </tbody>
         </table>
       </div><!-- table-responsive -->
-    </div><!-- column -->
-  </div><!-- row -->
 {% endif %}
 

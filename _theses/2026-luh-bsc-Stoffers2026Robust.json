@@ -1,5 +1,5 @@
 ---
-tags: [thesis, bsc, bachelor, luh, l3s, germany, man, cv, computer vision, biobots, plant recognition, dataset]
+tags: [thesis, bachelor, bsc, luh, l3s, germany, man, computer vision, cv, plant detection, biobots]
 categories: 
 
 thumbnail: 
@@ -16,9 +16,9 @@ supervisors: [
         "given": "Nicolás"
       },
       {
-	    "family": "Fernandes",
-		"given": "Bruno"
-	  },
+        "family": "Zai El Amri",
+		"given": "Wadhah"
+      },
     ]
 
 examiners: [
