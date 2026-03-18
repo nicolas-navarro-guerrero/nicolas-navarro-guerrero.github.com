@@ -49,10 +49,8 @@
 {% elsif section contains 'metadata' %}
 
 {% if page.thumbnail != null %}
-<div class="w-100 p-2" style="background-color: #ffffffe9; border-radius: 5px 5px 0 0; height: auto; width: auto;">
-  <div class="col-lg-4 m-5 w-75 svg">
-    <img class="w-100" src="{{page.thumbnail}}">
-  </div>
+<div class="w-100 mb-4" style="background-color: #ffffffe9; border-radius: 5px 5px 0 0;">
+    <img class="img-fluid" src="{{page.thumbnail}}">
 </div>
 {% endif %}
 <div class="card mb-3">
@@ -166,7 +164,7 @@
               <img src="{% if item.thumbnail != null %}{{item.slug}}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
                   class="card-img-top  p-2 " 
                   alt="Project Thumbnail" 
-                  style="max-width:350px; max-height:500px; object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">
+                  style="max-height:270px; object-fit: scale-down; border-radius: 5px; background-color: #ffffffe9;">
             </a>
           </div>
 
