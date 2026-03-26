@@ -1,0 +1,50 @@
+---
+tags: [thesis, luh, l3s, master, msc, germany, man, navigation, slam, Formula Student, Driverless, autonomous driving]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Renziehausen2026Maximizing",
+		"type": "thesis",
+		"citation-key": "Renziehausen2026Maximizing",
+		"genre": "MSc",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Maximizing Points in Formula Student Driverless: An Optimization Approach to Autonomous Software Design",
+		"author": [
+			{
+				"family": "Renziehausen",
+				"given": "Heinz"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---
