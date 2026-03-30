@@ -10,7 +10,7 @@ categories: [news]
 
 author: Nicolás Navarro-Guerrero
 ---
-I am  grateful for the opportunity to spend a one-week research visit at Ben-Gurion University of the Negev in Be’er Sheva, Israel, from 24th to 30th October 2025. Hosted by Prof. Ilana Nisky within the vibrant research environment of her lab, this visit was generously funded by the International Senior Academic Faculty Visits Program at Ben-Gurion University of the Negev.https://www.bgu.ac.il/en/u/vps/international/international-opportunities/
+I am  grateful for the opportunity to spend a one-week research visit at Ben-Gurion University of the Negev in Be’er Sheva, Israel, from 24th to 30th October 2025. Hosted by Prof. Ilana Nisky within the vibrant research environment of her lab, this visit was generously funded by the <a href="https://www.bgu.ac.il/en/u/vps/international/international-opportunities/" target="_blank">International Senior Academic Faculty Visits Program</a> at Ben-Gurion University of the Negev.
 
 <!--more-->
 During my stay, I engaged in stimulating discussions with several faculty members and researchers, exploring shared interests in haptics, tactile perception, and human–robot interaction. These exchanges provided valuable feedback on ongoing work and opened up promising avenues for future collaboration. In addition to the academic program, there was also time for informal conversations and leisure activities in and around Be’er Sheva, which made the visit both scientifically productive and personally enriching.
