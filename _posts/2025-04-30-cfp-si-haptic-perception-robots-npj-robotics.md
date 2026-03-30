@@ -1,8 +1,9 @@
 ---
 title:  "Call for Papers: Special Issue on Haptic Perception Robots"
 subtitle: "Springer Nature npj Robotics"
+
 thumbnail: "2025-04-npj2025.png"
-slug: "/posts/media/2025-04-npj2025-Haptic-Perception-Robots"
+mediapath: "2025-04-npj2025-Haptic-Perception-Robots"
 
 tags: [special issue, journal, call for papers]
 categories: [news]

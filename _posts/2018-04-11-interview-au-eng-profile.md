@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Interview: Next Generation Social Robots"
 subtitle: "Featured at the AU Department of Engineering Profile 2018"
+
 thumbnail: "2018-04-socialrobots.png"
+mediapath: ""
 
 tags: [press, interview, outreach]
 categories: [news]

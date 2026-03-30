@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Guest Lecture: Designing Social Robots"
 subtitle: "Division of Cognition and Communication, University of Gothenburg, Sweden"
+
 thumbnail: "2018-12-designingsocialrobots.png"
+mediapath: ""
 
 tags: [Guest Lecture, outreach, Teaching]
 categories: [news]

@@ -1,10 +1,8 @@
 ---
-layout: post
-
 title: "DIGIT CFP through AI Research at Meta"
 subtitle: 
 thumbnail: "DIGIT.png"
-slug: "/posts/media/2024-08-29-DIGITs"
+mediapath: "2024-08-29-DIGITs"
 
 tags: [awards, grants]
 categories: [news]

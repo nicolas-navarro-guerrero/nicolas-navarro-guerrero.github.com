@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: 2nd Congress on Robotics and Neuroscience (CRoNe)"
 subtitle: 
+
 thumbnail: "2016-10-CRONE.png"
+mediapath: ""
 
 tags: [conference, outreach, Talk]
 categories: [news]

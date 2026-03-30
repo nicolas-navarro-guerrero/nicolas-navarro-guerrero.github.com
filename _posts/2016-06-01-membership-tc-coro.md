@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Membership: IEEE Technical Committee on Cognitive Robotics"
 subtitle: 
 thumbnail: "2016-06-ieee-ras-cognitive-robotics.png"
+mediapath: ""
 
 tags: [membership, peer esteem indicators, outreach]
 categories: [news]

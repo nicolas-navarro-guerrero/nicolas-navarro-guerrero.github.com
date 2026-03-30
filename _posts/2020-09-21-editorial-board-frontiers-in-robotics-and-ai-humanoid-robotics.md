@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Editorial Board: Joined the Editorial Board of the Humanoid Robotics Section"
 subtitle: "Frontiers in Robotics and AI"
+
 thumbnail: "frontiersRoboticsAi.jpeg"
+mediapath: ""
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach, Editorial Board]
 categories: [news]

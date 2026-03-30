@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Project Leader M-RoCK project"
 subtitle: "Human-Machine Interaction Modeling for Continuous Improvement of Robot Behavior"
+
 thumbnail: "2021-11-M-rock.png"
+mediapath: ""
 
 tags: [Academic Management, Leadership]
 categories: [news]

@@ -1,8 +1,9 @@
 ---
 title: "Co-organizer: Latin American Summer School on Cognitive Robotics (LACORO 2025)"
 subtitle: 
-slug: "/posts/media/2025-12-13-LACORO"
+
 thumbnail: "2025-12-lacoro2025.png"
+mediapath: "2025-12-13-LACORO"
 
 tags: [Committee, Summer School, organization]
 categories: [news]

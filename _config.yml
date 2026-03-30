@@ -62,15 +62,16 @@ defaults:
       author: "Nicolas Navarro-Guerrero"
 
   - scope:
-      path: "assets/img"
+      type: "images"
     values:
+      path: "/assets/img/"
       image: true
 
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
-      layout: "post"
+      layout: "posts"
       author: "Nicolas Navarro-Guerrero"
       image_base: "/assets/img/posts/media/"
       thumbnail_base: "/assets/img/posts/thumbnails/"

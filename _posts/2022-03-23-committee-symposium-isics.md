@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Program Committee: 4th International Symposium on Intelligent Computing Systems (ISICS)"
 subtitle: 
+
 thumbnail: "2022-03-ISICS2022.jpg"
+mediapath: ""
 
 tags: [program committee, committee, technical committee, symposium, conference]
 categories: [news]

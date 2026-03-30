@@ -1,9 +1,10 @@
 ---
 title: "Autonomous Robots - Top 10 Downloaded Articles 2023"
 subtitle: 
-slug: "/posts/media/2024-04-article"
 thumbnail: "2024-04-article.png"
-tags: [research, impact]
+mediapath: "2024-04-article"
+
+tags: [award, research, impact]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

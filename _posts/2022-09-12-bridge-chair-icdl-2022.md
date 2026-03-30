@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Bridge Chair: IEEE International Conference on Development and Learning (ICDL 2022)"
 subtitle: 
+
 thumbnail: "2022-09-IEEEICDL2022.png"
+mediapath: ""
 
 tags: [Bridge chair, committee, conference, organization]
 categories: [news]

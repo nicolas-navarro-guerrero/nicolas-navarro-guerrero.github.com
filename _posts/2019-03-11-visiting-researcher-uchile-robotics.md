@@ -1,11 +1,11 @@
 ---
-
-
 title:  "Visiting the UChile Robotics Lab"
 subtitle: "Electrical Engineering Department at the University of Chile, Santiago, Chile"
-thumbnail: "2019-03-Uchilehomebreakers.png"
 
-tags: [Visiting Researcher, outreach]
+thumbnail: "2019-03-Uchilehomebreakers.png"
+mediapath: ""
+
+tags: [visit, visiting researcher, outreach]
 categories: [news]
 
 author: Nicolás Navarro-Guerrero

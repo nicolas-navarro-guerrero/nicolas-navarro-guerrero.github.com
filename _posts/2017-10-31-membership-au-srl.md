@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Membership: AU Social Robotics Lab"
 subtitle: 
 thumbnail: "2017-10-AU-Social-Robotics-Lab.png"
+mediapath: ""
 
 tags: [membership, outreach]
 categories: [news]

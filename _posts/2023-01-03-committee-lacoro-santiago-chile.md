@@ -1,9 +1,9 @@
 ---
-
-
 title: "Organizer: Latin American Summer School on Cognitive Robotics (LACORO 2023)"
 subtitle: 
+
 thumbnail: "2023-01-03-lacoro2023.png"
+mediapath: ""
 
 tags: [Committee, Summer School, organization]
 categories: [news]

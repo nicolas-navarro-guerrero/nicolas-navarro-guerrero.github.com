@@ -1,7 +1,9 @@
 ---
 title: "Academic Workshop From Body to Mind"
 subtitle: "The Role of Embodiment in Human Thought and Learning"
+
 thumbnail: "2025-10-workshop-from-body-to-mind.png"
+mediapath: ""
 
 tags: [talk, seminar, outreach, participant]
 categories: [news]

@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Co-Organization: Postgraduate Conference on Robotics and Development of Cognition"
 subtitle: "International Conference on Artificial Neural Networks (ICANN)"
 thumbnail: "robotDoc.jpg"
+mediapath: ""
 
 tags: [Local Chair, call for papers, workshop, conference, organization]
 categories: [news]

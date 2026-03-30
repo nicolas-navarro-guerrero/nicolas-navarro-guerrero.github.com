@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Membership: IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC)"
 subtitle: 
 thumbnail: "IEEmembership.jpg"
+mediapath: ""
 
 tags: [membership, peer esteem indicators, outreach]
 categories: [news]

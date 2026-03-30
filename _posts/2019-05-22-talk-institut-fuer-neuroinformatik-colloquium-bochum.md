@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: Institut für Neuroinformatik (INI) Colloquium"
 subtitle: 
+
 thumbnail: "2019-05-22-ini.jpg"
+mediapath: ""
 
 tags: [outreach, talk, Workshop]
 categories: [news]

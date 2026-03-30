@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Chair: Task Force on Action and Perception"
 subtitle: "IEEE Technical Committee on Cognitive and Developmental Systems (CDSTC)"
+
 thumbnail: "2018-05-IEEECIS1.png"
+mediapath: ""
 
 tags: [Academic Management, Leadership, peer esteem indicators, outreach]
 categories: [news]

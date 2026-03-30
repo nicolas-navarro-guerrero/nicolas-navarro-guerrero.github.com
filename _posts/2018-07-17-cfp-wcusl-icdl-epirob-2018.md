@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Call for Papers: Workshop on Continual Unsupervised Sensorimotor Learning"
 subtitle: "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)"
+
 thumbnail: "2018-07-17-IEEEICDL2018.png"
+mediapath: ""
 
 tags: [organization, call for papers, workshop, conference]
 categories: [news]

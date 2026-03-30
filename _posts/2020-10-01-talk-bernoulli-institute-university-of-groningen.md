@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence"
 subtitle: University of Groningen, the Netherlands
+
 thumbnail: "2020-10-BernouilTalk.png"
+mediapath: ""
 
 tags: [outreach, talk, seminar]
 categories: [news]

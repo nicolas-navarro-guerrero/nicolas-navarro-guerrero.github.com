@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: Workshop on Social Robotics: Social Robotics: New Paths to Discovering What Matters in a Human Life"
 subtitle: "Matchpoints seminar: The Welfare State: New solutions to Old Problems?"
+
 thumbnail: "2018-05-matchpointsseminar.png"
+mediapath: ""
 
 tags: [workshop, outreach, Talk]
 categories: [news]

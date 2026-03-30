@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Session Chair: General Principles of Development and Learning Session at ICDL-EpiRob 2021"
 subtitle: "IEEE International Conference on Development and Learning (ICDL 2021)"
+
 thumbnail: "2021-08-ICDL2021.png"
+mediapath: ""
 
 tags: [session chair, session, conference]
 categories: [news]

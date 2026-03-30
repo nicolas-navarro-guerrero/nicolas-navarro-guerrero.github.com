@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Program Committee: IEEE Symposium on Domestic Robotics"
 subtitle: "IEEE Symposium Series on Computational Intelligence (IEEE SSCI)"
+
 thumbnail: "2019-12-06-SSCI2019.png"
+mediapath: ""
 
 tags: [program committee, committee, symposium, workshop, conference]
 categories: [news]

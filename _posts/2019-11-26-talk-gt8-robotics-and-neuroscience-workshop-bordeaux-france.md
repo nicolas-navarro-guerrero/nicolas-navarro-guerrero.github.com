@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: GT8 Robotics and Neuroscience Workshop"
 subtitle: 
+
 thumbnail: "2019-11-GT8.png"
+mediapath: ""
 
 tags: [outreach, talk, Workshop]
 categories: [news]

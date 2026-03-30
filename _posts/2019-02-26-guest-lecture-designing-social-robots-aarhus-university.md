@@ -1,9 +1,9 @@
 ---
-
-
 title: "Guest Lecture: Designing Social Robots"
 subtitle: "Department of Computer Science at Aarhus University, Denmark"
+
 thumbnail: "2019-02-inovationproject.png"
+mediapath: ""
 
 tags: [Guest Lecture, outreach, Teaching]
 categories: [news]

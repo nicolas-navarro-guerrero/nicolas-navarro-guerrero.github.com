@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Grant: Business-Oriented Activities"
 subtitle: "Faculty of Science and Technology at Aarhus University"
+
 thumbnail: "2018-02-socialrobots1.png"
+mediapath: ""
 
 tags: [grant, funding]
 categories: [news]

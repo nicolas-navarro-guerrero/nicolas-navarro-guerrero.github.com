@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Talk: Akademiet for Talentfuld Unge (ATU)"
 subtitle: "Sommercamp 2018"
+
 thumbnail: "2018-07-04-akademiet.png"
+mediapath: ""
 
 tags: [outreach, talk]
 categories: [news]

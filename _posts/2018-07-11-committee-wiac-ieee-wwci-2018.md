@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Program Committee: Workshop on Intelligent Assistive Computing"
 subtitle: "Bi-Annual IEEE World Congress on Computational Intelligence (IEEE WCCI)"
+
 thumbnail: "2018-07-11-IEEERIO2018.jpg"
+mediapath: ""
 
 tags: [program committee, call for papers, workshop, conference]
 categories: [news]

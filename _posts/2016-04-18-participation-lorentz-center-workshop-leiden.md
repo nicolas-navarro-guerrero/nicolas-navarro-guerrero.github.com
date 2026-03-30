@@ -1,9 +1,9 @@
 ---
-
-
 title:  "Participation: Lorentz Center Workshop on Emotions as Feedback Signals"
 subtitle: 
+
 thumbnail: "2016-04-lorenzcenter.jpg"
+mediapath: ""
 
 tags: [workshop, outreach, participant]
 categories: [news]
