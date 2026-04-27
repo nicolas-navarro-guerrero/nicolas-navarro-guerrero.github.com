@@ -3,7 +3,7 @@ title:  "Journal Track Chair: IEEE International Conference on Development and L
 subtitle: 
 
 thumbnail: "2025-09-IEEICDL2025.png" 
-mediapath: ""
+mediapath: "2025-09-ICDL-2025"
 
 tags: [Journal Track chair, committee, conference, organization]
 categories: [news]

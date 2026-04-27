@@ -1,0 +1,38 @@
+---
+tags: [upcoming, tactile perception, across]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-ZaiElAmri2026SPLIT.png"
+file: ""
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-ZaiElAmri2026SPLIT.bib"
+slides: 
+supplementary: "https://wzaielamri.github.io/publication/split"
+code: 
+
+citation: {
+		"bibtex": "ZaiElAmri2026SPLIT",
+		"type": "article-journal",
+		"citation-key": "ZaiElAmri2026SPLIT",
+		"container-title": "Robotics and Autonomous Systems",
+		"journalAbbreviation": "Rob Auton Syst",
+		"note": "https://wzaielamri.github.io/publication/split",
+		"title": "SPLIT: Separating Physical-Contact via Latent Arithmetic in Image-Based Tactile Sensors",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2026",
+          "month": "04", 
+		}
+	}
+---

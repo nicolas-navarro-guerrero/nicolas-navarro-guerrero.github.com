@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicolas-navarro-guerrero.github.io" # the base hostname & protocol for your site
 
 brand: Nicolás Navarro-Guerrero
-photo: /assets/nicolas-navarro-guerrero.png
+photo: /assets/nicolas-navarro-square.jpg
 
 #twitter_username: jekyllrb
 github_username:  nicolas-navarro-guerrero
