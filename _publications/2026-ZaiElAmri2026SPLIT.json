@@ -6,7 +6,7 @@ rights: "The Authors."
 license: 
 
 thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-ZaiElAmri2026SPLIT.png"
-file: ""
+file: "https://arxiv.org/pdf/2604.24449"
 bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-ZaiElAmri2026SPLIT.bib"
 slides: 
 supplementary: "https://wzaielamri.github.io/publication/split"
@@ -15,11 +15,15 @@ code:
 citation: {
 		"bibtex": "ZaiElAmri2026SPLIT",
 		"type": "article-journal",
+		"abstract": "Training machine learning models for robotic tactile sensing requires vast amounts of data, yet obtaining realistic interaction data remains a challenge due to physical complexity and variability. Simulating tactile sensors is thus a crucial step in accelerating progress. This paper presents SPLIT, a novel method for simulating image-based tactile sensors, with a primary focus on the DIGIT sensor. Central to our approach is a latent space arithmetic strategy that explicitly disentangles contact geometry from sensor-specific optical properties. Unlike methods that require recalibration for every new unit, this disentanglement allows SPLIT to adapt to diverse DIGIT backgrounds and even transfer data to distinct sensors like the GelSight R1.5 without full model retraining. Beyond this adaptability, our approach achieves faster inference speeds than existing alternatives. Furthermore, we provide a calibrated finite element method (FEM) soft-body mesh simulation with variable resolution, offering a tunable trade-off between speed and fidelity. Additionally, our algorithm supports bidirectional simulation, allowing for both the generation of realistic images from deformation meshes and the reconstruction of meshes from tactile images. This versatility makes SPLIT a valuable tool for accelerating progress in robotic tactile sensing research.",
 		"citation-key": "ZaiElAmri2026SPLIT",
 		"container-title": "Robotics and Autonomous Systems",
+		"DOI": "10.48550/arXiv.2604.24449",
 		"journalAbbreviation": "Rob Auton Syst",
+		"license": "Open Access",
 		"note": "https://wzaielamri.github.io/publication/split",
 		"title": "SPLIT: Separating Physical-Contact via Latent Arithmetic in Image-Based Tactile Sensors",
+		"URL": "http://arxiv.org/abs/2604.24449",
 		"author": [
 			{
 				"family": "Zai El Amri",
