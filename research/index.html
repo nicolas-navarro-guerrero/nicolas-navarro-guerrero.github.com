@@ -6,6 +6,8 @@ projects, scientific projects, freelance projects, robotDoC, IRMA, Autonomous Mo
 title: Research
 subtitle: Overview
 author: Nicolás Navarro-Guerrero
+
+relatedpapers: [Fabisch2026Robots, JuinaQuilachamin2023Fingerprint, Kerzel2017NICO]
 ---
 <section class="p-5 mb-5 rounded-4 shadow-sm bg-body-tertiary text-body-emphasis">
   <div class="container">
@@ -64,3 +66,4 @@ author: Nicolás Navarro-Guerrero
 
 <p class="mt-4"><a class="btn btn-outline-primary" href="{{ "/research/projects/" | prepend: site.baseurl }}">See all projects</a></p>
 
+{% include projects.html section='publications' page=page relatedpapers=page.relatedpapers %}

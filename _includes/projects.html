@@ -1,6 +1,7 @@
 {% assign section = include.section | downcase | default: '' %}
 {% assign latest = include.latest | default: -1 %}
 {% assign page = include.page %}
+{% assign featured = include.relatedpapers %}
 
 {% assign image_folder = "assets/img" | append: page.slug %}
 {% assign images = site.static_files | where_exp: "file", "file.path contains image_folder" %}
@@ -83,18 +84,18 @@
 
 
 {% elsif section contains 'publications' %}
-  {% if page.relatedpapers.size != 0 %}
+  {% if page.relatedpapers.size != 0 or featured != 0 %}
     <h3 class="pt-5">Related Publications:</h3>
     <ol>
       {% for papers in site.publications reversed %}
-        {% if  page.relatedpapers contains papers.citation.bibtex%}
+        {% if  page.relatedpapers contains papers.citation.bibtex or featured contains papers.citation.bibtex %}
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=papers %}
           </li>
         {% endif %}
       {% endfor %}
       {% for papers in site.pub-collaborations reversed %}
-        {% if  page.relatedpapers contains papers.citation.bibtex%}
+        {% if  page.relatedpapers contains papers.citation.bibtex or featured contains papers.citation.bibtex %} 
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=papers %}
           </li>
@@ -106,7 +107,7 @@
     <h3 class="pt-5">Related Media:</h3>
     <ol>
       {% for media in site.media reversed %}
-        {% if  page.relatedmedia contains media.citation.id%}
+        {% if  page.relatedmedia contains media.citation.id %}
           <li style="padding-bottom:15px;">
             {% include publications-citation-style.html param=media %}
           </li>
