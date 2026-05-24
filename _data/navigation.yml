@@ -39,17 +39,29 @@
   icon: 
   submenuitems: 
     - name: Overview
-      slug: /research#top
+      slug: /research
       id: projects
       icon: 
-    - name: Scientific Projects
-      slug: /research#scientific
+    - name: Embodiment & Hardware
+      slug: /research/embodiment
       id: projects
-      icon: 
-    - name: Others Projects
-      slug: /research#others
+      icon:
+    - name: Perception & Representation
+      slug: /research/perception
       id: projects
-      icon: 
+      icon:
+    - name: Learning & Control
+      slug: /research/learning
+      id: projects
+      icon:
+    - name: Human-Robot Interaction
+      slug: /research/hri
+      id: projects
+      icon:
+    - name: Projects
+      slug: /research/projects
+      id: projects
+      icon:
 
 
 - name: Teaching

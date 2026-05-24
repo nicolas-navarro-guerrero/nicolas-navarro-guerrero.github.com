@@ -3,35 +3,64 @@ slug: research
 tags: [research interests, embodied and developmental cognition, applied artificial intelligence and robotics, human-robot interaction, embedded systems design, mechatronics, robotics, artificial intelligence, ai, research publication ethics, 
 projects, scientific projects, freelance projects, robotDoC, IRMA, Autonomous Mobile Robot Research, crea conciencia, Grape Variety Identification]
 
-title: R&D&I
-subtitle: Research, Development & Innovation
+title: Research
+subtitle: Overview
 author: Nicolás Navarro-Guerrero
 ---
-<div id="top" class="p-4 p-md-5 mb-5 bg-body-tertiary rounded-3 border border-secondary shadow-sm">
-  <div class="container-fluid py-4">
-    <h1 class="display-5 fw-bold">Embodied R&D for Safe, Adaptive Robot Dexterity</h1>
-    <p class="fs-5 text-body-emphasis">
-      I advocate holistic robot development that integrates hardware and software, in line with embodied and developmental robotics.
-      My long-term vision is to create machine learning methods for increasingly autonomous, safer, and human-aware systems in industrial and assistive settings.
-    </p>
-    <p class="lead text-body-emphasis">
-      I focus on methods that enable robots to perceive, understand, and act robustly in complex real-world environments, with robustness, adaptability, and transparency at the core.
-      I am especially interested in academic-industrial partnerships to deliver knowledge-intensive R&D solutions for socially relevant challenges.
-    </p>
+<section class="p-5 mb-5 rounded-4 shadow-sm bg-body-tertiary text-body-emphasis">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-10">
+        <h1>Holistic Robotics for Dexterous, Adaptive, and Human-Aware Intelligent Systems</h1>
+        <p class="lead">I develop robots through the tight integration of embodiment, perception, learning, and interaction, with the goal of enabling increasingly autonomous, safer, and more robust systems for industrial and assistive applications.</p>
+        <p>My research is organized around four connected pillars: Embodiment &amp; Hardware, Perception &amp; Representation, Learning &amp; Control, and Human-Robot Interaction. Together, they support a holistic approach to robot development inspired by embodied and developmental robotics, where hardware and software are co-designed to help robots perceive, understand, and act reliably in complex real-world environments. I am particularly interested in academic-industrial partnerships that translate knowledge-intensive R&amp;D into socially relevant robotic solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h3 class="pt-5">Research Pillars</h3>
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+  <div class="col">
+    <div class="card h-100 border-secondary shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Embodiment &amp; Hardware</h5>
+        <p class="card-text">Designing tactile robot hands, sensor morphology, and embodied systems that support dexterous contact-rich manipulation.</p>
+        <a class="stretched-link" href="{{ "/research/embodiment/" | prepend: site.baseurl }}"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-secondary shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Perception &amp; Representation</h5>
+        <p class="card-text">Building visuo-haptic models, cross-modal representations, and tactile perception methods for robust object and contact understanding.</p>
+        <a class="stretched-link" href="{{ "/research/perception/" | prepend: site.baseurl }}"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-secondary shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Learning &amp; Control</h5>
+        <p class="card-text">Developing adaptive control, reinforcement learning, and sim2real strategies for safe and dexterous robot behavior.</p>
+        <a class="stretched-link" href="{{ "/research/learning/" | prepend: site.baseurl }}"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-secondary shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Human-Robot Interaction</h5>
+        <p class="card-text">Exploring human-centered interaction, safety, collaboration, and embodied robot behavior around people.</p>
+        <a class="stretched-link" href="{{ "/research/hri/" | prepend: site.baseurl }}"></a>
+      </div>
+    </div>
   </div>
 </div>
-<div class="mb-4">
-  <p class="fs-5">
-    This page presents my research portfolio through four complementary pillars.
-    Each pillar reflects a core dimension of robot development for haptic perception, dexterous manipulation, and safe interaction around people.
-  </p>
-</div>
 
-{% include project-pillars.html %}
+<h3 class="pt-5">Recent Projects</h3>
+{% include projects.html latest=3 %}
 
-<h3 class="pt-5" id="scientific">Scientific Projects</h3>
-{% include projects.html section='research' %}
-
-<h3 class="pt-5" id="others">Other Projects</h3>
-{% include projects.html section='nonscientific' %}
+<p class="mt-4"><a class="btn btn-outline-primary" href="{{ "/research/projects/" | prepend: site.baseurl }}">See all projects</a></p>
 
