@@ -85,7 +85,7 @@
 
 {% elsif section contains 'publications' %}
   {% if page.relatedpapers.size != 0 or featured != 0 %}
-    <h3 class="pt-5">Related Publications:</h3>
+    <h3 class="pt-5">Featured Publications:</h3>
     <ol>
       {% for papers in site.publications reversed %}
         {% if  page.relatedpapers contains papers.citation.bibtex or featured contains papers.citation.bibtex %}
