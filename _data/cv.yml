@@ -204,7 +204,7 @@
     - name: Associate Editor
       affiliation: IEEE International Conference on Robotics and Automation (ICRA2026)
       from: 2025-09-09
-      until: Present
+      until: 2026-12-15
       link: https://2026.ieee-icra.org/
 
     - name: Editorial Board
@@ -332,7 +332,7 @@
     - name: Member
       affiliation: EUCognition – European Society for Cognitive Systems
       from: 2011-01-01
-      until: Present
+      until: 2018-12-31
       link: http://www.eucognition.org/
 
 
@@ -431,8 +431,14 @@
 - name: Workshops
   id: workshops
   subitems: 
+    - name: Program Co-Chair
+      affiliation: "1ª Edición Jornadas Chilenas de Robótica e IA"
+      from: 2026-12-03
+      until: 2026-12-04
+      link: https://jornadas-robotica-ia.cl/
+
     - name: Program Committee
-      affiliation: " Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots at the IEEE International Conference on Robotics and Automation (ICRA)"
+      affiliation: "Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots at the IEEE International Conference on Robotics and Automation (ICRA)"
       from: 2024-05-13
       until: 
       link: https://harlworkshop.github.io/
