@@ -15,6 +15,10 @@ supervisors: [
         "family": "Navarro-Guerrero",
         "given": "Nicolás"
       },
+      {
+        "family": "Fernandes",
+        "given": "Bruno"
+      },
     ]
 
 examiners: [

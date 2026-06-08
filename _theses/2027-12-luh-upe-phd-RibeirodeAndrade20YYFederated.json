@@ -12,6 +12,10 @@ code:
 
 supervisors: [
       {
+        "family": "Fernandes",
+        "given": "Bruno"
+      },
+      {
         "family": "Navarro-Guerrero",
         "given": "Nicolás"
       },

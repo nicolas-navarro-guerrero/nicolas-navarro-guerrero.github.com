@@ -16,6 +16,10 @@ supervisors: [
         "given": "Nicolás"
       },
       {
+        "family": "Fernandes",
+        "given": "Bruno"
+      },
+      {
         "family": "Zai El Amri",
 		"given": "Wadhah"
       },
