@@ -373,6 +373,12 @@
 - name: Conferences
   id: conferences
   subitems: 
+    - name: Program Committee
+      affiliation: "International Scientific and Practical Conference “Applied Information Systems and Technologies in the Digital Society” (AISTDS)"
+      from: 2026-10-01
+      until: 2026-10-01
+      link: https://aistis.knu.ua/
+
     - name: Diversity and Inclusion Co-Chair
       affiliation: "15<sup>th</sup> IEEE International Conference on Development and Learning (ICDL)"
       from: 2026-09-15
