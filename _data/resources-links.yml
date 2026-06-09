@@ -2,7 +2,7 @@
   id: ethics
   subitems: 
     - name: Academic Urban Legends
-      url: https://journals.sagepub.com/doi/abs/10.1177/0306312714535679
+      url: https://journals.sagepub.com/doi/full/10.1177/0306312714535679
 #    - name: Advice for Advisors
 #      url: https://www.oit.edu/faculty-staff/resources/academic-advising-handbook/how-to-be-good-academic-advisor
     - name: Ethics of Scientific Publication
@@ -54,20 +54,12 @@
 - name: Scientific Writing
   id: writing
   subitems: 
+    - name: San Francisco Edit’s Knowledge Center
+      url: https://www.sfedit.net/knowledge-center/
     - name: The Chicago Manual of Style Online (Writing Style)
       url: https://www.chicagomanualofstyle.org/home.html
     - name: IEEE Editorial Style Manual for Authors
       url: https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE_Style_Manual.pdf
-      icon: 
-    - name: How to Write for Technical Periodicals & Conferences
-      url: https://eps.ieee.org/images/files/mc-ieee_author_guide_interactive.pdf
-      icon: 
-    - name: Writing Style and Word Usage
-      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50101
-    - name: Grammar, Punctuation, and Spelling
-      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50202
-    - name: Artwork and Multimedia Instructions
-      url: https://www.elsevier.com/authors/author-schemas/artwork-and-media-instructions
     - name: Ten Simple Rules for Better Figures
       url: https://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003833
     - name: Ten Simple Rules for Writing a Literature Review
@@ -86,6 +78,12 @@
       url: https://www.apastyle.org/
     - name: "The ACS Style Guide: Effective Communication of Scientific Information"
       url: https://pubs.acs.org/doi/10.1021/ed083p1603.1
+    - name: Writing Style and Word Usage
+      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50101
+    - name: Grammar, Punctuation, and Spelling
+      url: https://pubs.acs.org/doi/full/10.1021/acsguide.50202
+    - name: Artwork and Multimedia Instructions
+      url: https://www.elsevier.com/authors/author-schemas/artwork-and-media-instructions
 
 
 - name: LaTeX
@@ -102,7 +100,7 @@
     - name: Texmaker (cross-platform LaTeX editor)
       url: https://www.xm1math.net/texmaker/
     - name: "Detexify: LaTeX symbols"
-      url: https://detexify.kirelabs.org/classify.html
+      url: https://detexify.kirelabs.org/
     - name: The LaTeX Font Catalogue
       url: https://tug.org/FontCatalogue/
 
