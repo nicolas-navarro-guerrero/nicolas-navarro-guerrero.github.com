@@ -2,8 +2,8 @@
 title: "Program Co-Chair: 1ª Edición Jornadas Chilenas de Robótica e IA"
 subtitle: 
 
-thumbnail: "2026-12-arco-udec.jpg" 
-mediapath: "2026-12-jornadas-chilenas"
+thumbnail: "2026-12-jornadas-chilenas-robotica.png" 
+mediapath: "2026-12-jornadas-chilenas-robotica"
 
 tags: [Program co-chair, committee, conference, organization, comité, conferencia, organización]
 categories: [news]
