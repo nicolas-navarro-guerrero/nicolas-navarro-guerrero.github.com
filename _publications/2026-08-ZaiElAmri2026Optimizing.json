@@ -1,0 +1,44 @@
+---
+tags: [abstract, embodiment, hardware, Dexterous Manipulation]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-08-ZaiElAmri2026Optimizing.png"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-08-ZaiElAmri2026Optimizing.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"bibtex": "ZaiElAmri2026Optimizing",
+		"type": "paper-conference",
+		"citation-key": "ZaiElAmri2026Optimizing",
+		"container-title": "IJCAI Workshop on AI-Based Humanoid Robot Design and Control Through the Lens of HRI, Evolution, and Biomechanics",
+		"event-title": "International Joint Conference on Artificial Intelligence (IJCAI)",
+		"page": "2",
+		"publisher-place": "Bremen, Germany",
+		"URL": "https://hominoid-robot.dfki-bremen.de/",
+		"title": "Optimizing Robotic Hand Morphology for Dexterous In-Hand Manipulation",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Yang",
+				"given": "Xie"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2026",
+			"month": "08", 
+		}
+	}
+---

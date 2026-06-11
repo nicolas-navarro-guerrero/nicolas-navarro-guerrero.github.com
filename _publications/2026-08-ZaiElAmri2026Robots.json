@@ -1,0 +1,48 @@
+---
+tags: [abstract, embodiment, hardware, Dexterous Manipulation]
+categories: "publications"
+author: "Zai El Amri et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://arxiv.org/html/2508.05415v3/x10.png"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-08-ZaiElAmri2026Robots.bib"
+slides: 
+supplementary: 
+code: 
+
+citation: {
+		"bibtex": "ZaiElAmri2026Robots",
+		"type": "paper-conference",
+		"citation-key": "ZaiElAmri2026Robots",
+		"container-title": "IJCAI Workshop on AI-Based Humanoid Robot Design and Control Through the Lens of HRI, Evolution, and Biomechanics",
+		"event-title": "International Joint Conference on Artificial Intelligence (IJCAI)",
+		"page": "2",
+		"publisher-place": "Bremen, Germany",
+		"title": "Do Robots Really Need Anthropomorphic Hands? A Summary of a Comparison of Human and Robotic Hands",
+		"URL": "https://hominoid-robot.dfki-bremen.de/",
+		"author": [
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Fabisch",
+				"given": "Alexander"
+			},
+			{
+				"family": "Singh",
+				"given": "Chandandeep"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "2026",
+		        "month": "08", 
+		}
+	}
+---

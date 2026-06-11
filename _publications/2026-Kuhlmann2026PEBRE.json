@@ -1,0 +1,55 @@
+---
+tags: [upcoming, tactile perception]
+categories: "publications"
+author: "Kuhlmann et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://arxiv.org/html/2606.12112v1/x2.png"
+file: "https://arxiv.org/pdf/2606.12112"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-Kuhlmann2026PEBRE.bib"
+slides: 
+supplementary: "https://github.com/mfkuhlmann/Pebre"
+code: 
+
+citation: {
+		"bibtex": "Kuhlmann2026PEBRE",
+		"type": "article",
+		"abstract": "This paper presents the design, development, and experimental verification of PEBRE, an open-hardware add-on for fast software development on the Pepper Robot. Our project enhances Pepper's computational and perception capabilities by integrating external components such as a Jetson Orin Nano, Logitech BRIO, Intel RealSense D435i, Samson UB1, and RØDE VideoMicro II. Our results show that the new hardware considerably improved Pepper's perception abilities and computational power. This development contributes to the community by implementing an open hardware and open-source modular add-on to the Pepper robot and keeping this relevant research platform functional beyond its expected lifespan. With PEBRE, we aim to facilitate faster software development and more efficient integration of external components, ultimately enhancing the capabilities of the Pepper robot.",
+		"citation-key": "Kuhlmann2026PEBRE",
+		"DOI": "10.48550/arXiv.2606.12112",
+		"note": "arXiv:2606.12112 [cs.RO]",
+		"number": "arXiv:2606.12112",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "PEBRE: An Open-Hardware Compute and Perception Add-On for the Pepper Robot",
+		"title-short": "PEBRE",
+		"URL": "http://arxiv.org/abs/2606.12112",
+		"author": [
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			},
+			{
+				"family": "Bugueno-Cordova",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Alms",
+				"given": "Emil"
+			},
+			{
+				"family": "Ruiz-del-Solar",
+				"given": "Javier"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+         		"year": "2026",
+          		"month": "XX", 
+		}
+	}
+---
