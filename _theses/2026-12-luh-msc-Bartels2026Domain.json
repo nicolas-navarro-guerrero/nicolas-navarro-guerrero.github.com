@@ -1,0 +1,59 @@
+---
+tags: [thesis, master, luh, l3s, msc, germany, man, biobots, continual learning, invasive plants, plant segmentation]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Zai El Amri",
+		"given": "Wadhah"
+      },
+      {
+        "family": "Fernandes",
+        "given": "Bruno"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Nejdl",
+	    "given": "Wolfgang"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "Bartels2026Domain",
+		"type": "thesis",
+		"citation-key": "Bartels2026Domain",
+		"genre": "MSc",
+		"publisher": "Gottfried Wilhelm Leibniz Universität Hannover",
+		"publisher-place": "Hanover, Germany",
+		"title": "Domain Incremental Learning for Semantic Segmentation of Invasive Plant Species",
+		"author": [
+			{
+				"family": "Bartels",
+				"given": "Thilo"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---
+

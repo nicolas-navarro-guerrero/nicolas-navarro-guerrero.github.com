@@ -1,0 +1,65 @@
+---
+tags: [thesis, master, l3s, msc, mexico, man, reinforcement learning, rl, exploration strategies, model-free]
+categories: 
+
+thumbnail: 
+file: 
+bibtex: 
+slides: 
+supplementary: 
+library: 
+code: 
+
+supervisors: [
+      {
+        "family": "Uc-Cetina",
+	    "given": "Víctor"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+examiners: [
+      {
+        "family": "Uc-Cetina",
+	    "given": "Víctor"
+      },
+      {
+        "family": "Navarro-Guerrero",
+        "given": "Nicolás"
+      },
+    ]
+
+citation: {
+		"id": "QuinonesRamirez2026Optimizing",
+		"type": "thesis",
+		"citation-key": "QuinonesRamirez2026Optimizing",
+		"genre": "MSc",
+		"publisher": "Universidad Autónoma de Yucatán",
+		"publisher-place": "Mérida, Yucatán, Mexico",
+		"title": "Optimizing Model-Free Reinforcement Learning Exploration Strategies",
+		"author": [
+			{
+				"family": "Quiñones Ramírez",
+				"given": "Miguel Angel"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Uc-Cetina",
+				"given": "Víctor"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+			"year": "Ongoing",
+			"month": "",
+		}
+	}
+---
+
