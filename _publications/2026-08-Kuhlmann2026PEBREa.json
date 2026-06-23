@@ -1,0 +1,52 @@
+---
+tags: [abstract, Pepper, hri, open-hardware, addon, hardware, embodiment]
+categories: "publications"
+author: "Kuhlmann et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://arxiv.org/html/2606.12112v1/x2.png"
+file: 
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-08-Kuhlmann2026PEBREa.bib"
+slides: 
+supplementary: "https://github.com/mfkuhlmann/Pebre"
+code: 
+
+citation: {
+		"bibtex": "Kuhlmann2026PEBREa",
+		"type": "paper-conference",
+		"citation-key": "Kuhlmann2026PEBREa",
+		"container-title": "IJCAI Workshop on AI-Based Humanoid Robot Design and Control Through the Lens of HRI, Evolution, and Biomechanics",
+		"event-title": "International Joint Conference on Artificial Intelligence (IJCAI)",
+		"page": "2",
+		"publisher-place": "Bremen, Germany",
+		"title": "PEBRE: Bringing Modern Sensors and Edge Compute to Pepper for HRI Research",
+		"URL": "https://hominoid-robot.dfki-bremen.de/",
+		"author": [
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			},
+			{
+				"family": "Bugueno-Cordova",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Alms",
+				"given": "Emil"
+			},
+			{
+				"family": "Ruiz-Del-Solar",
+				"given": "Javier"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+         		"year": "2026",
+          		"month": "08", 
+		}
+	}
+---
