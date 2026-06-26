@@ -1,6 +1,12 @@
 - name: Professional Experience
   id: experience
   subitems: 
+    - name: CTO
+      affiliation: Nibotics® GmbH
+      from: 2026-01-02
+      until: 
+      link: https://nibotics.com/
+
     - name: Researcher Group Leader
       affiliation: L3S Research Center, Leibniz Universität Hannover, Germany
       from: 2023-02-01
