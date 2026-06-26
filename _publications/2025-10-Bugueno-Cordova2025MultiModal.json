@@ -1,0 +1,54 @@
+---
+tags: [abstract, perception, event-cameras]
+categories: "publications"
+author: "Bugueno-Cordova et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://ibugueno.github.io/mmid-event-depth-dataset/static/figures/mmid-event-depth_dataset.png"
+file: "https://openreview.net/attachment?id=DH7DQCu1fC&name=pdf"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2025-10-Bugueno-Cordova2025MultiModal.bib"
+slides: 
+supplementary: "https://ibugueno.github.io/mmid-event-depth-dataset/"
+code: 
+
+citation: {
+		"bibtex": "Bugueno-Cordova2025MultiModal",
+		"type": "paper-conference",
+		"abstract": "This article introduces a multi-modal indoor dataset for event-based monocular depth estimation by mobile robots. The dataset was recorded on a humanoid platform and includes synchronized RGB, depth, event streams, and IMU data from Intel RealSense D435i, DAVIS346, and Prophesee EVK4 sensors. To provide a baseline, we implement a CycleGAN model that learns bidirectional mappings between the event-representation and the depth domain. We evaluate multiple state-of-the-art representations showing that event-based inputs could outperform frame-only inputs across accuracy, perceptual quality, and geometric reliability. The dataset and baseline together provide a reproducible testbed for event-based perception in indoor mobile robotics. The dataset will be available at the project website: \\url{https://ibugueno.github.io/mmid-event-depth-dataset/}.",
+		"citation-key": "Bugueno-Cordova2025MultiModal",
+		"container-title": "IROS Workshop on Neuromorphic Perception for Real World Robotics",
+		"event-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"note": "https://ibugueno.github.io/mmid-event-depth-dataset/",
+		"page": "1-5",
+		"publisher-place": "Hanghzhou, China",
+		"title": "Multi-Modal Indoor Dataset for Event-based Monocular Depth Estimation by Mobile Robots",
+		"URL": "https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/NeuRobots#tab-accept-spotlight-talk-poster",
+		"author": [
+			{
+				"family": "Bugueno-Cordova",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Gava",
+				"given": "Luna"
+			},
+			{
+				"family": "Verschae",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Ruiz-del-Solar",
+				"given": "Javier"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolas"
+			}
+		],
+		"issued": {
+         		"year": "2026",
+          		"month": "10", 
+		}
+	}
+---
