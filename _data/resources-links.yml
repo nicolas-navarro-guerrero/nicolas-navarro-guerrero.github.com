@@ -132,3 +132,10 @@
       url: https://sourceware.org/gdb/
     - name: Umbrello – The UML Modeller
       url: https://uml.sourceforge.io
+
+- name: Digital Publishing / Blogs
+  id: blogs
+  subitems: 
+    - name: Sharing your content online
+      url: https://www.printfriendly.com/blog/an-overview-of-digital-publishing-tools-for-writers-and-students
+
