@@ -1,0 +1,55 @@
+---
+tags: [journal, survey, vibrosense, Robotics Hands, Grippers, Smart Prosthetics, Manipulation, Grasping]
+categories: "publications"
+author: "Fabisch et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-07-Fabisch2026Robots.png"
+file: "https://link.springer.com/content/pdf/10.1007/s10846-026-02431-8.pdf"
+bibtex: 
+slides: 
+supplementary: "https://github.com/AlexanderFabisch/JIRS-HandsSurvey"
+code:
+
+citation: {
+		"bibtex": "Fabisch2026Robots",
+		"type": "article-journal",
+		"abstract": "Human manipulation skills represent a pinnacle of voluntary motor functions, requiring the coordination of many degrees of freedom and the processing of high-dimensional sensor input to achieve remarkable dexterity. Thus, this study investigates whether the human hand, with its associated biomechanical properties, sensors, and control mechanisms, is an ideal that should be strived for in robotics. Do robots need anthropomorphic hands? First, characteristics of the human hand in terms of biomechanics and perception are extracted to compare them with currently commercially available robotic hands. From this comparison, research questions are derived that connect manipulation system complexity to skill repertoire size and dexterity. These questions are addressed through a systematic literature review, analyzing the manipulation capabilities demonstrated in 125 papers published between 2019 and 2025. Although complex five-fingered hands are often considered the ultimate goal for robotic manipulators, they are not necessary for all tasks. Findings indicate that in-hand manipulation does not benefit from anthropomorphic hand design , as simpler mechanisms are sufficient ; however, mechanism complexity correlates with the breadth of manipulation tasks a hand can perform. Sensor integration and intelligent manipulation strategies remain underexplored, which may be due to a misalignment with hand design: instead of replicating the number of fingers and degrees of freedom, focusing on robustness and softness would allow more intelligent control and learning to exploit environmental contacts and integrate more sensors. Finally, the article argues for standardized evaluation criteria to enable the systematic comparison of hand designs and manipulation systems.",
+		"citation-key": "Fabisch2026Robots",
+		"container-title": "Journal of Intelligent & Robotic Systems",
+		"DOI": "10.1007/s10846-026-02431-8",
+		"ISSN": "1573-0409",
+		"issue": "3",
+		"journalAbbreviation": "J Intell Robot Syst",
+		"language": "en",
+		"page": "73",
+		"source": "Springer Link",
+		"title": "Do Robots Really Need Anthropomorphic Hands? A Comparison of Human and Robotic Hands",
+		"title-short": "Do Robots Really Need Anthropomorphic Hands?",
+		"URL": "https://link.springer.com/article/10.1007/s10846-026-02431-8",
+		"volume": "112",
+		"author": [
+			{
+				"family": "Fabisch",
+				"given": "Alexander"
+			},
+			{
+				"family": "Zai El Amri",
+				"given": "Wadhah"
+			},
+			{
+				"family": "Singh",
+				"given": "Chandandeep"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			}
+		],
+		"issued": {
+          "year": "2026",
+          "month": "05", 
+		}
+	}
+---
