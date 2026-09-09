@@ -1,0 +1,57 @@
+---
+tags: [conference, proceedings, NVIDIA Isaac Sim, event camera, add-on]
+categories: "publications"
+author: "Bugueno-Cordova et al."
+rights: "The Authors."
+license: 
+
+thumbnail: "https://arxiv.org/html/2608.08522v2/sensor_parameter_threshold_0.10_events.png"
+file: "https://arxiv.org/pdf/2608.08522"
+bibtex: "https://github.com/nicolas-navarro-guerrero/publications/raw/master/2026-09-Bugueno-Cordova2026EsaacSim.bib"
+slides: 
+supplementary: "https://github.com/ibugueno/isaac-event-sim"
+code:
+
+citation: {
+		"bibtex": "Bugueno-Cordova2026EsaacSim",
+		"type": "paper-conference",
+		"abstract": "Event-based vision is becoming an increasingly important sensing paradigm for robotics, yet its adoption remains limited by sensor availability and the lack of integrated simulation tools for modern robotics platforms. This paper presents EsaacSim, a multimodal event camera add-on for NVIDIA Isaac Sim that enables online simulation of configurable event cameras with grayscale and Bayer RGGB event generation. The framework supports multiple event camera resolutions and provides synchronized RGB, APS, event, depth, and IMU outputs through native ROS2 interfaces. A motion-guided frame-gap synthesis strategy further increases the effective temporal resolution while preserving compatibility with the Isaac Sim rendering pipeline. Experimental evaluation demonstrates synchronized multimodal simulation across representative robotic scenes and efficient online performance over five event camera resolutions at effective event rates from 240 to 960Hz. Event stream generation requires 6.98--27.28ms for grayscale events and 7.58--29.16ms for Bayer RGGB events while using less than 400MB of additional GPU memory on an NVIDIA RTX~4060 GPU. These results show that EsaacSim enables supports online multimodal event-camera simulation for robotics research and synthetic data generation. We release an early version of the simulator and report its current architecture and performance.",
+		"citation-key": "Bugueno-Cordova2026EsaacSim",
+		"container-title": "ECCV Workshop on Neuromorphic Vision: Advantages and Applications of Event Cameras (NeVi)",
+		"DOI": "10.48550/arXiv.2608.08522",
+		"event-title": "ECCV Workshop on Neuromorphic Vision: Advantages and Applications of Event Cameras (NeVi)",
+		"note": "arXiv:2608.08522 [cs.RO]\nversion: 2",
+		"page": "1-17",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim",
+		"title-short": "EsaacSim",
+		"URL": "http://arxiv.org/abs/2608.08522",
+		"author": [
+			{
+				"family": "Bugueno-Cordova",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Kuhlmann",
+				"given": "Malte"
+			},
+			{
+				"family": "Navarro-Guerrero",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Verschae",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Campusano",
+				"given": "Miguel"
+			}
+		],
+		"issued": {
+          "year": "2026",
+          "month": "09", 
+		}
+	}
+---
