@@ -37,9 +37,10 @@ citation: {
 		"type": "thesis",
 		"citation-key": "RochePalacios2026Lossless",
 		"genre": "MSc",
+		"number-of-pages": "75",
 		"publisher": "Universidade de Pernambuco",
 		"publisher-place": "Recife, Brazil",
-		"title": "Lossless Preprocessing Communication-Efficiency in Federated Learning",
+		"title": "Evaluating and Improving Communication Efficiency in Federated Learning: A Unified Protocol and Sparsification Method",
 		"author": [
 			{
 				"family": "Roche Palacios",
@@ -50,8 +51,8 @@ citation: {
 
 		],
 		"issued": {
-			"year": "Ongoing",
-			"month": "",
+			"year": "2026",
+			"month": "09",
 		}
 	}
 ---
