@@ -37,6 +37,11 @@
       baseurl: https://dblp.org
       icon: /assets/img/logos/dblp-icon.png
 
+    - name: alphaXiv
+      username: "@nicolas-navarro-guerrero"
+      baseurl: https://www.alphaxiv.org
+      icon: https://avatars.githubusercontent.com/u/153782766
+
 - name: extras
   subitems:
     - name: Web of Science
