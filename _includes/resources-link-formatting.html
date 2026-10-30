@@ -1,31 +1,49 @@
-{% assign datafile = site.data.resources-links %}
-{% assign handle = include.section | downcase | default: 'all' %}
+{% assign datafile = site.data['resources-links'] %}
+{% assign handle = include.section | default: 'all' | strip | downcase %}
 
 {% for item in datafile %}
-  {% if handle == 'all' or handle == item.id %}
-    <h3 class="pt-5 text-center" id="{{ item.id }}">
-      {{ item.name | capitalize }} <i class="fa-solid fa-up-right-from-square"></i> 
+  {% assign item_handle = item.id | strip | downcase %}
+  {% if handle == 'all' or handle == item_handle %}
+    {% assign total = item.subitems | size %}
+    {% if total > 0 %}
+    
+    <h3 class="pt-5 text-center" id="{{ item.id | escape }}">
+      {{ item.name | capitalize | escape }}
+      <i class="fa-solid fa-up-right-from-square"></i>
     </h3>
 
-    {% assign ans = item.subitems | size %}
-    {% assign ans = ans | divided_by: 2.0 | ceil %}
+    {% assign midpoint = total | divided_by: 2.0 | ceil %}
 
-    {% assign counter = 0 %}
     <div class="row">
       <div class="col-12 col-md-6">
         <div class="list-group">
-          {% for subitem in item.subitems %}
-            {% if counter == ans %}
-              </div><!-- list-group -->
-            </div><!-- column -->
-            <div class="col-12 col-md-6">
-              <div class="list-group">
-            {% endif %}
-            
-            <a href="{{ subitem.url }}" class="list-group-item list-group-item-action">{{ subitem.name }}{% if subitem.icon != null %}  {{ subitem.icon }}{% endif %}</a>
-            {% assign counter = counter | plus: 1 %}
+          {% for subitem in item.subitems limit: midpoint %}
+            <a
+              href="{{ subitem.url | escape }}"
+              class="list-group-item list-group-item-action"
+            >
+              {{ subitem.name | escape }}{% if subitem.icon != null %} {{ subitem.icon }}{% endif %}
+            </a>
           {% endfor %}
-    </div><!-- column -->
+        </div><!-- list-group -->
+      </div><!-- first column -->
+
+      {% if total > midpoint %}
+        <div class="col-12 col-md-6">
+          <div class="list-group">
+            {% for subitem in item.subitems offset: midpoint %}
+              <a
+                href="{{ subitem.url | escape }}"
+                class="list-group-item list-group-item-action"
+              >
+                {{ subitem.name | escape }}{% if subitem.icon != null %} {{ subitem.icon }}{% endif %}
+              </a>
+            {% endfor %}
+          </div><!-- list-group -->
+        </div><!-- second column -->
+      {% endif %}
     </div><!-- row -->
+    {% endif %}
   {% endif %}
 {% endfor %}
+

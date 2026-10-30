@@ -1,35 +1,54 @@
-{% assign date = include.date %}
-{% assign format = include.fmt | default: 'full' %}
+{%- assign formatted_date_input = include.date -%}
+{%- assign formatted_date_format = include.fmt
+  | default: 'full'
+  | strip
+  | downcase
+-%}
 
-{% if format contains 'full' %}
-{% assign day = date | date: "%-d"  %}
-{{ date | date: "%A, " }} 
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}<sup>st</sup>
-  {% when '2' or '22' %}{{ day }}<sup>nd</sup>
-  {% when '3' or '23' %}{{ day }}<sup>rd</sup>
-  {% else %}{{ day }}<sup>th</sup>
-{% endcase %}
-{{ date | date: "%B" }}
-{{ date | date: "%Y" }}
+{%- assign formatted_date_text = formatted_date_input
+  | append: ''
+  | strip
+-%}
+{%- assign formatted_date_normalized = formatted_date_text | downcase -%}
 
-{% elsif format contains 'string' %}
-{% assign day = date | date: "%-d"  %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}<sup>st</sup>
-  {% when '2' or '22' %}{{ day }}<sup>nd</sup>
-  {% when '3' or '23' %}{{ day }}<sup>rd</sup>
-  {% else %}{{ day }}<sup>th</sup>
-{% endcase %}
-{{ date | date: "%B" }}
-{{ date | date: "%Y" }}
+{%- unless formatted_date_text == '' -%}
+  {%- if formatted_date_normalized == 'present' -%}
+    Present
+  {%- else -%}
 
-{% elsif format contains 'month-year' %}
-  {% assign tmp = date | downcase %}
-  {% if tmp contains 'present' %}
-    {{ tmp | capitalize }}
-  {% else %}
-    {{ date | date: "%b" }}
-    {{ date | date: "%Y" }}
-  {% endif %}
-{% endif %}
+    {%- unless formatted_date_format == 'full'
+      or formatted_date_format == 'string'
+      or formatted_date_format == 'month-year'
+    -%}
+      {%- assign formatted_date_format = 'full' -%}
+    {%- endunless -%}
+
+    {%- if formatted_date_format == 'month-year' -%}
+      {{- formatted_date_input | date: '%b %Y' -}}
+    {%- else -%}
+      {%- assign formatted_date_day = formatted_date_input
+        | date: '%-d'
+      -%}
+
+      {%- case formatted_date_day -%}
+        {%- when '1', '21', '31' -%}
+          {%- assign formatted_date_suffix = 'st' -%}
+        {%- when '2', '22' -%}
+          {%- assign formatted_date_suffix = 'nd' -%}
+        {%- when '3', '23' -%}
+          {%- assign formatted_date_suffix = 'rd' -%}
+        {%- else -%}
+          {%- assign formatted_date_suffix = 'th' -%}
+      {%- endcase -%}
+
+      {%- capture formatted_date_result -%}
+        {%- if formatted_date_format == 'full' -%}
+          {{- formatted_date_input | date: '%A' -}},{{ ' ' }}
+        {%- endif -%}
+        {{- formatted_date_day -}}<sup>{{ formatted_date_suffix }}</sup>{{ ' ' }}{{ formatted_date_input | date: '%B %Y' }}
+      {%- endcapture -%}
+
+      {{- formatted_date_result | strip -}}
+    {%- endif -%}
+  {%- endif -%}
+{%- endunless -%}

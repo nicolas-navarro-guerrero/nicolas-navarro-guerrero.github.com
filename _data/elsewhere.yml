@@ -56,10 +56,10 @@
       baseurl: https://figshare.com/authors
       icon: /assets/img/logos/figshare.png
 
-    - name: Zenodo
-      username: 
-      baseurl: https://zenodo.org
-      icon: /assets/img/logos/zenodo-gradient-round.svg
+#    - name: Zenodo
+#      username: 
+#      baseurl: https://zenodo.org
+#      icon: /assets/img/logos/zenodo-gradient-round.svg
 
 - name: rest
   subitems:
@@ -68,10 +68,10 @@
       baseurl: https://www.linkedin.com/in
       icon: <i class="fab fa-linkedin-in"></i>
 
-    #- name: xing
-    #  username:
-    #  baseurl:
-    #  icon: <i class="fab fa-xing"></i>
+#    - name: xing
+#      username:
+#      baseurl:
+#      icon: <i class="fab fa-xing"></i>
 
 #- name: video
 #  subitems:

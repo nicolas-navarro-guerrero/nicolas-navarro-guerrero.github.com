@@ -1,50 +1,76 @@
-{% assign section = include.section | downcase | default: '' %}
-{% assign latest = include.latest | default: -1 %}
+{% comment %}
+Publication/resource include.
+Supported sections: intro, copyright, id/ids/research-ids, upcoming,
+journal(s), chapter(s), conference(s), abstract(s), thesis/theses/report(s),
+talk(s), media. An empty section or "all" selects all publications.
+latest: omitted or negative = unlimited; 0 = none; positive = maximum shown.
+Collection order is preserved and traversed in reverse, as in the original.
+Tags should be arrays of strings; a single string tag is also supported.
+Icon HTML must come from trusted site data. URLs must be trusted/validated.
+{% endcomment %}
 
-{% if section contains 'intro' %}
-<p>View my publications sorted by <a href="/publications/">category</a>, <a href="/publications/chronological/">chronologically*</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank"><img alt="zotero" src="/assets/img/logos/zotero-logo-s.png" height="11"></a>. For copies/pre-prints/reprints of any of the papers below, send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
+{% assign pub_section = include.section | default: '' | strip | downcase %}
+{% assign pub_latest = include.latest | default: -1 | plus: 0 %}
+{% assign pub_placeholder = '/assets/placeholders.svg' | relative_url %}
 
-{% elsif section contains 'copyright' %}
-<div class="card bg-info mt-5 mb-5">
-  <div class="card-header">
-    <h5 class="text-center" id="copyright">Copyright Notice</h5>
+{% if pub_section == 'intro' %}
+  <p>View my publications sorted by <a href="{{ '/publications/' | relative_url | escape }}">category</a>, <a href="{{ '/publications/chronological/' | relative_url | escape }}">chronologically*</a>, or alternatively, in <a href="https://www.zotero.org/groups/nng-publications/items" target="_blank" rel="noopener noreferrer"><img alt="Zotero" src="{{ '/assets/img/logos/zotero-logo-s.png' | relative_url | escape }}" height="11"></a>. For copies/pre-prints/reprints of any of the papers below, send me an e-mail. Please let me know if any link is broken or if you detect any other issue.</p>
+
+{% elsif pub_section == 'copyright' %}
+  <div class="card bg-info mt-5 mb-5">
+    <div class="card-header">
+      <h5 class="text-center" id="copyright">Copyright Notice</h5>
+    </div>
+    <div class="card-body">
+      <p class="card-text">The documents contained in this page are included to ensure the timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are retained by authors or by other copyright holders. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.</p>
+    </div>
   </div>
-  <div class="card-body">
-    <p class="card-text">The documents contained in this page are included to ensure the timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are retained by authors or by other copyright holders. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.</p>
-  </div>
-</div>
 
-{% elsif section contains 'id' %}
-  {% assign size = '50px' %}
+{% elsif pub_section == 'id' or pub_section == 'ids' or pub_section == 'research-ids' %}
   <h3 class="mt-5" id="ids">Research IDs</h3>
-
   <div class="table-responsive">
     <table class="table table-hover table-borderless table-striped">
       <tbody>
         {% for category in site.data.elsewhere %}
-          {% if category.name contains "research" %}
+          {% assign pub_category_name = category.name | default: '' | downcase %}
+          {% if pub_category_name contains 'research' %}
             {% for item in category.subitems %}
-              <tr>
-                <th scope="row" class="align-middle">{{ item.name }}:</th>
-                <td class="align-middle">
-                {% if item.icon contains "<i class=" %}
-                  <div class="bg-white d-flex justify-content-center align-items-center" style="width:{{size}}; height:{{size}}; border-radius: 10px;">
-                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank" class="text-dark" style="font-size:calc({{ size }} );">
-                      {{ item.icon }}
-                    </a>
-                  </div>
-
-                {% else %}
-                  <div class="bg-white" style="width:{{size}};height:{{size}}; border-radius: 10px;">
-                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank"><img src="{{ item.icon }}" alt="{{ item.name }}" class="text-dark" style="height:{{ size }}; width:{{size}}"></a>
-                  </div>
-                {% endif %}
-                </td>
-                <td class="align-middle">
-                  
-                    <a href="{{ item.baseurl }}/{{ item.username }}" target="_blank">{{ item.username }}</a>
-                </td>
-              </tr>
+              {% assign pub_profile_url = item.baseurl | default: '' | strip %}
+              {% assign pub_username = item.username | default: '' | strip %}
+              {% assign pub_last_character = pub_profile_url | slice: -1, 1 %}
+              {% if pub_username != '' %}
+                {% unless pub_last_character == '/' or pub_profile_url == '' %}
+                  {% assign pub_profile_url = pub_profile_url | append: '/' %}
+                {% endunless %}
+                {% assign pub_profile_url = pub_profile_url | append: pub_username %}
+              {% endif %}
+              {% if pub_profile_url != '' %}
+                <tr>
+                  <th scope="row" class="align-middle">{{ item.name | escape }}:</th>
+                  <td class="align-middle">
+                    {% if item.icon != nil and item.icon != '' %}
+                      <div class="bg-white d-flex justify-content-center align-items-center" style="width:50px; height:50px; border-radius:10px;">
+                        <a href="{{ pub_profile_url | escape }}" target="_blank" rel="noopener noreferrer" class="text-dark" aria-label="{{ item.name | escape }}" style="font-size:50px;">
+                          {% if item.icon contains '<i ' or item.icon contains '<svg' %}
+                            {{ item.icon }}
+                          {% else %}
+                            {% assign pub_icon_url = item.icon %}
+                            {% assign pub_icon_first = pub_icon_url | slice: 0, 1 %}
+                            {% assign pub_icon_prefix = pub_icon_url | slice: 0, 2 %}
+                            {% if pub_icon_first == '/' and pub_icon_prefix != '//' %}
+                              {% assign pub_icon_url = pub_icon_url | relative_url %}
+                            {% endif %}
+                            <img src="{{ pub_icon_url | escape }}" alt="" style="height:50px; width:50px; object-fit:contain;">
+                          {% endif %}
+                        </a>
+                      </div>
+                    {% endif %}
+                  </td>
+                  <td class="align-middle">
+                    <a href="{{ pub_profile_url | escape }}" target="_blank" rel="noopener noreferrer">{{ pub_username | default: item.name | escape }}</a>
+                  </td>
+                </tr>
+              {% endif %}
             {% endfor %}
           {% endif %}
         {% endfor %}
@@ -53,99 +79,129 @@
   </div>
 
 {% else %}
-  {% assign datafile = site.publications %}
-  {% assign display = ' d-flex' %}
-  {% assign ans = site.publications | size %}
-  {% if section contains 'upcoming' %}
-    {% assign title = 'Upcoming Single-Blinded Peer Review Articles' %}
+  {% assign pub_datafile = site.publications %}
+  {% assign pub_display = 'd-flex' %}
+  {% assign pub_title = pub_section | capitalize %}
+  {% assign pub_tag_aliases = pub_section | split: '|' %}
+  {% assign pub_show_heading = true %}
 
-  {% elsif section contains 'journals' %}
-    {% assign title = 'Journal Articles' %}
+  {% case pub_section %}
+    {% when '', 'all' %}
+      {% assign pub_section = '' %}
+      {% assign pub_show_heading = false %}
+    {% when 'upcoming' %}
+      {% assign pub_title = 'Upcoming Single-Blinded Peer Review Articles' %}
+      {% assign pub_tag_aliases = 'upcoming' | split: '|' %}
+    {% when 'journal', 'journals' %}
+      {% assign pub_title = 'Journal Articles' %}
+      {% assign pub_tag_aliases = 'journal|journals' | split: '|' %}
+    {% when 'chapter', 'chapters' %}
+      {% assign pub_title = 'Book Chapters' %}
+      {% assign pub_tag_aliases = 'chapter|chapters' | split: '|' %}
+    {% when 'conference', 'conferences' %}
+      {% assign pub_title = 'Conferences and Workshops' %}
+      {% assign pub_tag_aliases = 'conference|conferences' | split: '|' %}
+    {% when 'abstract', 'abstracts' %}
+      {% assign pub_title = 'Abstracts and Posters' %}
+      {% assign pub_tag_aliases = 'abstract|abstracts' | split: '|' %}
+    {% when 'thesis', 'theses', 'report', 'reports' %}
+      {% assign pub_title = 'Theses and Technical Reports' %}
+      {% assign pub_tag_aliases = 'thesis|theses|report|reports' | split: '|' %}
+    {% when 'talk', 'talks' %}
+      {% assign pub_title = 'Invited Talks' %}
+      {% assign pub_tag_aliases = 'talk|talks' | split: '|' %}
+      {% assign pub_display = 'd-none' %}
+      {% assign pub_datafile = site.talks %}
+      {% assign pub_show_heading = false %}
+    {% when 'media' %}
+      {% assign pub_title = 'Media Coverage and Activities' %}
+      {% assign pub_tag_aliases = 'media' | split: '|' %}
+      {% assign pub_display = 'd-none' %}
+      {% assign pub_datafile = site.media %}
+      {% assign pub_show_heading = false %}
+  {% endcase %}
 
-  {% elsif section contains 'chapters' %}
-    {% assign title = 'Book Chapters' %}
-
-  {% elsif section contains 'conferences' %}
-    {% assign title = 'Conferences and Workshops' %}
-
-  {% elsif section contains 'abstracts' %}
-    {% assign title = 'Abstracts and Posters' %}
-    {% assign display = 'd-flex' %}
-  
-  {% elsif section contains 'thesis' or section contains 'reports' %}
-    {% assign title = 'Theses and Technical Reports' %}
-
-  {% elsif section contains 'talks' %}
-    {% assign title = 'Invited Talks' %}
-    {% assign display = 'd-none' %}
-    {% assign datafile = site.talks %}
-
-  {% elsif section contains 'media' %}
-    {% assign title = 'Media Coverage and Activities' %}
-    {% assign display = 'd-none' %}
-    {% assign datafile = site.media %}
+  {% assign pub_chronological = false %}
+  {% if page.url == '/publications/chronological/' or page.url == '/publications/chronological/index.html' %}
+    {% assign pub_chronological = true %}
   {% endif %}
+  {% assign pub_category_count = 0 %}
+  {% assign pub_rendered_count = 0 %}
+  {% assign pub_current_year = '' %}
 
-  {% assign category_count = 0 %}
-  {% for item in datafile %}
-    {% unless item.categories contains 'template' %}
-      {% assign tmp = item.tags | downcase %}
-      {% assign temp = section | size | minus: 1 %}
-      {% assign ection = section | slice: 0,temp %}
-      
-      {% if tmp contains section or tmp contains ection %}
-        {% assign category_count = category_count | plus: 1 %}
-      {% endif %}
-    {% endunless %}
-  {% endfor %}
-
-  {% unless section == '' or section contains 'talks' or section contains 'media' %}
-  <h3 class="pt-5" id="{{ section }}">{{ title }} ({{ category_count }})</h3>
-  {% endunless %}
-
-  <ul class="list-unstyled">
-    {% assign last_index = datafile.size | minus: 1 %}
-    {% assign current_year = datafile[last_index].citation.issued.year %}
-    {% assign counter = 1 %}
-
-    {% if page.url == '/publications/chronological/' %}
-      <span style="font-size: 25px;"><strong>{{ current_year }}</strong></span>
-    {% endif %}
-  
-  {% for item in datafile reversed %}
-    {% unless item.categories contains 'template' %}
-      {% assign tmp = item.tags | downcase %}
-      {% assign temp = section | size | minus: 1 %}
-      {% assign ection = section | slice: 0,temp %}
-      
-      {% if tmp contains section or tmp contains ection %}
-        {% if page.url == '/publications/chronological/' %}
-          {% if item.citation.issued.year != current_year %}
-            {% assign current_year = item.citation.issued.year %}
-            <span style="font-size: 25px;"><strong>{{ current_year }}</strong></span>
-          {% endif %}
-        {% endif %}
-          <li class="mt-4">
-            <div class="row ">
-              <div class="col-md-3 {{display}} justify-content-center align-items-center">
-                <img  
-                  src="{% if item.thumbnail != null %}{{ item.thumbnail }}{% else %}/assets/placeholders.svg{% endif %}" 
-                  onerror="this.src='/assets/placeholders.svg';" 
-                  style="max-height: 200px; max-width: 100%; height: auto; width: auto; border: none;">
-              </div>
-              <div class="{% if display == 'd-none' %}col-12{% else %}col-md-9{% endif %}">
-                {% include publications-citation-style.html param=item %}
-              </div>
-            </div>
-            <hr> 
-          </li>
-        {% endif %}
-        {% if counter == latest %}
+  {% capture pub_rendered_items %}
+    {% for item in pub_datafile reversed %}
+      {% assign pub_is_template = false %}
+      {% assign pub_categories = item.categories | join: '|' | downcase | split: '|' %}
+      {% for pub_category in pub_categories %}
+        {% assign pub_category = pub_category | strip %}
+        {% if pub_category == 'template' %}
+          {% assign pub_is_template = true %}
           {% break %}
         {% endif %}
-        {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+
+      {% unless pub_is_template %}
+        {% assign pub_matches = false %}
+        {% if pub_section == '' %}
+          {% assign pub_matches = true %}
+        {% else %}
+          {% assign pub_tags = item.tags | join: '|' | downcase | split: '|' %}
+          {% for pub_tag in pub_tags %}
+            {% assign pub_tag = pub_tag | strip %}
+            {% if pub_tag_aliases contains pub_tag %}
+              {% assign pub_matches = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+        {% if pub_matches %}
+          {% assign pub_category_count = pub_category_count | plus: 1 %}
+          {% if pub_latest < 0 or pub_rendered_count < pub_latest %}
+            {% if pub_chronological %}
+              {% assign pub_year = item.citation.issued.year | default: 'Undated' | append: '' %}
+              {% if pub_year != pub_current_year %}
+                {% assign pub_current_year = pub_year %}
+                <li class="mt-4 publication-year"><h3>{{ pub_year | escape }}</h3></li>
+              {% endif %}
+            {% endif %}
+
+            <li class="mt-4">
+              <div class="row">
+                {% unless pub_display == 'd-none' %}
+                  {% assign pub_thumbnail = item.thumbnail | default: '' | strip %}
+                  {% if pub_thumbnail == '' %}
+                    {% assign pub_thumbnail = pub_placeholder %}
+                  {% else %}
+                    {% assign pub_thumbnail_first = pub_thumbnail | slice: 0, 1 %}
+                    {% assign pub_thumbnail_prefix = pub_thumbnail | slice: 0, 2 %}
+                    {% if pub_thumbnail_first == '/' and pub_thumbnail_prefix != '//' %}
+                      {% assign pub_thumbnail = pub_thumbnail | relative_url %}
+                    {% endif %}
+                  {% endif %}
+                  <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <img src="{{ pub_thumbnail | escape }}" alt="" data-fallback="{{ pub_placeholder | escape }}" onerror="this.onerror=null;this.src=this.dataset.fallback;" style="max-height:200px; max-width:100%; height:auto; width:auto; border:none;">
+                  </div>
+                {% endunless %}
+                <div class="{% if pub_display == 'd-none' %}col-12{% else %}col-md-9{% endif %}">
+                  {% include publications-citation-style.html param=item %}
+                </div>
+              </div>
+              <hr>
+            </li>
+            {% assign pub_rendered_count = pub_rendered_count | plus: 1 %}
+          {% endif %}
+        {% endif %}
       {% endunless %}
     {% endfor %}
+  {% endcapture %}
+
+  {% if pub_show_heading %}
+    <h3 class="pt-5" id="{{ pub_section | escape }}">{{ pub_title | escape }} ({{ pub_category_count }})</h3>
+  {% endif %}
+  <ul class="list-unstyled">
+    {{ pub_rendered_items }}
   </ul>
 {% endif %}
 
