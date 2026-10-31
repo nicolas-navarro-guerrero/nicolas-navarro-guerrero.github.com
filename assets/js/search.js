@@ -8,7 +8,8 @@ fetch('/search_data.json')
       this.ref('url');
       this.field('title', { boost: 10 });
       this.field('tags');
-
+      this.field('categories');
+      this.field('content');
 
       this.pipeline.remove(lunr.stemmer);
 
@@ -45,21 +46,22 @@ if (navbar_input && navbar_resultsContainer) {
 
     if (results.length > 0) {
       results.slice(0, 5).forEach(r => {
-        const match = data.find(d => d.url === r.ref);
+      const match = data.find(d => d.url === r.ref);
+      if (!match) return;
 
-        if (!match) {
-          return;
-        }
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.className = 'dropdown-item';
+      link.href = match.url;
+      link.textContent = match.title;
 
-        const item = document.createElement('li');
-        const link = document.createElement('a');
+      const snippet = document.createElement('small');
+      snippet.className = 'dropdown-item-text text-muted d-block';
+      //snippet.textContent = (match.content || '').slice(0, 80) + '…';
 
-        link.className = 'dropdown-item';
-        link.href = match.url;
-        link.textContent = match.title;
-
-        item.appendChild(link);
-        navbar_resultsContainer.appendChild(item);
+      item.appendChild(link);
+      //item.appendChild(snippet);
+      navbar_resultsContainer.appendChild(item);
       });
     } else {
       const item = document.createElement('li');
